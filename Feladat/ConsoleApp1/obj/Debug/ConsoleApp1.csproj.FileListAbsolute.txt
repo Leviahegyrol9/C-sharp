@@ -1,7 +1,0 @@
-J:\c-sarp\Feladat\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-J:\c-sarp\Feladat\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-J:\c-sarp\Feladat\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-J:\c-sarp\Feladat\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
-J:\c-sarp\Feladat\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
-J:\c-sarp\Feladat\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-J:\c-sarp\Feladat\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

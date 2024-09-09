@@ -1,7 +1,0 @@
-J:\c-sarp\Elso\Elso\bin\Debug\Elso.exe.config
-J:\c-sarp\Elso\Elso\bin\Debug\Elso.exe
-J:\c-sarp\Elso\Elso\bin\Debug\Elso.pdb
-J:\c-sarp\Elso\Elso\obj\Debug\Elso.csproj.AssemblyReference.cache
-J:\c-sarp\Elso\Elso\obj\Debug\Elso.csproj.CoreCompileInputs.cache
-J:\c-sarp\Elso\Elso\obj\Debug\Elso.exe
-J:\c-sarp\Elso\Elso\obj\Debug\Elso.pdb

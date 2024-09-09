@@ -1,0 +1,7 @@
+C:\Saját\Projects\C-sarp\If2\bin\Debug\If2.exe.config
+C:\Saját\Projects\C-sarp\If2\bin\Debug\If2.exe
+C:\Saját\Projects\C-sarp\If2\bin\Debug\If2.pdb
+C:\Saját\Projects\C-sarp\If2\obj\Debug\If2.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\If2\obj\Debug\If2.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\If2\obj\Debug\If2.exe
+C:\Saját\Projects\C-sarp\If2\obj\Debug\If2.pdb

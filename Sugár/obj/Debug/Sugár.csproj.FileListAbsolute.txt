@@ -1,0 +1,7 @@
+C:\Saját\Projects\C-sarp\Sugár\bin\Debug\Sugár.exe.config
+C:\Saját\Projects\C-sarp\Sugár\bin\Debug\Sugár.exe
+C:\Saját\Projects\C-sarp\Sugár\bin\Debug\Sugár.pdb
+C:\Saját\Projects\C-sarp\Sugár\obj\Debug\Sugár.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Sugár\obj\Debug\Sugár.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Sugár\obj\Debug\Sugár.exe
+C:\Saját\Projects\C-sarp\Sugár\obj\Debug\Sugár.pdb

@@ -1,0 +1,7 @@
+C:\Saját\Projects\C-sarp\Kerület terület\bin\Debug\Kerület terület.exe.config
+C:\Saját\Projects\C-sarp\Kerület terület\bin\Debug\Kerület terület.exe
+C:\Saját\Projects\C-sarp\Kerület terület\bin\Debug\Kerület terület.pdb
+C:\Saját\Projects\C-sarp\Kerület terület\obj\Debug\Kerület terület.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Kerület terület\obj\Debug\Kerület terület.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Kerület terület\obj\Debug\Kerület terület.exe
+C:\Saját\Projects\C-sarp\Kerület terület\obj\Debug\Kerület terület.pdb
