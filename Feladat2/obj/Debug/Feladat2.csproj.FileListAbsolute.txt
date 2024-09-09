@@ -1,0 +1,7 @@
+J:\c-sarp\Feladat2\bin\Debug\Feladat2.exe.config
+J:\c-sarp\Feladat2\bin\Debug\Feladat2.exe
+J:\c-sarp\Feladat2\bin\Debug\Feladat2.pdb
+J:\c-sarp\Feladat2\obj\Debug\Feladat2.csproj.AssemblyReference.cache
+J:\c-sarp\Feladat2\obj\Debug\Feladat2.csproj.CoreCompileInputs.cache
+J:\c-sarp\Feladat2\obj\Debug\Feladat2.exe
+J:\c-sarp\Feladat2\obj\Debug\Feladat2.pdb
