@@ -1,0 +1,15 @@
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\Dolgozat3.csproj.AssemblyReference.cache
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\Dolgozat3.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\Dolgozat3.AssemblyInfoInputs.cache
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\Dolgozat3.AssemblyInfo.cs
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\Dolgozat3.csproj.CoreCompileInputs.cache
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\bin\Debug\net6.0\Dolgozat3.exe
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\bin\Debug\net6.0\Dolgozat3.deps.json
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\bin\Debug\net6.0\Dolgozat3.runtimeconfig.json
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\bin\Debug\net6.0\Dolgozat3.dll
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\bin\Debug\net6.0\Dolgozat3.pdb
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\Dolgozat3.dll
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\refint\Dolgozat3.dll
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\Dolgozat3.pdb
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\Dolgozat3.genruntimeconfig.cache
+J:\C#\Dolgozat12_06\Dolgozat3\Dolgozat3\obj\Debug\net6.0\ref\Dolgozat3.dll

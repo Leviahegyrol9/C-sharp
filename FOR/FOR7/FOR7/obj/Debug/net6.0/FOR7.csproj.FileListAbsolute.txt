@@ -1,0 +1,15 @@
+J:\C#\FOR\FOR7\FOR7\bin\Debug\net6.0\FOR7.exe
+J:\C#\FOR\FOR7\FOR7\bin\Debug\net6.0\FOR7.deps.json
+J:\C#\FOR\FOR7\FOR7\bin\Debug\net6.0\FOR7.runtimeconfig.json
+J:\C#\FOR\FOR7\FOR7\bin\Debug\net6.0\FOR7.dll
+J:\C#\FOR\FOR7\FOR7\bin\Debug\net6.0\FOR7.pdb
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\FOR7.csproj.AssemblyReference.cache
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\FOR7.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\FOR7.AssemblyInfoInputs.cache
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\FOR7.AssemblyInfo.cs
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\FOR7.csproj.CoreCompileInputs.cache
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\FOR7.dll
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\refint\FOR7.dll
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\FOR7.pdb
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\FOR7.genruntimeconfig.cache
+J:\C#\FOR\FOR7\FOR7\obj\Debug\net6.0\ref\FOR7.dll

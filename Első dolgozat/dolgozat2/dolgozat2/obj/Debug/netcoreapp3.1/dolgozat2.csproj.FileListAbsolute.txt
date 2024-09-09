@@ -1,0 +1,14 @@
+J:\C#\dolgozat2\dolgozat2\bin\Debug\netcoreapp3.1\dolgozat2.exe
+J:\C#\dolgozat2\dolgozat2\bin\Debug\netcoreapp3.1\dolgozat2.deps.json
+J:\C#\dolgozat2\dolgozat2\bin\Debug\netcoreapp3.1\dolgozat2.runtimeconfig.json
+J:\C#\dolgozat2\dolgozat2\bin\Debug\netcoreapp3.1\dolgozat2.runtimeconfig.dev.json
+J:\C#\dolgozat2\dolgozat2\bin\Debug\netcoreapp3.1\dolgozat2.dll
+J:\C#\dolgozat2\dolgozat2\bin\Debug\netcoreapp3.1\dolgozat2.pdb
+J:\C#\dolgozat2\dolgozat2\obj\Debug\netcoreapp3.1\dolgozat2.csproj.AssemblyReference.cache
+J:\C#\dolgozat2\dolgozat2\obj\Debug\netcoreapp3.1\dolgozat2.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\dolgozat2\dolgozat2\obj\Debug\netcoreapp3.1\dolgozat2.AssemblyInfoInputs.cache
+J:\C#\dolgozat2\dolgozat2\obj\Debug\netcoreapp3.1\dolgozat2.AssemblyInfo.cs
+J:\C#\dolgozat2\dolgozat2\obj\Debug\netcoreapp3.1\dolgozat2.csproj.CoreCompileInputs.cache
+J:\C#\dolgozat2\dolgozat2\obj\Debug\netcoreapp3.1\dolgozat2.dll
+J:\C#\dolgozat2\dolgozat2\obj\Debug\netcoreapp3.1\dolgozat2.pdb
+J:\C#\dolgozat2\dolgozat2\obj\Debug\netcoreapp3.1\dolgozat2.genruntimeconfig.cache

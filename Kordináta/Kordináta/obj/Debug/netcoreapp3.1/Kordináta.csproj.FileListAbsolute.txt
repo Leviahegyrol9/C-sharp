@@ -1,0 +1,13 @@
+J:\Kordináta\Kordináta\obj\Debug\netcoreapp3.1\Kordináta.GeneratedMSBuildEditorConfig.editorconfig
+J:\Kordináta\Kordináta\obj\Debug\netcoreapp3.1\Kordináta.AssemblyInfoInputs.cache
+J:\Kordináta\Kordináta\obj\Debug\netcoreapp3.1\Kordináta.AssemblyInfo.cs
+J:\Kordináta\Kordináta\obj\Debug\netcoreapp3.1\Kordináta.csproj.CoreCompileInputs.cache
+J:\Kordináta\Kordináta\bin\Debug\netcoreapp3.1\Kordináta.exe
+J:\Kordináta\Kordináta\bin\Debug\netcoreapp3.1\Kordináta.deps.json
+J:\Kordináta\Kordináta\bin\Debug\netcoreapp3.1\Kordináta.runtimeconfig.json
+J:\Kordináta\Kordináta\bin\Debug\netcoreapp3.1\Kordináta.runtimeconfig.dev.json
+J:\Kordináta\Kordináta\bin\Debug\netcoreapp3.1\Kordináta.dll
+J:\Kordináta\Kordináta\bin\Debug\netcoreapp3.1\Kordináta.pdb
+J:\Kordináta\Kordináta\obj\Debug\netcoreapp3.1\Kordináta.dll
+J:\Kordináta\Kordináta\obj\Debug\netcoreapp3.1\Kordináta.pdb
+J:\Kordináta\Kordináta\obj\Debug\netcoreapp3.1\Kordináta.genruntimeconfig.cache

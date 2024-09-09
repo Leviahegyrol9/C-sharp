@@ -1,0 +1,14 @@
+J:\C#\Önálló_3\Önálló_3\bin\Debug\netcoreapp3.1\Önálló_3.exe
+J:\C#\Önálló_3\Önálló_3\bin\Debug\netcoreapp3.1\Önálló_3.deps.json
+J:\C#\Önálló_3\Önálló_3\bin\Debug\netcoreapp3.1\Önálló_3.runtimeconfig.json
+J:\C#\Önálló_3\Önálló_3\bin\Debug\netcoreapp3.1\Önálló_3.runtimeconfig.dev.json
+J:\C#\Önálló_3\Önálló_3\bin\Debug\netcoreapp3.1\Önálló_3.dll
+J:\C#\Önálló_3\Önálló_3\bin\Debug\netcoreapp3.1\Önálló_3.pdb
+J:\C#\Önálló_3\Önálló_3\obj\Debug\netcoreapp3.1\Önálló_3.csproj.AssemblyReference.cache
+J:\C#\Önálló_3\Önálló_3\obj\Debug\netcoreapp3.1\Önálló_3.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\Önálló_3\Önálló_3\obj\Debug\netcoreapp3.1\Önálló_3.AssemblyInfoInputs.cache
+J:\C#\Önálló_3\Önálló_3\obj\Debug\netcoreapp3.1\Önálló_3.AssemblyInfo.cs
+J:\C#\Önálló_3\Önálló_3\obj\Debug\netcoreapp3.1\Önálló_3.csproj.CoreCompileInputs.cache
+J:\C#\Önálló_3\Önálló_3\obj\Debug\netcoreapp3.1\Önálló_3.dll
+J:\C#\Önálló_3\Önálló_3\obj\Debug\netcoreapp3.1\Önálló_3.pdb
+J:\C#\Önálló_3\Önálló_3\obj\Debug\netcoreapp3.1\Önálló_3.genruntimeconfig.cache

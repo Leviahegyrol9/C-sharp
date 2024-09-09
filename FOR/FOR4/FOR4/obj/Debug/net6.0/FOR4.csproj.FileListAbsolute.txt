@@ -1,0 +1,15 @@
+J:\C#\FOR\FOR4\FOR4\bin\Debug\net6.0\FOR4.exe
+J:\C#\FOR\FOR4\FOR4\bin\Debug\net6.0\FOR4.deps.json
+J:\C#\FOR\FOR4\FOR4\bin\Debug\net6.0\FOR4.runtimeconfig.json
+J:\C#\FOR\FOR4\FOR4\bin\Debug\net6.0\FOR4.dll
+J:\C#\FOR\FOR4\FOR4\bin\Debug\net6.0\FOR4.pdb
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\FOR4.csproj.AssemblyReference.cache
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\FOR4.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\FOR4.AssemblyInfoInputs.cache
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\FOR4.AssemblyInfo.cs
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\FOR4.csproj.CoreCompileInputs.cache
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\FOR4.dll
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\refint\FOR4.dll
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\FOR4.pdb
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\FOR4.genruntimeconfig.cache
+J:\C#\FOR\FOR4\FOR4\obj\Debug\net6.0\ref\FOR4.dll

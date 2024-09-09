@@ -1,0 +1,13 @@
+J:\C#\Ha\IF2\IF2\bin\Debug\netcoreapp3.1\IF2.exe
+J:\C#\Ha\IF2\IF2\bin\Debug\netcoreapp3.1\IF2.deps.json
+J:\C#\Ha\IF2\IF2\bin\Debug\netcoreapp3.1\IF2.runtimeconfig.json
+J:\C#\Ha\IF2\IF2\bin\Debug\netcoreapp3.1\IF2.runtimeconfig.dev.json
+J:\C#\Ha\IF2\IF2\bin\Debug\netcoreapp3.1\IF2.dll
+J:\C#\Ha\IF2\IF2\bin\Debug\netcoreapp3.1\IF2.pdb
+J:\C#\Ha\IF2\IF2\obj\Debug\netcoreapp3.1\IF2.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\Ha\IF2\IF2\obj\Debug\netcoreapp3.1\IF2.AssemblyInfoInputs.cache
+J:\C#\Ha\IF2\IF2\obj\Debug\netcoreapp3.1\IF2.AssemblyInfo.cs
+J:\C#\Ha\IF2\IF2\obj\Debug\netcoreapp3.1\IF2.csproj.CoreCompileInputs.cache
+J:\C#\Ha\IF2\IF2\obj\Debug\netcoreapp3.1\IF2.dll
+J:\C#\Ha\IF2\IF2\obj\Debug\netcoreapp3.1\IF2.pdb
+J:\C#\Ha\IF2\IF2\obj\Debug\netcoreapp3.1\IF2.genruntimeconfig.cache

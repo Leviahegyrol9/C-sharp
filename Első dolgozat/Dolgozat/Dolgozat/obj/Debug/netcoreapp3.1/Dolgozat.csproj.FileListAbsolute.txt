@@ -1,0 +1,14 @@
+J:\C#\Dolgozat\Dolgozat\bin\Debug\netcoreapp3.1\Dolgozat.exe
+J:\C#\Dolgozat\Dolgozat\bin\Debug\netcoreapp3.1\Dolgozat.deps.json
+J:\C#\Dolgozat\Dolgozat\bin\Debug\netcoreapp3.1\Dolgozat.runtimeconfig.json
+J:\C#\Dolgozat\Dolgozat\bin\Debug\netcoreapp3.1\Dolgozat.runtimeconfig.dev.json
+J:\C#\Dolgozat\Dolgozat\bin\Debug\netcoreapp3.1\Dolgozat.dll
+J:\C#\Dolgozat\Dolgozat\bin\Debug\netcoreapp3.1\Dolgozat.pdb
+J:\C#\Dolgozat\Dolgozat\obj\Debug\netcoreapp3.1\Dolgozat.csproj.AssemblyReference.cache
+J:\C#\Dolgozat\Dolgozat\obj\Debug\netcoreapp3.1\Dolgozat.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\Dolgozat\Dolgozat\obj\Debug\netcoreapp3.1\Dolgozat.AssemblyInfoInputs.cache
+J:\C#\Dolgozat\Dolgozat\obj\Debug\netcoreapp3.1\Dolgozat.AssemblyInfo.cs
+J:\C#\Dolgozat\Dolgozat\obj\Debug\netcoreapp3.1\Dolgozat.csproj.CoreCompileInputs.cache
+J:\C#\Dolgozat\Dolgozat\obj\Debug\netcoreapp3.1\Dolgozat.dll
+J:\C#\Dolgozat\Dolgozat\obj\Debug\netcoreapp3.1\Dolgozat.pdb
+J:\C#\Dolgozat\Dolgozat\obj\Debug\netcoreapp3.1\Dolgozat.genruntimeconfig.cache

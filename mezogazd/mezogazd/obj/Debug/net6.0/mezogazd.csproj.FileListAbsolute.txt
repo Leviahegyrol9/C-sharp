@@ -1,0 +1,15 @@
+J:\C#\mezogazd\mezogazd\bin\Debug\net6.0\mezogazd.exe
+J:\C#\mezogazd\mezogazd\bin\Debug\net6.0\mezogazd.deps.json
+J:\C#\mezogazd\mezogazd\bin\Debug\net6.0\mezogazd.runtimeconfig.json
+J:\C#\mezogazd\mezogazd\bin\Debug\net6.0\mezogazd.dll
+J:\C#\mezogazd\mezogazd\bin\Debug\net6.0\mezogazd.pdb
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\mezogazd.csproj.AssemblyReference.cache
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\mezogazd.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\mezogazd.AssemblyInfoInputs.cache
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\mezogazd.AssemblyInfo.cs
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\mezogazd.csproj.CoreCompileInputs.cache
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\mezogazd.dll
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\refint\mezogazd.dll
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\mezogazd.pdb
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\mezogazd.genruntimeconfig.cache
+J:\C#\mezogazd\mezogazd\obj\Debug\net6.0\ref\mezogazd.dll

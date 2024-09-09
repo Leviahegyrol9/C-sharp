@@ -1,0 +1,15 @@
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\bin\Debug\net6.0\Nagyobbvkisebb.exe
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\bin\Debug\net6.0\Nagyobbvkisebb.deps.json
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\bin\Debug\net6.0\Nagyobbvkisebb.runtimeconfig.json
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\bin\Debug\net6.0\Nagyobbvkisebb.dll
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\bin\Debug\net6.0\Nagyobbvkisebb.pdb
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\Nagyobbvkisebb.csproj.AssemblyReference.cache
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\Nagyobbvkisebb.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\Nagyobbvkisebb.AssemblyInfoInputs.cache
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\Nagyobbvkisebb.AssemblyInfo.cs
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\Nagyobbvkisebb.csproj.CoreCompileInputs.cache
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\Nagyobbvkisebb.dll
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\refint\Nagyobbvkisebb.dll
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\Nagyobbvkisebb.pdb
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\Nagyobbvkisebb.genruntimeconfig.cache
+J:\C#\Nagyobbvkisebb\Nagyobbvkisebb\obj\Debug\net6.0\ref\Nagyobbvkisebb.dll

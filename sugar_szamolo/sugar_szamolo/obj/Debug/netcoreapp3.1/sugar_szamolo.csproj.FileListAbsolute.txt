@@ -1,0 +1,14 @@
+J:\C#\sugar_szamolo\sugar_szamolo\bin\Debug\netcoreapp3.1\sugar_szamolo.exe
+J:\C#\sugar_szamolo\sugar_szamolo\bin\Debug\netcoreapp3.1\sugar_szamolo.deps.json
+J:\C#\sugar_szamolo\sugar_szamolo\bin\Debug\netcoreapp3.1\sugar_szamolo.runtimeconfig.json
+J:\C#\sugar_szamolo\sugar_szamolo\bin\Debug\netcoreapp3.1\sugar_szamolo.runtimeconfig.dev.json
+J:\C#\sugar_szamolo\sugar_szamolo\bin\Debug\netcoreapp3.1\sugar_szamolo.dll
+J:\C#\sugar_szamolo\sugar_szamolo\bin\Debug\netcoreapp3.1\sugar_szamolo.pdb
+J:\C#\sugar_szamolo\sugar_szamolo\obj\Debug\netcoreapp3.1\sugar_szamolo.csproj.AssemblyReference.cache
+J:\C#\sugar_szamolo\sugar_szamolo\obj\Debug\netcoreapp3.1\sugar_szamolo.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\sugar_szamolo\sugar_szamolo\obj\Debug\netcoreapp3.1\sugar_szamolo.AssemblyInfoInputs.cache
+J:\C#\sugar_szamolo\sugar_szamolo\obj\Debug\netcoreapp3.1\sugar_szamolo.AssemblyInfo.cs
+J:\C#\sugar_szamolo\sugar_szamolo\obj\Debug\netcoreapp3.1\sugar_szamolo.csproj.CoreCompileInputs.cache
+J:\C#\sugar_szamolo\sugar_szamolo\obj\Debug\netcoreapp3.1\sugar_szamolo.dll
+J:\C#\sugar_szamolo\sugar_szamolo\obj\Debug\netcoreapp3.1\sugar_szamolo.pdb
+J:\C#\sugar_szamolo\sugar_szamolo\obj\Debug\netcoreapp3.1\sugar_szamolo.genruntimeconfig.cache

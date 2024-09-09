@@ -1,0 +1,14 @@
+J:\text_kiiras\text_kiiras\bin\Debug\netcoreapp3.1\text_kiiras.exe
+J:\text_kiiras\text_kiiras\bin\Debug\netcoreapp3.1\text_kiiras.deps.json
+J:\text_kiiras\text_kiiras\bin\Debug\netcoreapp3.1\text_kiiras.runtimeconfig.json
+J:\text_kiiras\text_kiiras\bin\Debug\netcoreapp3.1\text_kiiras.runtimeconfig.dev.json
+J:\text_kiiras\text_kiiras\bin\Debug\netcoreapp3.1\text_kiiras.dll
+J:\text_kiiras\text_kiiras\bin\Debug\netcoreapp3.1\text_kiiras.pdb
+J:\text_kiiras\text_kiiras\obj\Debug\netcoreapp3.1\text_kiiras.csproj.AssemblyReference.cache
+J:\text_kiiras\text_kiiras\obj\Debug\netcoreapp3.1\text_kiiras.GeneratedMSBuildEditorConfig.editorconfig
+J:\text_kiiras\text_kiiras\obj\Debug\netcoreapp3.1\text_kiiras.AssemblyInfoInputs.cache
+J:\text_kiiras\text_kiiras\obj\Debug\netcoreapp3.1\text_kiiras.AssemblyInfo.cs
+J:\text_kiiras\text_kiiras\obj\Debug\netcoreapp3.1\text_kiiras.csproj.CoreCompileInputs.cache
+J:\text_kiiras\text_kiiras\obj\Debug\netcoreapp3.1\text_kiiras.dll
+J:\text_kiiras\text_kiiras\obj\Debug\netcoreapp3.1\text_kiiras.pdb
+J:\text_kiiras\text_kiiras\obj\Debug\netcoreapp3.1\text_kiiras.genruntimeconfig.cache

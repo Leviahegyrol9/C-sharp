@@ -1,0 +1,13 @@
+J:\C#\HowToMoney\HowToMoney\bin\Debug\netcoreapp3.1\HowToMoney.exe
+J:\C#\HowToMoney\HowToMoney\bin\Debug\netcoreapp3.1\HowToMoney.deps.json
+J:\C#\HowToMoney\HowToMoney\bin\Debug\netcoreapp3.1\HowToMoney.runtimeconfig.json
+J:\C#\HowToMoney\HowToMoney\bin\Debug\netcoreapp3.1\HowToMoney.runtimeconfig.dev.json
+J:\C#\HowToMoney\HowToMoney\bin\Debug\netcoreapp3.1\HowToMoney.dll
+J:\C#\HowToMoney\HowToMoney\bin\Debug\netcoreapp3.1\HowToMoney.pdb
+J:\C#\HowToMoney\HowToMoney\obj\Debug\netcoreapp3.1\HowToMoney.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\HowToMoney\HowToMoney\obj\Debug\netcoreapp3.1\HowToMoney.AssemblyInfoInputs.cache
+J:\C#\HowToMoney\HowToMoney\obj\Debug\netcoreapp3.1\HowToMoney.AssemblyInfo.cs
+J:\C#\HowToMoney\HowToMoney\obj\Debug\netcoreapp3.1\HowToMoney.csproj.CoreCompileInputs.cache
+J:\C#\HowToMoney\HowToMoney\obj\Debug\netcoreapp3.1\HowToMoney.dll
+J:\C#\HowToMoney\HowToMoney\obj\Debug\netcoreapp3.1\HowToMoney.pdb
+J:\C#\HowToMoney\HowToMoney\obj\Debug\netcoreapp3.1\HowToMoney.genruntimeconfig.cache

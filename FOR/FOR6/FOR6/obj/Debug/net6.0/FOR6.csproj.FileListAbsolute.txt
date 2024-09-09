@@ -1,0 +1,15 @@
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\FOR6.csproj.AssemblyReference.cache
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\FOR6.GeneratedMSBuildEditorConfig.editorconfig
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\FOR6.AssemblyInfoInputs.cache
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\FOR6.AssemblyInfo.cs
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\FOR6.csproj.CoreCompileInputs.cache
+J:\C#\FOR\FOR6\FOR6\bin\Debug\net6.0\FOR6.exe
+J:\C#\FOR\FOR6\FOR6\bin\Debug\net6.0\FOR6.deps.json
+J:\C#\FOR\FOR6\FOR6\bin\Debug\net6.0\FOR6.runtimeconfig.json
+J:\C#\FOR\FOR6\FOR6\bin\Debug\net6.0\FOR6.dll
+J:\C#\FOR\FOR6\FOR6\bin\Debug\net6.0\FOR6.pdb
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\FOR6.dll
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\refint\FOR6.dll
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\FOR6.pdb
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\FOR6.genruntimeconfig.cache
+J:\C#\FOR\FOR6\FOR6\obj\Debug\net6.0\ref\FOR6.dll
