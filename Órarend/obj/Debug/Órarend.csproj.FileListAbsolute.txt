@@ -1,0 +1,7 @@
+J:\Órarend\bin\Debug\Órarend.exe.config
+J:\Órarend\bin\Debug\Órarend.exe
+J:\Órarend\bin\Debug\Órarend.pdb
+J:\Órarend\obj\Debug\Órarend.csproj.AssemblyReference.cache
+J:\Órarend\obj\Debug\Órarend.csproj.CoreCompileInputs.cache
+J:\Órarend\obj\Debug\Órarend.exe
+J:\Órarend\obj\Debug\Órarend.pdb
