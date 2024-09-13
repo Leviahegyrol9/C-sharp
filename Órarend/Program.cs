@@ -11,20 +11,28 @@ namespace Órarend
         static void Main(string[] args)
         {
             Random random = new Random();
-            int counter = 0;
+            int lessonCounter = 0;
 
-            string[] days = new string[] { "Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek" };
-            string[] timetable = new string[] { };
+            string[] days = new string[] { "Hétfőn", "Kedden", "Szerdán", "Csütörtökön", "Pénteken" };
+            //string[] timetable = new string[] { };
             string[] lessons = new string[] { "magyar", "matek", "töri", "biosz", "kémia", "infó" };
 
-            Console.Write("Hány órád legyen egy nap: ");
-            int lesson = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Hány napot szeretnél generálni: ");
+            int dayCount = Convert.ToInt32(Console.ReadLine());
 
-            for (counter = 0;counter<lesson;counter++)
+            for (int i = 0; i < dayCount; i++)//napok váltakozása
             {
-                int index = random.Next(0, 6);
-                Console.WriteLine($"{counter+1}.{lessons[index]}");
+                Console.Write($"Hány órád legyen {days[i]}: ");
+                int lesson = Convert.ToInt32(Console.ReadLine());
+
+                for (int counter = 0; counter < lesson; counter++)//Órák váltakozása
+                {
+                    lessonCounter++
+                    int index = random.Next(0, lessons.Length);
+                    Console.WriteLine($"{counter + 1}.{lessons[index]}");
+                }
             }
+            Console.WriteLine($"Összesen {lessonCounter}db órád volt.");
             Console.ReadKey();
         }
     }

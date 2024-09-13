@@ -5,3 +5,10 @@ J:\Órarend\obj\Debug\Órarend.csproj.AssemblyReference.cache
 J:\Órarend\obj\Debug\Órarend.csproj.CoreCompileInputs.cache
 J:\Órarend\obj\Debug\Órarend.exe
 J:\Órarend\obj\Debug\Órarend.pdb
+J:\C-sarp\Órarend\obj\Debug\Órarend.csproj.AssemblyReference.cache
+J:\C-sarp\Órarend\obj\Debug\Órarend.csproj.CoreCompileInputs.cache
+J:\C-sarp\Órarend\obj\Debug\Órarend.exe
+J:\C-sarp\Órarend\obj\Debug\Órarend.pdb
+J:\C-sarp\Órarend\bin\Debug\Órarend.exe.config
+J:\C-sarp\Órarend\bin\Debug\Órarend.exe
+J:\C-sarp\Órarend\bin\Debug\Órarend.pdb
