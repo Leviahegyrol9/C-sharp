@@ -14,49 +14,48 @@ namespace Órarend
             int lessonCounter = 0;
 
             string[] days = new string[] { "Hétfőn", "Kedden", "Szerdán", "Csütörtökön", "Pénteken" };
-            //string[] timetable = new string[] { };
             string[] lessons = new string[] { "magyar", "matek", "töri", "biosz", "kémia", "infó" };
 
             Console.Write("Hány napot szeretnél generálni: ");
             int dayCount = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = 0; i < dayCount; i++)//napok váltakozása
+            for (int i = 0; i < dayCount; i++) // napok váltakozása
             {
-                int flip = 2;//1 első óra nincs; 2 utolsó ora nincs; 3 normál nap
                 Console.Write($"Hány órád legyen {days[i]}: ");
                 int lesson = Convert.ToInt32(Console.ReadLine());
+
+                //0 - semmi, 1 - első óra nincs, 2 - utolsó óra nincs
+                int flip = random.Next(0, 3);
+
                 if (flip == 1)
                 {
-                    Console.WriteLine($"1. -");
-                }
-                else if (flip == 2)
-                {
-                    Console.WriteLine($"{lesson}. -");
+                    Console.WriteLine("1. -");
                 }
 
-                for (int counter = 0; counter < lesson; counter++)//Órák váltakozása
+                for (int counter = 0; counter < lesson; counter++) // Órák váltakozása
                 {
-                    if (flip == 1)
-                    {
-                        int index = random.Next(0, lessons.Length);
-                        Console.WriteLine($"{counter + 1}.{lessons[index]}");
-                    }
-                    else if (flip == 2)
-                    {
-                        int index = random.Next(0, lessons.Length);
-                        Console.WriteLine($"{counter + 1}.{lessons[index]}");
-                    }
-                    else
-                    {
-                        int index = random.Next(0, lessons.Length);
-                        Console.WriteLine($"{counter + 1}.{lessons[index]}");
-
-                    }
-
                     lessonCounter++;
+
+                    if (flip == 1 && counter == 0)
+                    {
+                        lessonCounter -= 1;
+                        continue;
+                    }
+
+                    else if (flip == 2 && counter == lesson - 1)
+                    {
+                        lessonCounter -= 1;
+                        Console.WriteLine($"{lesson}. -");
+                        break;
+                    }
+
+                    int index = random.Next(0, lessons.Length);
+                    Console.WriteLine($"{counter + 1}.{lessons[index]}");
                 }
+
             }
-            Console.WriteLine($"Összesen {lessonCounter}db órád volt.");
+
+            Console.Write($"\nÖsszesen {lessonCounter}db órád volt.");
             Console.ReadKey();
         }
     }
