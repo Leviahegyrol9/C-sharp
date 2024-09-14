@@ -38,13 +38,13 @@ namespace Órarend
 
                     if (flip == 1 && counter == 0)
                     {
-                        lessonCounter -= 1;
+                        lessonCounter--;
                         continue;
                     }
 
                     else if (flip == 2 && counter == lesson - 1)
                     {
-                        lessonCounter -= 1;
+                        lessonCounter--;
                         Console.WriteLine($"{lesson}. -");
                         break;
                     }
