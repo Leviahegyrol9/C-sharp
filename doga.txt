@@ -1,2 +1,2 @@
-decimal 10 es számrendszer a belső tárolása
+decimal 10 es számrendszer a belső tárolása lassabb pénzügyi
 double 2 es számrendszer a belső tárolása

@@ -1,0 +1,7 @@
+J:\C-sarp\09_17\bin\Debug\09_17.exe.config
+J:\C-sarp\09_17\bin\Debug\09_17.exe
+J:\C-sarp\09_17\bin\Debug\09_17.pdb
+J:\C-sarp\09_17\obj\Debug\09_17.csproj.AssemblyReference.cache
+J:\C-sarp\09_17\obj\Debug\09_17.csproj.CoreCompileInputs.cache
+J:\C-sarp\09_17\obj\Debug\09_17.exe
+J:\C-sarp\09_17\obj\Debug\09_17.pdb
