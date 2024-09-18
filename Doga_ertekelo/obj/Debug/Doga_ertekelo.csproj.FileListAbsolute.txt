@@ -1,0 +1,7 @@
+J:\C-sarp\Doga_ertekelo\bin\Debug\Doga_ertekelo.exe.config
+J:\C-sarp\Doga_ertekelo\bin\Debug\Doga_ertekelo.exe
+J:\C-sarp\Doga_ertekelo\bin\Debug\Doga_ertekelo.pdb
+J:\C-sarp\Doga_ertekelo\obj\Debug\Doga_ertekelo.csproj.AssemblyReference.cache
+J:\C-sarp\Doga_ertekelo\obj\Debug\Doga_ertekelo.csproj.CoreCompileInputs.cache
+J:\C-sarp\Doga_ertekelo\obj\Debug\Doga_ertekelo.exe
+J:\C-sarp\Doga_ertekelo\obj\Debug\Doga_ertekelo.pdb
