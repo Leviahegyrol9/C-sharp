@@ -1,0 +1,7 @@
+J:\C-sarp\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+J:\C-sarp\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+J:\C-sarp\Program\bin\Debug\Program.exe.config
+J:\C-sarp\Program\bin\Debug\Program.exe
+J:\C-sarp\Program\bin\Debug\Program.pdb
+J:\C-sarp\Program\obj\Debug\Program.exe
+J:\C-sarp\Program\obj\Debug\Program.pdb
