@@ -1,0 +1,7 @@
+J:\C-sarp\Telefon\bin\Debug\Telefon.exe.config
+J:\C-sarp\Telefon\bin\Debug\Telefon.exe
+J:\C-sarp\Telefon\bin\Debug\Telefon.pdb
+J:\C-sarp\Telefon\obj\Debug\Telefon.csproj.AssemblyReference.cache
+J:\C-sarp\Telefon\obj\Debug\Telefon.csproj.CoreCompileInputs.cache
+J:\C-sarp\Telefon\obj\Debug\Telefon.exe
+J:\C-sarp\Telefon\obj\Debug\Telefon.pdb
