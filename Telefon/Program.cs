@@ -11,8 +11,15 @@ namespace Telefon
     {
         static void Main(string[] args)
         {
-            //A szoftvert írta: Paplukács Levente, 2024.09.23
-            Dictionary<string, int> phones = new Dictionary<string, int>();
+            Console.Write("A szoftvert írta: Paplukács Levente, 2024.09.23");
+            List<int> samsung = new List<int>();
+            List<int> apple = new List<int>();
+            List<int> etc = new List<int>();
+            double samsungAverage = 0;
+            double appleAverage = 0;
+            double etcAverage = 0;
+            double sum = 0;
+
             int number = 0;
             int students = 0;
             bool isNumber = false;
@@ -30,7 +37,7 @@ namespace Telefon
                     Console.Clear();
                 }
                 else
-                { 
+                {
                     students = Convert.ToInt32(input);
                 }
             }
@@ -39,21 +46,57 @@ namespace Telefon
             for (int i = 0; i < students; i++)
             {
                 Console.Clear();
-
-                foreach (var item in phones)
-                {
-                    Console.WriteLine($"{item.Key} {item.Value}%");
-                }
-
                 Console.Write("Adja meg a telefon gyártóját: ");
                 string manufacter = Console.ReadLine();
 
                 Console.Write("Adja meg a telefon akkumlátor szintjét: ");
                 int battery = Convert.ToInt32(Console.ReadLine());
 
-                phones.Add(manufacter, battery);
+                switch (manufacter.ToLower())
+                {
+                    case "samsung":
+                        samsung.Add(battery);
+                        break;
+                    case "apple":
+                        apple.Add(battery);
+                        break;
+                    default:
+                        etc.Add(battery);
+                        break;
+                }
 
             }
+
+            foreach (int item in samsung)
+            {
+                sum += item;
+
+                samsungAverage = sum / samsung.Count();
+            }
+
+            sum = 0;
+
+            foreach (int item in apple)
+            {
+                sum += item;
+
+                appleAverage = sum / apple.Count();
+            }
+
+            sum = 0;
+
+            foreach (int item in etc)
+            {
+                sum += item;
+
+                etcAverage = sum / etc.Count();
+            }
+
+            Console.Clear();
+
+            Console.WriteLine($"A samsung telefonok átlagos kapacitása {samsungAverage:N1}%");
+            Console.WriteLine($"Az apple telefonok átlagos kapacitása {appleAverage:N1}%");
+            Console.WriteLine($"Az egyéb telefonok átlagos kapacitása {etcAverage:N1}%");
 
             Console.ReadKey();
         }
