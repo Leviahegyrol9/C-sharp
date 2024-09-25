@@ -5,3 +5,7 @@ J:\C-sarp\Telefon\obj\Debug\Telefon.csproj.AssemblyReference.cache
 J:\C-sarp\Telefon\obj\Debug\Telefon.csproj.CoreCompileInputs.cache
 J:\C-sarp\Telefon\obj\Debug\Telefon.exe
 J:\C-sarp\Telefon\obj\Debug\Telefon.pdb
+C:\Saját\Projects\C-sarp\Telefon\obj\Debug\Telefon.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Telefon\obj\Debug\Telefon.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Telefon\obj\Debug\Telefon.exe
+C:\Saját\Projects\C-sarp\Telefon\obj\Debug\Telefon.pdb
