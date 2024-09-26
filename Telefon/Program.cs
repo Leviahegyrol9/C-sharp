@@ -8,11 +8,26 @@ using System.Threading.Tasks;
 namespace Telefon
 {
     internal class Program
-    {
+    {               
         static void Main(string[] args)
         {
+            /*
+            public double kiszervezett(List<int> deviceList)
+
+            {
+                double sum = 0;
+
+                foreach (int item in deviceList)
+                {
+                    sum += item;
+
+                    return = sum / deviceList.Count();
+                }
+            }
+            */
+
             string date = DateTime.Now.ToString("yyyy-MM-dd").Replace("-", ".");
-            Console.WriteLine($"A szoftvert írta: Paplukács Levente, {date}");
+            Console.WriteLine($"A szoftvert írta: Paplukács Levente, a mai dátum: {date}");
 
             List<int> samsung = new List<int>();
             List<int> samsungSize = new List<int>();
@@ -89,6 +104,7 @@ namespace Telefon
                 samsungAverage = sum / samsung.Count();
             }
 
+
             sum = 0;
 
             foreach (int item in apple)
@@ -136,7 +152,11 @@ namespace Telefon
             }
 
             Console.Clear();
+            /*
+            double samsungAverage2 = kiszervezett(samsung);
 
+            Console.WriteLine(samsungAverage2);
+            */
             Console.WriteLine($"A samsung telefonok átlagos kapacitása {samsungAverage:N1}%");
             Console.WriteLine($"Az apple telefonok átlagos kapacitása {appleAverage:N1}%");
             Console.WriteLine($"Az egyéb telefonok átlagos kapacitása {etcAverage:N1}%\n");
