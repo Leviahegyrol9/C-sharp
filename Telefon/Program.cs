@@ -8,41 +8,20 @@ using System.Threading.Tasks;
 namespace Telefon
 {
     internal class Program
-    {               
+    {
         static void Main(string[] args)
         {
-            /*
-            public double kiszervezett(List<int> deviceList)
-
-            {
-                double sum = 0;
-
-                foreach (int item in deviceList)
-                {
-                    sum += item;
-
-                    return = sum / deviceList.Count();
-                }
-            }
-            */
-
             string date = DateTime.Now.ToString("yyyy-MM-dd").Replace("-", ".");
             Console.WriteLine($"A szoftvert írta: Paplukács Levente, a mai dátum: {date}");
 
             List<int> samsung = new List<int>();
             List<int> samsungSize = new List<int>();
+
             List<int> apple = new List<int>();
             List<int> appleSize = new List<int>();
+
             List<int> etc = new List<int>();
             List<int> etcSize = new List<int>();
-
-            double samsungAverage = 0;
-            double appleAverage = 0;
-            double etcAverage = 0;
-            double samsungAverageSize = 0;
-            double appleAverageSize = 0;
-            double etcAverageSize = 0;
-            double sum = 0;
 
             int number = 0;
             int students = 0;
@@ -94,69 +73,17 @@ namespace Telefon
                         etcSize.Add(size);
                         break;
                 }
-
             }
 
-            foreach (int item in samsung)
-            {
-                sum += item;
+            double samsungAverage = Calculate(samsung);
+            double appleAverage = Calculate(apple);
+            double etcAverage = Calculate(etc);
 
-                samsungAverage = sum / samsung.Count();
-            }
-
-
-            sum = 0;
-
-            foreach (int item in apple)
-            {
-                sum += item;
-
-                appleAverage = sum / apple.Count();
-            }
-
-            sum = 0;
-
-            foreach (int item in etc)
-            {
-                sum += item;
-
-                etcAverage = sum / etc.Count();
-            }
-
-            //---------------------------------------------------------
-            sum = 0;
-
-            foreach (int item in samsungSize)
-            {
-                sum += item;
-
-                samsungAverageSize = sum / samsung.Count();
-            }
-
-            sum = 0;
-
-            foreach (int item in appleSize)
-            {
-                sum += item;
-
-                appleAverageSize = sum / apple.Count();
-            }
-
-            sum = 0;
-
-            foreach (int item in etcSize)
-            {
-                sum += item;
-
-                etcAverageSize = sum / etc.Count();
-            }
+            double samsungAverageSize = Calculate(samsungSize);
+            double appleAverageSize = Calculate(appleSize);
+            double etcAverageSize = Calculate(etcSize);
 
             Console.Clear();
-            /*
-            double samsungAverage2 = kiszervezett(samsung);
-
-            Console.WriteLine(samsungAverage2);
-            */
             Console.WriteLine($"A samsung telefonok átlagos kapacitása {samsungAverage:N1}%");
             Console.WriteLine($"Az apple telefonok átlagos kapacitása {appleAverage:N1}%");
             Console.WriteLine($"Az egyéb telefonok átlagos kapacitása {etcAverage:N1}%\n");
@@ -166,6 +93,18 @@ namespace Telefon
             Console.WriteLine($"Az egyéb telefonok átlagos kijelzőmérete {etcAverageSize:N1} inch");
 
             Console.ReadKey();
+        }
+
+        public static double Calculate(List<int> deviceList)
+        {
+            double sum = 0;
+
+            foreach (int item in deviceList)
+            {
+                sum += item;
+            }
+
+            return sum / deviceList.Count();
         }
     }
 }
