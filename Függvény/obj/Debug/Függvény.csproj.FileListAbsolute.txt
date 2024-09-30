@@ -1,0 +1,7 @@
+J:\C-sarp\Függvény\bin\Debug\Függvény.exe.config
+J:\C-sarp\Függvény\bin\Debug\Függvény.exe
+J:\C-sarp\Függvény\bin\Debug\Függvény.pdb
+J:\C-sarp\Függvény\obj\Debug\Függvény.csproj.AssemblyReference.cache
+J:\C-sarp\Függvény\obj\Debug\Függvény.csproj.CoreCompileInputs.cache
+J:\C-sarp\Függvény\obj\Debug\Függvény.exe
+J:\C-sarp\Függvény\obj\Debug\Függvény.pdb
