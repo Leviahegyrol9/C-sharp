@@ -1,0 +1,7 @@
+J:\C-sarp\SZKT\bin\Debug\SZKT.exe.config
+J:\C-sarp\SZKT\bin\Debug\SZKT.exe
+J:\C-sarp\SZKT\bin\Debug\SZKT.pdb
+J:\C-sarp\SZKT\obj\Debug\SZKT.csproj.AssemblyReference.cache
+J:\C-sarp\SZKT\obj\Debug\SZKT.csproj.CoreCompileInputs.cache
+J:\C-sarp\SZKT\obj\Debug\SZKT.exe
+J:\C-sarp\SZKT\obj\Debug\SZKT.pdb
