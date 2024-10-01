@@ -22,13 +22,18 @@ namespace SZKT
             List<string> tram4 = new List<string>() { "Szalámigyár", "Szabadkai út", "Vám tér", "Szivárvány kitérő", "Vitéz utca", "Dugonics tér", "Tisza Lajos krt. (Károlyi u.)", "Anna-kút", "Glattfelder Gyula tér", "Szent György tér", "Brüsszeli krt.", "Kecskeméti utca", "Rózsa utca", "Deák Ferenc Gimnázium", "Budapesti krt.", "Tarján"};
             int tram4Time = 16;
 
+            Console.WriteLine($"A 1-es villamos átlagosan {AverageCalculate(tram1, tram1Time)} perc alatt ér egy megállóhoz.");
+            Console.WriteLine($"A 2-es villamos átlagosan {AverageCalculate(tram2, tram2Time)} perc alatt ér egy megállóhoz.");
+            Console.WriteLine($"A 3-as villamos átlagosan {AverageCalculate(tram3, tram3Time)} perc alatt ér egy megállóhoz.");
+            Console.WriteLine($"A 3F villamos átlagosan {AverageCalculate(tram3F, tram3FTime)} perc alatt ér egy megállóhoz.");
+            Console.WriteLine($"A 4-es villamos átlagosan {AverageCalculate(tram4, tram4Time)} perc alatt ér egy megállóhoz.");
 
-
+            Console.ReadKey();
         }
 
         static double AverageCalculate(List<string> tram, int time)
         {
-            return 
+            return (double) time / tram.Count();
         }
     }
 }
