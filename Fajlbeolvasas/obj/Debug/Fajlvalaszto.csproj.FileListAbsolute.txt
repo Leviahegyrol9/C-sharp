@@ -1,0 +1,7 @@
+J:\C-sarp\Fajlvalaszto\bin\Debug\Fajlvalaszto.exe.config
+J:\C-sarp\Fajlvalaszto\bin\Debug\Fajlvalaszto.exe
+J:\C-sarp\Fajlvalaszto\bin\Debug\Fajlvalaszto.pdb
+J:\C-sarp\Fajlvalaszto\obj\Debug\Fajlvalaszto.csproj.AssemblyReference.cache
+J:\C-sarp\Fajlvalaszto\obj\Debug\Fajlvalaszto.csproj.CoreCompileInputs.cache
+J:\C-sarp\Fajlvalaszto\obj\Debug\Fajlvalaszto.exe
+J:\C-sarp\Fajlvalaszto\obj\Debug\Fajlvalaszto.pdb
