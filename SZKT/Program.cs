@@ -14,11 +14,11 @@ namespace SZKT
             List<string> tram2 = new List<string>() { "Vértó", "Bálint Sándor utca", "Rókusi víztorony", "Szatymazu utca", "Vásárhelyi Pál út", "Damjanich utca", "Tavasz utca", "Rókusi templom", "Anna-kút", "Széchenyi tér", "Somogyi utca", "Aradi vértanúk tere", "Bécsi krt.", "Bem utca", "Szeged vá." };
             int tram2Time = 18;
 
-            List<string> tram3 = new List<string>() { "Tarján", "Budapesti krt.", "Deák Ferenc Gimnázium", "Rózsa utca", "Kecskeméti utca", "Brüsszeli krt.", "Szent György tér", "Glattfelder Gyula tér", "Anna-kút", "Tisza Lajos krt. (Károlyi u.), ", "Dugonics tér", "Londoni krt. (Kálvária sgt.)", "Veresács u.", "Kálvária tér", "II. Kórház", "vadaspark", "Belvárosi temető", "Belvárosi temető II. kapu", "Kereskedő köz", "Fonógyári út" };
-            int tram3Time = 16;
+            List<string> tram3F = new List<string>() { "Tarján", "Budapesti krt.", "Deák Ferenc Gimnázium", "Rózsa utca", "Kecskeméti utca", "Brüsszeli krt.", "Szent György tér", "Glattfelder Gyula tér", "Anna-kút", "Tisza Lajos krt. (Károlyi u.), ", "Dugonics tér", "Londoni krt. (Kálvária sgt.)", "Veresács u.", "Kálvária tér", "II. Kórház", "vadaspark", "Belvárosi temető", "Belvárosi temető II. kapu", "Kereskedő köz", "Fonógyári út" };
+            int tram3FTime = 16;
 
-            List<string> tram3F = new List<string>() { "Tarján", "Budapesti krt.", "Deák Ferenc Gimnázium", "Rózsa utca", "Kecskeméti utca", "Brüsszeli krt.", "Szent György tér", "Glattfelder Gyula tér", "Anna-kút", "Tisza Lajos krt. (Károlyi u.), ", "Dugonics tér", "Londoni krt. (Kálvária sgt.)", "Veresács u.", "Kálvária tér", "II. Kórház", "Vadaspark" };
-            int tram3FTime = 24;
+            List<string> tram3 = new List<string>() { "Tarján", "Budapesti krt.", "Deák Ferenc Gimnázium", "Rózsa utca", "Kecskeméti utca", "Brüsszeli krt.", "Szent György tér", "Glattfelder Gyula tér", "Anna-kút", "Tisza Lajos krt. (Károlyi u.), ", "Dugonics tér", "Londoni krt. (Kálvária sgt.)", "Veresács u.", "Kálvária tér", "II. Kórház", "Vadaspark" };
+            int tram3Time = 24;
 
             List<string> tram4 = new List<string>() { "Szalámigyár", "Szabadkai út", "Vám tér", "Szivárvány kitérő", "Vitéz utca", "Dugonics tér", "Tisza Lajos krt. (Károlyi u.)", "Anna-kút", "Glattfelder Gyula tér", "Szent György tér", "Brüsszeli krt.", "Kecskeméti utca", "Rózsa utca", "Deák Ferenc Gimnázium", "Budapesti krt.", "Tarján" };
             int tram4Time = 16;
@@ -63,6 +63,8 @@ namespace SZKT
 
             Console.WriteLine(textMin);
             Console.WriteLine(textMax);
+
+            Console.Write("\nKészítette Paplukács Levente 2024.10.03")
 
             Console.ReadKey();
         }
