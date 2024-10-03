@@ -15,70 +15,39 @@ namespace SZKT
             int tram2Time = 18;
 
             List<string> tram3 = new List<string>() { "Tarján", "Budapesti krt.", "Deák Ferenc Gimnázium", "Rózsa utca", "Kecskeméti utca", "Brüsszeli krt.", "Szent György tér", "Glattfelder Gyula tér", "Anna-kút", "Tisza Lajos krt. (Károlyi u.), ", "Dugonics tér", "Londoni krt. (Kálvária sgt.)", "Veresács u.", "Kálvária tér", "II. Kórház", "vadaspark", "Belvárosi temető", "Belvárosi temető II. kapu", "Kereskedő köz", "Fonógyári út" };
-            int tram3Time = 24;
+            int tram3Time = 16;
 
             List<string> tram3F = new List<string>() { "Tarján", "Budapesti krt.", "Deák Ferenc Gimnázium", "Rózsa utca", "Kecskeméti utca", "Brüsszeli krt.", "Szent György tér", "Glattfelder Gyula tér", "Anna-kút", "Tisza Lajos krt. (Károlyi u.), ", "Dugonics tér", "Londoni krt. (Kálvária sgt.)", "Veresács u.", "Kálvária tér", "II. Kórház", "Vadaspark" };
-            int tram3FTime = 16;
+            int tram3FTime = 24;
 
             List<string> tram4 = new List<string>() { "Szalámigyár", "Szabadkai út", "Vám tér", "Szivárvány kitérő", "Vitéz utca", "Dugonics tér", "Tisza Lajos krt. (Károlyi u.)", "Anna-kút", "Glattfelder Gyula tér", "Szent György tér", "Brüsszeli krt.", "Kecskeméti utca", "Rózsa utca", "Deák Ferenc Gimnázium", "Budapesti krt.", "Tarján" };
             int tram4Time = 16;
 
             List<int> numbers = new List<int>() { tram1Time, tram2Time, tram3Time, tram3FTime, tram4Time };
+            List<string> trains = new List<string>() { "1", "2", "3", "3F", "4" };
+
+            
+
+            int minTravelTime = CalculateMin(numbers);
+            int maxTravelTime = CalculateMax(numbers);
+            
 
             string textMax = null;
             string textMin = null;
 
-            int minTravelTime = CalculateMin(numbers);
-            int maxTravelTime = CalculateMax(numbers);
-
-            switch (minTravelTime)
+            for (int i = 0; i < numbers.Count(); i++)
             {
-                case tram1Time:
-                    textMin = $"Az 1-es villamos a legrövidebb ({tram1Time})";
-                    break;
-                case tram2Time:
-                    textMin = $"A 2-es villamos a legrövidebb ({tram2Time})";
-                    break;
-                case tram3Time:
-                    textMin = $"A 3-as villamos a legrövidebb ({tram3Time})";
-                    break;
-                case tram3FTime:
-                    textMin = $"A 3F-es villamos a legrövidebb ({tram3FTime})";
-                    break;
-                case tram4Time:
-                    textMin = $"A 4-es villamos a legrövidebb ({tram4Time})";
-                    break;
-                default:
-                    textMin = "Nincs ilyen villamos";
-                    break;
+                if (numbers[i] == minTravelTime)
+                {
+                    textMin = $"A legrövidebb menetidejű villamos: {trains[i]}";
+                }
+
+                else if (numbers[i] == maxTravelTime)
+                {
+                    textMax = $"A leghoszabb menetidejű villamos: {trains[i]}";
+                }
             }
 
-            switch (maxTravelTime)
-            {
-                case tram1Time:
-                    textMax = $"Az 1-es villamos a leghosszabb ({tram1Time})";
-                    break;
-                case tram2Time:
-                    textMax = $"A 2-es villamos a leghosszabb ({tram2Time})";
-                    break;
-                case tram3Time:
-                    textMax = $"A 3-as villamos a leghosszabb ({tram3Time})";
-                    break;
-                case tram3FTime:
-                    textMax = $"A 3F-es villamos a leghosszabb ({tram3FTime})";
-                    break;
-                case tram4Time:
-                    textMax = $"A 4-es villamos a leghosszabb ({tram4Time})";
-                    break;
-                default:
-                    textMax = "Nincs ilyen villamos";
-                    break;
-            }
-
-            while(textMin == null)
-            {
-                
-            }
 
             Console.WriteLine($"Az 1-es villamos átlagosan {AverageCalculate(tram1, tram1Time):n1} perc alatt ér egy megállóhoz.");
             Console.WriteLine($"A 2-es villamos átlagosan {AverageCalculate(tram2, tram2Time):n1} perc alatt ér egy megállóhoz.");
