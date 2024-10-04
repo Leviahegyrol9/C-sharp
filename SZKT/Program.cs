@@ -15,27 +15,26 @@ namespace SZKT
             int tram2Time = 18;
 
             List<string> tram3F = new List<string>() { "Tarján", "Budapesti krt.", "Deák Ferenc Gimnázium", "Rózsa utca", "Kecskeméti utca", "Brüsszeli krt.", "Szent György tér", "Glattfelder Gyula tér", "Anna-kút", "Tisza Lajos krt. (Károlyi u.), ", "Dugonics tér", "Londoni krt. (Kálvária sgt.)", "Veresács u.", "Kálvária tér", "II. Kórház", "vadaspark", "Belvárosi temető", "Belvárosi temető II. kapu", "Kereskedő köz", "Fonógyári út" };
-            int tram3FTime = 16;
+            int tram3FTime = 24;
 
             List<string> tram3 = new List<string>() { "Tarján", "Budapesti krt.", "Deák Ferenc Gimnázium", "Rózsa utca", "Kecskeméti utca", "Brüsszeli krt.", "Szent György tér", "Glattfelder Gyula tér", "Anna-kút", "Tisza Lajos krt. (Károlyi u.), ", "Dugonics tér", "Londoni krt. (Kálvária sgt.)", "Veresács u.", "Kálvária tér", "II. Kórház", "Vadaspark" };
-            int tram3Time = 24;
+            int tram3Time = 16;
 
             List<string> tram4 = new List<string>() { "Szalámigyár", "Szabadkai út", "Vám tér", "Szivárvány kitérő", "Vitéz utca", "Dugonics tér", "Tisza Lajos krt. (Károlyi u.)", "Anna-kút", "Glattfelder Gyula tér", "Szent György tér", "Brüsszeli krt.", "Kecskeméti utca", "Rózsa utca", "Deák Ferenc Gimnázium", "Budapesti krt.", "Tarján" };
             int tram4Time = 16;
 
             List<int> numbers = new List<int>() { tram1Time, tram2Time, tram3Time, tram3FTime, tram4Time };
             List<string> trains = new List<string>() { "1", "2", "3", "3F", "4" };
-
             
 
-            int minTravelTime = CalculateMin(numbers);
-            int maxTravelTime = CalculateMax(numbers);
+            int minTravelTime = CalculateMin(numbers); //minimum számolás
+            int maxTravelTime = CalculateMax(numbers); //maxmimum számolás
             
 
             string textMax = null;
             string textMin = null;
 
-            for (int i = 0; i < numbers.Count(); i++)
+            for (int i = 0; i < numbers.Count(); i++) //Egy véltózóba belerakom a legrövidebb illetve leghosszabb villamos nevét formázva
             {
                 if (numbers[i] == minTravelTime)
                 {
@@ -48,6 +47,7 @@ namespace SZKT
                 }
             }
 
+            //Egyesével egy függvényt iratok ki megformázva
 
             Console.WriteLine($"Az 1-es villamos átlagosan {AverageCalculate(tram1, tram1Time):n1} perc alatt ér egy megállóhoz.");
             Console.WriteLine($"A 2-es villamos átlagosan {AverageCalculate(tram2, tram2Time):n1} perc alatt ér egy megállóhoz.");
@@ -64,7 +64,7 @@ namespace SZKT
             Console.WriteLine(textMin);
             Console.WriteLine(textMax);
 
-            Console.Write("\nKészítette Paplukács Levente 2024.10.03")
+            Console.Write("\nKészítette Paplukács Levente 2024.10.03");
 
             Console.ReadKey();
         }
