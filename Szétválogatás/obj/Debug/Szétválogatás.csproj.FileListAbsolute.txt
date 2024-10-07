@@ -1,0 +1,7 @@
+J:\C-sarp\Szétválogatás\bin\Debug\Szétválogatás.exe.config
+J:\C-sarp\Szétválogatás\bin\Debug\Szétválogatás.exe
+J:\C-sarp\Szétválogatás\bin\Debug\Szétválogatás.pdb
+J:\C-sarp\Szétválogatás\obj\Debug\Szétválogatás.csproj.AssemblyReference.cache
+J:\C-sarp\Szétválogatás\obj\Debug\Szétválogatás.csproj.CoreCompileInputs.cache
+J:\C-sarp\Szétválogatás\obj\Debug\Szétválogatás.exe
+J:\C-sarp\Szétválogatás\obj\Debug\Szétválogatás.pdb

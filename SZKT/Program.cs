@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace SZKT
 {
@@ -26,6 +27,30 @@ namespace SZKT
             List<int> numbers = new List<int>() { tram1Time, tram2Time, tram3Time, tram3FTime, tram4Time };
             List<string> trains = new List<string>() { "1", "2", "3", "3F", "4" };
             
+            Console.Write("\nKészítette Paplukács Levente 2024.10.03\n");
+
+            int number = 0;
+            bool isNumber = false;
+
+            do
+            {
+                Console.Write("Melyik villamost megállóit szeretné megnézni(enter ha egyiket sem szeretné): ");
+                string input = Console.ReadLine();
+                isNumber = int.TryParse(input, out number);
+
+                if (input == "")
+                {
+                    Console.Clear();
+                    break;
+                }
+                else if (!isNumber)
+                {
+                    Console.WriteLine("Nem számot adott meg!");
+                    Thread.Sleep(2500);
+                    Console.Clear();
+                }
+            }
+            while (!isNumber);
 
             int minTravelTime = CalculateMin(numbers); //minimum számolás
             int maxTravelTime = CalculateMax(numbers); //maxmimum számolás
@@ -63,8 +88,6 @@ namespace SZKT
 
             Console.WriteLine(textMin);
             Console.WriteLine(textMax);
-
-            Console.Write("\nKészítette Paplukács Levente 2024.10.03");
 
             Console.ReadKey();
         }
