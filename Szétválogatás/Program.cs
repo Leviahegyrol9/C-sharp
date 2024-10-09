@@ -15,6 +15,7 @@ namespace szetvalogatas
             int[] numbers = new int[numbersCount];
             int counter = 0;
             int negative = 0;
+            int sum = 0;
 
             for (int i = 0; i < numbersCount; i++)
             {
@@ -27,6 +28,7 @@ namespace szetvalogatas
 
                 if (i < 0)
                 {
+                    sum += i;
                     counter++;
                     Console.Write($"{counter}. ");
                     if (counter < 10)
@@ -58,6 +60,7 @@ namespace szetvalogatas
 
                 if (i > 0)
                 {
+                    sum += i;
                     counter++;
                     Console.Write($"{counter}. ");
                     if (counter < 10)
@@ -84,6 +87,7 @@ namespace szetvalogatas
             double negativePercent = (double)negative / numbers.Length;
 
             Console.WriteLine($"\n\nA negativ számok százaléka {negativePercent:p2}");
+            Console.WriteLine($"\n\nA számok összege {sum}");
 
 
 

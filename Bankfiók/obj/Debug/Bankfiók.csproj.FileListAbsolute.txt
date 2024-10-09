@@ -1,0 +1,7 @@
+J:\C-sarp\Bankfiók\bin\Debug\Bankfiók.exe.config
+J:\C-sarp\Bankfiók\bin\Debug\Bankfiók.exe
+J:\C-sarp\Bankfiók\bin\Debug\Bankfiók.pdb
+J:\C-sarp\Bankfiók\obj\Debug\Bankfiók.csproj.AssemblyReference.cache
+J:\C-sarp\Bankfiók\obj\Debug\Bankfiók.csproj.CoreCompileInputs.cache
+J:\C-sarp\Bankfiók\obj\Debug\Bankfiók.exe
+J:\C-sarp\Bankfiók\obj\Debug\Bankfiók.pdb
