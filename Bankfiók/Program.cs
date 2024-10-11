@@ -14,7 +14,6 @@ namespace Bankfiók
 
             List<int> averages = new List<int> ();
             List<int> sums = new List<int> ();
-            int sum = 0;
 
             int[,] values = new int[10, 12];
 
@@ -25,7 +24,9 @@ namespace Bankfiók
             {
 
                 for (int j = 0; j < 12; j++)
+
                 {
+                    Console.Write("Jan\tFebruár\tMárcius\tÁprilis\tMájus\tJúnius\tJúlius\tAugusztus\tSzeptemmbe\tOktóber\tDecember");
                     values[counter, j] = rnd.Next(-500000, 1000000);
 
                 }
@@ -43,12 +44,17 @@ namespace Bankfiók
                 for (int j = 0; j < 12; j++)
                 {
                     Console.Write($"{values[counter, j]}\t");
-                    summs.Add();
+                    sums.Add(values[counter, j]);
                 }
+                averages.Add(sums.Sum() / names.Length);
                 counter++;
                 Console.WriteLine();
-                
+            }
+            Console.WriteLine();
 
+            for (int i = 0; i < names.Length; i++)
+            {
+                Console.WriteLine($"{names[i]:c2}: {averages[i]:c2}");
             }
 
 
