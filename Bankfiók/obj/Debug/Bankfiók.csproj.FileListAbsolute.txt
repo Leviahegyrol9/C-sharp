@@ -5,3 +5,10 @@ J:\C-sarp\Bankfiók\obj\Debug\Bankfiók.csproj.AssemblyReference.cache
 J:\C-sarp\Bankfiók\obj\Debug\Bankfiók.csproj.CoreCompileInputs.cache
 J:\C-sarp\Bankfiók\obj\Debug\Bankfiók.exe
 J:\C-sarp\Bankfiók\obj\Debug\Bankfiók.pdb
+C:\Saját\Projects\C-sarp\Bankfiók\bin\Debug\Bankfiók.exe.config
+C:\Saját\Projects\C-sarp\Bankfiók\bin\Debug\Bankfiók.exe
+C:\Saját\Projects\C-sarp\Bankfiók\bin\Debug\Bankfiók.pdb
+C:\Saját\Projects\C-sarp\Bankfiók\obj\Debug\Bankfiók.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Bankfiók\obj\Debug\Bankfiók.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Bankfiók\obj\Debug\Bankfiók.exe
+C:\Saját\Projects\C-sarp\Bankfiók\obj\Debug\Bankfiók.pdb
