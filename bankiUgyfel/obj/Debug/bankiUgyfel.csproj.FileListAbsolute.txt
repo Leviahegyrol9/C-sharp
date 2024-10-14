@@ -1,0 +1,14 @@
+J:\11\C#\bankiUgyfel\obj\Debug\bankiUgyfel.csproj.AssemblyReference.cache
+J:\11\C#\bankiUgyfel\obj\Debug\bankiUgyfel.csproj.CoreCompileInputs.cache
+J:\11\C#\bankiUgyfel\bin\Debug\bankiUgyfel.exe.config
+J:\11\C#\bankiUgyfel\bin\Debug\bankiUgyfel.exe
+J:\11\C#\bankiUgyfel\bin\Debug\bankiUgyfel.pdb
+J:\11\C#\bankiUgyfel\obj\Debug\bankiUgyfel.exe
+J:\11\C#\bankiUgyfel\obj\Debug\bankiUgyfel.pdb
+J:\C-sarp\bankiUgyfel\bin\Debug\bankiUgyfel.exe.config
+J:\C-sarp\bankiUgyfel\bin\Debug\bankiUgyfel.exe
+J:\C-sarp\bankiUgyfel\bin\Debug\bankiUgyfel.pdb
+J:\C-sarp\bankiUgyfel\obj\Debug\bankiUgyfel.csproj.AssemblyReference.cache
+J:\C-sarp\bankiUgyfel\obj\Debug\bankiUgyfel.csproj.CoreCompileInputs.cache
+J:\C-sarp\bankiUgyfel\obj\Debug\bankiUgyfel.exe
+J:\C-sarp\bankiUgyfel\obj\Debug\bankiUgyfel.pdb
