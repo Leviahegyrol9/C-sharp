@@ -26,7 +26,7 @@ namespace Bankfiók
 
             Console.Write("Név\t\tJan\tFeb\tMár\tÁpr\tMáj\tJún\tJúl\tAug\tSzep\tOkt\tNov\tDec");
             Console.WriteLine();
-            for (int i = 0; i < names.Count(); i++)
+            for (int i = 0; i < names.Count(); i++) // Értékek kiíratása és személyenkénti átlag kiszámítása
             {
                 Console.Write($"{names[i]}\t\t");
                 int yearlySum = 0;
