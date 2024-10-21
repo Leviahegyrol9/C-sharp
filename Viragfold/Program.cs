@@ -15,17 +15,35 @@ namespace Viragfold
             List<string> names = new List<string>();
             List<int> flowerbed = new List<int>();
             int counter = 0;
+            int floorA = 0;
+            int floorB = 0;
 
             for (int i = 1; i < 61; i++)
             {
                 if(i <= 30)
                 {
-                    names.Add("A-" + i);
+                    if(i % 3 == 0)
+                    {
+                        floorA = i / 3;
+                    }
+                    else
+                    {
+                        floorA = i / 3 + 1;
+                    }
+                    names.Add($"A-{floorA}-{i}");
                 }
                 else
                 {
                     counter++;
-                    names.Add("B-" + counter);
+                    if (counter % 3 == 0)
+                    {
+                        floorB = counter / 3;
+                    }
+                    else
+                    {
+                        floorB = counter / 3 + 1;
+                    }
+                    names.Add($"B-{floorB}-{counter}");
 
                 }
             }
@@ -33,11 +51,32 @@ namespace Viragfold
             {
                 flowerbed.Add(rnd.Next(0,201));
             }
-
             for (int i = 0; i < names.Count(); i++)
             {
-                Console.WriteLine(names[i] + " " + flowerbed[i]);
+                Console.WriteLine(names[i] + ": " + flowerbed[i] + " liter");
+                if (i == 29)
+                {
+                    Console.WriteLine();
+                }
             }
+            int all = flowerbed.Sum();
+
+            Console.WriteLine($"\nAz egész rendelés: {all} liter");
+
+            int twenty = all / 20;
+            all = all % 20;
+            int ten = all / 10;
+            all = all % 10;
+            int five = all / 5;
+            all = all % 5;
+            int one = all;
+
+            Console.WriteLine($"\nÖsszesítés:");
+            Console.WriteLine($"20 as csomagból {twenty} db van");
+            Console.WriteLine($"10 es csomagból {ten} db van");
+            Console.WriteLine($"5 ös csomagból {five} db van");
+            Console.WriteLine($"1 es csomagból {one} db van");
+
             Console.ReadKey();
         }
     }
