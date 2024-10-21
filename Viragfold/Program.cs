@@ -12,11 +12,12 @@ namespace Viragfold
         {
             Random rnd = new Random();
 
-            List<string> names = new List<string>();
+            List<string> floors = new List<string>();
             List<int> flowerbed = new List<int>();
             int counter = 0;
             int floorA = 0;
             int floorB = 0;
+            string index = null;
 
             for (int i = 1; i < 61; i++)
             {
@@ -30,7 +31,7 @@ namespace Viragfold
                     {
                         floorA = i / 3 + 1;
                     }
-                    names.Add($"A-{floorA}-{i}");
+                    floors.Add($"A-{floorA}-{i}");
                 }
                 else
                 {
@@ -43,22 +44,31 @@ namespace Viragfold
                     {
                         floorB = counter / 3 + 1;
                     }
-                    names.Add($"B-{floorB}-{counter}");
+                    floors.Add($"B-{floorB}-{counter}");
 
                 }
             }
-            for (int i = 0; i < names.Count(); i++) 
+
+            for (int i = 0; i < floors.Count(); i++) 
             {
                 flowerbed.Add(rnd.Next(0,201));
             }
-            for (int i = 0; i < names.Count(); i++)
+
+            for (int i = 0; i < floors.Count(); i++)
             {
-                Console.WriteLine(names[i] + ": " + flowerbed[i] + " liter");
+                Console.WriteLine(floors[i] + ": " + flowerbed[i] + " liter");
                 if (i == 29)
                 {
                     Console.WriteLine();
                 }
             }
+
+            for (int i = 0; i < floors.Count(); i++)
+            {
+                index = floors[i].Split('-')[1];
+            }
+            Console.Write(index);
+
             int all = flowerbed.Sum();
 
             Console.WriteLine($"\nAz egész rendelés: {all} liter");
