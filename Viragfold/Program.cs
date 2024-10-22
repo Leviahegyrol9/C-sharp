@@ -13,11 +13,13 @@ namespace Viragfold
             Random rnd = new Random();
 
             List<string> floors = new List<string>();
+            List<string> floorSum = new List<string>();
             List<int> flowerbed = new List<int>();
             int counter = 0;
+            int floorCounter = 1;
+            int sum = 0;
             int floorA = 0;
             int floorB = 0;
-            string index = null;
 
             for (int i = 1; i < 61; i++)
             {
@@ -52,23 +54,26 @@ namespace Viragfold
             for (int i = 0; i < floors.Count(); i++) 
             {
                 flowerbed.Add(rnd.Next(0,201));
-            }
-
-            for (int i = 0; i < floors.Count(); i++)
-            {
+                sum += flowerbed[i];
+            
                 Console.WriteLine(floors[i] + ": " + flowerbed[i] + " liter");
+                if ((i + 1) % 3 == 0)
+                {
+                    floorSum.Add($"{floorCounter}. emeleten {sum} kg.");
+                    floorCounter++;
+                    sum = 0;
+                }
+                if(floorCounter % 11 == 0)
+                {
+                    floorCounter = 1;
+                }
+
                 if (i == 29)
                 {
                     Console.WriteLine();
                 }
-            }
 
-            for (int i = 0; i < floors.Count(); i++)
-            {
-                index = floors[i].Split('-')[1];
             }
-            Console.Write(index);
-
             int all = flowerbed.Sum();
 
             Console.WriteLine($"\nAz egész rendelés: {all} liter");
@@ -85,7 +90,31 @@ namespace Viragfold
             Console.WriteLine($"20 as csomagból {twenty} db van");
             Console.WriteLine($"10 es csomagból {ten} db van");
             Console.WriteLine($"5 ös csomagból {five} db van");
-            Console.WriteLine($"1 es csomagból {one} db van");
+            Console.WriteLine($"1 es csomagból {one} db van\n");
+
+            counter = 0;
+
+            foreach (string f in floorSum)
+            {
+                counter++;
+                if(counter < 11)
+                {
+                    Console.Write("A-");
+                }
+                else
+                {
+                    Console.Write("B-");
+                }
+
+                Console.WriteLine(f);
+
+                if (counter == 10)
+                {
+                    Console.WriteLine();
+                }
+
+            }
+
 
             Console.ReadKey();
         }
