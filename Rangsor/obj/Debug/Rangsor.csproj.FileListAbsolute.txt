@@ -1,0 +1,7 @@
+C:\Saját\Projects\C-sarp\Rangsor\obj\Debug\Rangsor.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Rangsor\obj\Debug\Rangsor.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Rangsor\bin\Debug\Rangsor.exe.config
+C:\Saját\Projects\C-sarp\Rangsor\bin\Debug\Rangsor.exe
+C:\Saját\Projects\C-sarp\Rangsor\bin\Debug\Rangsor.pdb
+C:\Saját\Projects\C-sarp\Rangsor\obj\Debug\Rangsor.exe
+C:\Saját\Projects\C-sarp\Rangsor\obj\Debug\Rangsor.pdb
