@@ -31,8 +31,6 @@ namespace Rangsor
 
                 if (isDouble)
                 {
-                    number = Convert.ToDouble(input);
-
                     if (number >= minNumber && number <= maxNumber)
                     {
                         points.Add(number);
