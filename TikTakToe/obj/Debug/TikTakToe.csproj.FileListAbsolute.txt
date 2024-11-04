@@ -1,0 +1,7 @@
+J:\C-sarp\TikTakToe\bin\Debug\TikTakToe.exe.config
+J:\C-sarp\TikTakToe\bin\Debug\TikTakToe.exe
+J:\C-sarp\TikTakToe\bin\Debug\TikTakToe.pdb
+J:\C-sarp\TikTakToe\obj\Debug\TikTakToe.csproj.AssemblyReference.cache
+J:\C-sarp\TikTakToe\obj\Debug\TikTakToe.csproj.CoreCompileInputs.cache
+J:\C-sarp\TikTakToe\obj\Debug\TikTakToe.exe
+J:\C-sarp\TikTakToe\obj\Debug\TikTakToe.pdb
