@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sarp\\TikTakToe\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sarp\\TikTakToe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F3C5654-8288-4B16-85DD-0F6896ADFF4A}|TikTakToe.csproj|j:\\c-sarp\\tiktaktoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F3C5654-8288-4B16-85DD-0F6896ADFF4A}|TikTakToe.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\tiktaktoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F3C5654-8288-4B16-85DD-0F6896ADFF4A}|TikTakToe.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "J:\\C-sarp\\TikTakToe\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\TikTakToe\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\C-sarp\\TikTakToe\\Program.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\TikTakToe\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAkwKwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAYwFgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T09:13:50.983Z",
               "IsPinned": true,
