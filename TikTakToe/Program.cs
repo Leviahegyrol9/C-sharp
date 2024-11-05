@@ -36,7 +36,7 @@ namespace TikTakToe
             return false;
         }
 
-        static bool IsTableFull(string[,] table)
+        static bool IsTie(string[,] table)
         {
             for (int i = 0; i < table.GetLength(0); i++)
             {
@@ -54,9 +54,11 @@ namespace TikTakToe
         {
             int col = 0;
             int row = 0;
-            bool isNumber;
+            bool isNumber = false;
             bool win = false;
             string player = null;
+            int playerType = 0;
+            Random random = new Random();
             bool repeat;
 
             string[,] table = new string[3, 3];
@@ -68,6 +70,28 @@ namespace TikTakToe
                     table[i, j] = "-";
                 }
             }
+            while (playerType == 0 || !isNumber || (playerType < 1 || playerType > 2))
+            {
+                Console.WriteLine("1 - Player\n2 - Robot\n");
+                Console.WriteLine("Kivel szeretne játszani?");
+
+                string input = Console.ReadLine();
+
+                isNumber = int.TryParse(input, out playerType);
+
+                if(!isNumber)
+                {
+                    Console.Write("Nem számot adott meg!");
+                    Thread.Sleep(2500);
+                }
+                else if (playerType < 1 || playerType > 2)
+                {
+                    Console.Write("Tartományon kívüli érték!!");
+                    Thread.Sleep(2500);
+                }
+                Console.Clear();
+            }
+
 
             while (!win)
             {
@@ -92,7 +116,6 @@ namespace TikTakToe
                         {
                             Console.Write("Nem számot adott meg!");
                             Thread.Sleep(2500);
-                            Console.Clear();
                         }
                         else if (row > 3 || row < 1)
                         {
@@ -136,13 +159,13 @@ namespace TikTakToe
                         else
                         {
                             repeat = false;
-                            table[row - 1, col - 1] = "X";
+                            table[row - 1, col - 1] = player;
                             win = CheckWin(table);
                             if (win)
                             {
                                 goto End;
                             }
-                            if (IsTableFull(table))
+                            if (IsTie(table))
                             {
                                 goto Tie;
                             }
@@ -151,9 +174,36 @@ namespace TikTakToe
                     }
                 }
 
+                if (playerType == 2)
+                {
+                    Console.Clear();
+                    player = "O";
+
+                    row = random.Next(1, 4);
+                    col = random.Next(1, 4);
+
+                    print(table);
+
+                    Console.Write("A robot gondolkodik...");
+                    Thread.Sleep(2500);
+                    Console.Clear();
+
+                    table[row - 1, col - 1] = player;
+
+                    win = CheckWin(table);
+                    if (win)
+                    {
+                        goto End;
+                    }
+                    if (IsTie(table))
+                    {
+                        goto Tie;
+                    }
+                }
+
                 repeat = true;
 
-                while (repeat)
+                while (playerType == 1 && repeat)
                 {
                     player = "O";
                     isNumber = false;
@@ -171,7 +221,6 @@ namespace TikTakToe
                         {
                             Console.Write("Nem számot adott meg!");
                             Thread.Sleep(2500);
-                            Console.Clear();
                         }
                         else if (row > 3 || row < 1)
                         {
@@ -215,13 +264,13 @@ namespace TikTakToe
                         else
                         {
                             repeat = false;
-                            table[row - 1, col - 1] = "O";
+                            table[row - 1, col - 1] = player;
                             win = CheckWin(table);
                             if (win)
                             {
                                 goto End;
                             }
-                            if (IsTableFull(table))
+                            if (IsTie(table))
                             {
                                 goto Tie;
                             }
