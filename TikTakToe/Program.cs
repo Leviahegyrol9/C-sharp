@@ -26,10 +26,14 @@ namespace TikTakToe
         {
             for (int i = 0; i < 3; i++)
             {
+                //jobbra
                 if (table[i, 0] != "-" && table[i, 0] == table[i, 1] && table[i, 1] == table[i, 2]) return true;
 
+                //lefelé
                 if (table[0, i] != "-" && table[0, i] == table[1, i] && table[1, i] == table[2, i]) return true;
             }
+
+            //srégen
             if (table[0, 0] != "-" && table[0, 0] == table[1, 1] && table[1, 1] == table[2, 2]) return true;
             if (table[0, 2] != "-" && table[0, 2] == table[1, 1] && table[1, 1] == table[2, 0]) return true;
 
@@ -38,6 +42,11 @@ namespace TikTakToe
 
         static bool IsTie(string[,] table)
         {
+            /*
+            GetLenth parancs olyan mint a sima Lenght viszont
+            table.Lenght = 9 mert 3x3 mező van
+            table.GetLenght(dimenzio indexe) -> table[dimenzio1, dimenzio2]
+            */
             for (int i = 0; i < table.GetLength(0); i++)
             {
                 for (int j = 0; j < table.GetLength(1); j++)
@@ -56,11 +65,14 @@ namespace TikTakToe
             int row = 0;
             bool isNumber = false;
             bool win = false;
+            bool repeat;
             string player = null;
+
             int playerType = 0;
             Random random = new Random();
-            bool repeat;
+            List<List<int>> availableSlots = new List<List<int>>();            
 
+            //Feltöltöm a listát "-" értékekkel
             string[,] table = new string[3, 3];
 
             for (int i = 0; i < table.GetLength(0); i++)
@@ -70,6 +82,16 @@ namespace TikTakToe
                     table[i, j] = "-";
                 }
             }
+
+            //Feltöltöm a listát az elérhető kordináták értékeivel
+            for (int i = 0; i < table.GetLength(0); i++)
+            {
+                for (int j = 0; j < table.GetLength(1); j++)
+                {
+                   availableSlots.Add(new List<int>() {i, j});
+                }
+            }
+            //Addig ismétlem a ciklust amíg a felhasználó számot és az adott lehetőséget választja
             while (playerType == 0 || !isNumber || (playerType < 1 || playerType > 2))
             {
                 Console.WriteLine("1 - Player\n2 - Robot\n");
@@ -92,11 +114,12 @@ namespace TikTakToe
                 Console.Clear();
             }
 
-
+            //Játék
             while (!win)
             {
                 repeat = true;
 
+                //Addig ismétlem amíg olyan kordinátát ir be amin üres mező van
                 while (repeat)
                 {
                     player = "X";
@@ -110,6 +133,7 @@ namespace TikTakToe
                         Console.Write("Írja be a sort: ");
                         string input = Console.ReadLine();
 
+                        //Megnézem hogy int e a szám ha int akkor true lesz az isNumber értéke és a row-t átalakítja int tipusra
                         isNumber = int.TryParse(input, out row);
 
                         if (!isNumber)
@@ -160,9 +184,12 @@ namespace TikTakToe
                         {
                             repeat = false;
                             table[row - 1, col - 1] = player;
+                            //Kitörlöm azt a kordinátát amit felhasználtam
+                            availableSlots.RemoveAll(slot => slot[0] == row - 1 && slot[1] == col - 1);
                             win = CheckWin(table);
                             if (win)
                             {
+                                //Kilépek az összes ciklusból és az End-hez lépek
                                 goto End;
                             }
                             if (IsTie(table))
@@ -174,26 +201,32 @@ namespace TikTakToe
                     }
                 }
 
+                //Robot
                 if (playerType == 2)
                 {
-                    Console.Clear();
                     player = "O";
 
-                    row = random.Next(1, 4);
-                    col = random.Next(1, 4);
+                    //Egy random számot generálok 0-tól az elérhető helyekig
+                    int counter = random.Next(0, availableSlots.Count());
 
+                    //Lebontom a listát sorra és oszlopra
+                    row = availableSlots[counter][0];
+
+                    col = availableSlots[counter][1];
+ 
                     print(table);
 
                     Console.Write("A robot gondolkodik...");
                     Thread.Sleep(2500);
                     Console.Clear();
 
-                    table[row - 1, col - 1] = player;
+                    table[row, col] = player;
+                    availableSlots.RemoveAll(slot => slot[0] == row && slot[1] == col);
 
                     win = CheckWin(table);
                     if (win)
                     {
-                        goto End;
+                        goto EndRobot;
                     }
                     if (IsTie(table))
                     {
@@ -203,6 +236,7 @@ namespace TikTakToe
 
                 repeat = true;
 
+                //Ez a ciklus akkor fut le ha játékos az ellenfél
                 while (playerType == 1 && repeat)
                 {
                     player = "O";
@@ -265,6 +299,7 @@ namespace TikTakToe
                         {
                             repeat = false;
                             table[row - 1, col - 1] = player;
+                            availableSlots.RemoveAll(slot => slot[0] == row - 1 && slot[1] == col - 1);
                             win = CheckWin(table);
                             if (win)
                             {
@@ -284,12 +319,21 @@ namespace TikTakToe
             print(table);
             Console.Write($"\nA(z) {player} játékos nyert!");
             Console.ReadKey();
+            return;
+
+        EndRobot:
+            Console.Clear();
+            print(table);
+            Console.Write("\nA robot nyert!");
+            Console.ReadKey();
+            return;
 
         Tie:
             Console.Clear();
             print(table);
             Console.Write("Döntetlen!");
             Console.ReadKey();
+            return;
         }
     }
 }
