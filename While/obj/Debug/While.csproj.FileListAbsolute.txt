@@ -1,7 +1,0 @@
-C:\Saját\Projects\C-sarp\While\bin\Debug\While.exe.config
-C:\Saját\Projects\C-sarp\While\bin\Debug\While.exe
-C:\Saját\Projects\C-sarp\While\bin\Debug\While.pdb
-C:\Saját\Projects\C-sarp\While\obj\Debug\While.csproj.AssemblyReference.cache
-C:\Saját\Projects\C-sarp\While\obj\Debug\While.csproj.CoreCompileInputs.cache
-C:\Saját\Projects\C-sarp\While\obj\Debug\While.exe
-C:\Saját\Projects\C-sarp\While\obj\Debug\While.pdb

@@ -1,7 +1,0 @@
-C:\Saját\Projects\C-sarp\If\bin\Debug\If.exe.config
-C:\Saját\Projects\C-sarp\If\bin\Debug\If.exe
-C:\Saját\Projects\C-sarp\If\bin\Debug\If.pdb
-C:\Saját\Projects\C-sarp\If\obj\Debug\If.csproj.AssemblyReference.cache
-C:\Saját\Projects\C-sarp\If\obj\Debug\If.csproj.CoreCompileInputs.cache
-C:\Saját\Projects\C-sarp\If\obj\Debug\If.exe
-C:\Saját\Projects\C-sarp\If\obj\Debug\If.pdb
