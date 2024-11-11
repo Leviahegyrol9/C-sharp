@@ -1,7 +1,0 @@
-C:\Saját\Projects\C-sarp\Véletlen szám 2\bin\Debug\Véletlen szám 2.exe.config
-C:\Saját\Projects\C-sarp\Véletlen szám 2\bin\Debug\Véletlen szám 2.exe
-C:\Saját\Projects\C-sarp\Véletlen szám 2\bin\Debug\Véletlen szám 2.pdb
-C:\Saját\Projects\C-sarp\Véletlen szám 2\obj\Debug\Véletlen szám 2.csproj.AssemblyReference.cache
-C:\Saját\Projects\C-sarp\Véletlen szám 2\obj\Debug\Véletlen szám 2.csproj.CoreCompileInputs.cache
-C:\Saját\Projects\C-sarp\Véletlen szám 2\obj\Debug\Véletlen szám 2.exe
-C:\Saját\Projects\C-sarp\Véletlen szám 2\obj\Debug\Véletlen szám 2.pdb
