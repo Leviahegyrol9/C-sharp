@@ -72,7 +72,7 @@ namespace TicTacToe
             Random random = new Random();
             List<List<int>> availableSlots = new List<List<int>>();
 
-            //Feltöltöm a listát "-" értékekkel
+            //Feltöltöm a listát kötőjelekkel
             string[,] table = new string[3, 3];
 
             for (int i = 0; i < table.GetLength(0); i++)
