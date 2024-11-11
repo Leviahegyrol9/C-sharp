@@ -70,7 +70,7 @@ namespace TikTakToe
 
             int playerType = 0;
             Random random = new Random();
-            List<List<int>> availableSlots = new List<List<int>>();            
+            List<List<int>> availableSlots = new List<List<int>>();
 
             //Feltöltöm a listát "-" értékekkel
             string[,] table = new string[3, 3];
