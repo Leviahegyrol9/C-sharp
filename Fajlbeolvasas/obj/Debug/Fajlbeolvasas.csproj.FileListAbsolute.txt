@@ -1,0 +1,7 @@
+J:\C-sharp\Fajlbeolvasas\bin\Debug\Fajlbeolvasas.exe.config
+J:\C-sharp\Fajlbeolvasas\bin\Debug\Fajlbeolvasas.exe
+J:\C-sharp\Fajlbeolvasas\bin\Debug\Fajlbeolvasas.pdb
+J:\C-sharp\Fajlbeolvasas\obj\Debug\Fajlbeolvasas.csproj.AssemblyReference.cache
+J:\C-sharp\Fajlbeolvasas\obj\Debug\Fajlbeolvasas.csproj.CoreCompileInputs.cache
+J:\C-sharp\Fajlbeolvasas\obj\Debug\Fajlbeolvasas.exe
+J:\C-sharp\Fajlbeolvasas\obj\Debug\Fajlbeolvasas.pdb

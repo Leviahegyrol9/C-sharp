@@ -1,52 +1,82 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace fileBeolvasas
+class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        string filePath = "befizetesek.txt";  // A fájl neve
+
+        // A fájl beolvasása
+        string[] lines = File.ReadAllLines(filePath);  // Minden sor beolvasása
+
+        // Tömbök a nevekre és a befizetett összegekre
+        double[] amounts = new double[lines.Length];  // Befizetett összegek
+        string[] names = new string[lines.Length];    // Kirándulók nevei
+
+        double totalAmount = 0;  // Az összes befizetett pénz összege
+
+        // A fájl sorainak feldolgozása
+        for (int i = 0; i < lines.Length; i++)
         {
-            //az aktuális könyvtár lekérése
-            string currentDirectory = Directory.GetCurrentDirectory();
-
-            //az összes .txt fájl kilistázása az aktuália mappából
-            string[] txtFiles = Directory.GetFiles(currentDirectory, "*.txt");
-
-            if (txtFiles.Length == 0)
-            {
-                Console.WriteLine("Nincs .txt fájl az aktuális mappában");
-            }
-
-            // Fájlok kilistázása a konzolra
-            Console.WriteLine("Válassz egy fájlt a következők közül: ");
-            for (int i = 0; i < txtFiles.Length; i++)
-            {
-                Console.Write($"{i + 1}. {Path.GetFileName(txtFiles[i])} ");
-            }
-
-            // Felhasználói választás lekérese (ellenőrzés nélkül)
-            Console.Write("Írd be a fájl számát: ");
-            int fileIndex = int.Parse(Console.ReadLine());
-
-            // Kiválasztott fájl neve és elérési útja
-            string selectedFile = txtFiles[fileIndex - 1];
-
-            // A kiválasztot fájl tartalmának beolvasása
-            List<string> fileContent = new List<string>(File.ReadAllLines(selectedFile));
-
-            // Fájl tartalmának megjelenítése soronként
-            Console.WriteLine($"\nA(z) {Path.GetFileName(selectedFile)} tartalma:");
-            foreach (string Line in fileContent)
-            {
-                Console.WriteLine(Line);
-            }
-
-            Console.ReadLine();
+            string[] parts = lines[i].Split(';');  // Sor felbontása névre és összegre
+            names[i] = parts[0].Trim();            // Kiránduló neve
+            amounts[i] = Convert.ToDouble(parts[1].Trim());  // Befizetett összeg
+            totalAmount += amounts[i];  // Összesítés
         }
+
+        // Kimenet: A befizetések listája és az összes összeg
+        Console.WriteLine("A befizetések listája:");
+        for (int i = 0; i < lines.Length; i++)
+        {
+            Console.WriteLine($"{names[i]}: {amounts[i]:C2}");
+        }
+        Console.WriteLine($"\nÖsszes befizetés: {totalAmount:C2}");
+
+        // A legnagyobb befizetés meghatározása
+        var (maxAmount, maxIndex) = FindMaxAmount(amounts);
+
+        // Kimenet: A legnagyobb befizetés és annak tulajdonosa
+        Console.WriteLine($"A legnagyobb befizetés: {names[maxIndex]}: {maxAmount:C2}");
+
+        var (minAmount, minIndex) = FindMinAmount(amounts);
+        Console.WriteLine($"A legkisebb befizetés: {names[minIndex]}: {minAmount:C2}");
+
+        Console.ReadKey();
+    }
+
+    // A legnagyobb befizetés megtalálása
+    static (double, int) FindMaxAmount(double[] amounts)
+    {
+        double maxAmount = amounts[0];
+        int maxIndex = 0;
+
+        for (int i = 1; i < amounts.Length; i++)
+        {
+            if (amounts[i] > maxAmount)
+            {
+                maxAmount = amounts[i];
+                maxIndex = i;
+            }
+        }
+
+        return (maxAmount, maxIndex);
+    }
+
+    static (double, int) FindMinAmount(double[] amounts)
+    {
+        double minAmount = amounts[0];
+        int minIndex = 0;
+
+        for (int i = 1; i < amounts.Length; i++)
+        {
+            if (amounts[i] < minAmount)
+            {
+                minAmount = amounts[i];
+                minIndex = i;
+            }
+        }
+
+        return (minAmount, minIndex);
     }
 }

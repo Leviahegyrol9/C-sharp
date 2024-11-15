@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ACE81098-F740-48F0-982A-292F0B08C2CC}</ProjectGuid>
+    <ProjectGuid>{63D0C185-F8E8-403D-958B-1A444D216AB6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Fajlvalaszto</RootNamespace>
-    <AssemblyName>Fajlvalaszto</AssemblyName>
+    <RootNamespace>Fajlbeolvasas</RootNamespace>
+    <AssemblyName>Fajlbeolvasas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
