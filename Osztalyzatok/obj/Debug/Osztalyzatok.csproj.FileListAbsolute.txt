@@ -1,0 +1,7 @@
+J:\C-sharp\Osztalyzatok\bin\Debug\Osztalyzatok.exe.config
+J:\C-sharp\Osztalyzatok\bin\Debug\Osztalyzatok.exe
+J:\C-sharp\Osztalyzatok\bin\Debug\Osztalyzatok.pdb
+J:\C-sharp\Osztalyzatok\obj\Debug\Osztalyzatok.csproj.AssemblyReference.cache
+J:\C-sharp\Osztalyzatok\obj\Debug\Osztalyzatok.csproj.CoreCompileInputs.cache
+J:\C-sharp\Osztalyzatok\obj\Debug\Osztalyzatok.exe
+J:\C-sharp\Osztalyzatok\obj\Debug\Osztalyzatok.pdb
