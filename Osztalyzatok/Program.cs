@@ -12,10 +12,24 @@ namespace Osztalyzatok
 {
     internal class Program
     {
-        static void PrintSubjectAverage(List<string> subjects)
+        static (double, string) GetHighestSubjectAverage(List<string> subjects, Dictionary<string, List<double>> subjectsAndMarks)
+        {
+            double average = double.MinValue;
+            string subject = null;
+
+            foreach (KeyValuePair<string, List<double>> data in subjectsAndMarks)
+            {
+                if (data.Value.Sum() / data.Value.Count() > average )
+                {
+                    average = data.Value.Sum() / data.Value.Count();
+                    subject = data.Key;
+                }
+            }
+            return (average, subject);
+        }
+        static void PrintSubjectAverage(List<string> subjects, Dictionary<string, List<double>> subjectsAndMarks)
         {
             // Tantárgyi átlag
-            Dictionary<string, List<double>> subjectsAndMarks = new Dictionary<string, List<double>>();
             string[] lines = File.ReadAllLines("osztalyzatok.txt");
 
             foreach (string subject in subjects)
@@ -38,18 +52,30 @@ namespace Osztalyzatok
                 }
             }
 
-            // Tantárgyi átlagok kiírása
-            Console.WriteLine("\nTantárgyak átlagai:\n");
-
             foreach (KeyValuePair<string, List<double>> data in subjectsAndMarks)
             {
                 Console.WriteLine($"{data.Key}: {data.Value.Sum() / data.Value.Count():N2}");
             }
         }
-        static void PrintStudentAverage()
+
+        static (double, string) GetHighestStudentAverage(Dictionary<string, List<double>> studentsAndMarks)
+        {
+            double average = double.MinValue;
+            string name = null;
+
+            foreach (KeyValuePair<string, List<double>> data in studentsAndMarks)
+            {
+                if (data.Value.Sum() / data.Value.Count() > average)
+                {
+                    average = data.Value.Sum() / data.Value.Count();
+                    name = data.Key;
+                }
+            }
+            return (average, name);
+        }
+        static void PrintStudentAverage(Dictionary<string, List<double>> studentsAndMarks)
         {
             // Diákátlag
-            Dictionary<string, List<double>> studentsAndMarks = new Dictionary<string, List<double>>();
             string[] lines = File.ReadAllLines("osztalyzatok.txt");
 
             foreach (string line in lines)
@@ -127,6 +153,10 @@ namespace Osztalyzatok
 
             List<string> names = ReadFile("magyar_nevek.txt");
 
+            Dictionary<string, List<double>> subjectsAndMarks = new Dictionary<string, List<double>>();
+
+            Dictionary<string, List<double>> studentsAndMarks = new Dictionary<string, List<double>>();
+
             while (!isNumber || (option > 2 || option < 1))
             {
                 Console.WriteLine("1. Létrehozás: Adatok generálása és fájlba mentése.\n2. Elemzés: Az osztalyzatok.txt és a tantárgyakat tartalmazó fájl alapján elemzés végrehajtása.");
@@ -169,9 +199,18 @@ namespace Osztalyzatok
             {
                 Console.Clear();
                 Console.WriteLine("Tanulók átlagai:\n");
-                PrintStudentAverage();
+                PrintStudentAverage(studentsAndMarks);
 
-                PrintSubjectAverage(subjects);
+                Console.WriteLine("\nTantárgyak átlagai:\n");
+                PrintSubjectAverage(subjects, subjectsAndMarks);
+
+                Console.Write("\nLegmagasabb diák átlag: ");
+                var (averageS, name) = GetHighestStudentAverage(studentsAndMarks);
+                Console.Write($"{name} ({averageS:N2})");
+
+                Console.Write("\nLegmagasabb tantárgyi átlag: ");
+                var (average, subject) = GetHighestSubjectAverage(subjects, subjectsAndMarks);
+                Console.Write($"{subject} ({average:N2})");
             }
 
             Console.ReadKey();
