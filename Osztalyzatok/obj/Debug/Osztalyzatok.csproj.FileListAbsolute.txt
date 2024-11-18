@@ -5,3 +5,10 @@ J:\C-sharp\Osztalyzatok\obj\Debug\Osztalyzatok.csproj.AssemblyReference.cache
 J:\C-sharp\Osztalyzatok\obj\Debug\Osztalyzatok.csproj.CoreCompileInputs.cache
 J:\C-sharp\Osztalyzatok\obj\Debug\Osztalyzatok.exe
 J:\C-sharp\Osztalyzatok\obj\Debug\Osztalyzatok.pdb
+C:\Saját\Projects\C-sarp\Osztalyzatok\bin\Debug\Osztalyzatok.exe.config
+C:\Saját\Projects\C-sarp\Osztalyzatok\bin\Debug\Osztalyzatok.exe
+C:\Saját\Projects\C-sarp\Osztalyzatok\bin\Debug\Osztalyzatok.pdb
+C:\Saját\Projects\C-sarp\Osztalyzatok\obj\Debug\Osztalyzatok.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Osztalyzatok\obj\Debug\Osztalyzatok.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Osztalyzatok\obj\Debug\Osztalyzatok.exe
+C:\Saját\Projects\C-sarp\Osztalyzatok\obj\Debug\Osztalyzatok.pdb

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Osztalyzatok\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Osztalyzatok\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FA3DF43-4727-4C55-B2FC-1B7F9DC20FF9}|Osztalyzatok.csproj|j:\\c-sharp\\osztalyzatok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FA3DF43-4727-4C55-B2FC-1B7F9DC20FF9}|Osztalyzatok.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\osztalyzatok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FA3DF43-4727-4C55-B2FC-1B7F9DC20FF9}|Osztalyzatok.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Osztalyzatok\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Osztalyzatok\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\C-sharp\\Osztalyzatok\\Program.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Osztalyzatok\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAgwK8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T09:03:03.778Z",
               "EditorCaption": ""
