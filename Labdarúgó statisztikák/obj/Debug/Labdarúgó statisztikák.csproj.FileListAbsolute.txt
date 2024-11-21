@@ -5,3 +5,10 @@ J:\C-sharp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.csproj.
 J:\C-sharp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.csproj.CoreCompileInputs.cache
 J:\C-sharp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.exe
 J:\C-sharp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.pdb
+C:\Saját\Projects\C-sarp\Labdarúgó statisztikák\bin\Debug\Labdarúgó statisztikák.exe.config
+C:\Saját\Projects\C-sarp\Labdarúgó statisztikák\bin\Debug\Labdarúgó statisztikák.exe
+C:\Saját\Projects\C-sarp\Labdarúgó statisztikák\bin\Debug\Labdarúgó statisztikák.pdb
+C:\Saját\Projects\C-sarp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.exe
+C:\Saját\Projects\C-sarp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.pdb

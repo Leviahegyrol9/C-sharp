@@ -1,28 +1,191 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Labdarúgó_statisztikák
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static bool EditPlayer(string fileName , string name, List<string> players)
         {
-            int option;
+            throw new Exception();
+        }
+        static bool IsPlayerInFile(string name, List<string> players)
+        {
+            foreach (string player in players)
+            {
+                string[] datas = player.Split(';');
+
+                if (datas[0].ToLower() == name.ToLower()) return true;
+            }
+
+            return false;
+        }
+        static bool DeletePlayer(string fileName, string name, List<string> players)
+        {          
+            bool playerFound = IsPlayerInFile(name, players);
+
+            if (!playerFound)
+            {
+                return false;
+            }
+
+            for (int i = 1; i < players.Count; i++)
+            {
+                string[] datas = players[i].Split(';');
+
+                if (datas[0].ToLower() == name.ToLower())
+                {
+                    players.RemoveAt(i);
+                    break;
+                }
+            }
+
+            using (StreamWriter writer = new StreamWriter(fileName))
+            {
+                for (int i = 0; i < players.Count(); i++)
+                {
+                    if (i == players.Count() - 1)
+                    {
+                        writer.Write(players[i]);
+                    }
+                    else
+                    {
+                        writer.WriteLine(players[i]);
+                    }
+                }
+            }
+
+            return true;            
+        }
+
+        static string SearchPlayer(string name, List<string> players)
+        {
+            foreach (string line in players.Skip(1))
+            {
+                string[] datas = line.Split(';');
+
+                if (datas[0].ToLower().Contains(name.ToLower())) return line;
+            }
+            return null;
+        }
+        static List<string> ReadFile(string fileName)
+        {
+            string[] lines = File.ReadAllLines(fileName);
+
+            List<string> datas = new List<string>();
+
+            foreach (string line in lines)
+            {
+                datas.Add(line);
+            }
+
+            return datas;
+        }
+        static bool AddPlayer(string fileName,string name, int age, int goals, int games)
+        {
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(fileName, true))
+                {
+
+                    writer.Write($"\n{name};{age};{goals};{games + goals}");
+
+                }
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+        static (string, int, int, int) GetPlayerData(List<string> players)
+        {
             bool isNumber;
             bool isString;
+            bool playerFound;
+
+            string name = string.Empty;
+            int goals = 0;
+            int age = 0;
+            int games = 0;
 
             do
             {
-                Console.WriteLine("1 - Új játékos hozzáadása\n2 - Játékos listázása\n3 - Játékos keresése\n4 - Játékos törlése\n5 - Játékos adatainak módosítása\n6 - Extra funkciók (opcionális)");
-                Console.Write("Opció: ");
+                Console.Write("Adja meg a játékos nevét: ");
+                name = Console.ReadLine().Trim();
+
+                playerFound = IsPlayerInFile(name, players);
+
+                isString = name.Replace(" ", "").All(char.IsLetter);
+
+                if (!isString || (name.Length < 3))
+                {
+                    Console.Write("Nem nevet adott meg!");
+                    Thread.Sleep(2500);
+                    Console.Clear();
+                }
+                else if (playerFound)
+                {
+                    Console.Write("Ilyen nevű játékos már van!");
+                    Thread.Sleep(2500);
+                    Console.Clear();
+                }
+                else
+                {
+                    string[] names = name.Split(' ');
+
+                    if (names.Length == 1)
+                    {
+                        names[0] = char.ToUpper(names[0][0]) + names[0].Substring(1);
+                        name = names[0];
+                    }
+                    else if (names.Length == 2)
+                    {
+                        names[0] = char.ToUpper(names[0][0]) + names[0].Substring(1);
+                        names[1] = char.ToUpper(names[1][0]) + names[1].Substring(1);
+                        name = $"{names[0]} {names[1]}";
+                    }
+                    else if (names.Length == 3)
+                    {
+                        names[0] = char.ToUpper(names[0][0]) + names[0].Substring(1);
+                        names[1] = char.ToUpper(names[1][0]) + names[1].Substring(1);
+                        names[2] = char.ToUpper(names[2][0]) + names[2].Substring(1);
+                        name = $"{names[0]} {names[1]} {names[2]}";
+                    }
+                }
+
+            } while (!isString || (name.Length < 3) || playerFound);
+
+            do
+            {
+                Console.Write($"Adja meg {name} életkorát: ");
                 string input = Console.ReadLine();
 
-                isNumber = int.TryParse(input, out option);
+                isNumber = int.TryParse(input, out age);
+
+                if (!isNumber || (age < 15 || age > 51))
+                {
+                    Console.Write("Nem megfelelő életkort adott meg!");
+                    Thread.Sleep(2500);
+                    Console.Clear();
+                }
+
+            } while (!isNumber || (age < 15 || age > 51));
+
+            do
+            {
+                Console.Write($"Adja meg {name} góljainak számát: ");
+                string input = Console.ReadLine();
+
+                isNumber = int.TryParse(input, out goals);
 
                 if (!isNumber)
                 {
@@ -30,56 +193,198 @@ namespace Labdarúgó_statisztikák
                     Thread.Sleep(2500);
                     Console.Clear();
                 }
-                else if (option < 1 || option > 6)
+
+            } while (!isNumber);
+
+            do
+            {
+                Console.Write("Kérem a csapatnál játszott mérkőzések számait: ");
+                string input = Console.ReadLine();
+
+                isNumber = int.TryParse(input, out games);
+
+                if (!isNumber)
                 {
-                    Console.Write("Nincs ilyen opció!");
+                    Console.Write("Nem számot adott meg!");
                     Thread.Sleep(2500);
                     Console.Clear();
                 }
 
-            } while (!isNumber || (option < 1 || option > 6));
+            } while(!isNumber);
+                
 
-            if (option == 1)
+            return (name, age, goals, games);
+        }
+        static void Main(string[] args)
+        {
+            int option;
+            string fileName = "jatekosok.csv";
+
+            while (true)
             {
+                bool isNumber;
                 do
                 {
-                    //játékos nevét, életkorát, góljainak számát, összpontszámát
-                    Console.Write("Adja meg a játékos nevét: ");
-                    string name = Console.ReadLine();
-
-                    isString = name is string && (name.Length < 3);
-
-                    if(!isString)
-                    {
-                        Console.Write("Nem nevet adott meg!");
-                        Thread.Sleep(2500);
-                        Console.Clear();
-                        continue;
-                    }
-
-                    Console.Write($"Adja meg {name} életkorát: ");
+                    Console.Clear();
+                    Console.WriteLine("1 - Új játékos hozzáadása\n2 - Játékos listázása\n3 - Játékos keresése\n4 - Játékos törlése\n5 - Játékos adatainak módosítása\n6 - Kilépés");
+                    Console.Write("Opció: ");
                     string input = Console.ReadLine();
 
-                    isNumber = int.TryParse(input, out int age) && (age < 15 || age > 51);
+                    isNumber = int.TryParse(input, out option);
 
-                    if(!isNumber)
+                    if (!isNumber)
                     {
-                        Console.Write("Nem megfelelő életkort adott meg!");
+                        Console.Write("Nem számot adott meg!");
                         Thread.Sleep(2500);
-                        Console.Clear();
-                        continue;
+                    }
+                    else if (option < 1 || option > 6)
+                    {
+                        Console.Write("Nincs ilyen opció!");
+                        Thread.Sleep(2500);
                     }
 
-                    Console.Write($"Adja meg {name} góljainak számát: ");
-                    input = Console.ReadLine();
+                } while (!isNumber || (option < 1 || option > 6));
 
+                Console.Clear();
 
+                switch (option)
+                {
+                    case 1:
+                        var (name, age, goals, games) = GetPlayerData(ReadFile(fileName));
 
-                } while (!isString || !isNumber);
+                        bool success = AddPlayer(fileName, name, age, goals, games);
+
+                        if (success)
+                        {
+                            Console.WriteLine($"{fileName} állomány sikeresen frissítve!");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"{fileName} állományt nem sikerült frissíteni!");
+                        }
+
+                        Thread.Sleep(2500);
+                        break;
+
+                    case 2:
+                        List<string> players = ReadFile(fileName);
+
+                        if (players.Count() == 1)
+                        {
+                            Console.Write("Egy játékos sincs a rendszerben!");
+                            Thread.Sleep(2500);
+                        }
+                        else
+                        {
+                            foreach (string lines in players)
+                            {
+                                Console.WriteLine(lines);
+                            }
+                            Console.Write("\nNyomjon meg egy gombot a folytatáshoz!");
+                            Console.ReadKey();
+                        }
+                        break;
+
+                    case 3:
+                        bool isString;
+                        string searchName = string.Empty;
+                        do
+                        {
+                            Console.Write("Adja meg a keresendő játékos nevét: ");
+                            searchName = Console.ReadLine().Trim();
+
+                            isString = searchName.Replace(" ", "").All(char.IsLetter);
+
+                            if (!isString || (searchName.Length < 3))
+                            {
+                                Console.Write("Nem nevet adott meg!");
+                                Thread.Sleep(2500);
+                                Console.Clear();
+                            }
+
+                        } while (!isString || (searchName.Length < 3));
+
+                        string player = SearchPlayer(searchName, ReadFile(fileName));
+                        
+                        if (player == null)
+                        {
+                            Console.Write("Nincs ilyen játékos!");
+                            Thread.Sleep(2500);
+                        }
+                        else
+                        {
+                            Console.Clear();
+                            Console.WriteLine(player);
+                            Console.Write("\nNyomjon meg egy gombot a folytatáshoz!");
+                            Console.ReadKey();
+                        }
+                        break;
+
+                    case 4:
+                        string delName = string.Empty;
+                        do
+                        {
+                            Console.Write("Adja meg a kitörölni kívánt játékos nevét: ");
+                            delName = Console.ReadLine().Trim();
+
+                            isString = delName.Replace(" ", "").All(char.IsLetter);
+
+                            if (!isString || (delName.Length < 3))
+                            {
+                                Console.Write("Nem nevet adott meg!");
+                                Thread.Sleep(2500);
+                                Console.Clear();
+                            }
+
+                        } while (!isString || (delName.Length < 3));
+
+                        success = DeletePlayer(fileName ,delName, ReadFile(fileName));
+
+                        if (success)
+                        {
+                            Console.WriteLine("A játékos sikeresen törölve lett.");
+                            Thread.Sleep(2500);
+                        }
+                        else
+                        {
+                            Console.WriteLine("A játékos nem található.");
+                            Thread.Sleep(2500);
+                        }
+
+                        break;
+
+                    case 5:
+                        string editName = string.Empty;
+                        do
+                        {
+                            Console.Write("Adja meg a módosítani kívánt játékos nevét: ");
+                            editName = Console.ReadLine().Trim();
+
+                            isString = editName.Replace(" ", "").All(char.IsLetter);
+
+                            if (!isString || (editName.Length < 3))
+                            {
+                                Console.Write("Nem nevet adott meg!");
+                                Thread.Sleep(2500);
+                                Console.Clear();
+                            }
+
+                        } while (!isString || (editName.Length < 3));
+
+                        success = EditPlayer(fileName ,editName, ReadFile(fileName));
+
+                        break;
+
+                    case 6:
+                        Console.Write("Kilépés...");
+                        Thread.Sleep(2500);
+                        Environment.Exit(255); 
+                        break;
+                }
+               
+                
 
             }
-
-            Console.ReadKey();
         }
     }
 }
