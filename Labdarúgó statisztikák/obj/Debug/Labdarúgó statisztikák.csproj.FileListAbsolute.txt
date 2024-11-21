@@ -1,0 +1,7 @@
+J:\C-sharp\Labdarúgó statisztikák\bin\Debug\Labdarúgó statisztikák.exe.config
+J:\C-sharp\Labdarúgó statisztikák\bin\Debug\Labdarúgó statisztikák.exe
+J:\C-sharp\Labdarúgó statisztikák\bin\Debug\Labdarúgó statisztikák.pdb
+J:\C-sharp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.csproj.AssemblyReference.cache
+J:\C-sharp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.csproj.CoreCompileInputs.cache
+J:\C-sharp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.exe
+J:\C-sharp\Labdarúgó statisztikák\obj\Debug\Labdarúgó statisztikák.pdb
