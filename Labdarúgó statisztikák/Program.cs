@@ -15,7 +15,81 @@ namespace Labdarúgó_statisztikák
     {
         static bool EditPlayer(string fileName , string name, List<string> players)
         {
-            throw new Exception();
+            bool playerFound = IsPlayerInFile(name, players);
+            bool isNumber;
+            int goals;
+            int games;
+            int age;
+            string playerName;
+
+            if (!playerFound)
+            {
+                return false;
+            }
+
+            for (int i = 1; i < players.Count(); i++)
+            {
+                string[] datas = players[i].Split(';');
+
+                if (datas[0].ToLower() == name.ToLower())
+                {
+                    playerName = datas[0];
+                    age = int.Parse(datas[1]);
+
+                    players.RemoveAt(i);
+
+                    do
+                    {
+                        Console.Write($"Adja meg {name} góljainak számát: ");
+                        string input = Console.ReadLine();
+
+                        isNumber = int.TryParse(input, out goals);
+
+                        if (!isNumber)
+                        {
+                            Console.Write("Nem számot adott meg!");
+                            Thread.Sleep(2500);
+                            Console.Clear();
+                        }
+
+                    } while (!isNumber);
+
+                    do
+                    {
+                        Console.Write("Kérem a csapatnál játszott mérkőzések számait: ");
+                        string input = Console.ReadLine();
+
+                        isNumber = int.TryParse(input, out games);
+
+                        if (!isNumber)
+                        {
+                            Console.Write("Nem számot adott meg!");
+                            Thread.Sleep(2500);
+                            Console.Clear();
+                        }
+
+                    } while (!isNumber);
+
+                    return AddPlayer(fileName, playerName, age, goals, games);
+                }
+            }
+
+            using (StreamWriter writer = new StreamWriter(fileName))
+            {
+                for (int i = 0; i < players.Count(); i++)
+                {
+                    if (i == players.Count() - 1)
+                    {
+                        writer.Write(players[i]);
+                    }
+                    else
+                    {
+                        writer.WriteLine(players[i]);
+                    }
+                }
+            }
+
+            return true;
         }
         static bool IsPlayerInFile(string name, List<string> players)
         {
@@ -37,7 +111,7 @@ namespace Labdarúgó_statisztikák
                 return false;
             }
 
-            for (int i = 1; i < players.Count; i++)
+            for (int i = 1; i < players.Count(); i++)
             {
                 string[] datas = players[i].Split(';');
 
@@ -373,16 +447,23 @@ namespace Labdarúgó_statisztikák
 
                         success = EditPlayer(fileName ,editName, ReadFile(fileName));
 
+                        if (success)
+                        {
+                            Console.WriteLine($"{fileName} állomány sikeresen frissítve!");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"{fileName} állományt nem sikerült frissíteni!");
+                        }
+
                         break;
 
                     case 6:
                         Console.Write("Kilépés...");
                         Thread.Sleep(2500);
-                        Environment.Exit(255); 
+                        Environment.Exit(0); 
                         break;
-                }
-               
-                
+                }           
 
             }
         }
