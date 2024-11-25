@@ -37,10 +37,11 @@ namespace Labdarúgó_statisztikák
                 {
                     playerName = datas[0];
                     age = int.Parse(datas[1]);
+                    int oldGoals = int.Parse(datas[2]);
 
                     do
                     {
-                        Console.Write($"Adja meg {playerName} góljainak számát: ");
+                        Console.Write($"Adja meg {playerName} góljainak számát ({oldGoals}): ");
                         string input = Console.ReadLine();
 
                         isNumber = int.TryParse(input, out goals);
