@@ -263,14 +263,14 @@ namespace Labdarúgó_statisztikák
 
                 isNumber = int.TryParse(input, out goals);
 
-                if (!isNumber)
+                if (!isNumber || goals < 0)
                 {
                     Console.Write("Nem számot adott meg!");
                     Thread.Sleep(2500);
                     Console.Clear();
                 }
 
-            } while (!isNumber);
+            } while (!isNumber || goals < 0);
 
             do
             {
@@ -279,14 +279,14 @@ namespace Labdarúgó_statisztikák
 
                 isNumber = int.TryParse(input, out games);
 
-                if (!isNumber)
+                if (!isNumber || games < 0)
                 {
                     Console.Write("Nem számot adott meg!");
                     Thread.Sleep(2500);
                     Console.Clear();
                 }
 
-            } while(!isNumber);
+            } while(!isNumber || games < 0);
                 
 
             return (name, age, goals, games);

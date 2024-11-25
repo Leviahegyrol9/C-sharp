@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Labdar\u00FAg\u00F3 statisztik\u00E1k\\",
+  "WorkspaceRootPath": "J:\\C-sharp\\Labdar\u00FAg\u00F3 statisztik\u00E1k\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E62BD1B-BF8F-4818-92A9-B0BA4184309E}|Labdar\u00FAg\u00F3 statisztik\u00E1k.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\labdar\u00FAg\u00F3 statisztik\u00E1k\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E62BD1B-BF8F-4818-92A9-B0BA4184309E}|Labdar\u00FAg\u00F3 statisztik\u00E1k.csproj|j:\\c-sharp\\labdar\u00FAg\u00F3 statisztik\u00E1k\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E62BD1B-BF8F-4818-92A9-B0BA4184309E}|Labdar\u00FAg\u00F3 statisztik\u00E1k.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Labdar\u00FAg\u00F3 statisztik\u00E1k\\Program.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Labdar\u00FAg\u00F3 statisztik\u00E1k\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Labdar\u00FAg\u00F3 statisztik\u00E1k\\Program.cs",
+              "ToolTip": "J:\\C-sharp\\Labdar\u00FAg\u00F3 statisztik\u00E1k\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC8BAAAAAAAAAAAAAEEBAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABYCAAAAAAAAAAAAAC0CAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T12:53:15.704Z",
               "EditorCaption": ""
