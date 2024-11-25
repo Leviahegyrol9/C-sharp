@@ -1,0 +1,7 @@
+J:\C-sharp\Kőpapírolló\bin\Debug\Kőpapírolló.exe.config
+J:\C-sharp\Kőpapírolló\bin\Debug\Kőpapírolló.exe
+J:\C-sharp\Kőpapírolló\bin\Debug\Kőpapírolló.pdb
+J:\C-sharp\Kőpapírolló\obj\Debug\Kőpapírolló.csproj.AssemblyReference.cache
+J:\C-sharp\Kőpapírolló\obj\Debug\Kőpapírolló.csproj.CoreCompileInputs.cache
+J:\C-sharp\Kőpapírolló\obj\Debug\Kőpapírolló.exe
+J:\C-sharp\Kőpapírolló\obj\Debug\Kőpapírolló.pdb
