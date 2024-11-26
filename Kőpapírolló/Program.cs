@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -10,6 +11,23 @@ namespace Kőpapírolló
 {
     internal class Program
     {
+        static bool AddPlayer(string fileName, string name, int age, int goals, int games)
+        {
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(fileName, true))
+                {
+
+                    writer.Write($"\n{name};{age};{goals};{games + goals}");
+
+                }
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
         static string Capitalize(string name)
         {
             string[] names = name.Split(' ');
@@ -90,7 +108,7 @@ namespace Kőpapírolló
         }
         static void Main(string[] args)
         {
-            int counter = 0;
+            int counter = 10;
 
             List<int> option1 = new List<int>();
             List<int> option2 = new List<int>();
@@ -99,9 +117,9 @@ namespace Kőpapírolló
 
             string name2 = GetName("Kérem a második nevet: ");
 
-            while (counter < 10)
+            while (counter != 0)
             {
-                counter++;
+                counter--;
 
                 option1.Add(GetOption($"{name1} következik:\n1 - Kő\n2 - Papír\n3 - Olló"));
 
