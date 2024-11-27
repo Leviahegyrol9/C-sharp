@@ -10,6 +10,19 @@ namespace Kőpapírolló
 {
     internal class Program
     {
+        static List<string> ReadFile(string fileName)
+        {
+            string[] lines = File.ReadAllLines(fileName);
+
+            List<string> datas = new List<string>();
+
+            foreach (string line in lines)
+            {
+                datas.Add(line);
+            }
+
+            return datas;
+        }
         static bool SaveResult(string fileName, int round, string name1, string choice1, string name2, string choice2, string winner)
         {
             try
@@ -32,7 +45,7 @@ namespace Kőpapírolló
 
             for (int i = 0; i < names.Length; i++)
             {
-                names[i] = char.ToUpper(names[i][0]) + names[i].Substring(1).ToLower();
+                names[i] = char.ToUpper(names[i][0]) + names[i].Substring(1);
             }
 
             return string.Join(" ", names);
@@ -44,8 +57,6 @@ namespace Kőpapírolló
             int option;
             do
             {
-                Console.Clear();
-
                 Console.WriteLine(prompt);
                 Console.Write("\nOpció: ");
                 string input = Console.ReadLine();
@@ -63,6 +74,8 @@ namespace Kőpapírolló
                     Thread.Sleep(2500);
                 }
 
+                Console.Clear();
+
             } while (!isNumber || option < 1 || option > 3);
 
             return option;
@@ -75,8 +88,6 @@ namespace Kőpapírolló
 
             do
             {
-                Console.Clear();
-
                 Console.Write(prompt);
                 name = Console.ReadLine().Trim();
 
@@ -88,27 +99,28 @@ namespace Kőpapírolló
                     Thread.Sleep(2500);
                 }
 
+                Console.Clear();
+
             } while (!isString || name.Length < 3);
 
             return Capitalize(name);
         }
 
-        // A választásokat lefordítja szövegre
-        static string GetChoice(int choice)
+        static string OptionToText(int choice)
         {
             switch (choice)
             {
                 case 1: 
-                    return "kő";
+                    return "Kő";
 
                 case 2: 
-                    return "papír";
+                    return "Papír";
 
                 case 3: 
-                    return "olló";
+                    return "Olló";
 
                 default:
-                    return "";
+                    return string.Empty;
             }
         }
 
@@ -130,43 +142,65 @@ namespace Kőpapírolló
             }
         }
 
-        static void ShowStatistics(string fileName)
+        static void ShowStatistics(string fileName, string name1, string name2)
         {
-            if (!File.Exists(fileName))
+            List<string> players = ReadFile(fileName);
+
+            if (!File.Exists(fileName) || players.Count == 0)
             {
-                Console.WriteLine("Még nem készült fájl a statisztikához.");
-                return;
+                Console.WriteLine("Nincs adat a statisztikához.");
             }
-
-            var lines = File.ReadAllLines(fileName);
-            int player1Wins = 0, player2Wins = 0, draws = 0;
-
-            foreach (var line in lines)
+            else
             {
-                if (line.Contains("Győztes: Játékos 1"))
+                int player1Wins = 0;
+                int player2Wins = 0;
+                int draws = 0;
+
+                foreach (string player in players)
                 {
-                    player1Wins++;
+                    string[] datas = player.Split(',');
+
+                    if (player.Contains($"Győztes: {name1}"))
+                    {
+                        player1Wins++;
+                    }
+                    else if (player.Contains($"Győztes: {name2}"))
+                    {
+                        player2Wins++;
+                    }
+                    else
+                    {
+                        draws++;
+                    }
                 }
-                else if (line.Contains("Győztes: Játékos 2"))
+
+                Console.WriteLine("Statisztika:\n");
+                Console.WriteLine($"{name1} győzelmei: {player1Wins}");
+                Console.WriteLine($"{name2}  győzelmei: {player2Wins}");
+                Console.WriteLine($"Döntetlenek: {draws}");
+
+                if(player1Wins == player2Wins)
                 {
-                    player2Wins++;
+                    Console.WriteLine("\nDöntetlen!");
+                }
+                else if (player1Wins > player2Wins)
+                {
+                    Console.WriteLine($"\nGyőztes: {name1}");
                 }
                 else
                 {
-                    draws++;
+                    Console.WriteLine($"\nGyőztes: {name2}");
                 }
-            }
 
-            Console.WriteLine("Statisztika:");
-            Console.WriteLine($"Játékos 1 győzelmei: {player1Wins}");
-            Console.WriteLine($"Játékos 2 győzelmei: {player2Wins}");
-            Console.WriteLine($"Döntetlenek: {draws}");
-            Console.ReadKey();
+                Console.WriteLine("\nNyomjon meg egy gombot a folytatáshoz!");
+                Console.ReadKey();
+                Console.Clear();
+            }         
         }
 
         static void Main(string[] args)
         {
-            int rounds = 0;
+            int round = 0;
             int maxRounds = 10;
 
             int points1 = 0;
@@ -177,54 +211,32 @@ namespace Kőpapírolló
 
             string fileName = "eredmenyek.txt";
 
-            while (rounds != maxRounds)
+            while (round != maxRounds)
             {
-                rounds++;
-                Console.Clear();
+                round++;
 
-                int input1 = GetOption($"{name1} következik:\n1 - Kő\n2 - Papír\n3 - Olló");
-                int input2 = GetOption($"{name2} következik:\n1 - Kő\n2 - Papír\n3 - Olló");
+                int input1 = GetOption($"Forduló: {round}\n{name1} következik:\n1 - Kő\n2 - Papír\n3 - Olló");
+                int input2 = GetOption($"Forduló: {round}\n{name2} következik:\n1 - Kő\n2 - Papír\n3 - Olló");
 
-                string choice1 = GetChoice(input1);
-                string choice2 = GetChoice(input2);
+                string choice1 = OptionToText(input1);
+                string choice2 = OptionToText(input2);
 
                 string winner = GetTheResult(input1, input2, points1, points2, name1, name2);
 
-                bool success = SaveResult(fileName, rounds, name1, choice1, name2, choice2, winner);
+                bool success = SaveResult(fileName, round, name1, choice1, name2, choice2, winner);
 
-                if(success )
-                {
-                    Console.Write($"{fileName} állomány sikeresen frissítve!");
-                }
-                else
+                if (!success)
                 {
                     Console.Write($"{fileName} állományt nem sikerült frissíteni!");
+                    Console.WriteLine("\nNyomjon meg egy gombot a kilépéshez!");
+                    Console.ReadKey();
+                    Environment.Exit(0);
                 }
 
                 Console.Clear();
-                Console.WriteLine($"Forduló: {rounds}");
-                Console.WriteLine($"{name1} választása: {choice1}, {name2} választása: {choice2}");
-                Console.WriteLine($"Győztes: {winner}");
-                Console.WriteLine($"Pontok: {name1} {points1} - {name2} {points2}");
-                Thread.Sleep(2000);
             }
 
-            Console.Clear();
-            Console.WriteLine("Játék vége!");
-            if (points1 > points2)
-            {
-                Console.WriteLine($"{name1} nyert {points1} - {points2}-re.");
-            }
-            else if (points2 > points1)
-            {
-                Console.WriteLine($"{name2} nyert {points2} - {points1}-re.");
-            }
-            else
-            {
-                Console.WriteLine("Döntetlen!");
-            }
-
-            Console.ReadKey();
+            ShowStatistics(fileName, name1, name2);
         }
     }
 }

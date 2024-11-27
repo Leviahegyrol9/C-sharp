@@ -5,3 +5,10 @@ J:\C-sharp\Kőpapírolló\obj\Debug\Kőpapírolló.csproj.AssemblyReference.cach
 J:\C-sharp\Kőpapírolló\obj\Debug\Kőpapírolló.csproj.CoreCompileInputs.cache
 J:\C-sharp\Kőpapírolló\obj\Debug\Kőpapírolló.exe
 J:\C-sharp\Kőpapírolló\obj\Debug\Kőpapírolló.pdb
+C:\Saját\Projects\C-sarp\Kőpapírolló\bin\Debug\Kőpapírolló.exe.config
+C:\Saját\Projects\C-sarp\Kőpapírolló\bin\Debug\Kőpapírolló.exe
+C:\Saját\Projects\C-sarp\Kőpapírolló\bin\Debug\Kőpapírolló.pdb
+C:\Saját\Projects\C-sarp\Kőpapírolló\obj\Debug\Kőpapírolló.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Kőpapírolló\obj\Debug\Kőpapírolló.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Kőpapírolló\obj\Debug\Kőpapírolló.exe
+C:\Saját\Projects\C-sarp\Kőpapírolló\obj\Debug\Kőpapírolló.pdb
