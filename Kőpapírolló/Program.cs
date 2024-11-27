@@ -5,21 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace Kőpapírolló
 {
     internal class Program
     {
-        static bool AddPlayer(string fileName, string name, int age, int goals, int games)
+        static bool SaveResult(string fileName, int round, string name1, string choice1, string name2, string choice2, string winner)
         {
             try
             {
                 using (StreamWriter writer = new StreamWriter(fileName, true))
                 {
-
-                    writer.Write($"\n{name};{age};{goals};{games + goals}");
-
+                    writer.WriteLine($"Forduló: {round}, {name1} választása: {choice1}, {name2} választása: {choice2}, Győztes: {winner}");
                 }
                 return true;
             }
@@ -28,31 +25,19 @@ namespace Kőpapírolló
                 return false;
             }
         }
+
         static string Capitalize(string name)
         {
             string[] names = name.Split(' ');
 
-            if (names.Length == 1)
+            for (int i = 0; i < names.Length; i++)
             {
-                names[0] = char.ToUpper(names[0][0]) + names[0].Substring(1);
-                name = names[0];
-            }
-            else if (names.Length == 2)
-            {
-                names[0] = char.ToUpper(names[0][0]) + names[0].Substring(1);
-                names[1] = char.ToUpper(names[1][0]) + names[1].Substring(1);
-                name = $"{names[0]} {names[1]}";
-            }
-            else if (names.Length == 3)
-            {
-                names[0] = char.ToUpper(names[0][0]) + names[0].Substring(1);
-                names[1] = char.ToUpper(names[1][0]) + names[1].Substring(1);
-                names[2] = char.ToUpper(names[2][0]) + names[2].Substring(1);
-                name = $"{names[0]} {names[1]} {names[2]}";
+                names[i] = char.ToUpper(names[i][0]) + names[i].Substring(1).ToLower();
             }
 
-            return name;
+            return string.Join(" ", names);
         }
+
         static int GetOption(string prompt)
         {
             bool isNumber;
@@ -82,6 +67,7 @@ namespace Kőpapírolló
 
             return option;
         }
+
         static string GetName(string prompt)
         {
             bool isString;
@@ -106,29 +92,141 @@ namespace Kőpapírolló
 
             return Capitalize(name);
         }
+
+        // A választásokat lefordítja szövegre
+        static string GetChoice(int choice)
+        {
+            switch (choice)
+            {
+                case 1: 
+                    return "kő";
+
+                case 2: 
+                    return "papír";
+
+                case 3: 
+                    return "olló";
+
+                default:
+                    return "";
+            }
+        }
+
+        static string GetTheResult(int choice1, int choice2, int points1, int points2, string name1, string name2)
+        {
+            if (choice1 == choice2)
+            {
+                return "Döntetlen";
+            }
+            else if ((choice1 == 1 && choice2 == 3) || (choice1 == 2 && choice2 == 1) || (choice1 == 3 && choice2 == 2))
+            {
+                points1++;
+                return name1;
+            }
+            else
+            {
+                points2++;
+                return name2;
+            }
+        }
+
+        static void ShowStatistics(string fileName)
+        {
+            if (!File.Exists(fileName))
+            {
+                Console.WriteLine("Még nem készült fájl a statisztikához.");
+                return;
+            }
+
+            var lines = File.ReadAllLines(fileName);
+            int player1Wins = 0, player2Wins = 0, draws = 0;
+
+            foreach (var line in lines)
+            {
+                if (line.Contains("Győztes: Játékos 1"))
+                {
+                    player1Wins++;
+                }
+                else if (line.Contains("Győztes: Játékos 2"))
+                {
+                    player2Wins++;
+                }
+                else
+                {
+                    draws++;
+                }
+            }
+
+            Console.WriteLine("Statisztika:");
+            Console.WriteLine($"Játékos 1 győzelmei: {player1Wins}");
+            Console.WriteLine($"Játékos 2 győzelmei: {player2Wins}");
+            Console.WriteLine($"Döntetlenek: {draws}");
+            Console.ReadKey();
+        }
+
         static void Main(string[] args)
         {
-            int counter = 10;
+            int rounds = 0;
+            int maxRounds = 10;
 
-            List<int> option1 = new List<int>();
-            List<int> option2 = new List<int>();
+            int points1 = 0;
+            int points2 = 0;
 
-            string name1 = GetName("Kérem az első nevet: ");
+            string name1 = GetName("Kérem az első játékos nevét: ");
+            string name2 = GetName("Kérem a második játékos nevét: ");
 
-            string name2 = GetName("Kérem a második nevet: ");
+            string fileName = "eredmenyek.txt";
 
-            while (counter != 0)
+            ShowStatistics(fileName);
+
+            while (rounds != maxRounds)
             {
-                counter--;
+                rounds++;
+                Console.Clear();
 
-                option1.Add(GetOption($"{name1} következik:\n1 - Kő\n2 - Papír\n3 - Olló"));
+                int input1 = GetOption($"{name1} következik:\n1 - Kő\n2 - Papír\n3 - Olló");
+                int input2 = GetOption($"{name2} következik:\n1 - Kő\n2 - Papír\n3 - Olló");
 
-                option2.Add(GetOption($"{name2} következik:\n1 - Kő\n2 - Papír\n3 - Olló"));
+                string choice1 = GetChoice(input1);
+                string choice2 = GetChoice(input2);
 
+                string winner = GetTheResult(input1, input2, points1, points2, name1, name2);
+
+                bool success = SaveResult(fileName, rounds, name1, choice1, name2, choice2, winner);
+
+                if(success )
+                {
+                    Console.Write($"{fileName} állomány sikeresen frissítve!");
+                }
+                else
+                {
+                    Console.Write($"{fileName} állományt nem sikerült frissíteni!");
+                }
+
+                Console.Clear();
+                Console.WriteLine($"Forduló: {rounds}");
+                Console.WriteLine($"{name1} választása: {choice1}, {name2} választása: {choice2}");
+                Console.WriteLine($"Győztes: {winner}");
+                Console.WriteLine($"Pontok: {name1} {points1} - {name2} {points2}");
+                Thread.Sleep(2000);
+            }
+
+            Console.Clear();
+            Console.WriteLine("Játék vége!");
+            if (points1 > points2)
+            {
+                Console.WriteLine($"{name1} nyert {points1} - {points2}-re.");
+            }
+            else if (points2 > points1)
+            {
+                Console.WriteLine($"{name2} nyert {points2} - {points1}-re.");
+            }
+            else
+            {
+                Console.WriteLine("Döntetlen!");
             }
 
             Console.ReadKey();
-
         }
     }
 }
