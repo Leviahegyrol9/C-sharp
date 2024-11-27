@@ -177,8 +177,6 @@ namespace Kőpapírolló
 
             string fileName = "eredmenyek.txt";
 
-            ShowStatistics(fileName);
-
             while (rounds != maxRounds)
             {
                 rounds++;
