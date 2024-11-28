@@ -158,8 +158,6 @@ namespace Kőpapírolló
 
                 foreach (string player in players)
                 {
-                    string[] datas = player.Split(',');
-
                     if (player.Contains($"Győztes: {name1}"))
                     {
                         player1Wins++;
