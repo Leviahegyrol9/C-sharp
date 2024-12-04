@@ -1,0 +1,7 @@
+J:\C-sharp\Teszt\bin\Debug\Teszt.exe.config
+J:\C-sharp\Teszt\bin\Debug\Teszt.exe
+J:\C-sharp\Teszt\bin\Debug\Teszt.pdb
+J:\C-sharp\Teszt\obj\Debug\Teszt.csproj.AssemblyReference.cache
+J:\C-sharp\Teszt\obj\Debug\Teszt.csproj.CoreCompileInputs.cache
+J:\C-sharp\Teszt\obj\Debug\Teszt.exe
+J:\C-sharp\Teszt\obj\Debug\Teszt.pdb
