@@ -175,7 +175,7 @@ namespace Kőpapírolló
                 Console.WriteLine("Statisztika:\n");
                 Console.WriteLine($"{name1} győzelmei: {player1Wins}");
                 Console.WriteLine($"{name2}  győzelmei: {player2Wins}");
-                Console.WriteLine($"Döntetlenek: {draws}");
+                Console.WriteLine($"Döntetlenek száma összesen: {draws}");
 
                 if(player1Wins == player2Wins)
                 {
