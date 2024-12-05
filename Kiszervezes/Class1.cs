@@ -1,23 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
-namespace ConvertToName
+namespace ConvertToBinary
 {
-    public static class Convert
+    public class Methods
     {
-        public static string Capitalize(string name)
+        public static string ConvertToBinaryMethod(int number)
         {
-            string[] names = name.Split(' ');
+            return Convert.ToString(number, 2);
+        }
 
-            for (int i = 0; i < names.Length; i++)
+        public static bool WriteToFile(string fileName, string[] data, bool append)
+        {
+            try
             {
-                names[i] = char.ToUpper(names[i][0]) + names[i].Substring(1);
+                using (StreamWriter writer = new StreamWriter(fileName, append))
+                {
+                    writer.WriteLine($"");
+                }
+                return true;
             }
-
-            return string.Join(" ", names);
+            catch (Exception)
+            {
+                return false;
+            }
         }
     }
 }
