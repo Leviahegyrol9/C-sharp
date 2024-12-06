@@ -14,10 +14,9 @@ namespace Teszt
         {
             bool isNumber;
             string fileName = "adatok.txt";
-            int[] oktetek = new int[4];
-            List<string> texts = new List<string>();
+            List<string> ipAddress = new List<string>();
             int counter = 0;
-            int number;
+            int ip;
 
             do
             {
@@ -25,7 +24,7 @@ namespace Teszt
                 Console.Write($"Kérem adja meg az {counter + 1}. oktetet az ip-címből (0 és 255 között): ");
                 string input = Console.ReadLine();
 
-                isNumber = int.TryParse(input, out number);
+                isNumber = int.TryParse(input, out ip);
 
                 if (!isNumber)
                 {
@@ -33,7 +32,7 @@ namespace Teszt
                     Thread.Sleep(2500);
                     Console.Clear();
                 }
-                else if (number < 0 || number > 255)
+                else if (ip < 0 || ip > 255)
                 {
                     Console.Write("Nincs ilyen szám a tartományban!");
                     Thread.Sleep(2500);
@@ -41,14 +40,15 @@ namespace Teszt
                 }
                 else
                 {
-                    oktetek[counter] = number;
-                    texts.Add(ConvertToBinary.Methods.ConvertToBinaryMethod(number));
+                    ipAddress.Add(ConvertToBinary.Methods.ConvertToBinaryMethod(ip, counter));
                     counter++;                   
                 }
 
-            } while(!isNumber || counter > 3 || number < 0 || number > 255);
+            } while(!isNumber || counter < 4 || ip < 0 || ip > 255);
 
-            int option;
+            Console.Clear();
+            bool append;
+            int choice;
 
 
             do
@@ -56,7 +56,7 @@ namespace Teszt
                 Console.Write("1 - Hozzáírás a file-hoz\n2 - Új file létrehozása\n\nOpció: ");
                 string input = Console.ReadLine();
 
-                isNumber = int.TryParse(input, out option);
+                isNumber = int.TryParse(input, out choice);
 
                 if (!isNumber)
                 {
@@ -64,19 +64,35 @@ namespace Teszt
                     Thread.Sleep(2500);
                     Console.Clear();
                 }
-                else if (number < 1 || number > 2)
+                else if (choice < 1 || choice > 2)
                 {
                     Console.Write("Nincs ilyen szám a tartományban!");
                     Thread.Sleep(2500);
                     Console.Clear();
                 }
-                else
-                {
-                    oktetek[counter] = number;
-                    texts.Add(ConvertToBinary.Methods.ConvertToBinaryMethod(number));
-                    counter++;
-                }
-            } while (!isNumber || number < 1 || number > 2);
+            } while (!isNumber || choice < 1 || choice > 2);
+
+            Console.Clear();
+
+            if (choice == 1)
+            {
+                append = true;
+            }
+            else
+            {
+                append = false;
+            }
+
+            bool success = ConvertToBinary.Methods.WriteToFile(fileName, ipAddress, append);
+
+            if (success)
+            {
+                Console.WriteLine($"Az {fileName} állomány sikeresen frissítve!");
+            }
+            else
+            {
+                Console.WriteLine($"Az {fileName} állományt nem sikerült frissíteni!");
+            }
 
             Console.ReadKey();
         }

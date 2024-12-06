@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Kiszervezes\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Kiszervezes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|J:\\C-sharp\\Kiszervezes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\kiszervezes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|j:\\c-sharp\\kiszervezes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|C:\\Saj\u00E1t\\Projects\\C-sarp\\Kiszervezes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,24 +24,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Class1.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Kiszervezes\\Class1.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Kiszervezes\\Class1.cs",
               "RelativeDocumentMoniker": "Class1.cs",
-              "ToolTip": "J:\\C-sharp\\Kiszervezes\\Class1.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Kiszervezes\\Class1.cs",
               "RelativeToolTip": "Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T11:07:35.525Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Kiszervezes\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Kiszervezes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\C-sharp\\Kiszervezes\\Program.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Kiszervezes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADwvzoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwBoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T11:05:45.879Z",
               "EditorCaption": ""
