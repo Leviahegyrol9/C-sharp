@@ -11,29 +11,19 @@ namespace ConvertToBinary
 {
     public class Methods
     {
-        public static string ConvertToBinaryMethod(int number, int counter)
+        public static string ConvertToBinaryMethod(int number)
         {
-            string binary = Convert.ToString(number, 2);
-
-            if (counter < 3)
-            {
-                binary += ".";
-            }
-
-            return binary;
+            return Convert.ToString(number, 2);
         }
 
-        public static bool WriteToFile(string fileName, List<string> ipAddress, bool append)
+        public static bool WriteToFile(string fileName, string ipAddress, bool append)
         {
             try
             {
                 using (StreamWriter writer = new StreamWriter(fileName, append))
                 {
-                    foreach (string ip in ipAddress)
-                    {
-                        writer.WriteLine(ip);
-
-                    }
+                    writer.WriteLine(ipAddress);
+                                       
                     writer.Close();
                 }
                 return true;
@@ -44,19 +34,24 @@ namespace ConvertToBinary
             }
         }
 
-        public static void ModifyList(int prefix, List<string> ipAddresses)
+        public static string ModifyList(int prefix, string ipAddresses)
         {
-            for (int i = 0; i < ipAddresses.Count; i++)
+            string temp = string.Empty;
+
+            for (int i = 0; i < 32; i++)
             {
-                for(int j = 0; j < 8; j++)
+                if (i < prefix)
                 {
-                    if (i > prefix && ipAddresses[i][j] != '.')
-                    {
-                        ipAddresses[i] = "0";
-                    }
+                    temp += ipAddresses[i];
                 }
-                
+                else
+                {
+                    temp += '0';
+                }
             }
+
+            return temp;
+            
         }
     }
 }

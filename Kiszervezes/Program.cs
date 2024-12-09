@@ -14,7 +14,7 @@ namespace Teszt
         {
             bool isNumber;
             string fileName = "adatok.txt";
-            List<string> ipAddresses = new List<string>();
+            string ipAddress = string.Empty;
             int counter = 0;
             int ip;
 
@@ -37,8 +37,8 @@ namespace Teszt
                     Thread.Sleep(2500);
                 }
                 else
-                {
-                    ipAddresses.Add(ConvertToBinary.Methods.ConvertToBinaryMethod(ip, counter));
+                {                   
+                    ipAddress += ConvertToBinary.Methods.ConvertToBinaryMethod(ip);
                     counter++;                   
                 }
                 Console.Clear();
@@ -49,7 +49,7 @@ namespace Teszt
 
             do
             {
-                Console.Write("Adja meg a prefixet\n\nOpció: ");
+                Console.Write("Adja meg a prefixet\n\nPrefix: ");
                 string input = Console.ReadLine();
 
                 isNumber = int.TryParse(input, out prefix);
@@ -66,9 +66,7 @@ namespace Teszt
                 }
                 Console.Clear();
 
-            } while (!isNumber || prefix < 1 || prefix > 31);
-
-            ConvertToBinary.Methods.ModifyList(prefix, ipAddresses);
+            } while (!isNumber || prefix < 1 || prefix > 31);            
 
             bool append;
             int choice;
@@ -103,16 +101,20 @@ namespace Teszt
                 append = false;
             }
 
-            bool success = ConvertToBinary.Methods.WriteToFile(fileName, ipAddresses, append);
+            bool success = ConvertToBinary.Methods.WriteToFile(fileName, ipAddress, append);
 
             if (success)
             {
-                Console.WriteLine($"Az {fileName} állomány sikeresen frissítve!");
+                Console.WriteLine($"Az {fileName} állomány sikeresen frissítve!\n");
             }
             else
             {
-                Console.WriteLine($"Az {fileName} állományt nem sikerült frissíteni!");
+                Console.WriteLine($"Az {fileName} állományt nem sikerült frissíteni!\n");
             }
+
+            string prefixIp = ConvertToBinary.Methods.ModifyList(prefix, ipAddress);
+
+            Console.Write($"Az ip cím: {prefixIp}");
 
             Console.ReadKey();
         }
