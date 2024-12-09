@@ -43,5 +43,20 @@ namespace ConvertToBinary
                 return false;
             }
         }
+
+        public static void ModifyList(int prefix, List<string> ipAddresses)
+        {
+            for (int i = 0; i < ipAddresses.Count; i++)
+            {
+                for(int j = 0; j < 8; j++)
+                {
+                    if (i > prefix && ipAddresses[i][j] != '.')
+                    {
+                        ipAddresses[i] = "0";
+                    }
+                }
+                
+            }
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace Teszt
         {
             bool isNumber;
             string fileName = "adatok.txt";
-            List<string> ipAddress = new List<string>();
+            List<string> ipAddresses = new List<string>();
             int counter = 0;
             int ip;
 
@@ -30,26 +30,48 @@ namespace Teszt
                 {
                     Console.Write("Nem számot adott meg!");
                     Thread.Sleep(2500);
-                    Console.Clear();
                 }
                 else if (ip < 0 || ip > 255)
                 {
                     Console.Write("Nincs ilyen szám a tartományban!");
                     Thread.Sleep(2500);
-                    Console.Clear();
                 }
                 else
                 {
-                    ipAddress.Add(ConvertToBinary.Methods.ConvertToBinaryMethod(ip, counter));
+                    ipAddresses.Add(ConvertToBinary.Methods.ConvertToBinaryMethod(ip, counter));
                     counter++;                   
                 }
+                Console.Clear();
 
             } while(!isNumber || counter < 4 || ip < 0 || ip > 255);
 
-            Console.Clear();
+            int prefix;
+
+            do
+            {
+                Console.Write("Adja meg a prefixet\n\nOpció: ");
+                string input = Console.ReadLine();
+
+                isNumber = int.TryParse(input, out prefix);
+
+                if (!isNumber)
+                {
+                    Console.Write("Nem számot adott meg!");
+                    Thread.Sleep(2500);
+                }
+                else if (prefix < 1 || prefix > 31)
+                {
+                    Console.Write("Nincs ilyen szám a tartományban!");
+                    Thread.Sleep(2500);
+                }
+                Console.Clear();
+
+            } while (!isNumber || prefix < 1 || prefix > 31);
+
+            ConvertToBinary.Methods.ModifyList(prefix, ipAddresses);
+
             bool append;
             int choice;
-
 
             do
             {
@@ -62,17 +84,15 @@ namespace Teszt
                 {
                     Console.Write("Nem számot adott meg!");
                     Thread.Sleep(2500);
-                    Console.Clear();
                 }
                 else if (choice < 1 || choice > 2)
                 {
                     Console.Write("Nincs ilyen szám a tartományban!");
                     Thread.Sleep(2500);
-                    Console.Clear();
                 }
-            } while (!isNumber || choice < 1 || choice > 2);
+                Console.Clear();
 
-            Console.Clear();
+            } while (!isNumber || choice < 1 || choice > 2);
 
             if (choice == 1)
             {
@@ -83,7 +103,7 @@ namespace Teszt
                 append = false;
             }
 
-            bool success = ConvertToBinary.Methods.WriteToFile(fileName, ipAddress, append);
+            bool success = ConvertToBinary.Methods.WriteToFile(fileName, ipAddresses, append);
 
             if (success)
             {
