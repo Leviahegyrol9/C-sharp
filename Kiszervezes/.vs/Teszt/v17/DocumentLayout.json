@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|J:\\C-sharp\\Kiszervezes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|j:\\c-sharp\\kiszervezes\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACFCBCE2-5896-4589-A2A4-26A9FAFA0675}|Teszt.csproj|solutionrelative:class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Kiszervezes\\Class1.cs",
-              "RelativeDocumentMoniker": "Class1.cs",
-              "ToolTip": "J:\\C-sharp\\Kiszervezes\\Class1.cs",
-              "RelativeToolTip": "Class1.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDQAAAAYAAAAAAAAAA==",
+              "Title": "Class2.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Kiszervezes\\Class2.cs",
+              "RelativeDocumentMoniker": "Class2.cs",
+              "ToolTip": "J:\\C-sharp\\Kiszervezes\\Class2.cs",
+              "RelativeToolTip": "Class2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T11:07:35.525Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-12-10T12:08:46.458Z",
               "EditorCaption": ""
             },
             {
@@ -42,7 +41,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "J:\\C-sharp\\Kiszervezes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAgwG8AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAgwHUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T11:05:45.879Z",
               "EditorCaption": ""

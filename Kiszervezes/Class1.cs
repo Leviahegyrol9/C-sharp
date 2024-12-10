@@ -34,7 +34,7 @@ namespace ConvertToBinary
             }
         }
 
-        public static string ModifyList(int prefix, string ipAddresses)
+        public static string GetPrefixIp(int prefix, string ipAddresses)
         {
             string temp = string.Empty;
 
@@ -52,6 +52,23 @@ namespace ConvertToBinary
 
             return temp;
             
+        }
+
+        public static string PutDot(string ip)
+        {
+            StringBuilder result = new StringBuilder();
+
+            for (int i = 0; i < ip.Length; i++)
+            {
+                result.Append(ip[i]);
+
+                if ((i + 1) % 8 == 0 && i < ip.Length - 1)
+                {
+                    result.Append('.');
+                }
+            }
+
+            return result.ToString();
         }
     }
 }

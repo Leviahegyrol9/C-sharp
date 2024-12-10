@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using ConvertToBinary;
+using Details;
 
 namespace Teszt
 {
@@ -101,7 +102,7 @@ namespace Teszt
                 append = false;
             }
 
-            bool success = ConvertToBinary.Methods.WriteToFile(fileName, ipAddress, append);
+            bool success = ConvertToBinary.Methods.WriteToFile(fileName, ConvertToBinary.Methods.PutDot(ipAddress), append);
 
             if (success)
             {
@@ -112,9 +113,13 @@ namespace Teszt
                 Console.WriteLine($"Az {fileName} állományt nem sikerült frissíteni!\n");
             }
 
-            string prefixIp = ConvertToBinary.Methods.ModifyList(prefix, ipAddress);
+            string prefixIp = ConvertToBinary.Methods.GetPrefixIp(prefix, ipAddress);
 
-            Console.Write($"Az ip cím: {prefixIp}");
+            Console.WriteLine($"Az ip cím: {ConvertToBinary.Methods.PutDot(prefixIp)}");
+
+            Console.WriteLine($"Az első kiosztható cím: {ConvertToBinary.Methods.PutDot(Details.DetailsMethods.GetFirstOrLastIp(ipAddress, '1'))}");
+
+            Console.WriteLine($"Az utolsó kiosztható cím: {ConvertToBinary.Methods.PutDot(Details.DetailsMethods.GetFirstOrLastIp(ipAddress, '0'))}");
 
             Console.ReadKey();
         }
