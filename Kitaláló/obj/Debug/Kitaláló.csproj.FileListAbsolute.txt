@@ -1,7 +1,0 @@
-J:\C-sarp\Kitaláló\bin\Debug\Kitaláló.exe.config
-J:\C-sarp\Kitaláló\bin\Debug\Kitaláló.exe
-J:\C-sarp\Kitaláló\bin\Debug\Kitaláló.pdb
-J:\C-sarp\Kitaláló\obj\Debug\Kitaláló.csproj.AssemblyReference.cache
-J:\C-sarp\Kitaláló\obj\Debug\Kitaláló.csproj.CoreCompileInputs.cache
-J:\C-sarp\Kitaláló\obj\Debug\Kitaláló.exe
-J:\C-sarp\Kitaláló\obj\Debug\Kitaláló.pdb

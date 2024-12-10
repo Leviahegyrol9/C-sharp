@@ -1,7 +1,0 @@
-J:\C-sharp\Kiszervezes\bin\Debug\Kiszervezes.exe.config
-J:\C-sharp\Kiszervezes\bin\Debug\Kiszervezes.exe
-J:\C-sharp\Kiszervezes\bin\Debug\Kiszervezes.pdb
-J:\C-sharp\Kiszervezes\obj\Debug\Kiszervezes.csproj.AssemblyReference.cache
-J:\C-sharp\Kiszervezes\obj\Debug\Kiszervezes.csproj.CoreCompileInputs.cache
-J:\C-sharp\Kiszervezes\obj\Debug\Kiszervezes.exe
-J:\C-sharp\Kiszervezes\obj\Debug\Kiszervezes.pdb
