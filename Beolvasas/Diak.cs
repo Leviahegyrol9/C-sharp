@@ -1,15 +1,15 @@
-﻿namespace Model
+﻿namespace Beolvasas
 {
-    public class Diak
+    public class Student
     {
         public string Name { get; set; }
         public double Average { get; set; }
 
-        public Diak()
+        public Student()
         {
         }
 
-        public Diak(string name, double average)
+        public Student(string name, double average)
         {
             Name = name;
             Average = average;

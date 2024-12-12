@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Karacsonyi\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Karacsonyi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1F3C2E5-4124-44CE-BEEF-867CACD7F5F2}|Karacsonyi.csproj|j:\\c-sharp\\karacsonyi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1F3C2E5-4124-44CE-BEEF-867CACD7F5F2}|Karacsonyi.csproj|C:\\Saj\u00E1t\\Projects\\C-sarp\\Karacsonyi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1F3C2E5-4124-44CE-BEEF-867CACD7F5F2}|Karacsonyi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1F3C2E5-4124-44CE-BEEF-867CACD7F5F2}|Karacsonyi.csproj|J:\\C-sharp\\Karacsonyi\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1F3C2E5-4124-44CE-BEEF-867CACD7F5F2}|Karacsonyi.csproj|solutionrelative:name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1F3C2E5-4124-44CE-BEEF-867CACD7F5F2}|Karacsonyi.csproj|J:\\C-sharp\\Karacsonyi\\personio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1F3C2E5-4124-44CE-BEEF-867CACD7F5F2}|Karacsonyi.csproj|solutionrelative:personio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonIO.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Karacsonyi\\PersonIO.cs",
-              "RelativeDocumentMoniker": "PersonIO.cs",
-              "ToolTip": "J:\\C-sharp\\Karacsonyi\\PersonIO.cs",
-              "RelativeToolTip": "PersonIO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:26:46.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Name.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Karacsonyi\\Name.cs",
-              "RelativeDocumentMoniker": "Name.cs",
-              "ToolTip": "J:\\C-sharp\\Karacsonyi\\Name.cs",
-              "RelativeToolTip": "Name.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T11:26:09.834Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Karacsonyi\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Karacsonyi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\C-sharp\\Karacsonyi\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Karacsonyi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T11:26:06.626Z",
               "EditorCaption": ""

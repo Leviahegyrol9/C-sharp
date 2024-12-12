@@ -19,8 +19,7 @@ namespace IO
                 Person diak = new Person
                 {
                     Name = datas[0],
-                    Present1 = datas[1],
-                    Present2 = datas[2]
+                    Present = datas[1],
                 };
 
                 diakok.Add(diak);

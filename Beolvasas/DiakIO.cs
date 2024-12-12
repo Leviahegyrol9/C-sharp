@@ -4,15 +4,14 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model;
 
-namespace Diak.IO
+namespace Beolvasas
 {
     public static class DiakIO
     {
-        public static List<Model.Diak> ReadFile(string path)
+        public static List<Student> ReadFile(string path)
         {
-            List<Model.Diak> diakok = new List<Model.Diak>();
+            List<Student> students = new List<Student>();
 
             string[] lines = File.ReadAllLines(path);
 
@@ -20,16 +19,16 @@ namespace Diak.IO
             {
                 string[] datas = line.Split('\t');
 
-                Model.Diak diak = new Model.Diak
+                Student diak = new Student
                 {
                     Name = datas[0],
                     Average = double.Parse(datas[1])
                 };
 
-                diakok.Add(diak);
+                students.Add(diak);
             }
 
-            return diakok;
+            return students;
         }
 
     }

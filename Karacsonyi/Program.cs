@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model;
-using IO;
+using System.Threading;
 
 namespace Karacsonyi
 {
@@ -12,14 +11,9 @@ namespace Karacsonyi
     {
         static void Main(string[] args)
         {
-            string fileName = "adatok.txt";
+            Levente.Function();
 
-            Random random = new Random();
-
-            List<Person> people = PersonIO.ReadFile(fileName);
-
-            List<string> nameAndPresent = new List<string>();
-
+            Csaba.Function();
             Console.ReadKey();
         }
     }

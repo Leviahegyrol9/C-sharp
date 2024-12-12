@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
+using System.Xml.Linq;
 
 namespace Function
 {
@@ -20,13 +21,26 @@ namespace Function
             return string.Join(" ", names);
         }
 
-        public static bool WriteFile(string fileName, List<string> content, int random, bool append)
+        public static bool WriteFile(string fileName, List<string> content, bool append)
         {
+            Random rnd = new Random();
+
             try
             {
                 using (StreamWriter writer = new StreamWriter(fileName, append))
                 {
-                    writer.WriteLine(content);
+                    int randomnum = rnd.Next(1, 3);
+
+                    List<string> datas = new List<string>();
+
+                    foreach (string line in content)
+                    {
+                        string[] oneLine = line.Split('\t');
+                        string name = oneLine[0];
+                        string present = oneLine[randomnum];
+
+                        writer.WriteLine($"{name}\t{present}");
+                    }                                      
                 }
                 return true;
             }
@@ -36,16 +50,20 @@ namespace Function
             }
         }
 
-        public static void CheckSuccess(string fileName, bool success)
+        public static void IfSuccess(string fileName, bool success)
         {
             if (success)
             {
-                Console.WriteLine($"{fileName} állomány sikeresen létrehozva!");
+                Console.Write($"{fileName} állomány sikeresen létrehozva!");
                 Thread.Sleep(2500);
+                Console.Clear();
             }
             else
             {
-				throw new Exception($"{fileName} állományt nem sikerült létrehozni!");	
+                Console.Write($"{fileName} állományt nem sikerült létrehozni!");
+                Console.Write("Nyomjon meg egy gombot a kilépéshez...");
+                Console.ReadKey();
+                Environment.Exit(0);
             }
         }
 

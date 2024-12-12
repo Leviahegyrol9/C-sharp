@@ -5,3 +5,10 @@ J:\C-sharp\Karacsonyi\obj\Debug\Karacsonyi.csproj.AssemblyReference.cache
 J:\C-sharp\Karacsonyi\obj\Debug\Karacsonyi.csproj.CoreCompileInputs.cache
 J:\C-sharp\Karacsonyi\obj\Debug\Karacsonyi.exe
 J:\C-sharp\Karacsonyi\obj\Debug\Karacsonyi.pdb
+C:\Saját\Projects\C-sarp\Karacsonyi\bin\Debug\Karacsonyi.exe.config
+C:\Saját\Projects\C-sarp\Karacsonyi\bin\Debug\Karacsonyi.exe
+C:\Saját\Projects\C-sarp\Karacsonyi\bin\Debug\Karacsonyi.pdb
+C:\Saját\Projects\C-sarp\Karacsonyi\obj\Debug\Karacsonyi.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sarp\Karacsonyi\obj\Debug\Karacsonyi.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sarp\Karacsonyi\obj\Debug\Karacsonyi.exe
+C:\Saját\Projects\C-sarp\Karacsonyi\obj\Debug\Karacsonyi.pdb

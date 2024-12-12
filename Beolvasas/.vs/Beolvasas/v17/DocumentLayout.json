@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27A6DC3A-6CA9-4578-B364-24727A248E7E}|Beolvasas.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\beolvasas\\diakio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27A6DC3A-6CA9-4578-B364-24727A248E7E}|Beolvasas.csproj|solutionrelative:diakio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{27A6DC3A-6CA9-4578-B364-24727A248E7E}|Beolvasas.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\beolvasas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27A6DC3A-6CA9-4578-B364-24727A248E7E}|Beolvasas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27A6DC3A-6CA9-4578-B364-24727A248E7E}|Beolvasas.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\beolvasas\\diak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27A6DC3A-6CA9-4578-B364-24727A248E7E}|Beolvasas.csproj|solutionrelative:diak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27A6DC3A-6CA9-4578-B364-24727A248E7E}|Beolvasas.csproj|C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A6DC3A-6CA9-4578-B364-24727A248E7E}|Beolvasas.csproj|solutionrelative:studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DiakIO.cs",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\DiakIO.cs",
-              "RelativeDocumentMoniker": "DiakIO.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\DiakIO.cs",
-              "RelativeToolTip": "DiakIO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:21:53.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Diak.cs",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\Diak.cs",
-              "RelativeDocumentMoniker": "Diak.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\Diak.cs",
-              "RelativeToolTip": "Diak.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:16:27.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\StudentService.cs",
+              "RelativeDocumentMoniker": "StudentService.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\StudentService.cs",
+              "RelativeToolTip": "StudentService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T18:09:42.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEEAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T18:14:56.708Z",
               "EditorCaption": ""
