@@ -1,19 +1,14 @@
-﻿using System;
+﻿using Model;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using Model;
 
 namespace IO
 {
     public static class PersonIO
     {
-        public static List<Model.Person> ReadFile(string path)
+        public static List<Person> ReadFile(string path)
         {
-            List<Model.Person> diakok = new List<Model.Person>();
+            List<Person> diakok = new List<Person>();
 
             string[] lines = File.ReadAllLines(path);
 
@@ -21,7 +16,7 @@ namespace IO
             {
                 string[] datas = line.Split('\t');
 
-                Model.Person diak = new Model.Person
+                Person diak = new Person
                 {
                     Name = datas[0],
                     Present1 = datas[1],
