@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Threading;
 
 namespace Function
 {
     public class Methods
     {
-        public static string Capitalize(string name)
+        public static string CapitalizeName(string name)
         {
             string[] names = name.Split(' ');
 
@@ -20,22 +21,10 @@ namespace Function
             return string.Join(" ", names);
         }
 
-        public static bool WriteFile(string fileName, List<string> content, int random, bool append)
+        public static string CapitalizeFirstLetter(string text)
         {
-            try
-            {
-                using (StreamWriter writer = new StreamWriter(fileName, append))
-                {
-                    writer.WriteLine(content);
-                }
-                return true;
-            }
-            catch (Exception)
-            {
-                return false;
-            }
+            return char.ToUpper(text[0]) + text.Substring(1);
         }
-
         public static void CheckSuccess(string fileName, bool success)
         {
             if (success)
@@ -45,7 +34,10 @@ namespace Function
             }
             else
             {
-				throw new Exception($"{fileName} állományt nem sikerült létrehozni!");	
+				Console.WriteLine($"{fileName} állományt nem sikerült létrehozni!");
+                Console.ReadKey();
+                Environment.Exit(0);
+
             }
         }
 
