@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{980C08C9-5D4C-45C1-BD2D-FB28B227A1DE}|Beolvasas2.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\beolvasas2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{980C08C9-5D4C-45C1-BD2D-FB28B227A1DE}|Beolvasas2.csproj|C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{980C08C9-5D4C-45C1-BD2D-FB28B227A1DE}|Beolvasas2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{980C08C9-5D4C-45C1-BD2D-FB28B227A1DE}|Beolvasas2.csproj|c:\\saj\u00E1t\\projects\\c-sarp\\beolvasas2\\klub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{980C08C9-5D4C-45C1-BD2D-FB28B227A1DE}|Beolvasas2.csproj|C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas2\\klub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{980C08C9-5D4C-45C1-BD2D-FB28B227A1DE}|Beolvasas2.csproj|solutionrelative:klub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "KlubIO.cs",
               "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas2\\KlubIO.cs",
               "RelativeToolTip": "KlubIO.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T21:00:14.79Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Klub.cs",
               "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas2\\Klub.cs",
               "RelativeToolTip": "Klub.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAywCQAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyQAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T20:52:36.675Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sarp\\Beolvasas2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAQwEYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T20:51:36.458Z",
               "EditorCaption": ""
