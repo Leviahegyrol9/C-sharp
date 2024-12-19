@@ -1,0 +1,7 @@
+C:\Saját\Projects\C-sharp\Beolvasas3\bin\Debug\Beolvasas3.exe.config
+C:\Saját\Projects\C-sharp\Beolvasas3\bin\Debug\Beolvasas3.exe
+C:\Saját\Projects\C-sharp\Beolvasas3\bin\Debug\Beolvasas3.pdb
+C:\Saját\Projects\C-sharp\Beolvasas3\obj\Debug\Beolvasas3.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sharp\Beolvasas3\obj\Debug\Beolvasas3.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\Beolvasas3\obj\Debug\Beolvasas3.exe
+C:\Saját\Projects\C-sharp\Beolvasas3\obj\Debug\Beolvasas3.pdb

@@ -1,0 +1,419 @@
+70:
+	- AMC Ambassador DPL
+	- AMC Gremlin
+	- AMC Hornet
+	- AMC Rebel SST
+	- AMC Rebel SST
+	- Audi 100 LS
+	- BMW 2002
+	- Buick Estate Wagon
+	- Buick Skylark 320
+	- Chevrolet Chevelle Concours
+	- Chevrolet Chevelle Malibu
+	- Chevrolet Impala
+	- Chevrolet Monte Carlo
+	- Chevy C20
+	- Citroen DS-21 Pallas
+	- Datsun PL510
+	- Dodge Challenger SE
+	- Dodge D200
+	- Ford F250
+	- Ford Galaxie 500
+	- Ford Maverick
+	- Ford Mustang Boss 302
+	- Ford Torino
+	- Ford Torino
+	- Hi 1200D
+	- Peugeot 504
+	- Plymouth 'Cuda 340
+	- Plymouth Duster
+	- Plymouth Fury iii
+	- Plymouth Satellite
+	- Plymouth Satellite
+	- Pontiac Catalina
+	- Saab 99e
+	- Toyota Corolla Mark ii
+	- Volkswagen 1131 Deluxe Sedan
+71:
+	- AMC Gremlin
+	- AMC Hornet Sportabout
+	- AMC Matador
+	- Chevrolet Chevelle Malibu
+	- Chevrolet Impala
+	- Chevrolet Vega
+	- Chevrolet Vega 2300
+	- Datsun 1200
+	- Datsun PL510
+	- Dodge Monaco
+	- Fiat 124B
+	- Ford Country Squire
+	- Ford Galaxie 500
+	- Ford Mustang
+	- Ford Pinto
+	- Ford Torino 500
+	- Mercury Capri 2000
+	- Opel 1900
+	- Peugeot 304
+	- Plymouth Cricket
+	- Plymouth Fury iii
+	- Plymouth Satellite Custom
+	- Pontiac Catalina Brougham
+	- Pontiac Firebird
+	- Pontiac Safari
+	- Toyota Corolla
+	- Toyota Corolla 1200
+	- Volkswagen Model 111
+	- Volkswagen Super Beetle 117
+72:
+	- AMC Ambassador SST
+	- AMC Matador
+	- Buick LeSabre Custom
+	- Chevrolet Chevelle Concours
+	- Chevrolet Impala
+	- Chevrolet Vega
+	- Chrysler Newport Royal
+	- Datsun 510
+	- Dodge Colt
+	- Dodge Colt Hardtop
+	- Ford Galaxie 500
+	- Ford Gran Torino
+	- Ford Pinto
+	- Ford Pinto Runabout
+	- Mazda RX2 Coupe
+	- Mercury Marquis
+	- Oldsmobile Delta 88 Royale
+	- Peugeot 504
+	- Plymouth Fury III
+	- Plymouth Satellite Custom
+	- Pontiac Catalina
+	- Renault 12
+	- Toyota Corolla 1600
+	- Toyota Corolla Hardtop
+	- Toyota Corolla Mark II
+	- Volkswagen 411
+	- Volkswagen Type 3
+	- Volvo 145e
+73:
+	- AMC Ambassador Brougham
+	- AMC Gremlin
+	- AMC Hornet
+	- AMC Matador
+	- Audi 100LS
+	- Buick Century 350
+	- Buick Electra 225 Custom
+	- Chevrolet Caprice Classic
+	- Chevrolet Impala
+	- Chevrolet Malibu
+	- Chevrolet Monte Carlo S
+	- Chevrolet Nova Custom
+	- Chevrolet Vega
+	- Chrysler New Yorker Brougham
+	- Datsun 610
+	- Dodge Coronet Custom
+	- Dodge Dart Custom
+	- Fiat 124 Sport Coupe
+	- Fiat 128
+	- Ford Country
+	- Ford Gran Torino
+	- Ford LTD
+	- Ford Maverick
+	- Ford Pinto
+	- Mazda RX3
+	- Mercury Capri v6
+	- Mercury Marquis Brougham
+	- Oldsmobile Omega
+	- Oldsmobile Vista Cruiser
+	- Opel Manta
+	- Plymouth Custom Suburb
+	- Plymouth Duster
+	- Plymouth Fury Gran Sedan
+	- Plymouth Valiant
+	- Pontiac Grand Prix
+	- Saab 99le
+	- Toyota Camry
+	- Toyota Mark II
+	- Volkswagen Super Beetle
+	- Volvo 144ea
+74:
+	- AMC Hornet
+	- AMC Matador
+	- AMC Matador
+	- Audi Fox
+	- Buick Century Luxus
+	- Chevrolet Chevelle Malibu Classic
+	- Chevrolet Nova
+	- Chevrolet Vega
+	- Datsun 710
+	- Datsun B210
+	- Dodge Colt
+	- Dodge Coronet Custom
+	- Fiat 124 TC
+	- Fiat 128
+	- Fiat x1.9
+	- Ford Gran Torino
+	- Ford Gran Torino
+	- Ford Maverick
+	- Ford Pinto
+	- Honda Civic
+	- Opel Manta
+	- Plymouth Duster
+	- Plymouth Satellite Sebring
+	- Subaru
+	- Toyota Corolla
+	- Toyota Corolla 1200
+	- Volkswagen Dasher
+75:
+	- AMC Gremlin
+	- AMC Matador
+	- AMC Pacer
+	- Audi 100LS
+	- Buick Century
+	- Buick Skyhawk
+	- Chevrolet Bel Air
+	- Chevrolet Monza 2+2
+	- Chevrolet Nova
+	- Chevrolete Chevelle Malibu
+	- Datsun 710
+	- Ford LTD
+	- Ford Maverick
+	- Ford Mustang II
+	- Ford Pinto
+	- Ford Pinto
+	- Honda Civic CVCC
+	- Mercury Monarch
+	- Peugeot 504
+	- Plymouth Fury
+	- Plymouth Grand Fury
+	- Plymouth Valiant Custom
+	- Pontiac Astro
+	- Pontiac Catalina
+	- Saab 99LE
+	- Toyota Corolla
+	- Toyota Corolla
+	- Volkswagen Dasher
+	- Volkswagen Rabbit
+	- Volvo 244DL
+76:
+	- AMC Hornet
+	- AMC Matador
+	- AMC Pacer d/l
+	- Cadillac Seville
+	- Capri ii
+	- Chevrolet C10
+	- Chevrolet Chevelle Malibu Classic
+	- Chevrolet Chevette
+	- Chevrolet Nova
+	- Chevrolet Woody
+	- Datsun B-210
+	- Dodge Aspen SE
+	- Dodge Colt
+	- Dodge Coronet Brougham
+	- Dodge D100
+	- Fiat 131
+	- Ford F108
+	- Ford Gran Torino
+	- Ford Grenada ghia
+	- Ford Maverick
+	- Ford Pinto
+	- Honda Civic
+	- Mercedes-Benz 280s
+	- Opel 1900
+	- Peugeot 504
+	- Plymouth Valiant
+	- Plymouth Volare Premier v8
+	- Pontiac Ventura SJ
+	- Renault 12tl
+	- Toyota Corolla
+	- Toyota Mark II
+	- Volkswagen Rabbit
+	- Volkswagen Rabbit
+	- Volvo 245
+77:
+	- BMW 320i
+	- Buick Opel Isuzu Deluxe
+	- Buick Skylark
+	- Chevrolet Caprice Classic
+	- Chevrolet Chevette
+	- Chevrolet Concours
+	- Chevrolet Monte Carlo Landau
+	- Chrysler Cordoba
+	- Datsun 810
+	- Datsun F-10 Hatchback
+	- Dodge Colt m/m
+	- Dodge Monaco Brougham
+	- Ford Grenada
+	- Ford Mustang II 2+2
+	- Ford Thunderbird
+	- Honda Accord CVCC
+	- Mazda RX-4
+	- Mercury Cougar Brougham
+	- Oldsmobile Cutlass Supreme
+	- Plymouth Arrow GS
+	- Plymouth Volare Custom
+	- Pontiac Grand Prix LJ
+	- Pontiac Sunbird Coupe
+	- Renault 5 GTL
+	- Subaru DL
+	- Toyota Corolla Liftback
+	- Volkswagen Dasher
+	- Volkswagen Rabbit Custom
+78:
+	- AMC Concord
+	- AMC Concord d/l
+	- Audi 5000
+	- Buick Century Special
+	- Buick Regal Sport Coupe (turbo)
+	- Chevrolet Chevette
+	- Chevrolet Malibu
+	- Chevrolet Monte Carlo Landau
+	- Datsun 200-SX
+	- Datsun 510
+	- Datsun B210 GX
+	- Dodge Aspen
+	- Dodge Diplomat
+	- Dodge Magnum XE
+	- Dodge Omni
+	- Ford Fairmont (auto)
+	- Ford Fairmont (man)
+	- Ford Fiesta
+	- Ford Futura
+	- Honda Accord LX
+	- Honda Civic CVCC
+	- Mazda GLC Deluxe
+	- Mercury Monarch ghia
+	- Mercury Zephyr
+	- Oldsmobile Cutlass Salon Brougham
+	- Oldsmobile Starfire SX
+	- Peugeot 604sl
+	- Plymouth Sapporo
+	- Plymouth Volare
+	- Pontiac Phoenix LJ
+	- Saab 99gle
+	- Toyota Celica GT Liftback
+	- Toyota Corolla
+	- Volkswagen Rabbit Custom Diesel
+	- Volkswagen Scirocco
+	- Volvo 264gl
+79:
+	- AMC Concord DL 6
+	- AMC Spirit DL
+	- Buick Estate Wagon
+	- Buick Skylark Limited
+	- Cadillac Eldorado
+	- Chevrolet Caprice Classic
+	- Chevrolet Citation
+	- Chevrolet Malibu Classic
+	- Chrysler Lebaron Town @ Country
+	- Datsun 210
+	- Dodge Aspen 6
+	- Dodge Colt Hatchback Custom
+	- Dodge St. Regis
+	- Fiat Strada Custom
+	- Ford Country Squire
+	- Ford Fairmont 4
+	- Ford LTD Landau
+	- Mazda GLC Deluxe
+	- Mercedes Benz 300d
+	- Mercury Grand Marquis
+	- Mercury Zephyr 6
+	- Oldsmobile Cutlass Salon Brougham
+	- Oldsmobile Omega Brougham
+	- Peugeot 504
+	- Plymouth Horizon
+	- Plymouth Horizon TC3
+	- Pontiac Lemans V6
+	- Pontiac Phoenix
+	- Volkswagen Rabbit Custom
+80:
+	- AMC Concord
+	- Audi 4000
+	- Audi 5000s (diesel)
+	- Chevrolet Chevette
+	- Chevrolet Citation
+	- Datsun 210
+	- Datsun 280-ZX
+	- Datsun 310
+	- Datsun 510 Hatchback
+	- Dodge Aspen
+	- Dodge Colt
+	- Ford Fairmont
+	- Ford Mustang Cobra
+	- Honda Accord
+	- Honda Civic 1500 gl
+	- Mazda 626
+	- Mazda GLC
+	- Mazda RX-7 GS
+	- Mercedes-Benz 240d
+	- Renault Lecar Deluxe
+	- Subaru DL
+	- Toyota Corolla
+	- Toyota Corolla Liftback
+	- Toyota Corolla Tercel
+	- Triumph TR7 Coupe
+	- Volkswagen Dasher (diesel)
+	- Volkswagen Rabbit
+	- Volkswagen Rabbit
+	- Volkswagen Rabbit C (Diesel)
+81:
+	- Buick Century
+	- Buick Skylark
+	- Chevrolet Citation
+	- Chrysler Lebaron Salon
+	- Datsun 200SX
+	- Datsun 210 MPG
+	- Datsun 810 Maxima
+	- Dodge Aries Wagon
+	- Ford Escort 2H
+	- Ford Escort 4W
+	- Ford Grenada gl
+	- Honda Civic 1300
+	- Honda Prelude
+	- Mazda 626
+	- Mazda GLC 4
+	- Oldsmobile Cutlass LS
+	- Peugeot 505s Turbo Diesel
+	- Plymouth Champ
+	- Plymouth Horizon 4
+	- Plymouth Reliant
+	- Plymouth Reliant
+	- Renault 18i
+	- Saab 900s
+	- Subaru
+	- Toyota Corolla
+	- Toyota Cressida
+	- Toyota Starlet
+	- Toyota Tercel
+	- Volkswagen Jetta
+	- Volvo Diesel
+82:
+	- AMC Concord DL
+	- Buick Century Limited
+	- Chevrolet Camaro
+	- Chevrolet Cavalier
+	- Chevrolet Cavalier 2-door
+	- Chevrolet Cavalier Wagon
+	- Chevy S-10
+	- Chrysler Lebaron Medallion
+	- Datsun 310 GX
+	- Dodge Aries SE
+	- Dodge Charger 2.2
+	- Dodge Rampage
+	- Ford Fairmont Futura
+	- Ford Grenada l
+	- Ford Mustang GL
+	- Ford Ranger
+	- Honda Accord
+	- Honda Civic
+	- Honda Civic (auto)
+	- Mazda GLC Custom
+	- Mazda GLC Custom l
+	- Mercury Lynx l
+	- Nissan Stanza XE
+	- Oldsmobile Cutlass Ciera (diesel)
+	- Plymouth Horizon Miser
+	- Pontiac J2000 SE Hatchback
+	- Pontiac Phoenix
+	- Toyota Celica GT
+	- Toyota Corolla
+	- Volkswagen Pickup
+	- Volkswagen Rabbit l
