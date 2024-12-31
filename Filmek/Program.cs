@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +24,7 @@ namespace Filmek
 
             //3
             Film highestRate = films.Where(film => film.Rate == films.Max(max => max.Rate)).Single();
-            Console.WriteLine($"A legnagyobb értékelést a  {highestRate.Name} című film kapta ({highestRate.Rate}%).\n");
+            Console.WriteLine($"A legnagyobb értékelést a  {highestRate.Title} című film kapta ({highestRate.Rate}%).\n");
 
             //4
             bool isAnyFilm = films.Any(film => film.RtRating >= 90);
@@ -31,7 +32,14 @@ namespace Filmek
 
             //5
             Dictionary<string, double> genresAndIncomes = GetGenresAndIncomes(films);
-            PrintDict(genresAndIncomes);
+            PrintGenresAndIncomes(genresAndIncomes);
+            Console.WriteLine();
+
+            //6
+            const string newFileName = "evek.txt";
+            bool success = WriteToFile(films, newFileName);
+
+            Console.WriteLine($"A mentés {(success ? "sikeres volt" : "nem volt sikeres")}.");
 
             Console.ReadKey();
         }
@@ -65,12 +73,74 @@ namespace Filmek
             return genresAndIncomes;
         }
 
-        private static void PrintDict(Dictionary<string, double> dict)
+        private static void PrintGenresAndIncomes(Dictionary<string, double> dict)
         {
             foreach(KeyValuePair<string, double> item in dict)
             {
                 Console.WriteLine($"{item.Key}: ${item.Value:n2}");
             }
+        }
+
+        private static HashSet<int> GetYears(List<Film> films)
+        {
+            HashSet<int> years = new HashSet<int>();
+
+            foreach (Film film in films)
+            {
+                years.Add(film.Year);
+            }
+
+            return years;
+        }
+
+        private static Dictionary<int, List<string>> GetYearsAndTitles(List<Film> films)
+        {
+            HashSet<int> years = GetYears(films);
+            Dictionary<int, List<string>> yearsAndTitles = new Dictionary<int, List<string>>();
+
+            foreach (int year in years)
+            {
+                yearsAndTitles[year] = new List<string>();
+            }
+
+            foreach (Film film in films)
+            {
+                yearsAndTitles[film.Year].Add(film.Title);
+            }
+
+            Dictionary<int, List<string>> sortedYearsAndTitles = yearsAndTitles.OrderBy(year => year.Key).ToDictionary(year => year.Key, year => year.Value);
+
+            return sortedYearsAndTitles;
+        }
+
+        private static bool WriteToFile(List<Film> films, string fileName)
+        {
+            Dictionary<int, List<string>> yearsAndTitles = GetYearsAndTitles(films);
+
+            StreamWriter writer = new StreamWriter(fileName);
+
+            try
+            {
+                foreach (KeyValuePair<int, List<string>> item in yearsAndTitles)
+                {
+                    writer.WriteLine($"{item.Key}:");
+                    
+                    foreach (string title in item.Value)
+                    {
+                        writer.WriteLine($"\t- {title}");
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            finally
+            {
+                writer.Close();
+            }
+
+            return true;
         }
     }
 }

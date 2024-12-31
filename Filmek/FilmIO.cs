@@ -22,51 +22,33 @@ namespace Filmek
                 foreach (string line in lines)
                 {
                     string[] datas = line.Split(',');
+                    string tempGenre = string.Empty;
 
                     switch (datas[1].ToLower())
                     {
                         case "comdy":
-                            film = new Film
-                            {
-                                Name = datas[0],
-                                Genre = "comedy",
-                                Distributor = datas[2],
-                                Rate = int.Parse(datas[3]),
-                                PayOff = double.Parse(datas[4].Replace(".", ",")),
-                                RtRating = int.Parse(datas[5]),
-                                Income = double.Parse(datas[6].Replace(".", ",").Replace("$", "")),
-                                Year = int.Parse(datas[7])
-                            };
+                            tempGenre = "comedy";
                             break;
 
                         case "romence":
-                            film = new Film
-                            {
-                                Name = datas[0],
-                                Genre = "romance",
-                                Distributor = datas[2],
-                                Rate = int.Parse(datas[3]),
-                                PayOff = double.Parse(datas[4].Replace(".", ",")),
-                                RtRating = int.Parse(datas[5]),
-                                Income = double.Parse(datas[6].Replace(".", ",").Replace("$", "")),
-                                Year = int.Parse(datas[7])
-                            };
+                            tempGenre = "romance";
                             break;
-
                         default:
-                            film = new Film
-                            {
-                                Name = datas[0],
-                                Genre = datas[1].ToLower(),
-                                Distributor = datas[2],
-                                Rate = int.Parse(datas[3]),
-                                PayOff = double.Parse(datas[4].Replace(".", ",")),
-                                RtRating = int.Parse(datas[5]),
-                                Income = double.Parse(datas[6].Replace(".", ",").Replace("$", "")),
-                                Year = int.Parse(datas[7])
-                            };
+                            tempGenre = datas[1].ToLower();
                             break;
                     }
+
+                    film = new Film
+                    {
+                        Title = datas[0],
+                        Genre = tempGenre,
+                        Distributor = datas[2],
+                        Rate = int.Parse(datas[3]),
+                        PayOff = double.Parse(datas[4].Replace(".", ",")),
+                        RtRating = int.Parse(datas[5]),
+                        Income = double.Parse(datas[6].Replace(".", ",").Replace("$", "")),
+                        Year = int.Parse(datas[7])
+                    };
 
                     films.Add(film);
                 }

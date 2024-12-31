@@ -8,7 +8,7 @@ namespace Filmek
 {
     public class Film
     {
-        public string Name { get; set; }
+        public string Title { get; set; }
         public string Genre { get; set; }
         public string Distributor { get; set; }
         public int Rate { get; set; }
@@ -24,7 +24,7 @@ namespace Filmek
 
         public Film(string name, string genre, string distributor, int rate, double payOff, int rtRating, double income, int year)
         {
-            Name = name;
+            Title = name;
             Genre = genre;
             Distributor = distributor;
             Rate = rate;
@@ -36,7 +36,7 @@ namespace Filmek
 
         public override string ToString()
         {
-            return $"{Name} {Genre} {Distributor} {Rate} {PayOff} {RtRating} ${Income} {Year}";
+            return $"{Title} {Genre} {Distributor} {Rate} {PayOff} {RtRating} ${Income} {Year}";
         }
     }
 }
