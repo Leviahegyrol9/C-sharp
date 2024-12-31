@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Threading;
 
 namespace Function
@@ -34,7 +31,7 @@ namespace Function
             }
             else
             {
-				Console.WriteLine($"{fileName} állományt nem sikerült létrehozni!");
+                Console.WriteLine($"{fileName} állományt nem sikerült létrehozni!");
                 Console.ReadKey();
                 Environment.Exit(0);
 
