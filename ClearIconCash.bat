@@ -1,7 +1,5 @@
 @echo off
 chcp 1250 > nul
-color f
-title Clear Icon Cash
 
 ie4uinit.exe -ClearIconCache
 
