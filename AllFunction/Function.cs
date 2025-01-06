@@ -45,7 +45,7 @@ namespace Function
 
             do
             {
-                Console.WriteLine(prompt);
+                Console.Write(prompt);
                 string input = Console.ReadLine();
 
                 isNumber = int.TryParse(input, out number);
@@ -75,7 +75,7 @@ namespace Function
 
             do
             {
-                Console.WriteLine(prompt);
+                Console.Write(prompt);
                 string input = Console.ReadLine();
 
                 isNumber = int.TryParse(input, out number);
