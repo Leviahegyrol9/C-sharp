@@ -30,7 +30,7 @@ namespace Számítógépek_kiosztása
 
         public override string ToString()
         {
-            return $"{SerialNumber} {InvNumber} {Type} {Status} {Price}";
+            return $"{SerialNumber}\t{InvNumber}\t{Type}\t{Status}\t{Price}";
         }
     }
 }

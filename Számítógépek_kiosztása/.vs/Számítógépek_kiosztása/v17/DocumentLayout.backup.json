@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|j:\\c-sharp\\sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,30 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Function.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Function.cs",
-              "RelativeDocumentMoniker": "Function.cs",
-              "ToolTip": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Function.cs",
-              "RelativeToolTip": "Function.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDMAAAAAAAAAAAAAAA==",
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Item.cs*",
+              "RelativeToolTip": "Item.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T14:07:27.968Z",
+              "WhenOpened": "2025-01-07T12:21:17.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "consoleServices.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleServices.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleServices.cs",
               "RelativeDocumentMoniker": "consoleServices.cs",
-              "ToolTip": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleServices.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleServices.cs",
               "RelativeToolTip": "consoleServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAnwEAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T13:55:03.207Z",
               "EditorCaption": ""
@@ -54,11 +58,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T13:07:01.275Z",
               "EditorCaption": ""
