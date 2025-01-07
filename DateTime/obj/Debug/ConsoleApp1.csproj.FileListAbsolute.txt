@@ -1,0 +1,7 @@
+C:\Saját\Alkalmazások\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Saját\Alkalmazások\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Saját\Alkalmazások\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Saját\Alkalmazások\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Saját\Alkalmazások\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Saját\Alkalmazások\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Saját\Alkalmazások\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
