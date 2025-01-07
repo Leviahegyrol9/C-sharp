@@ -20,10 +20,9 @@ namespace Számítógépek_kiosztása
                 classAndCapacity = consoleServices.GetClassAndCapacity(classAndCapacity, $"Terem{i}", capacity);
             }
 
-            foreach (var item in classAndCapacity)
-            {
-                Console.WriteLine($"{item.Key} {item.Value}");
-            }
+            
+
+            Console.ReadKey();
         }
     }
 }
