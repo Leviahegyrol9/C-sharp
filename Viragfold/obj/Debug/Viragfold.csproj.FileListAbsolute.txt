@@ -1,7 +1,0 @@
-J:\C-sarp\Viragfold\bin\Debug\Viragfold.exe.config
-J:\C-sarp\Viragfold\bin\Debug\Viragfold.exe
-J:\C-sarp\Viragfold\bin\Debug\Viragfold.pdb
-J:\C-sarp\Viragfold\obj\Debug\Viragfold.csproj.AssemblyReference.cache
-J:\C-sarp\Viragfold\obj\Debug\Viragfold.csproj.CoreCompileInputs.cache
-J:\C-sarp\Viragfold\obj\Debug\Viragfold.exe
-J:\C-sarp\Viragfold\obj\Debug\Viragfold.pdb
