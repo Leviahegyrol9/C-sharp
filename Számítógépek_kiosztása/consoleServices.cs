@@ -45,7 +45,7 @@ namespace Számítógépek_kiosztása
 
         private static List<string> EditFile(List<string> startList, int min)
         {
-            List<string> strings = new List<string>();
+            List<string> endList = new List<string>();
 
             foreach (string data in startList)
             {
@@ -55,10 +55,10 @@ namespace Számítógépek_kiosztása
                 string newData = $"{data};{status};lel{min}";
                 min++;
 
-                strings.Add(newData);
+                endList.Add(newData);
             }
 
-            return strings;
+            return endList;
         }
 
         public static bool WriteFile(List<Item> items, string path)
@@ -85,15 +85,16 @@ namespace Számítógépek_kiosztása
 
         private static string GetStatus(string[] datas)
         {
-            Random random = new Random();
-
-            switch (random.Next(1, 3))
+            switch (datas[1].ToLower())
             {
-                case 1:
-                    return "Rendszergazda";
-
-                case 2:
+                case "laptop":
                     return "Dolgozó";
+
+                case "pc":
+                    return "Terem";
+
+                case "szerver":
+                    return "Rendszergazda";
 
                 default:
                     return string.Empty;
