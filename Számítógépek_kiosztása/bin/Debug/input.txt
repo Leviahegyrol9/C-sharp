@@ -1,3 +1,4 @@
+Gyáriszám;Besorolás;Ár
 G14-25258;Szerver;300000
 M89-15479;PC;150000
 L32-74561;Laptop;1200000

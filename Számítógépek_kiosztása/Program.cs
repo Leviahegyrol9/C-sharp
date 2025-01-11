@@ -13,11 +13,11 @@ namespace Számítógépek_kiosztása
         static void Main(string[] args)
         {
             const string inputPath = "input.txt";
-            const string outputPath = "output.txt";
+            const string workersPath = "workers.txt";
 
-            const string rgPath = "Rendszergazda.txt";
-            const string wPath = "Dolgozo.txt";
-            const string cPath = "Termek.txt";
+            const string rgPath = "../../files/Rendszergazda.txt";
+            const string wPath = "../../files/Dolgozo.txt";
+            const string cPath = "../../files/Termek.txt";
 
             bool success;
             Dictionary<string, int> classAndCapacity = new Dictionary<string, int>
@@ -33,32 +33,24 @@ namespace Számítógépek_kiosztása
             {
                 int capacity = Methods.GetNumberWithCondition($"Kérem adja meg a Terem{i} férőhelyét: ", 0, int.MaxValue);
 
-                classAndCapacity = consoleServices.GetClassAndCapacity(classAndCapacity, $"Terem{i}", capacity);
+                classAndCapacity[$"Terem{i}"] = capacity;
             }
+            int capacitySum = classAndCapacity.Sum(capacity => capacity.Value);
 
-            Console.WriteLine($"Összesen {classAndCapacity.Sum(capacity => capacity.Value)} gépnek van hely a termekben.");
+            Console.WriteLine($"Összesen {capacitySum} gépnek van hely a termekben.");
 
             int minInvNum = Methods.GetNumberWithCondition("Kérem adja meg a leltárszám kezdetét: ", 0, int.MaxValue);
 
-            List<string> startList = File.ReadAllLines(inputPath).ToList();
-
-            List<Item> items = consoleServices.GetItems(startList, minInvNum);
-
-            success = consoleServices.WriteFile(items, outputPath);
-
-            Methods.CheckSuccess(outputPath, success);
+            List<Item> items = consoleServices.GetItems(minInvNum, inputPath, File.ReadAllLines(workersPath).ToHashSet());           
 
             success = consoleServices.WriteFile(items.Where(item => item.Status == "Rendszergazda").ToList(), rgPath);
-
             Methods.CheckSuccess(rgPath, success);
 
-            success = consoleServices.WriteFile(items.Where(item => item.Status == "Dolgozó").ToList(), wPath);
-
-            Methods.CheckSuccess(wPath, success);
-
             success = consoleServices.WriteFile(items.Where(item => item.Status == "Terem").ToList(), cPath);
-
             Methods.CheckSuccess(cPath, success);
+
+            success = consoleServices.WriteFile(items.Where(item => item.Status != "Rendszergazda" & item.Status != "Terem").ToList(), wPath);
+            Methods.CheckSuccess(wPath, success);
 
             Console.ReadKey();
         }

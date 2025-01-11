@@ -9,17 +9,9 @@ namespace Számítógépek_kiosztása
 {
     public class consoleServices
     {
-        public static Dictionary<string, int> GetClassAndCapacity(Dictionary<string, int> classAndCapacity ,string className, int capacity)
+        public static List<Item> GetItems(int min, string path, HashSet<string> workers)
         {
-            classAndCapacity[className] = capacity;
-
-            return classAndCapacity;
-
-        }
-
-        public static List<Item> GetItems(List<string> startList, int min)
-        {
-            List<string> endList = EditFile(startList, min);
+            List<string> endList = EditFile(File.ReadAllLines(path).ToList(), min, workers);
 
             List<Item> items = new List<Item>();
             Item item = new Item();
@@ -43,14 +35,14 @@ namespace Számítógépek_kiosztása
             return items;
         }
 
-        private static List<string> EditFile(List<string> startList, int min)
+        private static List<string> EditFile(List<string> startList, int min, HashSet<string> workers)
         {
             List<string> endList = new List<string>();
 
-            foreach (string data in startList)
+            foreach (string data in startList.Skip(1))
             {
                 string[] datas = data.Split(';');
-                string status = GetStatus(datas);
+                string status = GetStatus(datas, workers);
 
                 string newData = $"{data};{status};lel{min}";
                 min++;
@@ -59,6 +51,39 @@ namespace Számítógépek_kiosztása
             }
 
             return endList;
+        }
+        private static string GetStatus(string[] datas, HashSet<string> workers)
+        {
+            switch (datas[1].ToLower())
+            {
+                case "laptop":
+                    return GetWorker(workers);
+
+                case "pc":
+                    return "Terem";
+
+                case "szerver":
+                    return "Rendszergazda";
+
+                default:
+                    return string.Empty;
+            }
+        }
+
+        private static string GetWorker(HashSet<string> workers)
+        {
+            try
+            {
+                string worker = workers.First();
+
+                workers.Remove(workers.First());
+
+                return worker;
+            }
+            catch (Exception)
+            {
+                return "Leltár";
+            }
         }
 
         public static bool WriteFile(List<Item> items, string path)
@@ -81,24 +106,6 @@ namespace Számítógépek_kiosztása
             }
 
             return true;
-        }
-
-        private static string GetStatus(string[] datas)
-        {
-            switch (datas[1].ToLower())
-            {
-                case "laptop":
-                    return "Dolgozó";
-
-                case "pc":
-                    return "Terem";
-
-                case "szerver":
-                    return "Rendszergazda";
-
-                default:
-                    return string.Empty;
-            }
         }
     }
 }
