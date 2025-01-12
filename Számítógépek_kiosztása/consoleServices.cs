@@ -9,9 +9,9 @@ namespace Számítógépek_kiosztása
 {
     public class consoleServices
     {
-        public static List<Item> GetItems(int min, string path, HashSet<string> workers)
+        public static List<Item> GetItems(int min, string path, HashSet<string> workers, Dictionary<string, int> classAndCapacity)
         {
-            List<string> endList = EditFile(File.ReadAllLines(path).ToList(), min, workers);
+            List<string> endList = EditFile(File.ReadAllLines(path).ToList(), min, workers, classAndCapacity);
 
             List<Item> items = new List<Item>();
             Item item = new Item();
@@ -35,14 +35,14 @@ namespace Számítógépek_kiosztása
             return items;
         }
 
-        private static List<string> EditFile(List<string> startList, int min, HashSet<string> workers)
+        private static List<string> EditFile(List<string> startList, int min, HashSet<string> workers, Dictionary<string, int> classAndCapacity)
         {
             List<string> endList = new List<string>();
 
             foreach (string data in startList.Skip(1))
             {
                 string[] datas = data.Split(';');
-                string status = GetStatus(datas, workers);
+                string status = GetStatus(datas, workers, classAndCapacity);
 
                 string newData = $"{data};{status};lel{min}";
                 min++;
@@ -52,7 +52,7 @@ namespace Számítógépek_kiosztása
 
             return endList;
         }
-        private static string GetStatus(string[] datas, HashSet<string> workers)
+        private static string GetStatus(string[] datas, HashSet<string> workers, Dictionary<string, int> classAndCapacity)
         {
             switch (datas[1].ToLower())
             {
@@ -60,7 +60,7 @@ namespace Számítógépek_kiosztása
                     return GetWorker(workers);
 
                 case "pc":
-                    return "Terem";
+                    return GetClass(classAndCapacity);
 
                 case "szerver":
                     return "Rendszergazda";
@@ -82,8 +82,24 @@ namespace Számítógépek_kiosztása
             }
             catch (Exception)
             {
-                return "Leltár";
+                return "Tartalék";
             }
+        }
+
+        private static string GetClass(Dictionary<string, int> classAndCapacity)
+        {
+            foreach (KeyValuePair<string, int> item in classAndCapacity)
+            {
+                if (item.Value != 0)
+                {
+                    string className = item.Key;
+                    classAndCapacity[item.Key] = item.Value - 1;
+
+                    return className;
+                }                
+            }
+
+            return "Tartalék";
         }
 
         public static bool WriteFile(List<Item> items, string path)

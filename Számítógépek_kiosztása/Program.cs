@@ -35,21 +35,22 @@ namespace Számítógépek_kiosztása
 
                 classAndCapacity[$"Terem{i}"] = capacity;
             }
+
             int capacitySum = classAndCapacity.Sum(capacity => capacity.Value);
 
             Console.WriteLine($"Összesen {capacitySum} gépnek van hely a termekben.");
 
             int minInvNum = Methods.GetNumberWithCondition("Kérem adja meg a leltárszám kezdetét: ", 0, int.MaxValue);
 
-            List<Item> items = consoleServices.GetItems(minInvNum, inputPath, File.ReadAllLines(workersPath).ToHashSet());           
+            List<Item> items = consoleServices.GetItems(minInvNum, inputPath, File.ReadAllLines(workersPath).ToHashSet(), classAndCapacity);           
 
-            success = consoleServices.WriteFile(items.Where(item => item.Status == "Rendszergazda").ToList(), rgPath);
+            success = consoleServices.WriteFile(items.Where(item => item.Status == "Rendszergazda" | item.Status == "Tartalék").ToList(), rgPath);
             Methods.CheckSuccess(rgPath, success);
 
-            success = consoleServices.WriteFile(items.Where(item => item.Status == "Terem").ToList(), cPath);
+            success = consoleServices.WriteFile(items.Where(item => item.Status.Contains("Terem")).ToList(), cPath);
             Methods.CheckSuccess(cPath, success);
 
-            success = consoleServices.WriteFile(items.Where(item => item.Status != "Rendszergazda" & item.Status != "Terem").ToList(), wPath);
+            success = consoleServices.WriteFile(items.Where(item => item.Status.Contains("Dolgozó")).ToList(), wPath);
             Methods.CheckSuccess(wPath, success);
 
             Console.ReadKey();
