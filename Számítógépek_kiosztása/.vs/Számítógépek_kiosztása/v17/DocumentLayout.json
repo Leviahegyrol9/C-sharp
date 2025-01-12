@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:46:04.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "consoleServices.cs",
               "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleServices.cs",
               "RelativeDocumentMoniker": "consoleServices.cs",
               "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleServices.cs",
               "RelativeToolTip": "consoleServices.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAArwDEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAArwEkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T13:55:03.207Z",
               "EditorCaption": ""
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T13:07:01.275Z",
               "EditorCaption": ""
