@@ -63,7 +63,7 @@ namespace Számítógépek_kiosztása
 
             string serialNum = Console.ReadLine();
 
-            Item sN = items.Where(item => item.SerialNumber == serialNum).First();
+            Item sN = items.Where(item => item.SerialNumber == serialNum).Single();
 
             Console.WriteLine($"Hol: {sN.Type}\nKinél: {sN.Status}");
 
@@ -73,7 +73,7 @@ namespace Számítógépek_kiosztása
 
             string invNum = Console.ReadLine();
 
-            Item iN = items.Where(item => item.InvNumber == invNum).First();
+            Item iN = items.Where(item => item.InvNumber == invNum).Single();
 
             Console.WriteLine($"Hol: {iN.Type}\nKinél: {iN.Status}");
 
