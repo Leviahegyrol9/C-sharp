@@ -1,0 +1,11 @@
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\bin\Debug\net8.0\ExtendedConsole.deps.json
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\bin\Debug\net8.0\ExtendedConsole.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\bin\Debug\net8.0\ExtendedConsole.pdb
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\obj\Debug\net8.0\ExtendedConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\obj\Debug\net8.0\ExtendedConsole.AssemblyInfoInputs.cache
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\obj\Debug\net8.0\ExtendedConsole.AssemblyInfo.cs
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\obj\Debug\net8.0\ExtendedConsole.csproj.CoreCompileInputs.cache
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\obj\Debug\net8.0\ExtendedConsole.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\obj\Debug\net8.0\refint\ExtendedConsole.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\obj\Debug\net8.0\ExtendedConsole.pdb
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Console.Extensions\obj\Debug\net8.0\ref\ExtendedConsole.dll

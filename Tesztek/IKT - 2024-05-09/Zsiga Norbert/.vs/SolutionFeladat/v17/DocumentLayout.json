@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vastag.atila\\Desktop\\IKT - 2024-05-09\\Zsiga Norbert\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9F656C-D6B8-436F-AED3-0C85AF023672}|Feladat\\Feladat.csproj|c:\\users\\vastag.atila\\desktop\\ikt - 2024-05-09\\zsiga norbert\\feladat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9F656C-D6B8-436F-AED3-0C85AF023672}|Feladat\\Feladat.csproj|solutionrelative:feladat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9F656C-D6B8-436F-AED3-0C85AF023672}|Feladat\\Feladat.csproj|c:\\users\\vastag.atila\\desktop\\ikt - 2024-05-09\\zsiga norbert\\feladat\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9F656C-D6B8-436F-AED3-0C85AF023672}|Feladat\\Feladat.csproj|solutionrelative:feladat\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9F656C-D6B8-436F-AED3-0C85AF023672}|Feladat\\Feladat.csproj|c:\\users\\vastag.atila\\desktop\\ikt - 2024-05-09\\zsiga norbert\\feladat\\consolefunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9F656C-D6B8-436F-AED3-0C85AF023672}|Feladat\\Feladat.csproj|solutionrelative:feladat\\consolefunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\vastag.atila\\Desktop\\IKT - 2024-05-09\\Zsiga Norbert\\Feladat\\DataService.cs",
+              "RelativeDocumentMoniker": "Feladat\\DataService.cs",
+              "ToolTip": "C:\\Users\\vastag.atila\\Desktop\\IKT - 2024-05-09\\Zsiga Norbert\\Feladat\\DataService.cs",
+              "RelativeToolTip": "Feladat\\DataService.cs",
+              "ViewState": "AQIAAP4AAAAAAAAAAAD4v/0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:11:36.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\vastag.atila\\Desktop\\IKT - 2024-05-09\\Zsiga Norbert\\Feladat\\ConsoleFunctions.cs",
+              "RelativeDocumentMoniker": "Feladat\\ConsoleFunctions.cs",
+              "ToolTip": "C:\\Users\\vastag.atila\\Desktop\\IKT - 2024-05-09\\Zsiga Norbert\\Feladat\\ConsoleFunctions.cs",
+              "RelativeToolTip": "Feladat\\ConsoleFunctions.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:12:45.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vastag.atila\\Desktop\\IKT - 2024-05-09\\Zsiga Norbert\\Feladat\\Program.cs",
+              "RelativeDocumentMoniker": "Feladat\\Program.cs",
+              "ToolTip": "C:\\Users\\vastag.atila\\Desktop\\IKT - 2024-05-09\\Zsiga Norbert\\Feladat\\Program.cs",
+              "RelativeToolTip": "Feladat\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:11:30.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

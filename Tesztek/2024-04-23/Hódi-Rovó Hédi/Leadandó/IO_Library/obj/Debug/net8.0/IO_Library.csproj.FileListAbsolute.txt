@@ -1,0 +1,77 @@
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\bin\Debug\net8.0\IO_Library.deps.json
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\bin\Debug\net8.0\IO_Library.dll
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\bin\Debug\net8.0\IO_Library.pdb
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfoInputs.cache
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfo.cs
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.csproj.CoreCompileInputs.cache
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.dll
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\refint\IO_Library.dll
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.pdb
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\ref\IO_Library.dll
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\bin\Debug\net8.0\IO_Library.deps.json
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\bin\Debug\net8.0\IO_Library.dll
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\bin\Debug\net8.0\IO_Library.pdb
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfoInputs.cache
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfo.cs
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.csproj.CoreCompileInputs.cache
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.dll
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\refint\IO_Library.dll
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\IO_Library.pdb
+C:\Users\b1hodhed\Desktop\11_Fuggvenyek\IO_Library\obj\Debug\net8.0\ref\IO_Library.dll
+D:\13 - HTTP\RestApiClients\IO_Library\bin\Debug\net8.0\IO_Library.deps.json
+D:\13 - HTTP\RestApiClients\IO_Library\bin\Debug\net8.0\IO_Library.dll
+D:\13 - HTTP\RestApiClients\IO_Library\bin\Debug\net8.0\IO_Library.pdb
+D:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfoInputs.cache
+D:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfo.cs
+D:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.csproj.CoreCompileInputs.cache
+D:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.dll
+D:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\refint\IO_Library.dll
+D:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.pdb
+D:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\ref\IO_Library.dll
+F:\13 - HTTP\RestApiClients\IO_Library\bin\Debug\net8.0\IO_Library.deps.json
+F:\13 - HTTP\RestApiClients\IO_Library\bin\Debug\net8.0\IO_Library.dll
+F:\13 - HTTP\RestApiClients\IO_Library\bin\Debug\net8.0\IO_Library.pdb
+F:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.GeneratedMSBuildEditorConfig.editorconfig
+F:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfoInputs.cache
+F:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfo.cs
+F:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.csproj.CoreCompileInputs.cache
+F:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.dll
+F:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\refint\IO_Library.dll
+F:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\IO_Library.pdb
+F:\13 - HTTP\RestApiClients\IO_Library\obj\Debug\net8.0\ref\IO_Library.dll
+F:\13 - HTTP\RestApiClients másolata\IO_Library\bin\Debug\net8.0\IO_Library.deps.json
+F:\13 - HTTP\RestApiClients másolata\IO_Library\bin\Debug\net8.0\IO_Library.dll
+F:\13 - HTTP\RestApiClients másolata\IO_Library\bin\Debug\net8.0\IO_Library.pdb
+F:\13 - HTTP\RestApiClients másolata\IO_Library\obj\Debug\net8.0\IO_Library.GeneratedMSBuildEditorConfig.editorconfig
+F:\13 - HTTP\RestApiClients másolata\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfoInputs.cache
+F:\13 - HTTP\RestApiClients másolata\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfo.cs
+F:\13 - HTTP\RestApiClients másolata\IO_Library\obj\Debug\net8.0\IO_Library.csproj.CoreCompileInputs.cache
+F:\13 - HTTP\RestApiClients másolata\IO_Library\obj\Debug\net8.0\IO_Library.dll
+F:\13 - HTTP\RestApiClients másolata\IO_Library\obj\Debug\net8.0\refint\IO_Library.dll
+F:\13 - HTTP\RestApiClients másolata\IO_Library\obj\Debug\net8.0\IO_Library.pdb
+F:\13 - HTTP\RestApiClients másolata\IO_Library\obj\Debug\net8.0\ref\IO_Library.dll
+F:\13 - HTTP\Leadandó\IO_Library\bin\Debug\net8.0\IO_Library.deps.json
+F:\13 - HTTP\Leadandó\IO_Library\bin\Debug\net8.0\IO_Library.dll
+F:\13 - HTTP\Leadandó\IO_Library\bin\Debug\net8.0\IO_Library.pdb
+F:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.GeneratedMSBuildEditorConfig.editorconfig
+F:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfoInputs.cache
+F:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfo.cs
+F:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.csproj.CoreCompileInputs.cache
+F:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.dll
+F:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\refint\IO_Library.dll
+F:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.pdb
+F:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\ref\IO_Library.dll
+D:\13 - HTTP\Leadandó\IO_Library\bin\Debug\net8.0\IO_Library.deps.json
+D:\13 - HTTP\Leadandó\IO_Library\bin\Debug\net8.0\IO_Library.dll
+D:\13 - HTTP\Leadandó\IO_Library\bin\Debug\net8.0\IO_Library.pdb
+D:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfoInputs.cache
+D:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.AssemblyInfo.cs
+D:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.csproj.CoreCompileInputs.cache
+D:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.dll
+D:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\refint\IO_Library.dll
+D:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\IO_Library.pdb
+D:\13 - HTTP\Leadandó\IO_Library\obj\Debug\net8.0\ref\IO_Library.dll

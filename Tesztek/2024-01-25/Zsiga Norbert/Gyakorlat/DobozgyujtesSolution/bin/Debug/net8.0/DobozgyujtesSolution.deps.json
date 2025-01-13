@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DobozgyujtesSolution/1.0.0": {
+        "dependencies": {
+          "CustomLibrary": "1.0.0",
+          "IOLibrary": "1.0.0"
+        },
+        "runtime": {
+          "DobozgyujtesSolution.dll": {}
+        }
+      },
+      "CustomLibrary/1.0.0": {
+        "runtime": {
+          "CustomLibrary.dll": {}
+        }
+      },
+      "IOLibrary/1.0.0": {
+        "runtime": {
+          "IOLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DobozgyujtesSolution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IOLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

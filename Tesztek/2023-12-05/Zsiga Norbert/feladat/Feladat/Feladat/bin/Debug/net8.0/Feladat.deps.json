@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Feladat/1.0.0": {
+        "dependencies": {
+          "ExtendedConsole": "1.0.0",
+          "ExtendedMath": "1.0.0"
+        },
+        "runtime": {
+          "Feladat.dll": {}
+        }
+      },
+      "ExtendedConsole/1.0.0": {
+        "runtime": {
+          "ExtendedConsole.dll": {}
+        }
+      },
+      "ExtendedMath/1.0.0": {
+        "runtime": {
+          "ExtendedMath.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Feladat/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExtendedConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExtendedMath/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

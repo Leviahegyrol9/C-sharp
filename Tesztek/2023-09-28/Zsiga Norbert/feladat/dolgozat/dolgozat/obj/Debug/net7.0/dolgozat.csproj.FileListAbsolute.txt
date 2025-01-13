@@ -1,0 +1,14 @@
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\dolgozat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\dolgozat.AssemblyInfoInputs.cache
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\dolgozat.AssemblyInfo.cs
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\dolgozat.csproj.CoreCompileInputs.cache
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\bin\Debug\net7.0\dolgozat.exe
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\bin\Debug\net7.0\dolgozat.deps.json
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\bin\Debug\net7.0\dolgozat.runtimeconfig.json
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\bin\Debug\net7.0\dolgozat.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\bin\Debug\net7.0\dolgozat.pdb
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\dolgozat.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\refint\dolgozat.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\dolgozat.pdb
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\dolgozat.genruntimeconfig.cache
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\dolgozat\dolgozat\obj\Debug\net7.0\ref\dolgozat.dll

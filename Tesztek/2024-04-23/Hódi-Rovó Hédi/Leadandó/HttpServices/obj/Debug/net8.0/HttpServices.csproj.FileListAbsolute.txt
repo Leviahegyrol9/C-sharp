@@ -1,0 +1,75 @@
+D:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\HttpServices.deps.json
+D:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\HttpServices.dll
+D:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\HttpServices.pdb
+D:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\Models.dll
+D:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\Models.pdb
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.csproj.AssemblyReference.cache
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfoInputs.cache
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfo.cs
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.csproj.CoreCompileInputs.cache
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServ.739F25D3.Up2Date
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.dll
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\refint\HttpServices.dll
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.pdb
+D:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\ref\HttpServices.dll
+F:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\HttpServices.deps.json
+F:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\HttpServices.dll
+F:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\HttpServices.pdb
+F:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\Models.dll
+F:\13 - HTTP\RestApiClients\HttpServices\bin\Debug\net8.0\Models.pdb
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.csproj.AssemblyReference.cache
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.GeneratedMSBuildEditorConfig.editorconfig
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfoInputs.cache
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfo.cs
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.csproj.CoreCompileInputs.cache
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServ.739F25D3.Up2Date
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.dll
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\refint\HttpServices.dll
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\HttpServices.pdb
+F:\13 - HTTP\RestApiClients\HttpServices\obj\Debug\net8.0\ref\HttpServices.dll
+F:\13 - HTTP\RestApiClients másolata\HttpServices\bin\Debug\net8.0\HttpServices.deps.json
+F:\13 - HTTP\RestApiClients másolata\HttpServices\bin\Debug\net8.0\HttpServices.dll
+F:\13 - HTTP\RestApiClients másolata\HttpServices\bin\Debug\net8.0\HttpServices.pdb
+F:\13 - HTTP\RestApiClients másolata\HttpServices\bin\Debug\net8.0\Models.dll
+F:\13 - HTTP\RestApiClients másolata\HttpServices\bin\Debug\net8.0\Models.pdb
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\HttpServices.csproj.AssemblyReference.cache
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\HttpServices.GeneratedMSBuildEditorConfig.editorconfig
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfoInputs.cache
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfo.cs
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\HttpServices.csproj.CoreCompileInputs.cache
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\HttpServ.739F25D3.Up2Date
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\HttpServices.dll
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\refint\HttpServices.dll
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\HttpServices.pdb
+F:\13 - HTTP\RestApiClients másolata\HttpServices\obj\Debug\net8.0\ref\HttpServices.dll
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.csproj.AssemblyReference.cache
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.GeneratedMSBuildEditorConfig.editorconfig
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfoInputs.cache
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfo.cs
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.csproj.CoreCompileInputs.cache
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.dll
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\refint\HttpServices.dll
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.pdb
+F:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\HttpServices.deps.json
+F:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\HttpServices.dll
+F:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\HttpServices.pdb
+F:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\Models.dll
+F:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\Models.pdb
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServ.739F25D3.Up2Date
+F:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\ref\HttpServices.dll
+D:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\HttpServices.deps.json
+D:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\HttpServices.dll
+D:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\HttpServices.pdb
+D:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\Models.dll
+D:\13 - HTTP\Leadandó\HttpServices\bin\Debug\net8.0\Models.pdb
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.csproj.AssemblyReference.cache
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfoInputs.cache
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.AssemblyInfo.cs
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.csproj.CoreCompileInputs.cache
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServ.739F25D3.Up2Date
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.dll
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\refint\HttpServices.dll
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\HttpServices.pdb
+D:\13 - HTTP\Leadandó\HttpServices\obj\Debug\net8.0\ref\HttpServices.dll

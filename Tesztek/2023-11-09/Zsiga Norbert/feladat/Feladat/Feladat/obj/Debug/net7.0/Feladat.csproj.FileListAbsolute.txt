@@ -1,0 +1,28 @@
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.exe
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.deps.json
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.runtimeconfig.json
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.dll
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.pdb
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.AssemblyInfoInputs.cache
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.AssemblyInfo.cs
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.csproj.CoreCompileInputs.cache
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.dll
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\refint\Feladat.dll
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.pdb
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.genruntimeconfig.cache
+C:\Users\b1zsinor\Desktop\dolgozat\feladat\Feladat\Feladat\obj\Debug\net7.0\ref\Feladat.dll
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.exe
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.deps.json
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.runtimeconfig.json
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.dll
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\bin\Debug\net7.0\Feladat.pdb
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.GeneratedMSBuildEditorConfig.editorconfig
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.AssemblyInfoInputs.cache
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.AssemblyInfo.cs
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.csproj.CoreCompileInputs.cache
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.dll
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\refint\Feladat.dll
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.pdb
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\Feladat.genruntimeconfig.cache
+H:\Vastag Atila\dolgozatok\11b\2023-11-09\Zsiga Norbert - 5 [az egyetlen tokeletes megoldas]\feladat\Feladat\Feladat\obj\Debug\net7.0\ref\Feladat.dll

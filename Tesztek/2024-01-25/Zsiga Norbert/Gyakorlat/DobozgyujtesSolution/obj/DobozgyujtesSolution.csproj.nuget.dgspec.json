@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\DobozgyujtesSolution\\DobozgyujtesSolution.csproj": {}
+  },
+  "projects": {
+    "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\CustomLibrary\\CustomLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\CustomLibrary\\CustomLibrary.csproj",
+        "projectName": "CustomLibrary",
+        "projectPath": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\CustomLibrary\\CustomLibrary.csproj",
+        "packagesPath": "C:\\Users\\wasys\\.nuget\\packages\\",
+        "outputPath": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\CustomLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\Microsoft\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wasys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.p92.hu/repository/nuget-hosted": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\DobozgyujtesSolution\\DobozgyujtesSolution.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\DobozgyujtesSolution\\DobozgyujtesSolution.csproj",
+        "projectName": "DobozgyujtesSolution",
+        "projectPath": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\DobozgyujtesSolution\\DobozgyujtesSolution.csproj",
+        "packagesPath": "C:\\Users\\wasys\\.nuget\\packages\\",
+        "outputPath": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\DobozgyujtesSolution\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\Microsoft\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wasys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.p92.hu/repository/nuget-hosted": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\CustomLibrary\\CustomLibrary.csproj": {
+                "projectPath": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\CustomLibrary\\CustomLibrary.csproj"
+              },
+              "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\IOLibrary\\IOLibrary.csproj": {
+                "projectPath": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\IOLibrary\\IOLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\IOLibrary\\IOLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\IOLibrary\\IOLibrary.csproj",
+        "projectName": "IOLibrary",
+        "projectPath": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\IOLibrary\\IOLibrary.csproj",
+        "packagesPath": "C:\\Users\\wasys\\.nuget\\packages\\",
+        "outputPath": "H:\\2024-01-25\\Zsiga Norbert\\Gyakorlat\\IOLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\Microsoft\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\wasys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.p92.hu/repository/nuget-hosted": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

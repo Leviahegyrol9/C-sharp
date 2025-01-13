@@ -1,0 +1,58 @@
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\bin\Debug\net8.0\CustomLibrary.deps.json
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\bin\Debug\net8.0\CustomLibrary.dll
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\bin\Debug\net8.0\CustomLibrary.pdb
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfoInputs.cache
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfo.cs
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.csproj.CoreCompileInputs.cache
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.sourcelink.json
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.dll
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\refint\CustomLibrary.dll
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.pdb
+E:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\ref\CustomLibrary.dll
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\bin\Debug\net8.0\CustomLibrary.deps.json
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\bin\Debug\net8.0\CustomLibrary.dll
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\bin\Debug\net8.0\CustomLibrary.pdb
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfoInputs.cache
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfo.cs
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.csproj.CoreCompileInputs.cache
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.sourcelink.json
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.dll
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\refint\CustomLibrary.dll
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\CustomLibrary.pdb
+D:\Csharp\ikt\4.ikt\SolutionFeladat\CustomLibrary\obj\Debug\net8.0\ref\CustomLibrary.dll
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.deps.json
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.dll
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.pdb
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfoInputs.cache
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfo.cs
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.csproj.CoreCompileInputs.cache
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.sourcelink.json
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.dll
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\refint\CustomLibrary.dll
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.pdb
+D:\Csharp\ikt\4.ikt\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\ref\CustomLibrary.dll
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.deps.json
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.dll
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.pdb
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.GeneratedMSBuildEditorConfig.editorconfig
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfoInputs.cache
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfo.cs
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.csproj.CoreCompileInputs.cache
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.dll
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\refint\CustomLibrary.dll
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.pdb
+H:\Vastag Atila\leadando\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\ref\CustomLibrary.dll
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.deps.json
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.dll
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\bin\Debug\net8.0\CustomLibrary.pdb
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfoInputs.cache
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.AssemblyInfo.cs
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.csproj.CoreCompileInputs.cache
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.dll
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\refint\CustomLibrary.dll
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\CustomLibrary.pdb
+C:\Users\vastag.atila\Desktop\IKT - 2024-05-09\Zsiga Norbert\CustomLibrary\obj\Debug\net8.0\ref\CustomLibrary.dll

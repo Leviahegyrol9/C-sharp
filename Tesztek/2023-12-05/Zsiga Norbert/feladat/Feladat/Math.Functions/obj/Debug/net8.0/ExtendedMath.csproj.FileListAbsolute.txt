@@ -1,0 +1,11 @@
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\bin\Debug\net8.0\ExtendedMath.deps.json
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\bin\Debug\net8.0\ExtendedMath.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\bin\Debug\net8.0\ExtendedMath.pdb
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\obj\Debug\net8.0\ExtendedMath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\obj\Debug\net8.0\ExtendedMath.AssemblyInfoInputs.cache
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\obj\Debug\net8.0\ExtendedMath.AssemblyInfo.cs
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\obj\Debug\net8.0\ExtendedMath.csproj.CoreCompileInputs.cache
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\obj\Debug\net8.0\ExtendedMath.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\obj\Debug\net8.0\refint\ExtendedMath.dll
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\obj\Debug\net8.0\ExtendedMath.pdb
+C:\Users\b1zsinor\Desktop\Zsiga Norbert\feladat\Feladat\Math.Functions\obj\Debug\net8.0\ref\ExtendedMath.dll
