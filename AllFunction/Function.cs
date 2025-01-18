@@ -57,7 +57,7 @@ namespace Function
                 }
                 else if (number < min || number > max)
                 {
-                    Console.Write("Nincs ilyen szám a tartományban!");
+                    Console.Write("Nincs ilyen opció!");
                     Thread.Sleep(2500);
                 }
 
