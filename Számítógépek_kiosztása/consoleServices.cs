@@ -92,10 +92,9 @@ namespace Számítógépek_kiosztása
             {
                 if (item.Value != 0)
                 {
-                    string className = item.Key;
                     classAndCapacity[item.Key] = item.Value - 1;
 
-                    return className;
+                    return item.Key;
                 }                
             }
 

@@ -41,7 +41,7 @@ namespace Számítógépek_kiosztása
 
             List<Item> items = consoleServices.GetItems(minInvNum, inputPath, File.ReadAllLines(workersPath).ToHashSet(), classAndCapacity);           
 
-            success = consoleServices.WriteFile(items.Where(item => item.Status == "Rendszergazda" | item.Status == "Tartalék").ToList(), rgPath);
+            success = consoleServices.WriteFile(items.Where(item => item.Status == "Rendszergazda" || item.Status == "Tartalék").ToList(), rgPath);
             Methods.CheckSuccess(rgPath, success);
 
             List<Item> classItems = items.Where(item => item.Status.Contains("Terem")).ToList();
@@ -52,7 +52,7 @@ namespace Számítógépek_kiosztása
             success = consoleServices.WriteFile(items.Where(item => item.Status.Contains("Dolgozó")).ToList(), wPath);
             Methods.CheckSuccess(wPath, success);
 
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
             Console.Clear();
 
             int exchangeRate = Methods.GetNumberWithCondition("Kérem az árfolyamot: ", 1, int.MaxValue);
