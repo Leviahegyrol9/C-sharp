@@ -1,0 +1,7 @@
+J:\C-sharp\Bevásárlás\bin\Debug\Bevásárlás.exe.config
+J:\C-sharp\Bevásárlás\bin\Debug\Bevásárlás.exe
+J:\C-sharp\Bevásárlás\bin\Debug\Bevásárlás.pdb
+J:\C-sharp\Bevásárlás\obj\Debug\Bevásárlás.csproj.AssemblyReference.cache
+J:\C-sharp\Bevásárlás\obj\Debug\Bevásárlás.csproj.CoreCompileInputs.cache
+J:\C-sharp\Bevásárlás\obj\Debug\Bevásárlás.exe
+J:\C-sharp\Bevásárlás\obj\Debug\Bevásárlás.pdb

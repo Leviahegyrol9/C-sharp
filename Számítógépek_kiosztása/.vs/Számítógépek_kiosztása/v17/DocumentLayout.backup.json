@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|j:\\c-sharp\\sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|j:\\c-sharp\\sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|j:\\c-sharp\\sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|solutionrelative:function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2D33AEA-9D62-46F0-9085-364E5C761BF8}|Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa.csproj|J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,23 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Item.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Item.cs",
-              "RelativeDocumentMoniker": "Item.cs",
-              "ToolTip": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Item.cs",
-              "RelativeToolTip": "Item.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Function.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Function.cs",
+              "RelativeDocumentMoniker": "Function.cs",
+              "ToolTip": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Function.cs",
+              "RelativeToolTip": "Function.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwEMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T20:46:04.203Z"
+              "WhenOpened": "2025-01-20T12:49:27.252Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,10 +49,26 @@
               "RelativeDocumentMoniker": "consoleServices.cs",
               "ToolTip": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\consoleServices.cs",
               "RelativeToolTip": "consoleServices.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwG8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T13:55:03.207Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:46:04.203Z"
             },
             {
               "$type": "Document",
@@ -61,7 +78,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "J:\\C-sharp\\Sz\u00E1m\u00EDt\u00F3g\u00E9pek_kioszt\u00E1sa\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwE8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T13:07:01.275Z",
               "EditorCaption": ""
