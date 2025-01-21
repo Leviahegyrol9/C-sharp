@@ -14,22 +14,32 @@ namespace Bevásárlás
             List<Food> foods = new List<Food>();
             Food food = new Food();
 
-            string[] lines = File.ReadAllLines(fileName);
-
-            foreach (string line in lines)
+            try
             {
-                string[] datas = line.Split(';');
+                string[] lines = File.ReadAllLines(fileName);
 
-                food = new Food
+                foreach (string line in lines)
                 {
-                    Date = DateTime.Parse(datas[0]),
-                    Name = datas[1],
-                    Price = int.Parse(datas[2])
-                };
+                    string[] datas = line.Split(';');
 
-                foods.Add(food);
+                    food = new Food
+                    {
+                        Date = DateTime.Parse(datas[0]),
+                        Name = datas[1],
+                        Price = int.Parse(datas[2]),
+                        Category = string.Empty
+                    };
+
+                    foods.Add(food);
+                }
             }
-
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.ReadKey();
+                Environment.Exit(0);
+            }
+            
             return foods;
         }
     }

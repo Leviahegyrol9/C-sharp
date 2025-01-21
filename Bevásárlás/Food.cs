@@ -11,19 +11,21 @@ namespace Bevásárlás
         public DateTime Date { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
+        public string Category { get; set; }
         public Food()
         {
             
         }
-        public Food(DateTime date, string name, int price)
+        public Food(DateTime date, string name, int price, string category)
         {
             Date = date;
             Name = name;
             Price = price;
+            Category = category;
         }
         public override string ToString()
         {
-            return $"{Date}\t{Name}\t{Price}";
+            return $"{Date};{Name};{Price};{Category}";
         }
     }
 }

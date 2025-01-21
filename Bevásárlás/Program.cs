@@ -13,21 +13,15 @@ namespace Bevásárlás
         {
             const string fileName = "foods.txt";
 
+            const string path = "besorolas.txt";
+
             List<Food> foods = FoodIO.GetFoods(fileName);
 
             int exchangeRate = Methods.GetNumberWithCondition("Kérem az euró/forint árfolyamot: ", 1, int.MaxValue);
 
-            HashSet<string> foodNames = ConsoleServices.GetFoodName(foods);
+            HashSet<string> foodNames = ConsoleServices.GetFoodNames(foods);
 
-            Dictionary<string, List<string>> categoriesAndNames = new Dictionary<string, List<string>>
-            {
-                {"Élelmiszer", new List<string>()},
-                {"Vegyiáru", new List<string>()},
-                {"Egyéb", new List<string>()}
-            };
-
-            ConsoleServices.CategorizeFoods(foodNames, categoriesAndNames);
-
+            Dictionary<string, List<string>> categoriesAndNames = ConsoleServices.CategorizeFoods(foodNames);
         }
     }
 }
