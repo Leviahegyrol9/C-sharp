@@ -7,22 +7,22 @@ using System.Threading.Tasks;
 
 namespace Bevásárlás
 {
-    public class FoodIO
+    public class ProductIO
     {
-        public static List<Food> GetFoods(string fileName)
+        public static List<Product> GetProducts(string fileName)
         {
-            List<Food> foods = new List<Food>();
-            Food food = new Food();
+            List<Product> products = new List<Product>();
+            Product product = new Product();
 
             try
             {
                 string[] lines = File.ReadAllLines(fileName);
 
-                foreach (string line in lines)
+                foreach (string line in lines.Skip(1))
                 {
                     string[] datas = line.Split(';');
 
-                    food = new Food
+                    product = new Product
                     {
                         Date = DateTime.Parse(datas[0]),
                         Name = datas[1],
@@ -30,7 +30,7 @@ namespace Bevásárlás
                         Category = string.Empty
                     };
 
-                    foods.Add(food);
+                    products.Add(product);
                 }
             }
             catch (Exception ex)
@@ -40,7 +40,7 @@ namespace Bevásárlás
                 Environment.Exit(0);
             }
             
-            return foods;
+            return products;
         }
     }
 }

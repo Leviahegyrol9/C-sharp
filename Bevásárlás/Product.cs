@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Bevásárlás
 {
-    public class Food
+    public class Product
     {
         public DateTime Date { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
         public string Category { get; set; }
-        public Food()
+        public Product()
         {
             
         }
-        public Food(DateTime date, string name, int price, string category)
+        public Product(DateTime date, string name, int price, string category)
         {
             Date = date;
             Name = name;
@@ -25,7 +25,7 @@ namespace Bevásárlás
         }
         public override string ToString()
         {
-            return $"{Date};{Name};{Price};{Category}";
+            return $"{Date.ToString("yyyy.MM.dd")};{Name};{Price};{Category}";
         }
     }
 }

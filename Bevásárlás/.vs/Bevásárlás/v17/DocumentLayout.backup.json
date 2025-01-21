@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|j:\\c-sharp\\bev\u00E1s\u00E1rl\u00E1s\\consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\bev\u00E1s\u00E1rl\u00E1s\\consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|solutionrelative:consoleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|j:\\c-sharp\\bev\u00E1s\u00E1rl\u00E1s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\bev\u00E1s\u00E1rl\u00E1s\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|solutionrelative:food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\bev\u00E1s\u00E1rl\u00E1s\\foodio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2876179-EEAB-461D-A349-FC11E39C222B}|Bev\u00E1s\u00E1rl\u00E1s.csproj|solutionrelative:foodio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConsoleServices.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\ConsoleServices.cs",
-              "RelativeDocumentMoniker": "ConsoleServices.cs",
-              "ToolTip": "J:\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\ConsoleServices.cs",
-              "RelativeToolTip": "ConsoleServices.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB4AAAA/AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\Food.cs",
+              "RelativeDocumentMoniker": "Food.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\Food.cs",
+              "RelativeToolTip": "Food.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T13:55:57.52Z",
+              "WhenOpened": "2025-01-21T17:55:47.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FoodIO.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\FoodIO.cs",
+              "RelativeDocumentMoniker": "FoodIO.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\FoodIO.cs",
+              "RelativeToolTip": "FoodIO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T17:45:13.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ConsoleServices.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\ConsoleServices.cs",
+              "RelativeDocumentMoniker": "ConsoleServices.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\ConsoleServices.cs",
+              "RelativeToolTip": "ConsoleServices.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAnwCMAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:48:43.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\Program.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Bev\u00E1s\u00E1rl\u00E1s\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T13:42:04.466Z",
               "EditorCaption": ""

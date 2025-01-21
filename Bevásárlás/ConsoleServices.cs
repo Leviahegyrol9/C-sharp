@@ -10,19 +10,7 @@ namespace Bevásárlás
 {
     public class ConsoleServices
     {
-        public static HashSet<string> GetFoodNames(List<Food> foods)
-        {
-            HashSet<string> foodNames = new HashSet<string>();
-
-            foreach (Food food in foods)
-            {
-                foodNames.Add(food.Name);
-            }
-
-            return foodNames;
-        }
-
-        public static Dictionary<string, List<string>> CategorizeFoods(HashSet<string> foodNames)
+        public static Dictionary<string, List<string>> CategorizeProducts(List<Product> products)
         {
             Dictionary<string, List<string>> categoriesAndNames = new Dictionary<string, List<string>>
             {
@@ -30,17 +18,30 @@ namespace Bevásárlás
                 {"Vegyiáru", new List<string>()},
                 {"Egyéb", new List<string>()}
             };
+            HashSet<string> productNames = GetProductNames(products);
 
-            foreach (string foodName in foodNames)
+            foreach (string productName in productNames)
             {
-                int category = Methods.GetNumberWithCondition($"{Methods.CapitalizeFirstLetter(foodName)} milyen kategória?\n1 - Élelmiszer\n2 - Vegyiáru\n3 - Egyéb\nVálasztás: ", 1, 3);
+                int category = Methods.GetNumberWithCondition($"{Methods.CapitalizeFirstLetter(productName)} milyen kategória?\n\n1 - Élelmiszer\n2 - Vegyiáru\n3 - Egyéb\nVálasztás: ", 1, 3);
                 string categoryName = GetCategoryName(category);
 
-                categoriesAndNames[categoryName].Add(foodName);
+                categoriesAndNames[categoryName].Add(productName);
             }
 
             return categoriesAndNames;
         }
+        private static HashSet<string> GetProductNames(List<Product> products)
+        {
+            HashSet<string> productNames = new HashSet<string>();
+
+            foreach (Product product in products)
+            {
+                productNames.Add(product.Name.ToLower());
+            }
+
+            return productNames;
+        }
+
         private static string GetCategoryName(int category)
         {
             switch (category)
@@ -55,44 +56,53 @@ namespace Bevásárlás
                     return "Egyéb";
             }
         }
-
-        public static List<Food> GetFoodAndCategory(List<Food> foods, HashSet<string> foodNames)
+        public static void AddCategoryName(List<Product> foods, Dictionary<string, List<string>> categoriesAndNames)
         {
-            List<Food> foodWithCategory = new List<Food>();
-
-            foreach (Food food in foods)
+            foreach (Product food in foods)
             {
-                food.Category = GetCategory(food.Name);
+                food.Category = GetCategory(food.Name, categoriesAndNames);
             }
 
-            return foodWithCategory;
         }
 
         private static string GetCategory(string foodName, Dictionary<string, List<string>> categoriesAndNames)
         {
             foreach (var item in categoriesAndNames)
             {
-
+                foreach (string name in item.Value)
+                {
+                    if (name == foodName)
+                    {
+                        return item.Key;
+                    }
+                }
             }
+
+            return string.Empty;
         }
 
-        public static bool WriteFile(string path, List<Food> foods)
+        public static bool WriteFile(string path, List<Product> foods)
         {
             StreamWriter writer = new StreamWriter(path);
 
             try
             {
-                foreach (Food food in foods)
+                foreach (Product food in foods)
                 {
-
+                    writer.WriteLine(food);
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine(ex.Message);
-                Console.ReadKey();
-                Environment.Exit(0);
+                writer.Close();
+                return false;
             }
+            finally
+            {
+                writer.Close();
+            }
+
+            return true;
         }
     }
 }

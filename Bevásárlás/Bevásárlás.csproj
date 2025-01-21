@@ -44,8 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleServices.cs" />
-    <Compile Include="Food.cs" />
-    <Compile Include="FoodIO.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductIO.cs" />
     <Compile Include="Function.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
