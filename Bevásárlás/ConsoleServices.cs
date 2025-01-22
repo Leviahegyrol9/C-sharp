@@ -50,7 +50,7 @@ namespace Bevásárlás
                     return "Élelmiszer";
 
                 case 2:
-                    return "Vegyuiáru";
+                    return "Vegyiáru";
 
                 default:
                     return "Egyéb";

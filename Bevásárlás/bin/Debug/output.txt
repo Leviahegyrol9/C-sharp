@@ -1,0 +1,6 @@
+2025.01.10;alma;100;Élelmiszer
+2025.01.10;péksüti;0;Élelmiszer
+2025.01.12;mosógép;0;Vegyiáru
+2025.01.19;körte;0;Élelmiszer
+2025.08.19;körte;100;Élelmiszer
+2025.01.10;alma;100;Élelmiszer
