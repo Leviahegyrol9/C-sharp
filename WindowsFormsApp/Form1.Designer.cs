@@ -35,9 +35,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.CashClear = new System.Windows.Forms.Button();
-            this.comboBox = new System.Windows.Forms.ComboBox();
+            this.vehicles = new System.Windows.Forms.ComboBox();
             this.addBTN = new System.Windows.Forms.Button();
-            this.priceBTN = new System.Windows.Forms.TextBox();
+            this.priceBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnStart
@@ -102,29 +103,29 @@
             this.CashClear.UseVisualStyleBackColor = true;
             this.CashClear.Click += new System.EventHandler(this.CashClear_Click);
             // 
-            // comboBox
+            // vehicles
             // 
-            this.comboBox.FormattingEnabled = true;
-            this.comboBox.Items.AddRange(new object[] {
-            "Limousine YJH 53",
+            this.vehicles.FormattingEnabled = true;
+            this.vehicles.Items.AddRange(new object[] {
+            "Audi RS5 2011 BJS 32",
+            "BMW S-1000 RR PVZ 53",
+            "BMW X7 HCD 72",
+            "Brabus ML63 GOQ 84",
             "Dodge RAM TRX Reaper 2022 OFFROAD LXW 10",
             "Ford Raptor Scorpion 2017 NGR 84",
-            "BMW X7 HCD 72",
-            "Mercedes C63 AMG 2012 LIH 21",
             "KTM Cross MDK 63",
-            "Kawasaki Ninja ZX6R GIY 62",
             "KTM Cross RZR 64",
-            "BMW S-1000 RR PVZ 53",
-            "Brabus ML63 GOQ 84",
-            "Audi RS5 2011 BJS 32"});
-            this.comboBox.Location = new System.Drawing.Point(382, 76);
-            this.comboBox.Name = "comboBox";
-            this.comboBox.Size = new System.Drawing.Size(114, 24);
-            this.comboBox.TabIndex = 7;
+            "Kawasaki Ninja ZX6R GIY 62",
+            "Limousine YJH 53",
+            "Mercedes C63 AMG 2012 LIH 21"});
+            this.vehicles.Location = new System.Drawing.Point(339, 76);
+            this.vehicles.Name = "vehicles";
+            this.vehicles.Size = new System.Drawing.Size(148, 24);
+            this.vehicles.TabIndex = 7;
             // 
             // addBTN
             // 
-            this.addBTN.Location = new System.Drawing.Point(644, 76);
+            this.addBTN.Location = new System.Drawing.Point(607, 75);
             this.addBTN.Name = "addBTN";
             this.addBTN.Size = new System.Drawing.Size(64, 24);
             this.addBTN.TabIndex = 8;
@@ -132,22 +133,32 @@
             this.addBTN.UseVisualStyleBackColor = true;
             this.addBTN.Click += new System.EventHandler(this.button1_Click);
             // 
-            // priceBTN
+            // priceBox
             // 
-            this.priceBTN.Location = new System.Drawing.Point(511, 76);
-            this.priceBTN.MinimumSize = new System.Drawing.Size(45, 24);
-            this.priceBTN.Name = "priceBTN";
-            this.priceBTN.Size = new System.Drawing.Size(45, 24);
-            this.priceBTN.TabIndex = 9;
+            this.priceBox.Location = new System.Drawing.Point(511, 76);
+            this.priceBox.MinimumSize = new System.Drawing.Size(45, 24);
+            this.priceBox.Name = "priceBox";
+            this.priceBox.Size = new System.Drawing.Size(45, 22);
+            this.priceBox.TabIndex = 9;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(562, 80);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(20, 16);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "Ár";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.priceBTN);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.priceBox);
             this.Controls.Add(this.addBTN);
-            this.Controls.Add(this.comboBox);
+            this.Controls.Add(this.vehicles);
             this.Controls.Add(this.CashClear);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.label1);
@@ -172,9 +183,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.Button CashClear;
-        private System.Windows.Forms.ComboBox comboBox;
+        private System.Windows.Forms.ComboBox vehicles;
         private System.Windows.Forms.Button addBTN;
-        private System.Windows.Forms.TextBox priceBTN;
+        private System.Windows.Forms.TextBox priceBox;
+        private System.Windows.Forms.Label label2;
     }
 }
 

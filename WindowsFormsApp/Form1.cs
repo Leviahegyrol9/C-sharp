@@ -17,6 +17,7 @@ namespace WindowsFormsApp
         DateTime startTime;
         DateTime endTime;
         bool isNumber;
+        string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         public Form1()
         {
             InitializeComponent();
@@ -39,7 +40,6 @@ namespace WindowsFormsApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             string folderPath = $"{desktopPath}/FMT";
 
@@ -112,7 +112,34 @@ namespace WindowsFormsApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            result.Text = comboBox.SelectedItem.ToString();
+
+            string vehicle = vehicles.SelectedItem.ToString();
+
+            string price = priceBox.Text;
+
+            string path = Path.Combine(desktopPath, "FMT", "data.txt");
+
+            bool success = WriteFile(path, vehicle, price);
+
+            result.Text = $"Elem {(success ? "hozzáadva" : "nem lett hozzáadva")}!";
+        }
+
+        private static bool WriteFile(string path, string vehicle, string price)
+        {
+            StreamWriter writer = new StreamWriter(path, true);
+
+            try
+            {
+                writer.WriteLine($"{vehicle};{price}");
+            }
+            catch (Exception)
+            {
+                writer.Close();
+                return false;
+            }
+
+            writer.Close();
+            return true;
         }
     }
 }
