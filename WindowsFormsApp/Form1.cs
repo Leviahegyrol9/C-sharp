@@ -18,6 +18,7 @@ namespace WindowsFormsApp
         DateTime endTime;
         bool isNumber;
         string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "FMT", "data.txt");
         public Form1()
         {
             InitializeComponent();
@@ -117,29 +118,25 @@ namespace WindowsFormsApp
 
             string price = priceBox.Text;
 
-            string path = Path.Combine(desktopPath, "FMT", "data.txt");
+            bool success = AppServices.WriteFile(path, vehicle, price);
 
-            bool success = WriteFile(path, vehicle, price);
-
-            result.Text = $"Elem {(success ? "hozzáadva" : "nem lett hozzáadva")}!";
+            result.Text = $"Elem {(success ? "sikeresen" : "nem lett")} hozzáadva!";
         }
 
-        private static bool WriteFile(string path, string vehicle, string price)
+        private void summaryBTN_Click(object sender, EventArgs e)
         {
-            StreamWriter writer = new StreamWriter(path, true);
+            List<Vehicle> vehciles = AppServices.GetVehicles(path);
+            Dictionary<string, int> namesAndPrice = AppServices.GetNamesAndPrice(vehciles);
 
-            try
+            string text = string.Empty;
+
+            foreach (var item in namesAndPrice)
             {
-                writer.WriteLine($"{vehicle};{price}");
-            }
-            catch (Exception)
-            {
-                writer.Close();
-                return false;
+                text += $"{item.Key}: {item.Value}\n";
             }
 
-            writer.Close();
-            return true;
+            Clipboard.SetText(text);
+            result.Text = "Vágólapra másolva!";
         }
     }
 }

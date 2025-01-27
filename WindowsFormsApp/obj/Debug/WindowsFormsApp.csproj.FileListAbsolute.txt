@@ -8,3 +8,13 @@ C:\Saját\Projects\C-sharp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
 C:\Saját\Projects\C-sharp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
 C:\Saját\Projects\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
 C:\Saját\Projects\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+J:\C-sharp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+J:\C-sharp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+J:\C-sharp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+J:\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.AssemblyReference.cache
+J:\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+J:\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+J:\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+J:\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+J:\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+J:\C-sharp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb

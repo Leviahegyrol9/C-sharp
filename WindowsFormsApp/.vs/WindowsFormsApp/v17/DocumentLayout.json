@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\WindowsFormsApp\\",
+  "WorkspaceRootPath": "J:\\C-sharp\\WindowsFormsApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E99F76B0-AAA4-4DF3-9279-26CA57339452}|WindowsFormsApp.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\WindowsFormsApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E99F76B0-AAA4-4DF3-9279-26CA57339452}|WindowsFormsApp.csproj|j:\\c-sharp\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E99F76B0-AAA4-4DF3-9279-26CA57339452}|WindowsFormsApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E99F76B0-AAA4-4DF3-9279-26CA57339452}|WindowsFormsApp.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\windowsformsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E99F76B0-AAA4-4DF3-9279-26CA57339452}|WindowsFormsApp.csproj|J:\\C-sharp\\WindowsFormsApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E99F76B0-AAA4-4DF3-9279-26CA57339452}|WindowsFormsApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E99F76B0-AAA4-4DF3-9279-26CA57339452}|WindowsFormsApp.csproj|J:\\C-sharp\\WindowsFormsApp\\appservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E99F76B0-AAA4-4DF3-9279-26CA57339452}|WindowsFormsApp.csproj|solutionrelative:appservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,13 +30,25 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppServices.cs",
+              "DocumentMoniker": "J:\\C-sharp\\WindowsFormsApp\\AppServices.cs",
+              "RelativeDocumentMoniker": "AppServices.cs",
+              "ToolTip": "J:\\C-sharp\\WindowsFormsApp\\AppServices.cs",
+              "RelativeToolTip": "AppServices.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAADwv0QAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T09:04:36.806Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\WindowsFormsApp\\Form1.cs",
+              "DocumentMoniker": "J:\\C-sharp\\WindowsFormsApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\WindowsFormsApp\\Form1.cs",
+              "ToolTip": "J:\\C-sharp\\WindowsFormsApp\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAgwHcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwIoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T01:05:56.309Z",
               "EditorCaption": ""
@@ -41,9 +57,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\WindowsFormsApp\\Form1.cs",
+              "DocumentMoniker": "J:\\C-sharp\\WindowsFormsApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\WindowsFormsApp\\Form1.cs [Design]",
+              "ToolTip": "J:\\C-sharp\\WindowsFormsApp\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-26T01:05:29.454Z",
