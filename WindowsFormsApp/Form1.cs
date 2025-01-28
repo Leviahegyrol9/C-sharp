@@ -15,30 +15,12 @@ namespace WindowsFormsApp
     public partial class Form1 : Form
     {
         DateTime startTime;
-        DateTime endTime;
-        bool isNumber;
         string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "FMT", "data.txt");
         public Form1()
         {
             InitializeComponent();
         }
-
-        private void start_Click(object sender, EventArgs e)
-        {
-            startTime = DateTime.Now;
-
-            result.Text = string.Empty;
-            progressBar.Value = 0;
-
-            isNumber = GetMotorHp();
-            
-            if (isNumber)
-            {
-                progressBar.Value += 50;
-            }
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -50,76 +32,64 @@ namespace WindowsFormsApp
             }
         }
 
-        private void end_Click(object sender, EventArgs e)
+        private void startBtn_Click(object sender, EventArgs e)
         {
-            endTime = DateTime.Now;
+            if (progressBar.Value != 50)
+            {
+                startTime = DateTime.Now;
+                              
+                result.Text = string.Empty;
+                progressBar.Value = 0;
 
-            if (isNumber && motorHP.Text != string.Empty && progressBar.Value < 100)
+                bool isNumber = AppServices.GetMotorHp(motorHP, result);
+
+                if (isNumber)
+                {
+                    progressBar.Value += 50;
+                    motorHP.ReadOnly = true;
+                }
+            }     
+        }
+
+        private void stopBtn_Click(object sender, EventArgs e)
+        {
+            DateTime endTime = DateTime.Now;
+
+            if (progressBar.Value == 50)
             {
                 Clipboard.SetText($"Állapot: {motorHP.Text}%\nKi: {startTime.ToShortTimeString()}\nBe: {endTime.ToShortTimeString()}");
-                motorHP.Text = string.Empty;
                 progressBar.Value += 50;
                 result.Text = "Vágólapra másolva!";
+                motorHP.Text = string.Empty;
+                motorHP.ReadOnly = false;
             }
         }
-        private bool GetMotorHp()
-        {
-            bool isNumber = int.TryParse(motorHP.Text, out int value);
 
-            if (!isNumber)
-            {
-                result.Text = "Nem számot adtál meg!";
-                return false;
-            }
-            else if (value < 0 || value > 100)
-            {
-                result.Text = "0 és 100 között add meg!";
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-
-        }
-
-        private void CashClear_Click(object sender, EventArgs e)
+        private void clearBtn_Click(object sender, EventArgs e)
         {
             string appDataLocal = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
             string fiveMPath = Path.Combine(appDataLocal, "FiveM", "FiveM.app", "data");
 
-            bool success = ClearCache(fiveMPath);
+            bool success = AppServices.ClearCache(fiveMPath);
 
             result.Text = $"A törlés {(success ? "sikerült" : "nem sikerült")}!";
 
-        }
-
-        private static bool ClearCache(string fiveMPath)
+        }  
+        private void addBtn_Click(object sender, EventArgs e)
         {
-            try
+            if (priceBox.Text == string.Empty || vehiclesCb.SelectedItem == null)
             {
-                Directory.Delete($"{fiveMPath}/cache", true);
-                Directory.Delete($"{fiveMPath}/server-cache", true);
-                Directory.Delete($"{fiveMPath}/server-cache-priv", true);
+                result.Text = "Add meg az adatokat!";
             }
-            catch (Exception)
+            else if (!int.TryParse(priceBox.Text, out int num))
             {
-                return false;
-            }
-
-            return true;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (priceBox.Text == string.Empty || int.TryParse(priceBox.Text, out int num))
-            {
-                result.Text = "Nem számot adtál meg!";
+                result.Text = "Nem számot adott meg!";
+                priceBox.Text = string.Empty;
             }
             else
             {
-                string vehicle = vehicles.SelectedItem.ToString();
+                string vehicle = vehiclesCb.SelectedItem.ToString();
 
                 bool success = AppServices.WriteFile(path, vehicle, num);
 
@@ -127,23 +97,29 @@ namespace WindowsFormsApp
             }           
         }
 
-        private void summaryBTN_Click(object sender, EventArgs e)
+        private void summaryBtn_Click(object sender, EventArgs e)
         {
-            List<Vehicle> vehciles = AppServices.GetVehicles(path);
-            Dictionary<string, int> namesAndPrice = AppServices.GetNamesAndPrice(vehciles);
+            List<Vehicle> vehicles = AppServices.GetVehicles(path, result);
 
-            string text = string.Empty;
-
-            foreach (var item in namesAndPrice)
+            if (vehicles.Count != 0)
             {
-                text += $"{item.Key}: {item.Value}\n";
-            }
-            text += $"Összesen: {namesAndPrice.Sum(p => p.Value)}";
+                Dictionary<string, int> namesAndPrice = AppServices.GetNamesAndPrice(vehicles);
 
-            Clipboard.SetText(text);
-            result.Text = "Vágólapra másolva!";
+                string text = string.Empty;
 
-            MessageBox.Show("Szeretnéd törölni az adatokat?", "Törlés", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                foreach (var item in namesAndPrice)
+                {
+                    text += $"{item.Key}: {item.Value}\n";
+                }
+
+                text += $"Összesen: {namesAndPrice.Sum(p => p.Value)}";
+
+                Clipboard.SetText(text);
+                result.Text = "Vágólapra másolva!";
+
+                DialogResult resultD = MessageBox.Show("Szeretnéd törölni az adatokat?", "Törlés", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (resultD == DialogResult.Yes) AppServices.RunResult(resultD, path);
+            }        
         }
     }
 }

@@ -10,7 +10,44 @@ namespace WindowsFormsApp
 {
     public class AppServices
     {
-        public static List<Vehicle> GetVehicles(string path)
+        public static bool GetMotorHp(TextBox motorHP, Label result)
+        {
+            bool isNumber = int.TryParse(motorHP.Text, out int value);
+
+            if (!isNumber)
+            {
+                result.Text = "Nem számot adtál meg!";
+                motorHP.Text = string.Empty;
+                return false;
+            }
+            else if (value < 0 || value > 100)
+            {
+                result.Text = "0 és 100 között add meg!";
+                motorHP.Text = string.Empty;
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        public static bool ClearCache(string fiveMPath)
+        {
+            try
+            {
+                Directory.Delete($"{fiveMPath}/cache", true);
+                Directory.Delete($"{fiveMPath}/server-cache", true);
+                Directory.Delete($"{fiveMPath}/server-cache-priv", true);
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+            return true;
+        }
+        public static List<Vehicle> GetVehicles(string path, Label result)
         {
             List<Vehicle> vehicles = new List<Vehicle>();
             Vehicle vehicle = new Vehicle();
@@ -32,9 +69,13 @@ namespace WindowsFormsApp
                     vehicles.Add(vehicle);
                 }
             }
+            catch (FileNotFoundException)
+            {
+                result.Text = "Először adj hozzá valamit!";
+            }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                result.Text = ex.Message;
             }
 
             return vehicles;
@@ -87,6 +128,23 @@ namespace WindowsFormsApp
 
             writer.Close();
             return true;
+        }
+
+        public static void RunResult(DialogResult result, string path)
+        {
+            try
+            {
+                if (result == DialogResult.Yes)
+                {
+                    File.Delete(path);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            MessageBox.Show("Sikeres törlés", "Törlés", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

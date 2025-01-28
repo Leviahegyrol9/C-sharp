@@ -28,93 +28,92 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnStart = new System.Windows.Forms.Button();
-            this.btnEnd = new System.Windows.Forms.Button();
+            this.startBtn = new System.Windows.Forms.Button();
+            this.stopBtn = new System.Windows.Forms.Button();
             this.result = new System.Windows.Forms.Label();
             this.motorHP = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.progressBar = new System.Windows.Forms.ProgressBar();
-            this.CashClear = new System.Windows.Forms.Button();
-            this.vehicles = new System.Windows.Forms.ComboBox();
-            this.addBTN = new System.Windows.Forms.Button();
+            this.clearBtn = new System.Windows.Forms.Button();
+            this.vehiclesCb = new System.Windows.Forms.ComboBox();
+            this.addBtn = new System.Windows.Forms.Button();
             this.priceBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.summaryBTN = new System.Windows.Forms.Button();
+            this.summaryBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnStart
+            // startBtn
             // 
-            this.btnStart.Location = new System.Drawing.Point(8, 75);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(59, 35);
-            this.btnStart.TabIndex = 0;
-            this.btnStart.Text = "Start";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.start_Click);
+            this.startBtn.Location = new System.Drawing.Point(11, 92);
+            this.startBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.startBtn.Name = "startBtn";
+            this.startBtn.Size = new System.Drawing.Size(79, 43);
+            this.startBtn.TabIndex = 0;
+            this.startBtn.Text = "Start";
+            this.startBtn.UseVisualStyleBackColor = true;
+            this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
             // 
-            // btnEnd
+            // stopBtn
             // 
-            this.btnEnd.Location = new System.Drawing.Point(89, 75);
-            this.btnEnd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnEnd.Name = "btnEnd";
-            this.btnEnd.Size = new System.Drawing.Size(59, 35);
-            this.btnEnd.TabIndex = 1;
-            this.btnEnd.Text = "Stop";
-            this.btnEnd.UseVisualStyleBackColor = true;
-            this.btnEnd.Click += new System.EventHandler(this.end_Click);
+            this.stopBtn.Location = new System.Drawing.Point(119, 92);
+            this.stopBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.stopBtn.Name = "stopBtn";
+            this.stopBtn.Size = new System.Drawing.Size(79, 43);
+            this.stopBtn.TabIndex = 1;
+            this.stopBtn.Text = "Stop";
+            this.stopBtn.UseVisualStyleBackColor = true;
+            this.stopBtn.Click += new System.EventHandler(this.stopBtn_Click);
             // 
             // result
             // 
             this.result.AutoSize = true;
-            this.result.Location = new System.Drawing.Point(9, 7);
-            this.result.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.result.MinimumSize = new System.Drawing.Size(75, 20);
+            this.result.Location = new System.Drawing.Point(12, 9);
+            this.result.MinimumSize = new System.Drawing.Size(100, 25);
             this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(75, 20);
+            this.result.Size = new System.Drawing.Size(100, 25);
             this.result.TabIndex = 2;
             // 
             // motorHP
             // 
-            this.motorHP.Location = new System.Drawing.Point(179, 90);
-            this.motorHP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.motorHP.Location = new System.Drawing.Point(239, 111);
+            this.motorHP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.motorHP.Name = "motorHP";
-            this.motorHP.Size = new System.Drawing.Size(35, 20);
+            this.motorHP.Size = new System.Drawing.Size(45, 22);
             this.motorHP.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(177, 75);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(236, 92);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 13);
+            this.label1.Size = new System.Drawing.Size(56, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "Motor %";
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(45, 129);
-            this.progressBar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar.Location = new System.Drawing.Point(60, 159);
+            this.progressBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(78, 23);
+            this.progressBar.Size = new System.Drawing.Size(104, 28);
             this.progressBar.TabIndex = 5;
             // 
-            // CashClear
+            // clearBtn
             // 
-            this.CashClear.Location = new System.Drawing.Point(34, 313);
-            this.CashClear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.CashClear.Name = "CashClear";
-            this.CashClear.Size = new System.Drawing.Size(59, 35);
-            this.CashClear.TabIndex = 6;
-            this.CashClear.Text = "Clear";
-            this.CashClear.UseVisualStyleBackColor = true;
-            this.CashClear.Click += new System.EventHandler(this.CashClear_Click);
+            this.clearBtn.Location = new System.Drawing.Point(45, 385);
+            this.clearBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(79, 43);
+            this.clearBtn.TabIndex = 6;
+            this.clearBtn.Text = "Clear";
+            this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
-            // vehicles
+            // vehiclesCb
             // 
-            this.vehicles.FormattingEnabled = true;
-            this.vehicles.Items.AddRange(new object[] {
+            this.vehiclesCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.vehiclesCb.FormattingEnabled = true;
+            this.vehiclesCb.Items.AddRange(new object[] {
             "Audi RS5 2011 BJS 32",
             "BMW S-1000 RR PVZ 53",
             "BMW X7 HCD 72",
@@ -126,72 +125,71 @@
             "KTM Cross RZR 64",
             "Limousine YJH 53",
             "Mercedes C63 AMG 2012 LIH 21"});
-            this.vehicles.Location = new System.Drawing.Point(254, 62);
-            this.vehicles.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.vehicles.Name = "vehicles";
-            this.vehicles.Size = new System.Drawing.Size(112, 21);
-            this.vehicles.Sorted = true;
-            this.vehicles.TabIndex = 7;
+            this.vehiclesCb.Location = new System.Drawing.Point(339, 76);
+            this.vehiclesCb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.vehiclesCb.Name = "vehiclesCb";
+            this.vehiclesCb.Size = new System.Drawing.Size(148, 24);
+            this.vehiclesCb.Sorted = true;
+            this.vehiclesCb.TabIndex = 7;
             // 
-            // addBTN
+            // addBtn
             // 
-            this.addBTN.Location = new System.Drawing.Point(455, 61);
-            this.addBTN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.addBTN.Name = "addBTN";
-            this.addBTN.Size = new System.Drawing.Size(48, 20);
-            this.addBTN.TabIndex = 8;
-            this.addBTN.Text = "Add";
-            this.addBTN.UseVisualStyleBackColor = true;
-            this.addBTN.Click += new System.EventHandler(this.button1_Click);
+            this.addBtn.Location = new System.Drawing.Point(607, 75);
+            this.addBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addBtn.Name = "addBtn";
+            this.addBtn.Size = new System.Drawing.Size(64, 25);
+            this.addBtn.TabIndex = 8;
+            this.addBtn.Text = "Add";
+            this.addBtn.UseVisualStyleBackColor = true;
+            this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
             // priceBox
             // 
-            this.priceBox.Location = new System.Drawing.Point(383, 62);
-            this.priceBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.priceBox.MinimumSize = new System.Drawing.Size(35, 24);
+            this.priceBox.Location = new System.Drawing.Point(511, 76);
+            this.priceBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.priceBox.MinimumSize = new System.Drawing.Size(45, 24);
             this.priceBox.Name = "priceBox";
-            this.priceBox.Size = new System.Drawing.Size(35, 20);
+            this.priceBox.Size = new System.Drawing.Size(45, 22);
             this.priceBox.TabIndex = 9;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(422, 65);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(563, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 13);
+            this.label2.Size = new System.Drawing.Size(20, 16);
             this.label2.TabIndex = 10;
             this.label2.Text = "Ár";
             // 
-            // summaryBTN
+            // summaryBtn
             // 
-            this.summaryBTN.Location = new System.Drawing.Point(518, 62);
-            this.summaryBTN.Margin = new System.Windows.Forms.Padding(2);
-            this.summaryBTN.Name = "summaryBTN";
-            this.summaryBTN.Size = new System.Drawing.Size(71, 20);
-            this.summaryBTN.TabIndex = 11;
-            this.summaryBTN.Text = "Summary";
-            this.summaryBTN.UseVisualStyleBackColor = true;
-            this.summaryBTN.Click += new System.EventHandler(this.summaryBTN_Click);
+            this.summaryBtn.Location = new System.Drawing.Point(691, 76);
+            this.summaryBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.summaryBtn.Name = "summaryBtn";
+            this.summaryBtn.Size = new System.Drawing.Size(95, 25);
+            this.summaryBtn.TabIndex = 11;
+            this.summaryBtn.Text = "Summary";
+            this.summaryBtn.UseVisualStyleBackColor = true;
+            this.summaryBtn.Click += new System.EventHandler(this.summaryBtn_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Controls.Add(this.summaryBTN);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.summaryBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.priceBox);
-            this.Controls.Add(this.addBTN);
-            this.Controls.Add(this.vehicles);
-            this.Controls.Add(this.CashClear);
+            this.Controls.Add(this.addBtn);
+            this.Controls.Add(this.vehiclesCb);
+            this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.motorHP);
             this.Controls.Add(this.result);
-            this.Controls.Add(this.btnEnd);
-            this.Controls.Add(this.btnStart);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Controls.Add(this.stopBtn);
+            this.Controls.Add(this.startBtn);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "FiveM";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -202,18 +200,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Button btnEnd;
+        private System.Windows.Forms.Button startBtn;
+        private System.Windows.Forms.Button stopBtn;
         private System.Windows.Forms.Label result;
         private System.Windows.Forms.TextBox motorHP;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ProgressBar progressBar;
-        private System.Windows.Forms.Button CashClear;
-        private System.Windows.Forms.ComboBox vehicles;
-        private System.Windows.Forms.Button addBTN;
+        private System.Windows.Forms.Button clearBtn;
+        private System.Windows.Forms.ComboBox vehiclesCb;
+        private System.Windows.Forms.Button addBtn;
         private System.Windows.Forms.TextBox priceBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button summaryBTN;
+        private System.Windows.Forms.Button summaryBtn;
     }
 }
 
