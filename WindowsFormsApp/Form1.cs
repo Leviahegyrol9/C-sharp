@@ -113,14 +113,18 @@ namespace WindowsFormsApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (priceBox.Text == string.Empty || int.TryParse(priceBox.Text, out int num))
+            {
+                result.Text = "Nem számot adtál meg!";
+            }
+            else
+            {
+                string vehicle = vehicles.SelectedItem.ToString();
 
-            string vehicle = vehicles.SelectedItem.ToString();
+                bool success = AppServices.WriteFile(path, vehicle, num);
 
-            string price = priceBox.Text;
-
-            bool success = AppServices.WriteFile(path, vehicle, price);
-
-            result.Text = $"Elem {(success ? "sikeresen" : "nem lett")} hozzáadva!";
+                result.Text = $"Elem {(success ? "sikeresen" : "nem lett")} hozzáadva!";
+            }           
         }
 
         private void summaryBTN_Click(object sender, EventArgs e)
@@ -134,9 +138,12 @@ namespace WindowsFormsApp
             {
                 text += $"{item.Key}: {item.Value}\n";
             }
+            text += $"Összesen: {namesAndPrice.Sum(p => p.Value)}";
 
             Clipboard.SetText(text);
             result.Text = "Vágólapra másolva!";
+
+            MessageBox.Show("Szeretnéd törölni az adatokat?", "Törlés", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         }
     }
 }
