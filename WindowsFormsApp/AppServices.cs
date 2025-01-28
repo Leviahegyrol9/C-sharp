@@ -71,7 +71,7 @@ namespace WindowsFormsApp
             return names;
         }
 
-        public static bool WriteFile(string path, string vehicle, string price)
+        public static bool WriteFile(string path, string vehicle, int price)
         {
             StreamWriter writer = new StreamWriter(path, true);
 
