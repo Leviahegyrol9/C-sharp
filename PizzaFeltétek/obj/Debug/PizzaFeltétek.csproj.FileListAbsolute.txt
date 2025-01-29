@@ -1,0 +1,10 @@
+J:\C-sharp\PizzaFeltétek\bin\Debug\PizzaFeltétek.exe.config
+J:\C-sharp\PizzaFeltétek\bin\Debug\PizzaFeltétek.exe
+J:\C-sharp\PizzaFeltétek\bin\Debug\PizzaFeltétek.pdb
+J:\C-sharp\PizzaFeltétek\obj\Debug\PizzaFeltétek.csproj.AssemblyReference.cache
+J:\C-sharp\PizzaFeltétek\obj\Debug\PizzaFeltétek.Properties.Resources.resources
+J:\C-sharp\PizzaFeltétek\obj\Debug\PizzaFeltétek.csproj.GenerateResource.cache
+J:\C-sharp\PizzaFeltétek\obj\Debug\PizzaFeltétek.csproj.CoreCompileInputs.cache
+J:\C-sharp\PizzaFeltétek\obj\Debug\PizzaFeltétek.exe
+J:\C-sharp\PizzaFeltétek\obj\Debug\PizzaFeltétek.pdb
+J:\C-sharp\PizzaFeltétek\obj\Debug\PizzaFeltétek.Form1.resources
