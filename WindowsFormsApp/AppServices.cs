@@ -122,11 +122,11 @@ namespace WindowsFormsApp
             }
             catch (Exception)
             {
-                writer.Close();
+                writer.Dispose();
                 return false;
             }
 
-            writer.Close();
+            writer.Dispose();
             return true;
         }
 

@@ -67,14 +67,18 @@ namespace WindowsFormsApp
 
         private void clearBtn_Click(object sender, EventArgs e)
         {
-            string appDataLocal = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            DialogResult resultD = MessageBox.Show("Biztosan kitörlöd a temp mappát?", "Törlés", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            string fiveMPath = Path.Combine(appDataLocal, "FiveM", "FiveM.app", "data");
+            if (resultD == DialogResult.Yes)
+            {
+                string appDataLocal = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
-            bool success = AppServices.ClearCache(fiveMPath);
+                string fiveMPath = Path.Combine(appDataLocal, "FiveM", "FiveM.app", "data");
 
-            result.Text = $"A törlés {(success ? "sikerült" : "nem sikerült")}!";
+                bool success = AppServices.ClearCache(fiveMPath);
 
+                result.Text = $"A törlés {(success ? "sikerült" : "nem sikerült")}!";
+            }       
         }  
         private void addBtn_Click(object sender, EventArgs e)
         {

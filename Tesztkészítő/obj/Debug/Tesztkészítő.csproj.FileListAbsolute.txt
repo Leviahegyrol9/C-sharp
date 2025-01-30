@@ -1,0 +1,9 @@
+J:\C-sharp\Tesztkészítő\bin\Debug\Tesztkészítő.exe.config
+J:\C-sharp\Tesztkészítő\bin\Debug\Tesztkészítő.exe
+J:\C-sharp\Tesztkészítő\bin\Debug\Tesztkészítő.pdb
+J:\C-sharp\Tesztkészítő\obj\Debug\Tesztkészítő.csproj.AssemblyReference.cache
+J:\C-sharp\Tesztkészítő\obj\Debug\Tesztkészítő.Properties.Resources.resources
+J:\C-sharp\Tesztkészítő\obj\Debug\Tesztkészítő.csproj.GenerateResource.cache
+J:\C-sharp\Tesztkészítő\obj\Debug\Tesztkészítő.csproj.CoreCompileInputs.cache
+J:\C-sharp\Tesztkészítő\obj\Debug\Tesztkészítő.exe
+J:\C-sharp\Tesztkészítő\obj\Debug\Tesztkészítő.pdb
