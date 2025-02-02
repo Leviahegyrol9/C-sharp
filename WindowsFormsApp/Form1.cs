@@ -95,6 +95,8 @@ namespace WindowsFormsApp
             {
                 string vehicle = vehiclesCb.SelectedItem.ToString();
 
+                priceBox.Text = string.Empty;
+
                 bool success = AppServices.WriteFile(path, vehicle, num);
 
                 result.Text = $"Elem {(success ? "sikeresen" : "nem lett")} hozzáadva!";
