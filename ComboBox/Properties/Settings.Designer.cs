@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ComboBox.Properties
+namespace ComboBoxFeladat.Properties
 {
 
 

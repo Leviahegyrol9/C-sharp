@@ -2,9 +2,9 @@ J:\C-sharp\ComboBox\bin\Debug\ComboBox.exe.config
 J:\C-sharp\ComboBox\bin\Debug\ComboBox.exe
 J:\C-sharp\ComboBox\bin\Debug\ComboBox.pdb
 J:\C-sharp\ComboBox\obj\Debug\ComboBox.csproj.AssemblyReference.cache
-J:\C-sharp\ComboBox\obj\Debug\ComboBox.Form1.resources
 J:\C-sharp\ComboBox\obj\Debug\ComboBox.Properties.Resources.resources
 J:\C-sharp\ComboBox\obj\Debug\ComboBox.csproj.GenerateResource.cache
 J:\C-sharp\ComboBox\obj\Debug\ComboBox.csproj.CoreCompileInputs.cache
 J:\C-sharp\ComboBox\obj\Debug\ComboBox.exe
 J:\C-sharp\ComboBox\obj\Debug\ComboBox.pdb
+J:\C-sharp\ComboBox\obj\Debug\ComboBoxFeladat.Form1.resources

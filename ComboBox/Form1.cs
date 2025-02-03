@@ -8,11 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
-namespace ComboBox
+namespace ComboBoxFeladat
 {
     public partial class Form1 : Form
     {
+        const string path = "megfigyelt.txt";
         public Form1()
         {
             InitializeComponent();
@@ -20,34 +23,15 @@ namespace ComboBox
 
         private void addBTN_Click(object sender, EventArgs e)
         {
-            if (input.Text == string.Empty)
+            if (input.Text == string.Empty || !input.Text.Replace(" ", "").All(char.IsLetter))
             {
                 MessageBox.Show("Írj be valamit!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                list.Items.Add(input.Text);
+                list.Items.Add(input.Text.Trim());
                 input.Text = string.Empty;
             }        
-        }
-
-        private void removeBTN_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                list.Items.Remove(list.SelectedItem);
-
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Nem sikerült a törlés!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void sortBTN_Click(object sender, EventArgs e)
-        {
-            list.Sorted = true;
-            list.Sorted = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -57,24 +41,15 @@ namespace ComboBox
 
         private void writeBTN_Click(object sender, EventArgs e)
         {
-            if (fileName.Text == string.Empty)
-            {
-                MessageBox.Show("Írj be valamit!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                bool success = WriteFile();
+            bool success = WriteFile();
 
-                if (success) MessageBox.Show($"{fileName.Text} állomány sikeresen létrehozva!", "FileWrite", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                else MessageBox.Show($"{fileName.Text} állományt nem sikerült létrehozni!", "FileWrite", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                fileName.Text = string.Empty;
-            }        
+            if (success) MessageBox.Show($"{path} állomány sikeresen létrehozva!", "FileWrite", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else MessageBox.Show($"{path} állományt nem sikerült létrehozni!", "FileWrite", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private bool WriteFile()
         {
-            StreamWriter writer = new StreamWriter($"{fileName.Text}.txt");
+            StreamWriter writer = new StreamWriter(path);
             try
             {
                 foreach (string name in list.Items)
@@ -84,12 +59,12 @@ namespace ComboBox
             }
             catch (Exception)
             {
-                writer.Close();
+                writer.Dispose();
                 return false;
             }
             finally
             {
-                writer.Close();              
+                writer.Dispose();              
             }
 
             return true;
@@ -97,25 +72,20 @@ namespace ComboBox
 
         private void readBTN_Click(object sender, EventArgs e)
         {
-            if (fileName2.Text == string.Empty)
+            List<string> names = ReadFile();
+
+            if (names.Count != 0)
             {
-                MessageBox.Show("Írj be valamit!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                List<string> names = ReadFile();
+                for (int i = 0; i < list.Items.Count; i++)
+                {
+                    list.Items.Remove(list.Items[i]);
+                }
 
                 foreach (string name in names)
                 {
-                    result.Items.Add(name);
+                    list.Items.Add(name);
                 }
-
-                resultText.Text = $"Tanulók száma: {names.Count}";
-
-                result.Visible = true;
-
-                fileName2.Text = string.Empty;
-            }
+            }         
         }
 
         private List<string> ReadFile()
@@ -123,7 +93,7 @@ namespace ComboBox
             List<string> lines = new List<string>();
             try
             {
-                lines = File.ReadAllLines($"{fileName2.Text}.txt").ToList();               
+                lines = File.ReadAllLines(path).ToList();               
             }
             catch (Exception ex)
             {
@@ -131,6 +101,43 @@ namespace ComboBox
             }
 
             return lines;
+        }
+
+        private void topBirdBtn_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, int> birdsAndCounts = GetBirdsAndCounts(list);
+
+
+        }    
+        private Dictionary<string, int> GetBirdsAndCounts(ComboBox cb)
+        {
+            Dictionary<string, int> birdsAndCounts = new Dictionary<string, int>();
+            HashSet<string> birdNames = GetBirdNames(cb);
+
+            foreach (string name in birdNames)
+            {
+                birdsAndCounts[name] = 0;
+            }
+
+            foreach (string name in cb.Items)
+            {
+                birdsAndCounts[name]++;
+            }
+
+            Dictionary<string, int> sortedDict = birdsAndCounts.OrderByDescending(v => v.Value).ToDictionary(k => k.Key, v => v.Value);
+
+            return sortedDict;
+        }
+        private HashSet<string> GetBirdNames(ComboBox cb)
+        {
+            HashSet<string> birdNames = new HashSet<string>();
+
+            foreach (string name in cb.Items)
+            {
+                birdNames.Add(name);
+            }
+
+            return birdNames;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ComboBox
+namespace ComboBoxFeladat
 {
     internal static class Program
     {
