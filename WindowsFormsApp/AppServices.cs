@@ -32,7 +32,7 @@ namespace WindowsFormsApp
             }
         }
 
-        public static bool ClearCache(string fiveMPath)
+        public static void ClearCache(string fiveMPath)
         {
             try
             {
@@ -40,12 +40,13 @@ namespace WindowsFormsApp
                 Directory.Delete($"{fiveMPath}/server-cache", true);
                 Directory.Delete($"{fiveMPath}/server-cache-priv", true);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return false;
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
 
-            return true;
+            MessageBox.Show("Sikeres törlés", "Törlés", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         public static List<Vehicle> GetVehicles(string path, Label result)
         {

@@ -75,9 +75,7 @@ namespace WindowsFormsApp
 
                 string fiveMPath = Path.Combine(appDataLocal, "FiveM", "FiveM.app", "data");
 
-                bool success = AppServices.ClearCache(fiveMPath);
-
-                result.Text = $"A törlés {(success ? "sikerült" : "nem sikerült")}!";
+                AppServices.ClearCache(fiveMPath);
             }       
         }  
         private void addBtn_Click(object sender, EventArgs e)
