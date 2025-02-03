@@ -189,9 +189,10 @@
             this.Controls.Add(this.result);
             this.Controls.Add(this.stopBtn);
             this.Controls.Add(this.startBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
-            this.Text = "FiveM";
+            this.Text = "Sōkaiya";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

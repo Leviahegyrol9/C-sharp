@@ -76,7 +76,7 @@ namespace WindowsFormsApp
             }
             catch (Exception ex)
             {
-                result.Text = ex.Message;
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             return vehicles;
@@ -143,6 +143,7 @@ namespace WindowsFormsApp
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
 
             MessageBox.Show("Sikeres törlés", "Törlés", MessageBoxButtons.OK, MessageBoxIcon.Information);

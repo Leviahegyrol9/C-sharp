@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,7 +20,7 @@ namespace WindowsFormsApp
         string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "FMT", "data.txt");
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();           
         }
         private void Form1_Load(object sender, EventArgs e)
         {

@@ -105,8 +105,35 @@ namespace ComboBoxFeladat
 
         private void topBirdBtn_Click(object sender, EventArgs e)
         {
+            foreach (Control control in groupBox1.Controls)
+            {
+                groupBox1.Controls.Remove(control);
+            }
+
             Dictionary<string, int> birdsAndCounts = GetBirdsAndCounts(list);
 
+            if (birdsAndCounts.Count != 0)
+            {
+                int counter = 0;
+
+                foreach (var item in birdsAndCounts)
+                {
+                    System.Windows.Forms.RadioButton radioButton = new System.Windows.Forms.RadioButton
+                    {
+                        Text = item.Key,
+                        Location = new Point(10, 25 + counter * 25),
+                        AutoSize = true
+                    };
+
+                    groupBox1.Controls.Add(radioButton);
+
+                    counter++;
+                }
+
+                var topBird = birdsAndCounts.Where(count => count.Value == birdsAndCounts.Max(m => m.Value)).Single();
+
+                output.Text = $"Leggyakoribb madár a(z) {topBird.Key}: {topBird.Value}";
+            }
 
         }    
         private Dictionary<string, int> GetBirdsAndCounts(ComboBox cb)

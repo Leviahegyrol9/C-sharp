@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\ComboBox\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\ComboBox\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5056132E-73F2-45E4-A3F9-7B0B962D3B3B}|ComboBox.csproj|J:\\C-sharp\\ComboBox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5056132E-73F2-45E4-A3F9-7B0B962D3B3B}|ComboBox.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\ComboBox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5056132E-73F2-45E4-A3F9-7B0B962D3B3B}|ComboBox.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5056132E-73F2-45E4-A3F9-7B0B962D3B3B}|ComboBox.csproj|j:\\c-sharp\\combobox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5056132E-73F2-45E4-A3F9-7B0B962D3B3B}|ComboBox.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\combobox\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5056132E-73F2-45E4-A3F9-7B0B962D3B3B}|ComboBox.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,17 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "J:\\C-sharp\\ComboBox\\Form1.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\ComboBox\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "J:\\C-sharp\\ComboBox\\Form1.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\ComboBox\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAuwGwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAArwIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T09:10:29.38Z",
               "EditorCaption": ""
@@ -37,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "J:\\C-sharp\\ComboBox\\Form1.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\ComboBox\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "J:\\C-sharp\\ComboBox\\Form1.cs [Design]",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\ComboBox\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T09:07:01.475Z",
