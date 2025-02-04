@@ -1,15 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace ComboBoxFeladat
 {
@@ -31,7 +26,7 @@ namespace ComboBoxFeladat
             {
                 list.Items.Add(input.Text.Trim());
                 input.Text = string.Empty;
-            }        
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -64,7 +59,7 @@ namespace ComboBoxFeladat
             }
             finally
             {
-                writer.Dispose();              
+                writer.Dispose();
             }
 
             return true;
@@ -85,7 +80,7 @@ namespace ComboBoxFeladat
                 {
                     list.Items.Add(name);
                 }
-            }         
+            }
         }
 
         private List<string> ReadFile()
@@ -93,7 +88,7 @@ namespace ComboBoxFeladat
             List<string> lines = new List<string>();
             try
             {
-                lines = File.ReadAllLines(path).ToList();               
+                lines = File.ReadAllLines(path).ToList();
             }
             catch (Exception ex)
             {
@@ -130,12 +125,12 @@ namespace ComboBoxFeladat
                     counter++;
                 }
 
-                var topBird = birdsAndCounts.Where(count => count.Value == birdsAndCounts.Max(m => m.Value)).Single();
+                var topBird = birdsAndCounts.Where(count => count.Value == birdsAndCounts.Max(m => m.Value)).First();
 
                 output.Text = $"Leggyakoribb madár a(z) {topBird.Key}: {topBird.Value}";
             }
 
-        }    
+        }
         private Dictionary<string, int> GetBirdsAndCounts(ComboBox cb)
         {
             Dictionary<string, int> birdsAndCounts = new Dictionary<string, int>();

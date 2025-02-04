@@ -114,10 +114,10 @@ namespace WindowsFormsApp
 
                 foreach (var item in namesAndPrice)
                 {
-                    text += $"{item.Key}: {item.Value}\n";
+                    text += $"{item.Key}: {item.Value}$\n";
                 }
 
-                text += $"Összesen: {namesAndPrice.Sum(p => p.Value)}";
+                text += $"Összesen: {namesAndPrice.Sum(p => p.Value)}$";
 
                 Clipboard.SetText(text);
                 result.Text = "Vágólapra másolva!";
