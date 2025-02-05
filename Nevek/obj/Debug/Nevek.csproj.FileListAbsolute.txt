@@ -1,0 +1,10 @@
+J:\C-sharp\Nevek\bin\Debug\Nevek.exe.config
+J:\C-sharp\Nevek\bin\Debug\Nevek.exe
+J:\C-sharp\Nevek\bin\Debug\Nevek.pdb
+J:\C-sharp\Nevek\obj\Debug\Nevek.csproj.AssemblyReference.cache
+J:\C-sharp\Nevek\obj\Debug\Nevek.Form1.resources
+J:\C-sharp\Nevek\obj\Debug\Nevek.Properties.Resources.resources
+J:\C-sharp\Nevek\obj\Debug\Nevek.csproj.GenerateResource.cache
+J:\C-sharp\Nevek\obj\Debug\Nevek.csproj.CoreCompileInputs.cache
+J:\C-sharp\Nevek\obj\Debug\Nevek.exe
+J:\C-sharp\Nevek\obj\Debug\Nevek.pdb
