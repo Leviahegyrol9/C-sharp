@@ -8,3 +8,13 @@ J:\C-sharp\Nevek\obj\Debug\Nevek.csproj.GenerateResource.cache
 J:\C-sharp\Nevek\obj\Debug\Nevek.csproj.CoreCompileInputs.cache
 J:\C-sharp\Nevek\obj\Debug\Nevek.exe
 J:\C-sharp\Nevek\obj\Debug\Nevek.pdb
+C:\Saját\Projects\C-sharp\Nevek\bin\Debug\Nevek.exe.config
+C:\Saját\Projects\C-sharp\Nevek\bin\Debug\Nevek.exe
+C:\Saját\Projects\C-sharp\Nevek\bin\Debug\Nevek.pdb
+C:\Saját\Projects\C-sharp\Nevek\obj\Debug\Nevek.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sharp\Nevek\obj\Debug\Nevek.Form1.resources
+C:\Saját\Projects\C-sharp\Nevek\obj\Debug\Nevek.Properties.Resources.resources
+C:\Saját\Projects\C-sharp\Nevek\obj\Debug\Nevek.csproj.GenerateResource.cache
+C:\Saját\Projects\C-sharp\Nevek\obj\Debug\Nevek.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\Nevek\obj\Debug\Nevek.exe
+C:\Saját\Projects\C-sharp\Nevek\obj\Debug\Nevek.pdb

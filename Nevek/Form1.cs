@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Nevek
 {
@@ -22,8 +23,19 @@ namespace Nevek
 
         private void readFileBtn_Click(object sender, EventArgs e)
         {
+            namesCb.Text = string.Empty;
+            namesCb.Items.Clear();
+            showDictCb.Visible = false;
+
+            resultCb.Text = string.Empty;
+            resultCb.Items.Clear();
             resultCb.Visible = false;
-            result.Text = string.Empty;
+
+            showDictCb.Text = string.Empty;
+            showDictCb.Items.Clear();
+            showDictCb.Visible = false;
+
+            result.Text = null;
 
             List<string> names = ReadFile(path);
 
@@ -46,7 +58,6 @@ namespace Nevek
 
             return allNames;
         }
-
         private void resultBtn_Click(object sender, EventArgs e)
         {
             Dictionary<string, int> namesAndCount = GetNamesAndCount(allNames);
@@ -61,9 +72,17 @@ namespace Nevek
                 resultCb.Visible = true;
 
                 result.Text = $"Egyedi: {namesAndCount.Count} db.";
+
+                showDictCb.Visible = true;
+
+                Dictionary<string, int> sorted = namesAndCount.OrderByDescending(v => v.Value).ToDictionary(k => k.Key, v => v.Value); 
+
+                foreach(var item in sorted)
+                {
+                    showDictCb.Items.Add($"{item.Key}: {item.Value}");
+                }
             }
         }
-
         private Dictionary<string, int> GetNamesAndCount(List<string> allNames)
         {
             Dictionary<string, int> namesAndCount = new Dictionary<string, int>();
@@ -79,11 +98,8 @@ namespace Nevek
                 namesAndCount[name]++;
             }
 
-            Dictionary<string, int> sorted = namesAndCount.OrderBy(name => name.Key).ToDictionary(k => k.Key, v => v.Value);
-
-            return sorted;
+            return namesAndCount;
         }
-
         private HashSet<string> GetNames(List<string> allNames)
         {
             HashSet<string> names = new HashSet<string>();
