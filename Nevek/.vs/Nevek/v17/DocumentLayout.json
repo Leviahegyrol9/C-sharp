@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Nevek\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Nevek\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B562A11-2B7D-4448-BF03-D5785C46D318}|Nevek.csproj|j:\\c-sharp\\nevek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B562A11-2B7D-4448-BF03-D5785C46D318}|Nevek.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\nevek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B562A11-2B7D-4448-BF03-D5785C46D318}|Nevek.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B562A11-2B7D-4448-BF03-D5785C46D318}|Nevek.csproj|J:\\C-sharp\\Nevek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8B562A11-2B7D-4448-BF03-D5785C46D318}|Nevek.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Nevek\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8B562A11-2B7D-4448-BF03-D5785C46D318}|Nevek.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,36 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Nevek\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "J:\\C-sharp\\Nevek\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwGIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T10:57:51.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Nevek\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Nevek\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAADwv2sAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T10:57:51.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "J:\\C-sharp\\Nevek\\Form1.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Nevek\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Nevek\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T10:54:45.664Z"
             }
