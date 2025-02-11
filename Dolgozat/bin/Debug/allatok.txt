@@ -1,0 +1,155 @@
+Afrikai elefánt;Loxodonta africana;Afrika;Növényevő
+Zsiráf;Giraffa camelopardalis;Afrika;Növényevő
+Víziló;Hippopotamus amphibius;Afrika;Növényevő
+Kék gnú;Connochaetes taurinus;Afrika;Növényevő
+Impala;Aepyceros melampus;Afrika;Növényevő
+Thomson-gazella;Eudorcas thomsonii;Afrika;Növényevő
+Bölényantilop;Damaliscus lunatus;Afrika;Növényevő
+Afrikai bivaly;Syncerus caffer;Afrika;Növényevő
+Szavannai zebra;Equus quagga;Afrika;Növényevő
+Fekete lóantilop;Hippotragus niger;Afrika;Növényevő
+Kudu;Tragelaphus strepsiceros;Afrika;Növényevő
+Nyársas antilop;Oryx gazella;Afrika;Növényevő
+Pusztai varacskosdisznó;Phacochoerus africanus;Afrika;Növényevő
+Gyűrűsfarkú maki;Lemur catta;Afrika;Növényevő
+Afrikai tarajos sül;Hystrix cristata;Afrika;Növényevő
+Kötélcsőrű gazella;Litocranius walleri;Afrika;Növényevő
+Szitatunga;Tragelaphus spekii;Afrika;Növényevő
+Csimpánz;Pan troglodytes;Afrika;Növényevő
+Hegyi gorilla;Gorilla beringei beringei;Afrika;Növényevő
+Csupasz turkálópocok;Heterocephalus glaber;Afrika;Növényevő
+Afrikai oroszlán;Panthera leo;Afrika;Húsevő
+Leopárd;Panthera pardus;Afrika;Húsevő
+Gepárd;Acinonyx jubatus;Afrika;Húsevő
+Foltos hiéna;Crocuta crocuta;Afrika;Húsevő
+Barna hiéna;Parahyaena brunnea;Afrika;Húsevő
+Csíkos hiéna;Hyaena hyaena;Afrika;Húsevő
+Körömhiéna;Proteles cristata;Afrika;Húsevő
+Afrikai vadkutya;Lycaon pictus;Afrika;Húsevő
+Szervál;Leptailurus serval;Afrika;Húsevő
+Karakál;Caracal caracal;Afrika;Húsevő
+Feketelábú macska;Felis nigripes;Afrika;Húsevő
+Sivatagi róka;Vulpes zerda;Afrika;Húsevő
+Mungóz;Herpestidae;Afrika;Húsevő
+Csíkos sakál;Canis adustus;Afrika;Húsevő
+Arany sakál;Canis aureus;Afrika;Húsevő
+Nílusi krokodil;Crocodylus niloticus;Afrika;Húsevő
+Afrikai sziklapióca;Erythrolamprus aesculapii;Afrika;Húsevő
+Marabu;Leptoptilos crumenifer;Afrika;Húsevő
+Titkármádár;Sagittarius serpentarius;Afrika;Húsevő
+Afrikai halászsas;Haliaeetus vocifer;Afrika;Húsevő
+Vörös óriáskenguru;Macropus rufus;Ausztrália;Növényevő
+Keleti szürke kenguru;Macropus giganteus;Ausztrália;Növényevő
+Nyugati szürke kenguru;Macropus fuliginosus;Ausztrália;Növényevő
+Koala;Phascolarctos cinereus;Ausztrália;Növényevő
+Vombat;Vombatus ursinus;Ausztrália;Növényevő
+Tüskés hangyász;Tachyglossus aculeatus;Ausztrália;Növényevő
+Kacsacsőrű emlős;Ornithorhynchus anatinus;Ausztrália;Növényevő
+Ausztrál ősmaradványhal;Neoceratodus forsteri;Ausztrália;Növényevő
+Emu;Dromaius novaehollandiae;Ausztrália;Növényevő
+Sisakos kazuár;Casuarius casuarius;Ausztrália;Növényevő
+Ausztrál papagáj;Platycercus elegans;Ausztrália;Növényevő
+Galah;Eolophus roseicapilla;Ausztrália;Növényevő
+Fekete hattyú;Cygnus atratus;Ausztrália;Növényevő
+Ausztrál pelikán;Pelecanus conspicillatus;Ausztrália;Növényevő
+Quokka;Setonix brachyurus;Ausztrália;Növényevő
+Agámagyík;Pogona vitticeps;Ausztrália;Növényevő
+Szalagos varánusz;Varanus varius;Ausztrália;Növényevő
+Ausztrál szivárványhal;Melanotaenia splendida;Ausztrália;Növényevő
+Kékszárnyú jégmadár;Dacelo leachii;Ausztrália;Növényevő
+Csíkos torkú papagáj;Trichoglossus haematodus;Ausztrália;Növényevő
+Dingó;Canis dingo;Ausztrália;Húsevő
+Tasmán ördög;Sarcophilus harrisii;Ausztrália;Húsevő
+Quoll;Dasyurus maculatus;Ausztrália;Húsevő
+Echidna;Zaglossus bruijni;Ausztrália;Húsevő
+Ausztrál kígyó;Pseudonaja textilis;Ausztrália;Húsevő
+Tigriskígyó;Notechis scutatus;Ausztrália;Húsevő
+Halálkígyó;Acanthophis antarcticus;Ausztrália;Húsevő
+Óriás varánusz;Varanus giganteus;Ausztrália;Húsevő
+Ausztrál pelikán;Pelecanus conspicillatus;Ausztrália;Húsevő
+Fehérhasú rétisas;Haliaeetus leucogaster;Ausztrália;Húsevő
+Barna sólyom;Falco berigora;Ausztrália;Húsevő
+Ausztrál baglyok;Ninox strenua;Ausztrália;Húsevő
+Szirtcápa;Carcharhinus melanopterus;Ausztrália;Húsevő
+Tengeri krokodil;Crocodylus porosus;Ausztrália;Húsevő
+Tasmániai éjjelibagoly;Tyto novaehollandiae;Ausztrália;Húsevő
+Ausztrál ragadozóhal;Scomber australasicus;Ausztrália;Húsevő
+Hárpia sas;Harpyopsis novaeguineae;Ausztrália;Húsevő
+Óriáskígyó;Morelia spilota;Ausztrália;Húsevő
+Amerikai bölény;Bison bison;Észak-Amerika;Növényevő
+Jávorszarvas;Alces alces;Észak-Amerika;Növényevő
+Fehérfarkú szarvas;Odocoileus virginianus;Észak-Amerika;Növényevő
+Mule szarvas;Odocoileus hemionus;Észak-Amerika;Növényevő
+Prérikutya;Cynomys ludovicianus;Észak-Amerika;Növényevő
+Kanadai hód;Castor canadensis;Észak-Amerika;Növényevő
+Mosómedve;Procyon lotor;Észak-Amerika;Növényevő
+Amerikai nyúl;Lepus americanus;Észak-Amerika;Növényevő
+Sün disznó;Erethizon dorsatum;Észak-Amerika;Növényevő
+Pampanyúl;Sylvilagus floridanus;Észak-Amerika;Növényevő
+Bóbitás fürj;Callipepla californica;Észak-Amerika;Növényevő
+Vadpulyka;Meleagris gallopavo;Észak-Amerika;Növényevő
+Kondorkeselyű;Gymnogyps californianus;Észak-Amerika;Növényevő
+Vörös mókus;Tamiasciurus hudsonicus;Észak-Amerika;Növényevő
+Amerikai tapír;Tapirus terrestris;Észak-Amerika;Növényevő
+Kanadai lúd;Branta canadensis;Észak-Amerika;Növényevő
+Amerikai aranycsíz;Spinus tristis;Észak-Amerika;Növényevő
+Farkas;Canis lupus;Észak-Amerika;Húsevő
+Puma;Puma concolor;Észak-Amerika;Húsevő
+Prérifarkas;Canis latrans;Észak-Amerika;Húsevő
+Grizzly medve;Ursus arctos horribilis;Észak-Amerika;Húsevő
+Fekete medve;Ursus americanus;Észak-Amerika;Húsevő
+Rozsomák;Gulo gulo;Észak-Amerika;Húsevő
+Hiúz;Lynx canadensis;Észak-Amerika;Húsevő
+Mosómedve;Procyon lotor;Észak-Amerika;Húsevő
+Borz;Taxidea taxus;Észak-Amerika;Húsevő
+Vidra;Lontra canadensis;Észak-Amerika;Húsevő
+Sarkantyús teknős;Gopherus polyphemus;Észak-Amerika;Húsevő
+Király kígyó;Lampropeltis getula;Észak-Amerika;Húsevő
+Vörösfarkú ölyv;Buteo jamaicensis;Észak-Amerika;Húsevő
+Holló;Corvus corax;Észak-Amerika;Húsevő
+Barnasikló;Thamnophis sirtalis;Észak-Amerika;Húsevő
+Sasbagoly;Bubo virginianus;Észak-Amerika;Húsevő
+Amerikai fehérfejű rétisas;Haliaeetus leucocephalus;Észak-Amerika;Húsevő
+Haris;Rallus limicola;Észak-Amerika;Húsevő
+Pillangóhal;Chaetodontidae;Észak-Amerika;Húsevő
+Amerikai aligátor;Alligator mississippiensis;Észak-Amerika;Húsevő
+Orka;Orcinus orca;Észak-Amerika;Húsevő
+Gímszarvas;Cervus elaphus;Európa;Növényevő
+Őz;Capreolus capreolus;Európa;Növényevő
+Muflon;Ovis orientalis musimon;Európa;Növényevő
+Európai bölény;Bison bonasus;Európa;Növényevő
+Vaddisznó;Sus scrofa;Európa;Növényevő
+Európai hód;Castor fiber;Európa;Növényevő
+Mókus;Sciurus vulgaris;Európa;Növényevő
+Nyúl;Lepus europaeus;Európa;Növényevő
+Hörcsög;Cricetus cricetus;Európa;Növényevő
+Sün;Erinaceus europaeus;Európa;Növényevő
+Barnamedve;Ursus arctos;Európa;Növényevő
+Európai nyestkutya;Nyctereutes procyonoides;Európa;Növényevő
+Európai vakond;Talpa europaea;Európa;Növényevő
+Európai hódpatkány;Arvicola amphibius;Európa;Növényevő
+Eurázsiai hódpatkány;Ondatra zibethicus;Európa;Növényevő
+Európai fürj;Coturnix coturnix;Európa;Növényevő
+Fácán;Phasianus colchicus;Európa;Növényevő
+Európai gerle;Streptopelia turtur;Európa;Növényevő
+Szarka;Pica pica;Európa;Növényevő
+Európai bagoly;Strix aluco;Európa;Húsevő
+Farkas;Canis lupus;Európa;Húsevő
+Hiúz;Lynx lynx;Európa;Húsevő
+Vadmacska;Felis silvestris;Európa;Húsevő
+Róka;Vulpes vulpes;Európa;Húsevő
+Nyest;Martes foina;Európa;Húsevő
+Görény;Mustela putorius;Európa;Húsevő
+Vidra;Lutra lutra;Európa;Húsevő
+Hermelin;Mustela erminea;Európa;Húsevő
+Menyét;Mustela nivalis;Európa;Húsevő
+Európai sas;Aquila chrysaetos;Európa;Húsevő
+Kígyászölyv;Circaetus gallicus;Európa;Húsevő
+Karvaly;Accipiter nisus;Európa;Húsevő
+Egerészölyv;Buteo buteo;Európa;Húsevő
+Vércse;Falco tinnunculus;Európa;Húsevő
+Sólyom;Falco peregrinus;Európa;Húsevő
+Európai baglyok;Bubo bubo;Európa;Húsevő
+Európai kígyó;Natrix natrix;Európa;Húsevő
+Csuka;Esox lucius;Európa;Húsevő
+Harcsa;Silurus glanis;Európa;Húsevő
