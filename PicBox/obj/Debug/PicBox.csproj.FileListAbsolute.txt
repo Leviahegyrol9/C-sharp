@@ -1,0 +1,10 @@
+J:\C-sharp\PicBox\bin\Debug\PicBox.exe.config
+J:\C-sharp\PicBox\bin\Debug\PicBox.exe
+J:\C-sharp\PicBox\bin\Debug\PicBox.pdb
+J:\C-sharp\PicBox\obj\Debug\PicBox.csproj.AssemblyReference.cache
+J:\C-sharp\PicBox\obj\Debug\PicBox.Properties.Resources.resources
+J:\C-sharp\PicBox\obj\Debug\PicBox.csproj.GenerateResource.cache
+J:\C-sharp\PicBox\obj\Debug\PicBox.csproj.CoreCompileInputs.cache
+J:\C-sharp\PicBox\obj\Debug\PicBox.exe
+J:\C-sharp\PicBox\obj\Debug\PicBox.pdb
+J:\C-sharp\PicBox\obj\Debug\PicBox.Form1.resources
