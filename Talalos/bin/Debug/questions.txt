@@ -1,0 +1,9 @@
+Mi az, ami mindig jön, de soha nem érkezik meg?;Holnap
+Mi az, ami mindig mászik, de soha nem mozdul?;Év
+Mi az, ami tele van lyukakkal, mégis tartja a vizet?;Sponge
+Mi az, ami minél többet adsz belőle, annál kevesebb marad?;Pénz
+Mi az, ami mindig ott van, de soha nem látod?;Jövő
+Mi az, ami mindig hangos, de soha nem szólal meg?;Csend
+Mi az, ami mindig megy, de soha nem ér célba?;Út
+Mi az, ami mindig nő, de soha nem öregszik?;Tudás
+Mi az, ami mindig más, de soha nem változik?;Jelen
