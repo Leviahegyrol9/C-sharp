@@ -36,28 +36,30 @@
             this.checkBtn = new System.Windows.Forms.Button();
             this.result = new System.Windows.Forms.TextBox();
             this.resultInfo = new System.Windows.Forms.Label();
-            this.sadPic = new System.Windows.Forms.PictureBox();
-            this.pb22 = new System.Windows.Forms.PictureBox();
-            this.pb21 = new System.Windows.Forms.PictureBox();
-            this.pb20 = new System.Windows.Forms.PictureBox();
-            this.pb12 = new System.Windows.Forms.PictureBox();
-            this.pb11 = new System.Windows.Forms.PictureBox();
-            this.pb10 = new System.Windows.Forms.PictureBox();
-            this.pb03 = new System.Windows.Forms.PictureBox();
-            this.pb02 = new System.Windows.Forms.PictureBox();
-            this.pb01 = new System.Windows.Forms.PictureBox();
             this.pictureBox = new System.Windows.Forms.GroupBox();
-            ((System.ComponentModel.ISupportInitialize)(this.sadPic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb03)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb02)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb01)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.sadPic = new System.Windows.Forms.PictureBox();
+            this.pb01 = new System.Windows.Forms.PictureBox();
+            this.pb02 = new System.Windows.Forms.PictureBox();
+            this.pb03 = new System.Windows.Forms.PictureBox();
+            this.pb10 = new System.Windows.Forms.PictureBox();
+            this.pb11 = new System.Windows.Forms.PictureBox();
+            this.pb12 = new System.Windows.Forms.PictureBox();
+            this.pb20 = new System.Windows.Forms.PictureBox();
+            this.pb21 = new System.Windows.Forms.PictureBox();
+            this.pb22 = new System.Windows.Forms.PictureBox();
             this.pictureBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sadPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb01)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb02)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb03)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb22)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -131,116 +133,6 @@
             this.resultInfo.Size = new System.Drawing.Size(0, 13);
             this.resultInfo.TabIndex = 16;
             // 
-            // sadPic
-            // 
-            this.sadPic.BackgroundImage = global::Talalos.Properties.Resources.sad;
-            this.sadPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.sadPic.Location = new System.Drawing.Point(400, 55);
-            this.sadPic.Name = "sadPic";
-            this.sadPic.Size = new System.Drawing.Size(354, 293);
-            this.sadPic.TabIndex = 17;
-            this.sadPic.TabStop = false;
-            this.sadPic.Visible = false;
-            // 
-            // pb22
-            // 
-            this.pb22.BackgroundImage = global::Talalos.Properties.Resources._22;
-            this.pb22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb22.Location = new System.Drawing.Point(186, 181);
-            this.pb22.Name = "pb22";
-            this.pb22.Size = new System.Drawing.Size(93, 86);
-            this.pb22.TabIndex = 8;
-            this.pb22.TabStop = false;
-            this.pb22.Visible = false;
-            // 
-            // pb21
-            // 
-            this.pb21.BackgroundImage = global::Talalos.Properties.Resources._12;
-            this.pb21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb21.Location = new System.Drawing.Point(93, 181);
-            this.pb21.Name = "pb21";
-            this.pb21.Size = new System.Drawing.Size(93, 86);
-            this.pb21.TabIndex = 7;
-            this.pb21.TabStop = false;
-            this.pb21.Visible = false;
-            // 
-            // pb20
-            // 
-            this.pb20.BackgroundImage = global::Talalos.Properties.Resources._02;
-            this.pb20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb20.Location = new System.Drawing.Point(0, 181);
-            this.pb20.Name = "pb20";
-            this.pb20.Size = new System.Drawing.Size(93, 86);
-            this.pb20.TabIndex = 6;
-            this.pb20.TabStop = false;
-            this.pb20.Visible = false;
-            // 
-            // pb12
-            // 
-            this.pb12.BackgroundImage = global::Talalos.Properties.Resources._21;
-            this.pb12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb12.Location = new System.Drawing.Point(186, 95);
-            this.pb12.Name = "pb12";
-            this.pb12.Size = new System.Drawing.Size(93, 86);
-            this.pb12.TabIndex = 5;
-            this.pb12.TabStop = false;
-            this.pb12.Visible = false;
-            // 
-            // pb11
-            // 
-            this.pb11.BackgroundImage = global::Talalos.Properties.Resources._11;
-            this.pb11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb11.Location = new System.Drawing.Point(93, 95);
-            this.pb11.Name = "pb11";
-            this.pb11.Size = new System.Drawing.Size(93, 86);
-            this.pb11.TabIndex = 4;
-            this.pb11.TabStop = false;
-            this.pb11.Visible = false;
-            // 
-            // pb10
-            // 
-            this.pb10.BackgroundImage = global::Talalos.Properties.Resources._01;
-            this.pb10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb10.Location = new System.Drawing.Point(0, 95);
-            this.pb10.Name = "pb10";
-            this.pb10.Size = new System.Drawing.Size(93, 86);
-            this.pb10.TabIndex = 3;
-            this.pb10.TabStop = false;
-            this.pb10.Visible = false;
-            // 
-            // pb03
-            // 
-            this.pb03.BackgroundImage = global::Talalos.Properties.Resources._20;
-            this.pb03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb03.Location = new System.Drawing.Point(186, 9);
-            this.pb03.Name = "pb03";
-            this.pb03.Size = new System.Drawing.Size(93, 86);
-            this.pb03.TabIndex = 2;
-            this.pb03.TabStop = false;
-            this.pb03.Visible = false;
-            // 
-            // pb02
-            // 
-            this.pb02.BackgroundImage = global::Talalos.Properties.Resources._10;
-            this.pb02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb02.Location = new System.Drawing.Point(93, 9);
-            this.pb02.Name = "pb02";
-            this.pb02.Size = new System.Drawing.Size(93, 86);
-            this.pb02.TabIndex = 1;
-            this.pb02.TabStop = false;
-            this.pb02.Visible = false;
-            // 
-            // pb01
-            // 
-            this.pb01.BackgroundImage = global::Talalos.Properties.Resources._00;
-            this.pb01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb01.Location = new System.Drawing.Point(0, 9);
-            this.pb01.Name = "pb01";
-            this.pb01.Size = new System.Drawing.Size(93, 86);
-            this.pb01.TabIndex = 0;
-            this.pb01.TabStop = false;
-            this.pb01.Visible = false;
-            // 
             // pictureBox
             // 
             this.pictureBox.Controls.Add(this.pb01);
@@ -258,11 +150,132 @@
             this.pictureBox.TabIndex = 18;
             this.pictureBox.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Talalos.Properties.Resources.hp_icon_removebg_preview;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(92, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 17);
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // sadPic
+            // 
+            this.sadPic.BackgroundImage = global::Talalos.Properties.Resources.sad;
+            this.sadPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.sadPic.Location = new System.Drawing.Point(400, 55);
+            this.sadPic.Name = "sadPic";
+            this.sadPic.Size = new System.Drawing.Size(354, 293);
+            this.sadPic.TabIndex = 17;
+            this.sadPic.TabStop = false;
+            this.sadPic.Visible = false;
+            // 
+            // pb01
+            // 
+            this.pb01.BackgroundImage = global::Talalos.Properties.Resources._00;
+            this.pb01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb01.Location = new System.Drawing.Point(0, 9);
+            this.pb01.Name = "pb01";
+            this.pb01.Size = new System.Drawing.Size(93, 86);
+            this.pb01.TabIndex = 0;
+            this.pb01.TabStop = false;
+            this.pb01.Visible = false;
+            // 
+            // pb02
+            // 
+            this.pb02.BackgroundImage = global::Talalos.Properties.Resources._10;
+            this.pb02.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb02.Location = new System.Drawing.Point(93, 9);
+            this.pb02.Name = "pb02";
+            this.pb02.Size = new System.Drawing.Size(93, 86);
+            this.pb02.TabIndex = 1;
+            this.pb02.TabStop = false;
+            this.pb02.Visible = false;
+            // 
+            // pb03
+            // 
+            this.pb03.BackgroundImage = global::Talalos.Properties.Resources._20;
+            this.pb03.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb03.Location = new System.Drawing.Point(186, 9);
+            this.pb03.Name = "pb03";
+            this.pb03.Size = new System.Drawing.Size(93, 86);
+            this.pb03.TabIndex = 2;
+            this.pb03.TabStop = false;
+            this.pb03.Visible = false;
+            // 
+            // pb10
+            // 
+            this.pb10.BackgroundImage = global::Talalos.Properties.Resources._01;
+            this.pb10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb10.Location = new System.Drawing.Point(0, 95);
+            this.pb10.Name = "pb10";
+            this.pb10.Size = new System.Drawing.Size(93, 86);
+            this.pb10.TabIndex = 3;
+            this.pb10.TabStop = false;
+            this.pb10.Visible = false;
+            // 
+            // pb11
+            // 
+            this.pb11.BackgroundImage = global::Talalos.Properties.Resources._11;
+            this.pb11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb11.Location = new System.Drawing.Point(93, 95);
+            this.pb11.Name = "pb11";
+            this.pb11.Size = new System.Drawing.Size(93, 86);
+            this.pb11.TabIndex = 4;
+            this.pb11.TabStop = false;
+            this.pb11.Visible = false;
+            // 
+            // pb12
+            // 
+            this.pb12.BackgroundImage = global::Talalos.Properties.Resources._21;
+            this.pb12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb12.Location = new System.Drawing.Point(186, 95);
+            this.pb12.Name = "pb12";
+            this.pb12.Size = new System.Drawing.Size(93, 86);
+            this.pb12.TabIndex = 5;
+            this.pb12.TabStop = false;
+            this.pb12.Visible = false;
+            // 
+            // pb20
+            // 
+            this.pb20.BackgroundImage = global::Talalos.Properties.Resources._02;
+            this.pb20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb20.Location = new System.Drawing.Point(0, 181);
+            this.pb20.Name = "pb20";
+            this.pb20.Size = new System.Drawing.Size(93, 86);
+            this.pb20.TabIndex = 6;
+            this.pb20.TabStop = false;
+            this.pb20.Visible = false;
+            // 
+            // pb21
+            // 
+            this.pb21.BackgroundImage = global::Talalos.Properties.Resources._12;
+            this.pb21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb21.Location = new System.Drawing.Point(93, 181);
+            this.pb21.Name = "pb21";
+            this.pb21.Size = new System.Drawing.Size(93, 86);
+            this.pb21.TabIndex = 7;
+            this.pb21.TabStop = false;
+            this.pb21.Visible = false;
+            // 
+            // pb22
+            // 
+            this.pb22.BackgroundImage = global::Talalos.Properties.Resources._22;
+            this.pb22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb22.Location = new System.Drawing.Point(186, 181);
+            this.pb22.Name = "pb22";
+            this.pb22.Size = new System.Drawing.Size(93, 86);
+            this.pb22.TabIndex = 8;
+            this.pb22.TabStop = false;
+            this.pb22.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.sadPic);
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.resultInfo);
@@ -276,17 +289,18 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form1";
             this.Text = "CsP Team";
-            ((System.ComponentModel.ISupportInitialize)(this.sadPic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb03)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb02)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb01)).EndInit();
             this.pictureBox.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sadPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb01)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb02)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb03)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb22)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,6 +327,7 @@
         private System.Windows.Forms.Label resultInfo;
         private System.Windows.Forms.PictureBox sadPic;
         private System.Windows.Forms.GroupBox pictureBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

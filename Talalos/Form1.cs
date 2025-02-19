@@ -29,10 +29,7 @@ namespace Talalos
 
         private void checkBtn_Click(object sender, EventArgs e)
         {
-            if (healthPoint == 0)
-            {
-                resultInfo.Text = "Nincs több életed!";
-            }
+            if (healthPoint == 0) resultInfo.Text = "Nincs több életed!";
             else if (result.Text == string.Empty || questionsCb.SelectedItem == null) resultInfo.Text = "Írj be valamit!";
             else if (questionsCb.Items.Count == 0) resultInfo.Text = "Nyertél";
             else

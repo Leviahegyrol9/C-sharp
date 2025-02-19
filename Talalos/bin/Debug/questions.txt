@@ -1,3 +1,4 @@
+Kérdés;Válasz
 Mi az, ami mindig jön, de soha nem érkezik meg?;Holnap
 Mi az, ami mindig mászik, de soha nem mozdul?;Év
 Mi az, ami tele van lyukakkal, mégis tartja a vizet?;Sponge

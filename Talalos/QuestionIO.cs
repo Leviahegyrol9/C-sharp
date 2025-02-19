@@ -14,17 +14,20 @@ namespace Talalos
         {
             List<Question> questions = new List<Question>();
             Question question = null;
+            Random rnd = new Random();
 
             try
             {
                 string[] lines = File.ReadAllLines(path);
 
-                foreach (string line in lines)
+                HashSet<string> shuffledLines = lines.Skip(1).OrderBy(i => rnd.Next()).ToHashSet();
+
+                foreach (string line in shuffledLines.Take(9))
                 {
                     string[] datas = line.Split(';');
 
                     question = new Question
-                    { 
+                    {
                         QuestionName = datas[0],
                         QuestionAnswer = datas[1]
                     };

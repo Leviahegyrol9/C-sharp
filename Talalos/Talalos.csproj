@@ -112,5 +112,11 @@
   <ItemGroup>
     <None Include="bin\Debug\images\sad.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\hp_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\hp_icon-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
