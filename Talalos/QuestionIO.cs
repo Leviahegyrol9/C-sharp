@@ -13,12 +13,24 @@ namespace Talalos
         public static List<Question> GetQuestions(string path)
         {
             List<Question> questions = new List<Question>();
+            List<string> lines = new List<string>();
             Question question = null;
             Random rnd = new Random();
 
             try
             {
-                string[] lines = File.ReadAllLines(path);
+                using (StreamReader sr = new StreamReader(path, Encoding.UTF8))
+                {                  
+                    while (!sr.EndOfStream)
+                    {
+                        string line = sr.ReadLine();
+
+                        if (line != string.Empty)
+                        {
+                            lines.Add(line);
+                        }
+                    }
+                }
 
                 HashSet<string> shuffledLines = lines.Skip(1).OrderBy(i => rnd.Next()).ToHashSet();
 

@@ -13,7 +13,6 @@ namespace Talalos
     public partial class Form1 : Form
     {
         List<Question> questions = QuestionIO.GetQuestions(path);
-        bool run = true;
         int healthPoint = 5;
         const string path = "questions.txt";
         public Form1()
@@ -25,7 +24,7 @@ namespace Talalos
             if (questions.Count < 9)
             {
                 MessageBox.Show($"Minimum 9 kérdés legyen!\nJelenleg {questions.Count} kérdés van.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                run = false;
+                Environment.Exit(0);
             }
 
             foreach (Question question in questions)
@@ -71,12 +70,30 @@ namespace Talalos
             }            
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void restartBtn_Click(object sender, EventArgs e)
         {
-            if (!run)
+            sadPic.Visible = false;
+
+            questionsCb.Items.Clear();
+
+            foreach (PictureBox pB in pictureBox.Controls)
             {
-                Application.Exit();
+                if (pB.Visible)
+                {
+                    pB.Visible = false;
+                }
             }
+
+            foreach (Question question in questions)
+            {
+                questionsCb.Items.Add(question.QuestionName);
+            }
+
+            healthPoint = 5;
+            resultInfo.Text = string.Empty;
+            result.Text = string.Empty;
+
+            hp.Text = healthPoint.ToString();
         }
     }
 }

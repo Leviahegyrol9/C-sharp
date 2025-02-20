@@ -8,3 +8,13 @@ J:\C-sharp\Talalos\obj\Debug\Talalos.csproj.CoreCompileInputs.cache
 J:\C-sharp\Talalos\obj\Debug\Talalos.exe
 J:\C-sharp\Talalos\obj\Debug\Talalos.pdb
 J:\C-sharp\Talalos\obj\Debug\Talalos.Form1.resources
+C:\Saját\Projects\C-sharp\Talalos\bin\Debug\Talalos.exe.config
+C:\Saját\Projects\C-sharp\Talalos\bin\Debug\Talalos.exe
+C:\Saját\Projects\C-sharp\Talalos\bin\Debug\Talalos.pdb
+C:\Saját\Projects\C-sharp\Talalos\obj\Debug\Talalos.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sharp\Talalos\obj\Debug\Talalos.Form1.resources
+C:\Saját\Projects\C-sharp\Talalos\obj\Debug\Talalos.Properties.Resources.resources
+C:\Saját\Projects\C-sharp\Talalos\obj\Debug\Talalos.csproj.GenerateResource.cache
+C:\Saját\Projects\C-sharp\Talalos\obj\Debug\Talalos.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\Talalos\obj\Debug\Talalos.exe
+C:\Saját\Projects\C-sharp\Talalos\obj\Debug\Talalos.pdb
