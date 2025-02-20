@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "J:\\C-sharp\\Talalos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FAA99FE-5A85-4C45-B271-AD11D99ADB0E}|Talalos.csproj|J:\\C-sharp\\Talalos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4FAA99FE-5A85-4C45-B271-AD11D99ADB0E}|Talalos.csproj|j:\\c-sharp\\talalos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4FAA99FE-5A85-4C45-B271-AD11D99ADB0E}|Talalos.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FAA99FE-5A85-4C45-B271-AD11D99ADB0E}|Talalos.csproj|j:\\c-sharp\\talalos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4FAA99FE-5A85-4C45-B271-AD11D99ADB0E}|Talalos.csproj|J:\\C-sharp\\Talalos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4FAA99FE-5A85-4C45-B271-AD11D99ADB0E}|Talalos.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "J:\\C-sharp\\Talalos\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAcwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwD0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T09:06:08.13Z",
               "EditorCaption": ""

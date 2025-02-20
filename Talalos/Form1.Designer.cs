@@ -37,8 +37,6 @@
             this.result = new System.Windows.Forms.TextBox();
             this.resultInfo = new System.Windows.Forms.Label();
             this.pictureBox = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.sadPic = new System.Windows.Forms.PictureBox();
             this.pb01 = new System.Windows.Forms.PictureBox();
             this.pb02 = new System.Windows.Forms.PictureBox();
             this.pb03 = new System.Windows.Forms.PictureBox();
@@ -48,9 +46,9 @@
             this.pb20 = new System.Windows.Forms.PictureBox();
             this.pb21 = new System.Windows.Forms.PictureBox();
             this.pb22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.sadPic = new System.Windows.Forms.PictureBox();
             this.pictureBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sadPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb02)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb03)).BeginInit();
@@ -60,6 +58,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sadPic)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -149,27 +149,6 @@
             this.pictureBox.Size = new System.Drawing.Size(279, 267);
             this.pictureBox.TabIndex = 18;
             this.pictureBox.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Talalos.Properties.Resources.hp_icon_removebg_preview;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(92, 8);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(25, 17);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
-            // 
-            // sadPic
-            // 
-            this.sadPic.BackgroundImage = global::Talalos.Properties.Resources.sad;
-            this.sadPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.sadPic.Location = new System.Drawing.Point(400, 55);
-            this.sadPic.Name = "sadPic";
-            this.sadPic.Size = new System.Drawing.Size(354, 293);
-            this.sadPic.TabIndex = 17;
-            this.sadPic.TabStop = false;
-            this.sadPic.Visible = false;
             // 
             // pb01
             // 
@@ -270,6 +249,27 @@
             this.pb22.TabStop = false;
             this.pb22.Visible = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Talalos.Properties.Resources.hp_icon_removebg_preview;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(92, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 17);
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // sadPic
+            // 
+            this.sadPic.BackgroundImage = global::Talalos.Properties.Resources.sad;
+            this.sadPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.sadPic.Location = new System.Drawing.Point(400, 55);
+            this.sadPic.Name = "sadPic";
+            this.sadPic.Size = new System.Drawing.Size(354, 293);
+            this.sadPic.TabIndex = 17;
+            this.sadPic.TabStop = false;
+            this.sadPic.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -288,10 +288,9 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Form1";
-            this.Text = "CsP Team";
+            this.Text = "Paplukács Levente  & Ábrahám-Fúrús Csaba";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.pictureBox.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sadPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb02)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb03)).EndInit();
@@ -301,6 +300,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sadPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
