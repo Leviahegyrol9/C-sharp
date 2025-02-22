@@ -1,10 +1,10 @@
 Kérdés;Válasz
-Milyen színű a Nap?;Fehér
-Mi az, ami mindig mászik, de soha nem mozdul?;Év
-Mi az, ami tele van lyukakkal, mégis tartja a vizet?;Szivacs
-Mi az, ami minél többet adsz belőle, annál kevesebb marad?;Pénz
-Mi az, ami mindig ott van, de soha nem látod?;Jövő
-Mi az, ami mindig hangos, de soha nem szólal meg?;Csend
-Mi az, ami mindig megy, de soha nem ér célba?;Út
-Mi az, ami mindig nő, de soha nem öregszik?;Tudás
-Mi az, ami mindig más, de soha nem változik?;Jelen
+Mi az piros?;piros
+Mi az kék?;kék
+Mi az zöld?;zöld
+Mi az barna?;barna
+Mi az sárga?;sárga
+Mi az fekete?;fekete
+Mi az fehér?;fehér
+Mi az lila?;lila
+Mi az narancs?;narancs

@@ -34,10 +34,22 @@ namespace Talalos
         }
 
         private void checkBtn_Click(object sender, EventArgs e)
-        {          
-            if (healthPoint == 0) resultInfo.Text = "Nincs több életed!";
-            else if (result.Text == string.Empty || questionsCb.SelectedItem == null) resultInfo.Text = "Írj be valamit!";
-            else if (questionsCb.Items.Count == 0) resultInfo.Text = "Nyertél";
+        {
+            if (healthPoint == 0)
+            {
+                resultInfo.Text = "Nincs több életed!";
+                resultInfo.ForeColor = Color.Red;
+            }
+            else if (questionsCb.Items.Count == 0)
+            {
+                resultInfo.Text = "Nyertél";
+                resultInfo.ForeColor = Color.Green;
+            }
+            else if (result.Text == string.Empty || questionsCb.SelectedItem == null)
+            {
+                resultInfo.Text = "Írj be valamit!";
+                resultInfo.ForeColor = Color.Black;
+            }
             else
             {
                 Question actualQuestion = questions.Where(q => q.QuestionName == questionsCb.SelectedItem.ToString()).Single();
@@ -58,13 +70,21 @@ namespace Talalos
                             break;
                         }
                     }
+
+                    if (questionsCb.Items.Count == 0)
+                    {
+                        resultInfo.Text = "Nyertél";
+                        resultInfo.ForeColor = Color.Green;
+                    }
                 }
                 else
                 {
                     resultInfo.Text = "Helytelen válasz!";
+                    resultInfo.ForeColor = Color.Red;
                     healthPoint--;
 
-                    if (healthPoint == 0) sadPic.Visible = true;
+                    if (healthPoint == 0) sadPic.Visible = true;                  
+
                     hp.Text = healthPoint.ToString();
                 }
             }            
