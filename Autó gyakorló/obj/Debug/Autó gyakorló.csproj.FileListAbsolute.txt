@@ -1,0 +1,10 @@
+J:\C-sharp\Autó gyakorló\bin\Debug\Autó gyakorló.exe.config
+J:\C-sharp\Autó gyakorló\bin\Debug\Autó gyakorló.exe
+J:\C-sharp\Autó gyakorló\bin\Debug\Autó gyakorló.pdb
+J:\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.csproj.AssemblyReference.cache
+J:\C-sharp\Autó gyakorló\obj\Debug\Autó_gyakorló.Properties.Resources.resources
+J:\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.csproj.GenerateResource.cache
+J:\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.csproj.CoreCompileInputs.cache
+J:\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.exe
+J:\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.pdb
+J:\C-sharp\Autó gyakorló\obj\Debug\Autó_gyakorló.Form1.resources
