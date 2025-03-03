@@ -18,6 +18,7 @@ namespace Autó_gyakorló
         const string fileName = "cars.txt";
         string option;
         Random rnd = new Random();
+        int point = 0;
         public Form1()
         {
             InitializeComponent();
@@ -52,11 +53,13 @@ namespace Autó_gyakorló
             {
                 carsCb.Items.Add(car);
             }
+
+            carsCb.SelectedIndex = 0;
         }
 
         private void CheckedChanged(object sender, EventArgs e)
         {
-            foreach (RadioButton rb in gB.Controls)
+            foreach (RadioButton rb in panel3.Controls)
             {
                 if (rb.Checked)
                 {
@@ -68,24 +71,127 @@ namespace Autó_gyakorló
             switch (option)
             {
                 case "Gyakorlás":
-                    nextBtn.Visible = true;
-                    randomizeBtn.Visible = true;
-                    carsCb.Visible = true;
-                    pB.Visible = true;
+
+                    carsCb.SelectedItem = null;
+                    carsCb.SelectedIndex = 0;
+
+                    foreach (Control ctrl in panel2.Controls)
+                    {
+                        ctrl.Visible = false;
+                    }
+
+                    foreach (Control ctrl in panel1.Controls)
+                    {
+                        ctrl.Visible = true;
+                    }
                     break;
 
                 case "Pontgyűjtés":
-                    string[] images = Directory.GetFiles($@"{Directory.GetCurrentDirectory()}\img");
-                    int random = rnd.Next(0, images.Count() - 1);
-                    pB.Image = Image.FromFile(images[random]);
+
+                    pB.Image = null;
+
+                    foreach (Control ctrl in panel1.Controls)
+                    {
+                        ctrl.Visible = false;
+                    }
+
+                    foreach (Control ctrl in panel2.Controls)
+                    {
+                        ctrl.Visible = true;
+                    }
+
+                    if (checkBtn.Enabled) GetRandomImg();
                     break;
             }
         }
 
+        private void GetRandomImg()
+        {
+            List<string> images = Directory.GetFiles($@"{Directory.GetCurrentDirectory()}\img").Where(car => car != $@"{Directory.GetCurrentDirectory()}\img\Thumbs.db").ToList();
+            int random = rnd.Next(0, images.Count() - 1);
+            pB.ImageLocation = images[random];
+        }
+
         private void carsCb_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string currentPic = $@"{Directory.GetCurrentDirectory()}\img\{carsCb.SelectedItem.ToString().ToLower()}.png";
-            pB.Image = Image.FromFile(currentPic);
+            if (carsCb.SelectedItem != null)
+            {
+                string currentPic = $@"{Directory.GetCurrentDirectory()}\img\{carsCb.SelectedItem.ToString().ToLower()}.png";
+                pB.Image = Image.FromFile(currentPic);
+            }
+        }
+
+        private void checkBtn_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in panel2.Controls)
+            {
+                if (control is TrackBar tb && Enabled)
+                {
+                    tb.Enabled = false;
+                }
+            }
+
+            string car = Path.GetFileNameWithoutExtension(pB.ImageLocation);
+
+            if (guess.Text.ToLower() == car)
+            {
+                point += trackBar1.Value;
+                points.ForeColor = Color.Green;
+            }
+            else
+            {
+                point -= trackBar2.Value;
+                points.ForeColor = Color.Red;
+            }
+
+            points.Text = point.ToString();
+
+            if (point >= trackBar3.Value)
+            {
+                MessageBox.Show("Nyertél!", "Status", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                checkBtn.Enabled = false;
+            }
+
+            if (checkBtn.Enabled && guess.Text.ToLower() == car) GetRandomImg();
+
+            guess.Text = null;
+
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            plusPoint.Text = trackBar1.Value.ToString();
+        }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+            minusPoint.Text = trackBar2.Value.ToString();
+        }
+
+        private void trackBar3_Scroll(object sender, EventArgs e)
+        {
+            maxPoint.Text = trackBar3.Value.ToString();
+        }
+
+        private void restartBtn_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in panel2.Controls)
+            {
+                if (control is TrackBar tb)
+                {
+                    tb.Enabled = true;
+                    tb.Value = 1;
+                }
+            }
+
+            trackBar1_Scroll(sender, e);
+            trackBar2_Scroll(sender, e);
+            trackBar3_Scroll(sender, e);
+
+            point = 0;
+            checkBtn.Enabled = true;
+            radioButton1.Checked = true;
+            points.Text = null;
         }
     }
 }

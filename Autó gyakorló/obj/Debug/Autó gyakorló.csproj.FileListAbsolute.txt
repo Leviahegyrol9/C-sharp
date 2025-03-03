@@ -8,3 +8,13 @@ J:\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.csproj.CoreCompileInputs.ca
 J:\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.exe
 J:\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.pdb
 J:\C-sharp\Autó gyakorló\obj\Debug\Autó_gyakorló.Form1.resources
+C:\Saját\Projects\C-sharp\Autó gyakorló\bin\Debug\Autó gyakorló.exe.config
+C:\Saját\Projects\C-sharp\Autó gyakorló\bin\Debug\Autó gyakorló.exe
+C:\Saját\Projects\C-sharp\Autó gyakorló\bin\Debug\Autó gyakorló.pdb
+C:\Saját\Projects\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sharp\Autó gyakorló\obj\Debug\Autó_gyakorló.Form1.resources
+C:\Saját\Projects\C-sharp\Autó gyakorló\obj\Debug\Autó_gyakorló.Properties.Resources.resources
+C:\Saját\Projects\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.csproj.GenerateResource.cache
+C:\Saját\Projects\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.exe
+C:\Saját\Projects\C-sharp\Autó gyakorló\obj\Debug\Autó gyakorló.pdb
