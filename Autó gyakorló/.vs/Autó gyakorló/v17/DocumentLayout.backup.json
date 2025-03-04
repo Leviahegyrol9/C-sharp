@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\",
+  "WorkspaceRootPath": "J:\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7848AFAB-7257-4579-8F3A-9138194FAB87}|Aut\u00F3 gyakorl\u00F3.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7848AFAB-7257-4579-8F3A-9138194FAB87}|Aut\u00F3 gyakorl\u00F3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7848AFAB-7257-4579-8F3A-9138194FAB87}|Aut\u00F3 gyakorl\u00F3.csproj|j:\\c-sharp\\aut\u00F3 gyakorl\u00F3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7848AFAB-7257-4579-8F3A-9138194FAB87}|Aut\u00F3 gyakorl\u00F3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7848AFAB-7257-4579-8F3A-9138194FAB87}|Aut\u00F3 gyakorl\u00F3.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7848AFAB-7257-4579-8F3A-9138194FAB87}|Aut\u00F3 gyakorl\u00F3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7848AFAB-7257-4579-8F3A-9138194FAB87}|Aut\u00F3 gyakorl\u00F3.csproj|J:\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7848AFAB-7257-4579-8F3A-9138194FAB87}|Aut\u00F3 gyakorl\u00F3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,24 +26,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\Form1.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\Form1.cs",
+              "ToolTip": "J:\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAAAMEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAuwIkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T09:12:34.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\Form1.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\Form1.cs [Design]",
+              "ToolTip": "J:\\C-sharp\\Aut\u00F3 gyakorl\u00F3\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T09:07:44.945Z",

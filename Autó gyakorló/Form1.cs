@@ -133,7 +133,7 @@ namespace Autó_gyakorló
 
             string car = Path.GetFileNameWithoutExtension(pB.ImageLocation);
 
-            if (guess.Text.ToLower() == car)
+            if (guess.Text.ToLower() == car.ToLower())
             {
                 point += trackBar1.Value;
                 points.ForeColor = Color.Green;
@@ -180,7 +180,10 @@ namespace Autó_gyakorló
                 if (control is TrackBar tb)
                 {
                     tb.Enabled = true;
-                    tb.Value = 1;
+
+                    if (tb.Name == "trackBar3") tb.Value = 15;
+                    else tb.Value = 1;
+
                 }
             }
 
