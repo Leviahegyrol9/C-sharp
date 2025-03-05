@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Verseny\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C08FDCE-E39E-42B0-AC95-857953C8EC3D}|Verseny.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\verseny\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C08FDCE-E39E-42B0-AC95-857953C8EC3D}|Verseny.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C08FDCE-E39E-42B0-AC95-857953C8EC3D}|Verseny.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\verseny\\timeio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C08FDCE-E39E-42B0-AC95-857953C8EC3D}|Verseny.csproj|solutionrelative:timeio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C08FDCE-E39E-42B0-AC95-857953C8EC3D}|Verseny.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\verseny\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C08FDCE-E39E-42B0-AC95-857953C8EC3D}|Verseny.csproj|solutionrelative:time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimeIO.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Verseny\\TimeIO.cs",
+              "RelativeDocumentMoniker": "TimeIO.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Verseny\\TimeIO.cs",
+              "RelativeToolTip": "TimeIO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T15:13:09.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Time.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Verseny\\Time.cs",
+              "RelativeDocumentMoniker": "Time.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Verseny\\Time.cs",
+              "RelativeToolTip": "Time.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T15:03:29.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Verseny\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Verseny\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T15:03:05.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
