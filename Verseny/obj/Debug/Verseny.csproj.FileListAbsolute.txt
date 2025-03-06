@@ -1,7 +1,0 @@
-C:\Saját\Projects\C-sharp\Verseny\obj\Debug\Verseny.csproj.AssemblyReference.cache
-C:\Saját\Projects\C-sharp\Verseny\obj\Debug\Verseny.csproj.CoreCompileInputs.cache
-C:\Saját\Projects\C-sharp\Verseny\bin\Debug\Verseny.exe.config
-C:\Saját\Projects\C-sharp\Verseny\bin\Debug\Verseny.exe
-C:\Saját\Projects\C-sharp\Verseny\bin\Debug\Verseny.pdb
-C:\Saját\Projects\C-sharp\Verseny\obj\Debug\Verseny.exe
-C:\Saját\Projects\C-sharp\Verseny\obj\Debug\Verseny.pdb
