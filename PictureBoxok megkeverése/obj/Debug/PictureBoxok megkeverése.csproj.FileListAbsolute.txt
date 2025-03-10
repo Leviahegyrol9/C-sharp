@@ -1,0 +1,20 @@
+J:\11\cSharp_My\PictureBoxok megkeverése\bin\Debug\PictureBoxok megkeverése.exe.config
+J:\11\cSharp_My\PictureBoxok megkeverése\bin\Debug\PictureBoxok megkeverése.exe
+J:\11\cSharp_My\PictureBoxok megkeverése\bin\Debug\PictureBoxok megkeverése.pdb
+J:\11\cSharp_My\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.csproj.AssemblyReference.cache
+J:\11\cSharp_My\PictureBoxok megkeverése\obj\Debug\PictureBoxok_megkeverése.Form1.resources
+J:\11\cSharp_My\PictureBoxok megkeverése\obj\Debug\PictureBoxok_megkeverése.Properties.Resources.resources
+J:\11\cSharp_My\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.csproj.GenerateResource.cache
+J:\11\cSharp_My\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.csproj.CoreCompileInputs.cache
+J:\11\cSharp_My\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.exe
+J:\11\cSharp_My\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.pdb
+J:\C-sharp\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.csproj.AssemblyReference.cache
+J:\C-sharp\PictureBoxok megkeverése\obj\Debug\PictureBoxok_megkeverése.Form1.resources
+J:\C-sharp\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.csproj.GenerateResource.cache
+J:\C-sharp\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.exe
+J:\C-sharp\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.pdb
+J:\C-sharp\PictureBoxok megkeverése\bin\Debug\PictureBoxok megkeverése.exe.config
+J:\C-sharp\PictureBoxok megkeverése\bin\Debug\PictureBoxok megkeverése.exe
+J:\C-sharp\PictureBoxok megkeverése\bin\Debug\PictureBoxok megkeverése.pdb
+J:\C-sharp\PictureBoxok megkeverése\obj\Debug\PictureBoxok_megkeverése.Properties.Resources.resources
+J:\C-sharp\PictureBoxok megkeverése\obj\Debug\PictureBoxok megkeverése.csproj.CoreCompileInputs.cache

@@ -1,0 +1,10 @@
+J:\C-sharp\EmailValidator\bin\Debug\EmailValidator.exe.config
+J:\C-sharp\EmailValidator\bin\Debug\EmailValidator.exe
+J:\C-sharp\EmailValidator\bin\Debug\EmailValidator.pdb
+J:\C-sharp\EmailValidator\obj\Debug\EmailValidator.csproj.AssemblyReference.cache
+J:\C-sharp\EmailValidator\obj\Debug\EmailValidator.Form1.resources
+J:\C-sharp\EmailValidator\obj\Debug\EmailValidator.Properties.Resources.resources
+J:\C-sharp\EmailValidator\obj\Debug\EmailValidator.csproj.GenerateResource.cache
+J:\C-sharp\EmailValidator\obj\Debug\EmailValidator.csproj.CoreCompileInputs.cache
+J:\C-sharp\EmailValidator\obj\Debug\EmailValidator.exe
+J:\C-sharp\EmailValidator\obj\Debug\EmailValidator.pdb
