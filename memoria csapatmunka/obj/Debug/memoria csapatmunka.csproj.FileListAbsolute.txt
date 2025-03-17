@@ -1,0 +1,10 @@
+J:\11\C#\memoria csapatmunka\obj\Debug\memoria csapatmunka.csproj.AssemblyReference.cache
+J:\11\C#\memoria csapatmunka\obj\Debug\MemoriaJatek.Form1.resources
+J:\11\C#\memoria csapatmunka\obj\Debug\memoria_csapatmunka.Properties.Resources.resources
+J:\11\C#\memoria csapatmunka\obj\Debug\memoria csapatmunka.csproj.GenerateResource.cache
+J:\11\C#\memoria csapatmunka\obj\Debug\memoria csapatmunka.csproj.CoreCompileInputs.cache
+J:\11\C#\memoria csapatmunka\bin\Debug\memoria csapatmunka.exe.config
+J:\11\C#\memoria csapatmunka\bin\Debug\memoria csapatmunka.exe
+J:\11\C#\memoria csapatmunka\bin\Debug\memoria csapatmunka.pdb
+J:\11\C#\memoria csapatmunka\obj\Debug\memoria csapatmunka.exe
+J:\11\C#\memoria csapatmunka\obj\Debug\memoria csapatmunka.pdb
