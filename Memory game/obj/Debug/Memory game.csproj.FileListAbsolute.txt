@@ -1,0 +1,10 @@
+J:\C-sharp\Memory game\bin\Debug\Memory game.exe.config
+J:\C-sharp\Memory game\bin\Debug\Memory game.exe
+J:\C-sharp\Memory game\bin\Debug\Memory game.pdb
+J:\C-sharp\Memory game\obj\Debug\Memory game.csproj.AssemblyReference.cache
+J:\C-sharp\Memory game\obj\Debug\Memory_game.Form1.resources
+J:\C-sharp\Memory game\obj\Debug\Memory_game.Properties.Resources.resources
+J:\C-sharp\Memory game\obj\Debug\Memory game.csproj.GenerateResource.cache
+J:\C-sharp\Memory game\obj\Debug\Memory game.csproj.CoreCompileInputs.cache
+J:\C-sharp\Memory game\obj\Debug\Memory game.exe
+J:\C-sharp\Memory game\obj\Debug\Memory game.pdb
