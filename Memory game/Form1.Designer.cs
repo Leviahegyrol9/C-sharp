@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.optionPanel = new System.Windows.Forms.Panel();
-            this.easyRb = new System.Windows.Forms.RadioButton();
             this.hardRb = new System.Windows.Forms.RadioButton();
+            this.easyRb = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.startBtn = new System.Windows.Forms.Button();
             this.optionPanel.SuspendLayout();
@@ -45,19 +45,6 @@
             this.optionPanel.Size = new System.Drawing.Size(309, 45);
             this.optionPanel.TabIndex = 0;
             // 
-            // easyRb
-            // 
-            this.easyRb.AutoSize = true;
-            this.easyRb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.easyRb.Location = new System.Drawing.Point(21, 12);
-            this.easyRb.Name = "easyRb";
-            this.easyRb.Size = new System.Drawing.Size(133, 24);
-            this.easyRb.TabIndex = 0;
-            this.easyRb.TabStop = true;
-            this.easyRb.Tag = "0";
-            this.easyRb.Text = "Könnyű (2 kép)";
-            this.easyRb.UseVisualStyleBackColor = true;
-            // 
             // hardRb
             // 
             this.hardRb.AutoSize = true;
@@ -70,6 +57,19 @@
             this.hardRb.Tag = "1";
             this.hardRb.Text = "Nehéz (4 kép)";
             this.hardRb.UseVisualStyleBackColor = true;
+            // 
+            // easyRb
+            // 
+            this.easyRb.AutoSize = true;
+            this.easyRb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.easyRb.Location = new System.Drawing.Point(21, 12);
+            this.easyRb.Name = "easyRb";
+            this.easyRb.Size = new System.Drawing.Size(133, 24);
+            this.easyRb.TabIndex = 0;
+            this.easyRb.TabStop = true;
+            this.easyRb.Tag = "0";
+            this.easyRb.Text = "Könnyű (2 kép)";
+            this.easyRb.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -102,6 +102,7 @@
             this.Controls.Add(this.optionPanel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.optionPanel.ResumeLayout(false);
             this.optionPanel.PerformLayout();
             this.ResumeLayout(false);

@@ -18,5 +18,10 @@ namespace Memory_game
 
             new Form1().Dispose();
         }
+
+        private void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

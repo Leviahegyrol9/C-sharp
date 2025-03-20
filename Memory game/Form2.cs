@@ -26,19 +26,18 @@ namespace Memory_game
             {
                 using (OpenFileDialog openFileDialog = new OpenFileDialog())
                 {
-                    openFileDialog.InitialDirectory = "./images";
-                    openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
-                    openFileDialog.FilterIndex = 1;
+                    openFileDialog.InitialDirectory = $"{Directory.GetCurrentDirectory()}/images";
+                    openFileDialog.Title = "Válassz ki egy képet!";
+                    openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png";
+                    openFileDialog.Multiselect = true;
                     openFileDialog.RestoreDirectory = true;
 
                     if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
-                        //Get the path of specified file
-                        filePath = openFileDialog.FileName;
-
-                        //Read the contents of the file into a stream
-                        var fileStream = openFileDialog.OpenFile();
-
+                        foreach (string file in openFileDialog.FileNames)
+                        {
+                            comboBox1.Items.Add(file);
+                        }
                     }
                 }
                 
@@ -48,6 +47,27 @@ namespace Memory_game
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
+        }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            pictureBox1.ImageLocation = comboBox1.SelectedItem.ToString();
+
+        }
+
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+
+            comboBox1.Items.Remove(comboBox1.SelectedItem);
+
+            pictureBox1.ImageLocation = null;
+
         }
     }
 }

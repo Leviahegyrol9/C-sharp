@@ -8,3 +8,5 @@ J:\C-sharp\Memory game\obj\Debug\Memory game.csproj.GenerateResource.cache
 J:\C-sharp\Memory game\obj\Debug\Memory game.csproj.CoreCompileInputs.cache
 J:\C-sharp\Memory game\obj\Debug\Memory game.exe
 J:\C-sharp\Memory game\obj\Debug\Memory game.pdb
+J:\C-sharp\Memory game\obj\Debug\Memory_game.Form2.resources
+J:\C-sharp\Memory game\obj\Debug\Memory_game.Form3.resources
