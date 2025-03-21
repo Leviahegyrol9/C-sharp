@@ -12,6 +12,7 @@ namespace Memory_game
 {
     public partial class Form1 : Form
     {
+        public string option;
         public Form1()
         {
             InitializeComponent();
@@ -23,17 +24,11 @@ namespace Memory_game
             {
                 if (rb.Checked)
                 {
+                    option = rb.Tag.ToString();
+
                     this.Hide();
 
-                    if (rb.Tag.ToString() == "0")
-                    {
-                        new Form2().Show();
-                        
-                    }
-                    else
-                    {
-                        new Form3().Show();
-                    }
+                    new Form2().Show();
                 }
             }
         }

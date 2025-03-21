@@ -13,6 +13,7 @@ namespace Memory_game
 {
     public partial class Form2 : Form
     {
+        public List<Image> images = new List<Image>();
         public Form2()
         {
             InitializeComponent();
@@ -26,7 +27,9 @@ namespace Memory_game
             {
                 using (OpenFileDialog openFileDialog = new OpenFileDialog())
                 {
-                    openFileDialog.InitialDirectory = $"{Directory.GetCurrentDirectory()}/images";
+                    Image image = null;
+
+                    openFileDialog.InitialDirectory = $@"{Directory.GetCurrentDirectory()}\images";
                     openFileDialog.Title = "Válassz ki egy képet!";
                     openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png";
                     openFileDialog.Multiselect = true;
@@ -36,7 +39,16 @@ namespace Memory_game
                     {
                         foreach (string file in openFileDialog.FileNames)
                         {
-                            comboBox1.Items.Add(file);
+                            comboBox1.Items.Add(Path.GetFileNameWithoutExtension(file));
+
+                            image = new Image
+                            {
+                                Name = Path.GetFileNameWithoutExtension(file),
+                                Path = file
+                            };
+
+                            images.Add(image);
+
                         }
                     }
                 }
@@ -56,8 +68,9 @@ namespace Memory_game
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Image currentImg = images.Where(i => i.Name == comboBox1.SelectedItem.ToString()).Single();
 
-            pictureBox1.ImageLocation = comboBox1.SelectedItem.ToString();
+            pictureBox1.ImageLocation = currentImg.Path;
 
         }
 
@@ -67,6 +80,11 @@ namespace Memory_game
             comboBox1.Items.Remove(comboBox1.SelectedItem);
 
             pictureBox1.ImageLocation = null;
+
+        }
+
+        private void startBtn_Click(object sender, EventArgs e)
+        {
 
         }
     }

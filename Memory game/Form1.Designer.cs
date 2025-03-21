@@ -101,7 +101,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.optionPanel);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Válasszon nehézségi fokozatot!";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.optionPanel.ResumeLayout(false);
             this.optionPanel.PerformLayout();
