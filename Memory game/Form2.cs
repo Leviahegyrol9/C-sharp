@@ -68,7 +68,7 @@ namespace Memory_game
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Image currentImg = images.Where(i => i.Name == comboBox1.SelectedItem.ToString()).Single();
+            Image currentImg = images.Where(img => img.Name == comboBox1.SelectedItem.ToString()).Single();
 
             pictureBox1.ImageLocation = currentImg.Path;
 
