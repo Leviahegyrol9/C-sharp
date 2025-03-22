@@ -39,6 +39,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.winLabel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pointLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -169,15 +172,48 @@
             this.winLabel.Text = "Gratulálok nyertél!";
             this.winLabel.Visible = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(125, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 20);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "kattintás";
+            // 
+            // pointLabel
+            // 
+            this.pointLabel.AutoSize = true;
+            this.pointLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.pointLabel.Location = new System.Drawing.Point(102, 9);
+            this.pointLabel.Name = "pointLabel";
+            this.pointLabel.Size = new System.Drawing.Size(0, 20);
+            this.pointLabel.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Pontszám:";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pointLabel);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.winLabel);
             this.Controls.Add(this.mixBtn);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Location = new System.Drawing.Point(110, 9);
             this.MaximizeBox = false;
             this.Name = "Form4";
             this.Text = "Nehéz fokozat";
@@ -209,5 +245,8 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Label winLabel;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label pointLabel;
+        private System.Windows.Forms.Label label1;
     }
 }

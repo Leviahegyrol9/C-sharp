@@ -20,7 +20,7 @@ namespace Memory_game
 
             new Form1().Dispose();
 
-            infoLabel.Text = $"Válaszz ki {(Form1.option == "0" ? "2" : "4")} képet!";
+            infoLabel.Text = $"Válassz ki {(Form1.option == "0" ? "2" : "4")} képet!";
         }
 
         private void addBtn_Click(object sender, EventArgs e)
@@ -32,7 +32,7 @@ namespace Memory_game
                     Image image = null;
 
                     openFileDialog.InitialDirectory = $@"{Directory.GetCurrentDirectory()}\images";
-                    openFileDialog.Title = "Válassz ki egy képet!";
+                    openFileDialog.Title = "Válaszd ki a képeket!";
                     openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png";
                     openFileDialog.Multiselect = true;
                     openFileDialog.RestoreDirectory = true;
@@ -79,15 +79,19 @@ namespace Memory_game
         }
         private void deleteBtn_Click(object sender, EventArgs e)
         {
-            Image deleteImg = images.Where(img => img.Name == imagesCb.SelectedItem.ToString()).Single();
+            try
+            {
+                Image deleteImg = images.Where(img => img.Name == imagesCb.SelectedItem.ToString()).Single();
 
-            imagesCb.Items.Remove(deleteImg.Name);
+                imagesCb.Items.Remove(deleteImg.Name);
 
-            images.Remove(deleteImg);
+                images.Remove(deleteImg);
 
-            currentPb.ImageLocation = null;
+                currentPb.ImageLocation = null;
 
-            SetStartBtn();
+                SetStartBtn();
+            }
+            catch (Exception) { }    
         }
         private void SetStartBtn()
         {

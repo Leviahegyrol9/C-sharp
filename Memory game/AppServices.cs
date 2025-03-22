@@ -19,6 +19,22 @@ namespace Memory_game
     }
     public class AppServices
     {
+        public static void FillPictureBoxes(Panel panel)
+        {
+            for (int i = 0; i < panel.Controls.Count; i++)
+            {
+                PictureBox pb = panel.Controls[i] as PictureBox;
+
+                if (i >= Form2.images.Count)
+                {
+                    pb.ImageLocation = Form2.images[i - Form2.images.Count].Path;
+                }
+                else
+                {
+                    pb.ImageLocation = Form2.images[i].Path;
+                }
+            }
+        }
         public static void MixBtn(Panel panel, Button button)
         {
             Random rnd = new Random();
@@ -47,7 +63,9 @@ namespace Memory_game
 
             button.Visible = false;
         }
-        public async static void ClickImage(Panel panel, Button button, object sender)
+
+        public static int point = 0;
+        public async static void ClickImage(Panel panel, Button button, Label label, object sender)
         {
             List<PictureBox> clickedImages = panel.Controls.OfType<PictureBox>().Where(pb => pb.BorderStyle == BorderStyle.Fixed3D).ToList();
 
@@ -57,6 +75,8 @@ namespace Memory_game
 
                 if (pictureBox.ImageLocation == null && !button.Visible)
                 {
+                    point++;
+                    label.Text = point.ToString();
                     pictureBox.BorderStyle = BorderStyle.Fixed3D;
                     pictureBox.BackColor = Color.Transparent;
 

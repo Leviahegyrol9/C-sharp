@@ -19,19 +19,9 @@ namespace Memory_game
 
             new Form2().Dispose();
 
-            for (int i = 0; i < panel1.Controls.Count; i++)
-            {
-                PictureBox pb = panel1.Controls[i] as PictureBox;
+            AppServices.FillPictureBoxes(panel1);
 
-                if (i >= Form2.images.Count)
-                {
-                    pb.ImageLocation = Form2.images[i - 2].Path;
-                }
-                else
-                {
-                    pb.ImageLocation = Form2.images[i].Path;
-                }
-            }
+            pointLabel.Text = AppServices.point.ToString();
         }
         private void mixBtn_Click(object sender, EventArgs e)
         {
@@ -39,8 +29,8 @@ namespace Memory_game
         }
         private void PictureBoxClick(object sender, EventArgs e)
         {
-            AppServices.ClickImage(panel1, mixBtn, sender);
-            AppServices.ShowWinLabel(panel1, winLabel);
+            AppServices.ClickImage(panel1, mixBtn, pointLabel, sender);
+            if (!mixBtn.Visible) AppServices.ShowWinLabel(panel1, winLabel);
         }
         private void Form3_FormClosed(object sender, FormClosedEventArgs e)
         {
