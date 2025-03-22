@@ -10,3 +10,16 @@ J:\C-sharp\Memory game\obj\Debug\Memory game.exe
 J:\C-sharp\Memory game\obj\Debug\Memory game.pdb
 J:\C-sharp\Memory game\obj\Debug\Memory_game.Form2.resources
 J:\C-sharp\Memory game\obj\Debug\Memory_game.Form3.resources
+C:\Saját\Projects\C-sharp\Memory game\bin\Debug\Memory game.exe.config
+C:\Saját\Projects\C-sharp\Memory game\bin\Debug\Memory game.exe
+C:\Saját\Projects\C-sharp\Memory game\bin\Debug\Memory game.pdb
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory game.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory_game.Form1.resources
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory_game.Form2.resources
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory_game.Form3.resources
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory_game.Properties.Resources.resources
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory game.csproj.GenerateResource.cache
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory game.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory game.exe
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory game.pdb
+C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory_game.Form4.resources

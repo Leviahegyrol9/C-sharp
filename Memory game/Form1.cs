@@ -12,7 +12,7 @@ namespace Memory_game
 {
     public partial class Form1 : Form
     {
-        public string option;
+        public static string option;
         public Form1()
         {
             InitializeComponent();

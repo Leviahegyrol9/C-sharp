@@ -13,12 +13,14 @@ namespace Memory_game
 {
     public partial class Form2 : Form
     {
-        public List<Image> images = new List<Image>();
+        public static List<Image> images = new List<Image>();
         public Form2()
         {
             InitializeComponent();
 
-           new Form1().Dispose();
+            new Form1().Dispose();
+
+            infoLabel.Text = $"Válaszz ki {(Form1.option == "0" ? "2" : "4")} képet!";
         }
 
         private void addBtn_Click(object sender, EventArgs e)
@@ -39,16 +41,22 @@ namespace Memory_game
                     {
                         foreach (string file in openFileDialog.FileNames)
                         {
-                            comboBox1.Items.Add(Path.GetFileNameWithoutExtension(file));
+                            string fileName = Path.GetFileNameWithoutExtension(file);
 
-                            image = new Image
+                            if (!imagesCb.Items.Contains(fileName))
                             {
-                                Name = Path.GetFileNameWithoutExtension(file),
-                                Path = file
-                            };
+                                imagesCb.Items.Add(fileName);
 
-                            images.Add(image);
+                                image = new Image
+                                {
+                                    Name = fileName,
+                                    Path = file
+                                };
 
+                                images.Add(image);
+
+                                SetStartBtn();
+                            }
                         }
                     }
                 }
@@ -60,32 +68,60 @@ namespace Memory_game
             }
             
         }
+        private void imagesCb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (imagesCb.SelectedItem != null)
+            {
+                Image currentImg = images.Where(img => img.Name == imagesCb.SelectedItem.ToString()).Single();
 
+                currentPb.ImageLocation = currentImg.Path;
+            }
+        }
+        private void deleteBtn_Click(object sender, EventArgs e)
+        {
+            Image deleteImg = images.Where(img => img.Name == imagesCb.SelectedItem.ToString()).Single();
+
+            imagesCb.Items.Remove(deleteImg.Name);
+
+            images.Remove(deleteImg);
+
+            currentPb.ImageLocation = null;
+
+            SetStartBtn();
+        }
+        private void SetStartBtn()
+        {
+            if (Form1.option == "0" && imagesCb.Items.Count == 2)
+            {
+                startBtn.Enabled = true;
+            }
+            else if (Form1.option == "1" && imagesCb.Items.Count == 4)
+            {
+                startBtn.Enabled = true;
+            }
+            else
+            {
+                startBtn.Enabled = false;
+            }
+        }
+        private void startBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            switch (Form1.option)
+            {
+                case "0":
+                    new Form3().Show();
+                    break;
+
+                case "1":
+                    new Form4().Show();
+                    break;
+            }
+        }
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            Image currentImg = images.Where(img => img.Name == comboBox1.SelectedItem.ToString()).Single();
-
-            pictureBox1.ImageLocation = currentImg.Path;
-
-        }
-
-        private void deleteBtn_Click(object sender, EventArgs e)
-        {
-
-            comboBox1.Items.Remove(comboBox1.SelectedItem);
-
-            pictureBox1.ImageLocation = null;
-
-        }
-
-        private void startBtn_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -5,15 +5,14 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Memory_game
 {
-    public partial class Form3 : Form
+    public partial class Form4: Form
     {
-        public Form3()
+        public Form4()
         {
             InitializeComponent();
 
@@ -25,7 +24,7 @@ namespace Memory_game
 
                 if (i >= Form2.images.Count)
                 {
-                    pb.ImageLocation = Form2.images[i - 2].Path;
+                    pb.ImageLocation = Form2.images[i - 4].Path;
                 }
                 else
                 {
@@ -42,7 +41,7 @@ namespace Memory_game
             AppServices.ClickImage(panel1, mixBtn, sender);
             AppServices.ShowWinLabel(panel1, winLabel);
         }
-        private void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        private void Form4_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
