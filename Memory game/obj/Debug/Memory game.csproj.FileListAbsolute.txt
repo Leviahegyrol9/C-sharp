@@ -23,3 +23,4 @@ C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory game.csproj.CoreCompileI
 C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory game.exe
 C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory game.pdb
 C:\Saját\Projects\C-sharp\Memory game\obj\Debug\Memory_game.Form4.resources
+J:\C-sharp\Memory game\obj\Debug\Memory_game.Form4.resources
