@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "J:\\C-sharp\\Menu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE4E9697-6EFC-41CC-85EA-8597C47EFCF8}|Menu.csproj|j:\\c-sharp\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE4E9697-6EFC-41CC-85EA-8597C47EFCF8}|Menu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D2F4E8C-2991-451E-9CED-40A3E8108DA4}|Menu.csproj|J:\\C-sharp\\Menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2F4E8C-2991-451E-9CED-40A3E8108DA4}|Menu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE4E9697-6EFC-41CC-85EA-8597C47EFCF8}|Menu.csproj|j:\\c-sharp\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE4E9697-6EFC-41CC-85EA-8597C47EFCF8}|Menu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2D2F4E8C-2991-451E-9CED-40A3E8108DA4}|Menu.csproj|j:\\c-sharp\\menu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D2F4E8C-2991-451E-9CED-40A3E8108DA4}|Menu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,9 +32,9 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "J:\\C-sharp\\Menu\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T12:52:46.927Z",
+              "WhenOpened": "2025-03-28T09:05:42.314Z",
               "EditorCaption": ""
             },
             {
@@ -46,7 +46,7 @@
               "ToolTip": "J:\\C-sharp\\Menu\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T12:51:26.399Z",
+              "WhenOpened": "2025-03-28T09:03:38.052Z",
               "EditorCaption": " [Design]"
             }
           ]

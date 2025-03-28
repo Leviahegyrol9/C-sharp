@@ -8,66 +8,56 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+using Image = System.Drawing.Image;
 
 namespace Menu
 {
     public partial class Form1 : Form
     {
-        List<string> images = new List<string>();
+        Point maxPoint = new Point(600, 288);
         public Form1()
         {
             InitializeComponent();
-
-            images = Directory.GetFiles($@"{Directory.GetCurrentDirectory()}\images", "*.png").ToList();
         }
-        private void TeamsClick(object sender, EventArgs e)
-        {
-            ToolStripItem item = sender as ToolStripItem;
 
-            switch (item.Text)
+        private void AddImage(object sender, EventArgs e)
+        {
+            try
             {
-                case "Gavallérok":
-                    FillPictureBox("gavaller");
-                    break;
+                using (OpenFileDialog openFileDialog = new OpenFileDialog())
+                {
+                    openFileDialog.InitialDirectory = $@"{Directory.GetCurrentDirectory()}\images";
+                    openFileDialog.Title = "Válaszd ki a képet!";
+                    openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png";
+                    openFileDialog.RestoreDirectory = true;
 
-                case "Csokornak":
-                    FillPictureBox("viragcsokor");
-                    break;
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        pB.Image = Image.FromFile(openFileDialog.FileName);
+                    }
+                }
 
-                case "Szárítani":
-                    FillPictureBox("szaraz virag");
-                    break;
-
-                case "Átultetni":
-                    FillPictureBox("ultetettvirag");
-                    break;
-
-                case "Magyar":          
-                    FillPictureBox("magyarfocista");
-                    break;
-
-                case "Külföldi":                    
-                    FillPictureBox("kulfoldifocista");
-                    break;
             }
-            
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
-        private void FillPictureBox(string fileName)
+        private void pB_Click(object sender, EventArgs e)
         {
-            pictureBox.Image = Image.FromFile(images.Where(img => Path.GetFileNameWithoutExtension(img) == fileName).Single());
-        }
-
-        private void CreatorClick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ExitClick(object sender, EventArgs e)
-        {
-            DialogResult result = MessageBox.Show("Biztosan ki szeretne lépni?", "Kilépés", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.Yes) Application.Exit();
+            if (pB.Image != null)
+            {
+                if (pB.Location.X >= maxPoint.X)
+                {
+                    pB.Location = new Point(12, 288);
+                }
+                else
+                {
+                    pB.Location = new Point(pB.Location.X + 100, pB.Location.Y);
+                }
+            }        
         }
     }
 }

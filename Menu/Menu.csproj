@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BE4E9697-6EFC-41CC-85EA-8597C47EFCF8}</ProjectGuid>
+    <ProjectGuid>{2D2F4E8C-2991-451E-9CED-40A3E8108DA4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Menu</RootNamespace>
     <AssemblyName>Menu</AssemblyName>
