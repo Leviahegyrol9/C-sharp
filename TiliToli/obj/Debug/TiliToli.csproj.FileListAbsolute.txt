@@ -1,0 +1,10 @@
+J:\C-sharp\TiliToli\bin\Debug\TiliToli.exe.config
+J:\C-sharp\TiliToli\bin\Debug\TiliToli.exe
+J:\C-sharp\TiliToli\bin\Debug\TiliToli.pdb
+J:\C-sharp\TiliToli\obj\Debug\TiliToli.csproj.AssemblyReference.cache
+J:\C-sharp\TiliToli\obj\Debug\TiliToli.Form1.resources
+J:\C-sharp\TiliToli\obj\Debug\TiliToli.Properties.Resources.resources
+J:\C-sharp\TiliToli\obj\Debug\TiliToli.csproj.GenerateResource.cache
+J:\C-sharp\TiliToli\obj\Debug\TiliToli.csproj.CoreCompileInputs.cache
+J:\C-sharp\TiliToli\obj\Debug\TiliToli.exe
+J:\C-sharp\TiliToli\obj\Debug\TiliToli.pdb
