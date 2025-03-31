@@ -8,3 +8,13 @@ J:\C-sharp\TiliToli\obj\Debug\TiliToli.csproj.GenerateResource.cache
 J:\C-sharp\TiliToli\obj\Debug\TiliToli.csproj.CoreCompileInputs.cache
 J:\C-sharp\TiliToli\obj\Debug\TiliToli.exe
 J:\C-sharp\TiliToli\obj\Debug\TiliToli.pdb
+C:\Saját\Projects\C-sharp\TiliToli\bin\Debug\TiliToli.exe.config
+C:\Saját\Projects\C-sharp\TiliToli\bin\Debug\TiliToli.exe
+C:\Saját\Projects\C-sharp\TiliToli\bin\Debug\TiliToli.pdb
+C:\Saját\Projects\C-sharp\TiliToli\obj\Debug\TiliToli.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sharp\TiliToli\obj\Debug\TiliToli.Form1.resources
+C:\Saját\Projects\C-sharp\TiliToli\obj\Debug\TiliToli.Properties.Resources.resources
+C:\Saját\Projects\C-sharp\TiliToli\obj\Debug\TiliToli.csproj.GenerateResource.cache
+C:\Saját\Projects\C-sharp\TiliToli\obj\Debug\TiliToli.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\TiliToli\obj\Debug\TiliToli.exe
+C:\Saját\Projects\C-sharp\TiliToli\obj\Debug\TiliToli.pdb
