@@ -82,13 +82,16 @@ namespace TiliToli
             if (clickedPic.Image != null)
             {
                 PictureBox emptyPic = panel1.Controls.OfType<PictureBox>().Where(img => img.Image == null).Single();
-                Point tempLocation = clickedPic.Location;
 
-                clickedPic.Location = emptyPic.Location;
-                emptyPic.Location = tempLocation;
+                if (clickedPic.Location.X == emptyPic.Location.X || clickedPic.Location.Y == emptyPic.Location.Y)
+                {
+                    Point tempLocation = clickedPic.Location;
 
-                if (CheckWin()) ShowWinLabel();
-                
+                    clickedPic.Location = emptyPic.Location;
+                    emptyPic.Location = tempLocation;
+
+                    if (CheckWin()) ShowWinLabel();
+                }            
             }
         }
         private bool CheckWin()
