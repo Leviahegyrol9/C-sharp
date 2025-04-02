@@ -83,7 +83,10 @@ namespace TiliToli
             {
                 PictureBox emptyPic = panel1.Controls.OfType<PictureBox>().Where(img => img.Image == null).Single();
 
-                if (clickedPic.Location.X == emptyPic.Location.X || clickedPic.Location.Y == emptyPic.Location.Y)
+                if ((clickedPic.Location.X - 106 == emptyPic.Location.X && clickedPic.Location.Y == emptyPic.Location.Y) ||
+                    (clickedPic.Location.X + 106 == emptyPic.Location.X && clickedPic.Location.Y == emptyPic.Location.Y) ||
+                    (clickedPic.Location.Y - 106 == emptyPic.Location.Y && clickedPic.Location.X == emptyPic.Location.X) ||
+                    (clickedPic.Location.Y + 106 == emptyPic.Location.Y && clickedPic.Location.X == emptyPic.Location.X))
                 {
                     Point tempLocation = clickedPic.Location;
 
