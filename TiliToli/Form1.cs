@@ -14,6 +14,8 @@ namespace TiliToli
     public partial class Form1 : Form
     {
         List<Point> originalPositions = new List<Point>();
+
+        int seconds = 0;
         public Form1()
         {
             InitializeComponent();
@@ -23,7 +25,15 @@ namespace TiliToli
                 originalPositions.Add(pb.Location);
             }
 
+            timer1.Interval = 1000;
+            timer1.Tick += UpdateTime;
+
             MixField();
+        }
+        private void UpdateTime(object sender, EventArgs e)
+        {
+            seconds++;
+            timeLabel.Text = $"Eltelt idő: {seconds / 60}:{seconds % 60}";
         }
         private void optionClick(object sender, EventArgs e)
         {
@@ -88,6 +98,8 @@ namespace TiliToli
                     (clickedPic.Location.Y - 106 == emptyPic.Location.Y && clickedPic.Location.X == emptyPic.Location.X) ||
                     (clickedPic.Location.Y + 106 == emptyPic.Location.Y && clickedPic.Location.X == emptyPic.Location.X))
                 {
+                    if (!timer1.Enabled) timer1.Enabled = true;
+
                     Point tempLocation = clickedPic.Location;
 
                     clickedPic.Location = emptyPic.Location;
@@ -113,6 +125,7 @@ namespace TiliToli
         }
         private void ShowWinLabel()
         {
+            timer1.Stop();
             panel1.Visible = false;
             Label winLabel = new Label();
             winLabel.Text = "Gratulálok, nyertél!";
