@@ -29,6 +29,14 @@ namespace TiliToli
             timer1.Tick += UpdateTime;
 
             MixField();
+
+            //List<int> numbers = new List<int>();
+
+            //foreach (string number in panel1.Controls.OfType<PictureBox>().Where(img => img.Tag != null).Select(img => img.Tag))
+            //{
+            //    numbers.Add(int.Parse(number));
+            //}
+
         }
         private void UpdateTime(object sender, EventArgs e)
         {
