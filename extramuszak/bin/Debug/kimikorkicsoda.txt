@@ -1,0 +1,10 @@
+Andrea;Hétfő;kep1.png
+Ember2;Kedd;kep02.png
+Ember3;Szerda;kep03.png
+Ember4;Csütörtök;kep04.png
+Ember5;Péntek;kep05.png
+Ember6;Hétfő;kep06.png
+Zénó7;Kedd;kep07.png
+Ember8;Szerda;kep08.png
+Ember9;Csütörtök;kep09.png
+Ember10;Hétfő;kep10.png
