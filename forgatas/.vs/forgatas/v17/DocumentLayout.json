@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\11\\cSharp_My\\forgatas\\",
+  "WorkspaceRootPath": "J:\\C-sharp\\forgatas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FD51563-37D4-4B15-A68B-C6653F104F1A}|forgatas.csproj|j:\\11\\csharp_my\\forgatas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FD51563-37D4-4B15-A68B-C6653F104F1A}|forgatas.csproj|j:\\c-sharp\\forgatas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FD51563-37D4-4B15-A68B-C6653F104F1A}|forgatas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FD51563-37D4-4B15-A68B-C6653F104F1A}|forgatas.csproj|j:\\11\\csharp_my\\forgatas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1FD51563-37D4-4B15-A68B-C6653F104F1A}|forgatas.csproj|J:\\C-sharp\\forgatas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1FD51563-37D4-4B15-A68B-C6653F104F1A}|forgatas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "J:\\11\\cSharp_My\\forgatas\\Form1.cs",
+              "DocumentMoniker": "J:\\C-sharp\\forgatas\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "J:\\11\\cSharp_My\\forgatas\\Form1.cs",
+              "ToolTip": "J:\\C-sharp\\forgatas\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvwwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,13 +37,12 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "J:\\11\\cSharp_My\\forgatas\\Form1.cs",
+              "DocumentMoniker": "J:\\C-sharp\\forgatas\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "J:\\11\\cSharp_My\\forgatas\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\11\\cSharp_My\\forgatas\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:53:23.74Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-05T11:53:23.74Z"
             }
           ]
         }
