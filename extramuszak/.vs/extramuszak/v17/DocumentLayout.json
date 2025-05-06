@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\extramuszak\\",
+  "WorkspaceRootPath": "J:\\C-sharp\\extramuszak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{272E8CCE-A388-46F5-B606-F1D6B0DE995C}|extramuszak.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\extramuszak\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{272E8CCE-A388-46F5-B606-F1D6B0DE995C}|extramuszak.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{272E8CCE-A388-46F5-B606-F1D6B0DE995C}|extramuszak.csproj|J:\\C-sharp\\extramuszak\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{272E8CCE-A388-46F5-B606-F1D6B0DE995C}|extramuszak.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{272E8CCE-A388-46F5-B606-F1D6B0DE995C}|extramuszak.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\extramuszak\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{272E8CCE-A388-46F5-B606-F1D6B0DE995C}|extramuszak.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{272E8CCE-A388-46F5-B606-F1D6B0DE995C}|extramuszak.csproj|j:\\c-sharp\\extramuszak\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{272E8CCE-A388-46F5-B606-F1D6B0DE995C}|extramuszak.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\extramuszak\\Form1.cs",
+              "DocumentMoniker": "J:\\C-sharp\\extramuszak\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\extramuszak\\Form1.cs",
+              "ToolTip": "J:\\C-sharp\\extramuszak\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAA9wGoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAswG8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T13:30:36.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\extramuszak\\Form1.cs",
+              "DocumentMoniker": "J:\\C-sharp\\extramuszak\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\extramuszak\\Form1.cs [Design]",
+              "ToolTip": "J:\\C-sharp\\extramuszak\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T13:28:48.368Z",
