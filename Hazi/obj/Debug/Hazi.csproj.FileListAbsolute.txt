@@ -1,0 +1,10 @@
+C:\Saját\Projects\C-sharp\Hazi\bin\Debug\Hazi.exe.config
+C:\Saját\Projects\C-sharp\Hazi\bin\Debug\Hazi.exe
+C:\Saját\Projects\C-sharp\Hazi\bin\Debug\Hazi.pdb
+C:\Saját\Projects\C-sharp\Hazi\obj\Debug\Hazi.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sharp\Hazi\obj\Debug\Hazi.Form1.resources
+C:\Saját\Projects\C-sharp\Hazi\obj\Debug\Hazi.Properties.Resources.resources
+C:\Saját\Projects\C-sharp\Hazi\obj\Debug\Hazi.csproj.GenerateResource.cache
+C:\Saját\Projects\C-sharp\Hazi\obj\Debug\Hazi.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\Hazi\obj\Debug\Hazi.exe
+C:\Saját\Projects\C-sharp\Hazi\obj\Debug\Hazi.pdb
