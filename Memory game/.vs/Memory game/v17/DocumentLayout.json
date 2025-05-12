@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "J:\\C-sharp\\Memory game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|J:\\C-sharp\\Memory game\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|J:\\C-sharp\\Memory game\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|J:\\C-sharp\\Memory game\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|j:\\c-sharp\\memory game\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|J:\\C-sharp\\Memory game\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|j:\\c-sharp\\memory game\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|J:\\C-sharp\\Memory game\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEAC0E02-8D5F-4A77-85E6-595155F44258}|Memory game.csproj|J:\\C-sharp\\Memory game\\appservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,12 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 8,
@@ -62,20 +58,18 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:35:29.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T08:35:29.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "J:\\C-sharp\\Memory game\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "J:\\C-sharp\\Memory game\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:35:25.936Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-24T08:35:25.936Z"
             },
             {
               "$type": "Document",
@@ -115,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "J:\\C-sharp\\Memory game\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
@@ -127,27 +121,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form4.cs",
               "DocumentMoniker": "J:\\C-sharp\\Memory game\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
               "ToolTip": "J:\\C-sharp\\Memory game\\Form4.cs",
               "RelativeToolTip": "Form4.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwB8AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T18:56:20.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form4.cs [Design]",
               "DocumentMoniker": "J:\\C-sharp\\Memory game\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
               "ToolTip": "J:\\C-sharp\\Memory game\\Form4.cs [Design]",
               "RelativeToolTip": "Form4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T18:56:17.094Z"
+              "WhenOpened": "2025-03-21T18:56:17.094Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
