@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using TextBox = System.Windows.Forms.TextBox;
 
 namespace EmailValidator
 {
@@ -78,6 +79,14 @@ namespace EmailValidator
 
                 MessageBox.Show($"Kedves {nameTb.Text}!Gratulálunk, sikeresen jelentkeztél az űrutazásra!", "Jelentkezés", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 statusBar.Text = "Emberek száma: " + Directory.GetFiles($@"{Directory.GetCurrentDirectory()}\People").Count().ToString();
+
+                foreach (TextBox tB in this.Controls.OfType<TextBox>())
+                {
+                    tB.Text = string.Empty;
+                }
+
+                fileName.Text = string.Empty;
+                
             }
         }
     }

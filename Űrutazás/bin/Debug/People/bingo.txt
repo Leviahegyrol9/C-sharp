@@ -1,2 +1,0 @@
-Név;Életkor;Email
-alma;24;khada@jkahds.com
