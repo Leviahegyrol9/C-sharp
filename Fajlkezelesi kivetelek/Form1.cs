@@ -18,25 +18,20 @@ namespace Fajlkezelesi_kivetelek
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void openBtn_Click(object sender, EventArgs e)
         {
+            OpenFileDialog openfiledialog = new OpenFileDialog();
+            openfiledialog.Filter = "Text files (*.txt)|*.txt";
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Text files (*.txt)|*.txt";
-            if (ofd.ShowDialog() == DialogResult.OK)
+            if (openfiledialog.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
-                    loadedFilePath = ofd.FileName;
+                    loadedFilePath = openfiledialog.FileName;
                     string content = File.ReadAllText(loadedFilePath);
-                    textBox1.Text = content;
+                    noteArea.Text = content;
                     MessageBox.Show("Fájl betöltve.");
-                    label1.Text = loadedFilePath;
+                    fileName.Text = Path.GetFileName(loadedFilePath);
                 }
                 catch (Exception ex)
                 {
@@ -45,7 +40,7 @@ namespace Fajlkezelesi_kivetelek
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void saveBtn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(loadedFilePath))
             {
@@ -54,15 +49,13 @@ namespace Fajlkezelesi_kivetelek
             }
             try
             {
-                File.WriteAllText(loadedFilePath, textBox1.Text);
+                File.WriteAllText(loadedFilePath, noteArea.Text);
                 MessageBox.Show("Sikeres mentés. (En voltam)");
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Mentési hiba: \n (Én voltam)" + ex.Message);
             }
-
-
         }
     }
-    }
+}

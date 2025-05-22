@@ -1,0 +1,10 @@
+J:\C-sharp\Fajlkezelesi kivetelek\bin\Debug\Fajlkezelesi kivetelek.exe.config
+J:\C-sharp\Fajlkezelesi kivetelek\bin\Debug\Fajlkezelesi kivetelek.exe
+J:\C-sharp\Fajlkezelesi kivetelek\bin\Debug\Fajlkezelesi kivetelek.pdb
+J:\C-sharp\Fajlkezelesi kivetelek\obj\Debug\Fajlkezelesi kivetelek.csproj.AssemblyReference.cache
+J:\C-sharp\Fajlkezelesi kivetelek\obj\Debug\Fajlkezelesi_kivetelek.Form1.resources
+J:\C-sharp\Fajlkezelesi kivetelek\obj\Debug\Fajlkezelesi_kivetelek.Properties.Resources.resources
+J:\C-sharp\Fajlkezelesi kivetelek\obj\Debug\Fajlkezelesi kivetelek.csproj.GenerateResource.cache
+J:\C-sharp\Fajlkezelesi kivetelek\obj\Debug\Fajlkezelesi kivetelek.csproj.CoreCompileInputs.cache
+J:\C-sharp\Fajlkezelesi kivetelek\obj\Debug\Fajlkezelesi kivetelek.exe
+J:\C-sharp\Fajlkezelesi kivetelek\obj\Debug\Fajlkezelesi kivetelek.pdb
