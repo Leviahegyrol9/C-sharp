@@ -1,0 +1,10 @@
+J:\C-sharp\Képválasztó\obj\Debug\Képválasztó.csproj.AssemblyReference.cache
+J:\C-sharp\Képválasztó\obj\Debug\Képválasztó.Form1.resources
+J:\C-sharp\Képválasztó\obj\Debug\Képválasztó.Properties.Resources.resources
+J:\C-sharp\Képválasztó\obj\Debug\Képválasztó.csproj.GenerateResource.cache
+J:\C-sharp\Képválasztó\obj\Debug\Képválasztó.csproj.CoreCompileInputs.cache
+J:\C-sharp\Képválasztó\bin\Debug\Képválasztó.exe.config
+J:\C-sharp\Képválasztó\bin\Debug\Képválasztó.exe
+J:\C-sharp\Képválasztó\bin\Debug\Képválasztó.pdb
+J:\C-sharp\Képválasztó\obj\Debug\Képválasztó.exe
+J:\C-sharp\Képválasztó\obj\Debug\Képválasztó.pdb
