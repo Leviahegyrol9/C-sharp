@@ -1,0 +1,10 @@
+J:\C-sharp\New\bin\Debug\New.exe.config
+J:\C-sharp\New\bin\Debug\New.exe
+J:\C-sharp\New\bin\Debug\New.pdb
+J:\C-sharp\New\obj\Debug\New.csproj.AssemblyReference.cache
+J:\C-sharp\New\obj\Debug\New.Form1.resources
+J:\C-sharp\New\obj\Debug\New.Properties.Resources.resources
+J:\C-sharp\New\obj\Debug\New.csproj.GenerateResource.cache
+J:\C-sharp\New\obj\Debug\New.csproj.CoreCompileInputs.cache
+J:\C-sharp\New\obj\Debug\New.exe
+J:\C-sharp\New\obj\Debug\New.pdb
