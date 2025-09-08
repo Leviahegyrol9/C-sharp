@@ -1,0 +1,7 @@
+J:\C-sharp\Iskola\bin\Debug\Iskola.exe.config
+J:\C-sharp\Iskola\bin\Debug\Iskola.exe
+J:\C-sharp\Iskola\bin\Debug\Iskola.pdb
+J:\C-sharp\Iskola\obj\Debug\Iskola.csproj.AssemblyReference.cache
+J:\C-sharp\Iskola\obj\Debug\Iskola.csproj.CoreCompileInputs.cache
+J:\C-sharp\Iskola\obj\Debug\Iskola.exe
+J:\C-sharp\Iskola\obj\Debug\Iskola.pdb
