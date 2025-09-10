@@ -16,5 +16,10 @@ namespace Iskola
         {
             
         }
+
+        public override string ToString()
+        {
+            return $"{Year}\t{Class_}\t{Name}";
+        }
     }
 }
