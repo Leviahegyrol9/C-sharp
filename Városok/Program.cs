@@ -35,7 +35,34 @@ namespace Városok
 
             bool isSuccess = WriteBekesToFile("bekes.txt", cities.Where(c => c.Country == "Békés").ToList());
 
+            Console.WriteLine($"{(isSuccess ? "Sikeres" : "Sikertelen")} fájlbaírás.");
+
+            Dictionary<string, int> areaAndCount = GetAreaAndCount(cities);
+
+            foreach (KeyValuePair<string, int> item in areaAndCount)
+            {
+                Console.WriteLine($"{item.Key}: {item.Value}db");
+            }
+
             Console.ReadLine();
+        }
+
+        private static Dictionary<string, int> GetAreaAndCount(List<City> cities)
+        {
+            Dictionary<string, int> areaAndCount = new Dictionary<string, int>();
+            HashSet<string> areas = cities.Select(c => c.Area).ToHashSet();
+
+            foreach (string area in areas)
+            {
+                areaAndCount[area] = 0;
+            }
+
+            foreach (City city in cities)
+            {
+                areaAndCount[city.Area]++;
+            }
+
+            return areaAndCount;
         }
         private static bool WriteBekesToFile(string fileName, List<City> cities)
         {
@@ -43,7 +70,10 @@ namespace Városok
             {
                 using(StreamWriter sW = new StreamWriter(fileName))
                 {
-                    
+                    foreach (City city in cities)
+                    {
+                        sW.WriteLine(city.Name);
+                    }
                 }
                 return true;
             }
