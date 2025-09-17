@@ -1,0 +1,8 @@
+J:\C-sharp\Könyvek\bin\Debug\Könyvek.exe.config
+J:\C-sharp\Könyvek\bin\Debug\Könyvek.exe
+J:\C-sharp\Könyvek\bin\Debug\Könyvek.pdb
+J:\C-sharp\Könyvek\obj\Debug\Könyvek.csproj.AssemblyReference.cache
+J:\C-sharp\Könyvek\obj\Debug\Könyvek.csproj.CoreCompileInputs.cache
+J:\C-sharp\Könyvek\obj\Debug\Könyvek.exe
+J:\C-sharp\Könyvek\obj\Debug\Könyvek.pdb
+J:\C-sharp\Könyvek\obj\Debug\Könyvek.exe.config
