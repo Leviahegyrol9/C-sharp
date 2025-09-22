@@ -1,7 +1,0 @@
-J:\C-sharp\vizibicikli\bin\Debug\vizibicikli.exe.config
-J:\C-sharp\vizibicikli\bin\Debug\vizibicikli.exe
-J:\C-sharp\vizibicikli\bin\Debug\vizibicikli.pdb
-J:\C-sharp\vizibicikli\obj\Debug\vizibicikli.csproj.AssemblyReference.cache
-J:\C-sharp\vizibicikli\obj\Debug\vizibicikli.csproj.CoreCompileInputs.cache
-J:\C-sharp\vizibicikli\obj\Debug\vizibicikli.exe
-J:\C-sharp\vizibicikli\obj\Debug\vizibicikli.pdb
