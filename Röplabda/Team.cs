@@ -14,7 +14,8 @@ namespace Röplabda
         public Team(string teamName, List<int> points)
         {
             TeamName = teamName;
-            Points = points;
+            Points = new List<int>();
+            Points.AddRange(points);
         }
     }
 }
