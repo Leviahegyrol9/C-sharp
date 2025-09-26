@@ -33,9 +33,15 @@ namespace Röplabda
                 Console.WriteLine(team.TeamName);
             }
 
-            Team winner = teams.Single(x => x.Points.Average(y => y) == teams.Max(z => z.Points.Average()));
+            Team winner = teams.Single(x => x.Points.Sum(y => y) == teams.Max(z => z.Points.Sum()));
 
             Console.WriteLine($"A bajnokság győztese: {winner.TeamName}");
+
+            double allAverage = teams.Average(x => x.Points.Sum(y => y));
+
+            bool underAverage = teams.Any(x => x.Points.Average(y => y) < allAverage);
+
+            Console.WriteLine($"{(underAverage ? "Van" : "Nincs")} olyan csapat ami átlag alatt van.");
 
             Console.ReadKey();
         }

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\C-sharp\\Balkezesek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B321B69B-059B-4A65-947F-CBF4B7040B4D}|Balkezesek.csproj|j:\\c-sharp\\balkezesek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B321B69B-059B-4A65-947F-CBF4B7040B4D}|Balkezesek.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B321B69B-059B-4A65-947F-CBF4B7040B4D}|Balkezesek.csproj|j:\\c-sharp\\balkezesek\\lefthand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B321B69B-059B-4A65-947F-CBF4B7040B4D}|Balkezesek.csproj|solutionrelative:lefthand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeftHand.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Balkezesek\\LeftHand.cs",
+              "RelativeDocumentMoniker": "LeftHand.cs",
+              "ToolTip": "J:\\C-sharp\\Balkezesek\\LeftHand.cs",
+              "RelativeToolTip": "LeftHand.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:17:36.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Balkezesek\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "J:\\C-sharp\\Balkezesek\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T08:17:02.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
