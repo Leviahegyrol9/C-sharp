@@ -141,9 +141,9 @@ namespace Git
             });
         }
 
-        private void TurnButton(bool enable)
+        private void TurnButton(bool trueOrFalse)
         {
-            foreach (Button button in this.Controls.OfType<Button>()) button.Enabled = enable;
+            foreach (Button button in this.Controls.OfType<Button>()) button.Enabled = trueOrFalse;
         }
     }
 }
