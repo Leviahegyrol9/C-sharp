@@ -19,7 +19,7 @@ namespace Git
 
         private void PullBtn_Click(object sender, EventArgs e)
         {
-            
+            cw;
         }
 
         private void PushBtn_Click(object sender, EventArgs e)
