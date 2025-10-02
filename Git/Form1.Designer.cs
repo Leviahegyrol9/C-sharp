@@ -34,7 +34,7 @@
             // 
             // PullBtn
             // 
-            this.PullBtn.Location = new System.Drawing.Point(224, 181);
+            this.PullBtn.Location = new System.Drawing.Point(449, 181);
             this.PullBtn.Name = "PullBtn";
             this.PullBtn.Size = new System.Drawing.Size(120, 40);
             this.PullBtn.TabIndex = 0;
@@ -44,7 +44,7 @@
             // 
             // PushBtn
             // 
-            this.PushBtn.Location = new System.Drawing.Point(436, 181);
+            this.PushBtn.Location = new System.Drawing.Point(210, 181);
             this.PushBtn.Name = "PushBtn";
             this.PushBtn.Size = new System.Drawing.Size(120, 40);
             this.PushBtn.TabIndex = 1;
@@ -59,8 +59,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.PushBtn);
             this.Controls.Add(this.PullBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Git";
             this.ResumeLayout(false);
 
         }
