@@ -72,7 +72,7 @@ namespace Git
                 MessageBox.Show(output);
                 MessageBox.Show(error);
 
-                if (error != string.Empty)
+                if (process.ExitCode != 0)
                 {
                     MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -106,7 +106,7 @@ namespace Git
                 string countError = countProcess.StandardError.ReadToEnd();
                 countProcess.WaitForExit();
 
-                if (countError != string.Empty)
+                if (countProcess.ExitCode != 0)
                 {
                     MessageBox.Show(countError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
@@ -128,7 +128,7 @@ namespace Git
                     string pullError = pullProcess.StandardError.ReadToEnd();
                     pullProcess.WaitForExit();
 
-                    if (!string.IsNullOrWhiteSpace(pullError))
+                    if (pullProcess.ExitCode != 0)
                     {
                         MessageBox.Show(pullError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
