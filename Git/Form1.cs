@@ -98,6 +98,7 @@ namespace Git
                 countProcess.StartInfo.CreateNoWindow = true;
 
                 countProcess.Start();
+
                 int commits = int.Parse(countProcess.StandardOutput.ReadToEnd().Trim());
 
                 MessageBox.Show(commits.ToString());
