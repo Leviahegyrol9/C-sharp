@@ -69,9 +69,9 @@ namespace Git
 
                 process.WaitForExit();
 
-                MessageBox.Show(output, "output");
-                MessageBox.Show(error, "error");
-                MessageBox.Show(process.ExitCode.ToString(), "push");
+                //MessageBox.Show(output, "output");
+                //MessageBox.Show(error, "error");
+                //MessageBox.Show(process.ExitCode.ToString(), "push");
 
                 if (process.ExitCode > 1)
                 {
@@ -102,11 +102,11 @@ namespace Git
 
                 int commits = int.Parse(countProcess.StandardOutput.ReadToEnd().Trim());
 
-                MessageBox.Show(commits.ToString(), "commits");
-
                 string countError = countProcess.StandardError.ReadToEnd();
                 countProcess.WaitForExit();
 
+                MessageBox.Show(commits.ToString(), "commits");
+                MessageBox.Show(countError, "error");
                 MessageBox.Show(countProcess.ExitCode.ToString(),"countprocess");
 
                 if (countProcess.ExitCode != 0)
