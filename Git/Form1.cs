@@ -73,7 +73,7 @@ namespace Git
                 MessageBox.Show(error);
                 MessageBox.Show(process.ExitCode.ToString());
 
-                if (process.ExitCode != 1)
+                if (process.ExitCode > 1)
                 {
                     MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
