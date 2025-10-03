@@ -9,3 +9,13 @@ C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.csproj.CoreCompileInputs.cache
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.exe
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.pdb
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.exe.config
+J:\C-sharp\Git\bin\Debug\Git.exe.config
+J:\C-sharp\Git\bin\Debug\Git.exe
+J:\C-sharp\Git\bin\Debug\Git.pdb
+J:\C-sharp\Git\obj\Debug\Git.csproj.AssemblyReference.cache
+J:\C-sharp\Git\obj\Debug\Git.Form1.resources
+J:\C-sharp\Git\obj\Debug\Git.Properties.Resources.resources
+J:\C-sharp\Git\obj\Debug\Git.csproj.GenerateResource.cache
+J:\C-sharp\Git\obj\Debug\Git.csproj.CoreCompileInputs.cache
+J:\C-sharp\Git\obj\Debug\Git.exe
+J:\C-sharp\Git\obj\Debug\Git.pdb

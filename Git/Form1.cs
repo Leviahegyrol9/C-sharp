@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -15,12 +16,7 @@ namespace Git
 {
     public partial class Form1 : Form
     {
-        List<string> directories = new List<string>
-        { 
-            @"C:\Saját\Projects\C-sharp",
-            @"C:\Saját\Projects\JS",
-            @"C:\Saját\Projects\PHP"
-        };
+        List<string> directories = GetDirectory();
         public Form1()
         {
             InitializeComponent();
@@ -43,7 +39,7 @@ namespace Git
             TurnButton(false);
 
             DateTime dateTime = DateTime.Now;
-            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
+            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");       
 
             foreach (string directory in directories)
             {              
@@ -100,6 +96,9 @@ namespace Git
 
                 countProcess.Start();
                 int commits = int.Parse(countProcess.StandardOutput.ReadToEnd().Trim());
+
+                MessageBox.Show(commits.ToString());
+
                 string countError = countProcess.StandardError.ReadToEnd();
                 countProcess.WaitForExit();
 
@@ -144,6 +143,28 @@ namespace Git
         private void TurnButton(bool trueOrFalse)
         {
             foreach (Button button in this.Controls.OfType<Button>()) button.Enabled = trueOrFalse;
+        }
+
+        private static List<string> GetDirectory()
+        {
+            List<string> directories = new List<string>
+            {
+                @"C:\Saját\Projects\C-sharp",
+                @"C:\Saját\Projects\JS",
+                @"C:\Saját\Projects\PHP"
+            };
+
+            List<string> directories2 = new List<string>
+            {
+                @"J:\C-sharp",
+                @"J:\JS",
+                @"J:\PHP"
+            };
+
+            bool dir1Missing = directories.Any(d => !Directory.Exists(d));
+            bool dir2Missing = directories2.Any(d => !Directory.Exists(d));
+
+            return (dir1Missing) ? directories2 : directories;
         }
     }
 }
