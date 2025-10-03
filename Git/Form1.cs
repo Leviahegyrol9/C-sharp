@@ -69,10 +69,6 @@ namespace Git
 
                 process.WaitForExit();
 
-                //MessageBox.Show(output, "output");
-                //MessageBox.Show(error, "error");
-                //MessageBox.Show(process.ExitCode.ToString(), "push");
-
                 if (process.ExitCode > 1)
                 {
                     MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -91,7 +87,7 @@ namespace Git
             {
                 Process countProcess = new Process();
                 countProcess.StartInfo.FileName = "cmd.exe";
-                countProcess.StartInfo.Arguments = "/c git rev-list HEAD..origin/main --count";
+                countProcess.StartInfo.Arguments = "/c git fetch && git rev-list HEAD..origin/main --count";
                 countProcess.StartInfo.WorkingDirectory = dir;
                 countProcess.StartInfo.UseShellExecute = false;
                 countProcess.StartInfo.RedirectStandardOutput = true;
@@ -101,13 +97,9 @@ namespace Git
                 countProcess.Start();
 
                 int commits = int.Parse(countProcess.StandardOutput.ReadToEnd().Trim());
-
                 string countError = countProcess.StandardError.ReadToEnd();
-                countProcess.WaitForExit();
 
-                MessageBox.Show(commits.ToString(), "commits");
-                MessageBox.Show(countError, "error");
-                MessageBox.Show(countProcess.ExitCode.ToString(),"countprocess");
+                countProcess.WaitForExit();
 
                 if (countProcess.ExitCode != 0)
                 {
@@ -127,11 +119,11 @@ namespace Git
                     pullProcess.StartInfo.CreateNoWindow = true;
 
                     pullProcess.Start();
+
                     string pullOutput = pullProcess.StandardOutput.ReadToEnd();
                     string pullError = pullProcess.StandardError.ReadToEnd();
-                    pullProcess.WaitForExit();
 
-                    MessageBox.Show(pullProcess.ExitCode.ToString(), "pullProcess");
+                    pullProcess.WaitForExit();
 
                     if (pullProcess.ExitCode != 0)
                     {
