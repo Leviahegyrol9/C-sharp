@@ -43,7 +43,7 @@ namespace Git
 
             foreach (string directory in directories)
             {              
-                await RunGitPush($"/c git add * && git commit -m \"{commitMessage}\" && git push", directory);
+                await RunGitPush($"git add * && git commit -m \"{commitMessage}\" && git push", directory);
             }
 
             TurnButton(true);
@@ -55,7 +55,7 @@ namespace Git
             {
                 Process process = new Process();
                 process.StartInfo.FileName = "cmd.exe";
-                process.StartInfo.Arguments = arguments;
+                process.StartInfo.Arguments = "/c " + arguments;
                 process.StartInfo.WorkingDirectory = dir;
                 process.StartInfo.UseShellExecute = false;
                 process.StartInfo.RedirectStandardOutput = true;
