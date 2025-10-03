@@ -67,10 +67,10 @@ namespace Git
                 string output = process.StandardOutput.ReadToEnd();
                 string error = process.StandardError.ReadToEnd();
 
+                process.WaitForExit();
+
                 MessageBox.Show(output);
                 MessageBox.Show(error);
-
-                process.WaitForExit();
 
                 if (error != string.Empty)
                 {
