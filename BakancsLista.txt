@@ -13,4 +13,4 @@ Strand c
 ✔Ízesített c teszt
 ✔Suli előtt c
 ✔Pia + c
-Bong keszites
+Bong keszités
