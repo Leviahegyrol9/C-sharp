@@ -67,6 +67,9 @@ namespace Git
                 string output = process.StandardOutput.ReadToEnd();
                 string error = process.StandardError.ReadToEnd();
 
+                MessageBox.Show(output);
+                MessageBox.Show(error);
+
                 process.WaitForExit();
 
                 if (error != string.Empty)
@@ -164,7 +167,7 @@ namespace Git
             bool dir1Missing = directories.Any(d => !Directory.Exists(d));
             bool dir2Missing = directories2.Any(d => !Directory.Exists(d));
 
-            return (dir1Missing) ? directories2 : directories;
+            return (!dir1Missing) ? directories : directories2;
         }
     }
 }
