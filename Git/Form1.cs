@@ -71,7 +71,7 @@ namespace Git
 
                 MessageBox.Show(output);
                 MessageBox.Show(error);
-                MessageBox.Show(process.ExitCode.ToString(), "process");
+                MessageBox.Show(process.ExitCode.ToString(), process.StartInfo.Arguments);
 
                 if (process.ExitCode != 0)
                 {
