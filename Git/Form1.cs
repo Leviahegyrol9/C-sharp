@@ -17,7 +17,7 @@ namespace Git
     public partial class Form1 : Form
     {
         List<string> directories = GetDirectory();
-        Dictionary<string, bool> comits = new Dictionary<string, bool>();
+        Dictionary<string, bool>.KeyCollection commits;
         public Form1()
         {
             InitializeComponent();
@@ -26,30 +26,37 @@ namespace Git
         {
             TurnButton(false);
 
-            comits = await GetComits(directories);
+            Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
+            commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
 
-            if (comits.Any(v => v.Value))
+
+            if (commits.Count != 0)
             {
                 commitLabel.ForeColor = Color.Red;
                 commitLabel.Text = "Van új file!";
+                PullBtn.Enabled = true;
             }
             else
             {
                 commitLabel.ForeColor = Color.Green;
                 commitLabel.Text = "Nincs új file.";
+                TurnButton(true);
             }
-
-            TurnButton(true);
         }
 
         private async void PullBtn_Click(object sender, EventArgs e)
         {
             TurnButton(false);
-            
-            foreach (string directory in directories)
+
+            Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
+            commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
+
+            foreach (string commit in commits)
             {
-                await RunGitPull(directory);
+                await RunGitPull(commit);
             }
+
+            commitLabel.Text = string.Empty;
 
             TurnButton(true);
         }
@@ -69,7 +76,7 @@ namespace Git
             TurnButton(true);
         }
 
-        private async Task<Dictionary<string, bool>> GetComits(List<string> directories)
+        private async Task<Dictionary<string, bool>> GetCommits(List<string> directories)
         {
             Dictionary<string, bool> result = new Dictionary<string, bool>();
 
@@ -141,45 +148,36 @@ namespace Git
         {
             return Task.Run(() =>
             {
-                if (isCommit)
+                Process pullProcess = new Process();
+                pullProcess.StartInfo.FileName = "cmd.exe";
+                pullProcess.StartInfo.Arguments = "/c git pull";
+                pullProcess.StartInfo.WorkingDirectory = dir;
+                pullProcess.StartInfo.UseShellExecute = false;
+                pullProcess.StartInfo.RedirectStandardOutput = true;
+                pullProcess.StartInfo.RedirectStandardError = true;
+                pullProcess.StartInfo.CreateNoWindow = true;
+
+                pullProcess.Start();
+
+                string pullOutput = pullProcess.StandardOutput.ReadToEnd();
+                string pullError = pullProcess.StandardError.ReadToEnd();
+
+                pullProcess.WaitForExit();
+
+                if (pullProcess.ExitCode != 0)
                 {
-                    Process pullProcess = new Process();
-                    pullProcess.StartInfo.FileName = "cmd.exe";
-                    pullProcess.StartInfo.Arguments = "/c git pull";
-                    pullProcess.StartInfo.WorkingDirectory = dir;
-                    pullProcess.StartInfo.UseShellExecute = false;
-                    pullProcess.StartInfo.RedirectStandardOutput = true;
-                    pullProcess.StartInfo.RedirectStandardError = true;
-                    pullProcess.StartInfo.CreateNoWindow = true;
-
-                    pullProcess.Start();
-
-                    string pullOutput = pullProcess.StandardOutput.ReadToEnd();
-                    string pullError = pullProcess.StandardError.ReadToEnd();
-
-                    pullProcess.WaitForExit();
-
-                    if (pullProcess.ExitCode != 0)
-                    {
-                        MessageBox.Show(pullError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    else
-                    {
-                        MessageBox.Show(pullOutput, dir, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
+                    MessageBox.Show(pullError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
                 {
-                    MessageBox.Show($"Nincs új fájl.", dir, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                    MessageBox.Show(pullOutput, dir, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }               
             });
         }
-
         private void TurnButton(bool trueOrFalse)
         {
             foreach (Button button in this.Controls.OfType<Button>()) button.Enabled = trueOrFalse;
         }
-
         private static List<string> GetDirectory()
         {
             List<string> directories = new List<string>
@@ -201,6 +199,5 @@ namespace Git
 
             return (!dir1Missing) ? directories : directories2;
         }
-
     }
 }
