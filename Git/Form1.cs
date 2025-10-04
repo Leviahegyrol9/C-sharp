@@ -17,9 +17,29 @@ namespace Git
     public partial class Form1 : Form
     {
         List<string> directories = GetDirectory();
+        Dictionary<string, bool> comits = new Dictionary<string, bool>();
         public Form1()
         {
             InitializeComponent();
+        }
+        private async void Form1_Load(object sender, EventArgs e)
+        {
+            TurnButton(false);
+
+            comits = await GetComits(directories);
+
+            if (comits.Any(v => v.Value))
+            {
+                commitLabel.ForeColor = Color.Red;
+                commitLabel.Text = "Van új file!";
+            }
+            else
+            {
+                commitLabel.ForeColor = Color.Green;
+                commitLabel.Text = "Nincs új file.";
+            }
+
+            TurnButton(true);
         }
 
         private async void PullBtn_Click(object sender, EventArgs e)
@@ -47,6 +67,43 @@ namespace Git
             }
 
             TurnButton(true);
+        }
+
+        private async Task<Dictionary<string, bool>> GetComits(List<string> directories)
+        {
+            Dictionary<string, bool> result = new Dictionary<string, bool>();
+
+            foreach (string dir in directories)
+            {
+                result[dir] = false;
+
+                Process countProcess = new Process();
+                countProcess.StartInfo.FileName = "cmd.exe";
+                countProcess.StartInfo.Arguments = "/c git fetch && git rev-list HEAD..origin/main --count";
+                countProcess.StartInfo.WorkingDirectory = dir;
+                countProcess.StartInfo.UseShellExecute = false;
+                countProcess.StartInfo.RedirectStandardOutput = true;
+                countProcess.StartInfo.RedirectStandardError = true;
+                countProcess.StartInfo.CreateNoWindow = true;
+
+                countProcess.Start();
+
+                string output = await countProcess.StandardOutput.ReadToEndAsync();
+                string countError = await countProcess.StandardError.ReadToEndAsync();
+                int commit = int.Parse(output.Trim());
+
+                countProcess.WaitForExit();
+
+                if (countProcess.ExitCode != 0)
+                {
+                    MessageBox.Show(countError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    this.Enabled = false;
+                }
+
+                if (commit > 0) result[dir] = true;
+            }
+
+            return result;
         }
 
         private Task RunGitPush(string arguments, string dir)
@@ -80,34 +137,11 @@ namespace Git
                 }
             });
         }
-
         private Task RunGitPull(string dir)
         {
             return Task.Run(() =>
             {
-                Process countProcess = new Process();
-                countProcess.StartInfo.FileName = "cmd.exe";
-                countProcess.StartInfo.Arguments = "/c git fetch && git rev-list HEAD..origin/main --count";
-                countProcess.StartInfo.WorkingDirectory = dir;
-                countProcess.StartInfo.UseShellExecute = false;
-                countProcess.StartInfo.RedirectStandardOutput = true;
-                countProcess.StartInfo.RedirectStandardError = true;
-                countProcess.StartInfo.CreateNoWindow = true;
-
-                countProcess.Start();
-
-                int commits = int.Parse(countProcess.StandardOutput.ReadToEnd().Trim());
-                string countError = countProcess.StandardError.ReadToEnd();
-
-                countProcess.WaitForExit();
-
-                if (countProcess.ExitCode != 0)
-                {
-                    MessageBox.Show(countError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-
-                if (commits > 0)
+                if (isCommit)
                 {
                     Process pullProcess = new Process();
                     pullProcess.StartInfo.FileName = "cmd.exe";
@@ -167,5 +201,6 @@ namespace Git
 
             return (!dir1Missing) ? directories : directories2;
         }
+
     }
 }
