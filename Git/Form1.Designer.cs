@@ -33,13 +33,14 @@
             this.infoLabel = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.GetPath = new System.Windows.Forms.ToolStripMenuItem();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // PullBtn
             // 
             this.PullBtn.Location = new System.Drawing.Point(337, 147);
-            this.PullBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PullBtn.Margin = new System.Windows.Forms.Padding(2);
             this.PullBtn.Name = "PullBtn";
             this.PullBtn.Size = new System.Drawing.Size(90, 32);
             this.PullBtn.TabIndex = 0;
@@ -51,7 +52,7 @@
             // PushBtn
             // 
             this.PushBtn.Location = new System.Drawing.Point(158, 147);
-            this.PushBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PushBtn.Margin = new System.Windows.Forms.Padding(2);
             this.PushBtn.Name = "PushBtn";
             this.PushBtn.Size = new System.Drawing.Size(90, 32);
             this.PushBtn.TabIndex = 1;
@@ -87,18 +88,26 @@
             this.GetPath.Text = "Útvonal megadása";
             this.GetPath.Click += new System.EventHandler(this.GetPath_Click);
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(129, 0);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.infoLabel);
             this.Controls.Add(this.PushBtn);
             this.Controls.Add(this.PullBtn);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Git";
@@ -117,6 +126,7 @@
         private System.Windows.Forms.Label infoLabel;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem GetPath;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 

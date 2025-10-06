@@ -47,6 +47,7 @@ namespace Git
                 Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
                 commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
 
+
                 if (commits.Count != 0)
                 {
                     infoLabel.ForeColor = Color.Red;
@@ -96,6 +97,7 @@ namespace Git
 
         private async Task<Dictionary<string, bool>> GetCommits(List<string> directories)
         {
+            int percent = 100 / directories.Count;
             Dictionary<string, bool> result = new Dictionary<string, bool>();
 
             foreach (string dir in directories)
@@ -118,6 +120,8 @@ namespace Git
                 int commit = int.Parse(output.Trim());
 
                 countProcess.WaitForExit();
+
+                progressBar1.Value += percent;
 
                 if (countProcess.ExitCode != 0)
                 {
