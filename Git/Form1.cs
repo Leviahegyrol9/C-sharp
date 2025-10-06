@@ -168,37 +168,47 @@ namespace Git
             int percent = 100 / directories.Count;
             Dictionary<string, bool> result = new Dictionary<string, bool>();
 
-            foreach (string dir in directories)
+            try
             {
-                result[dir] = false;
-
-                Process countProcess = new Process();
-                countProcess.StartInfo.FileName = "cmd.exe";
-                countProcess.StartInfo.Arguments = "/c git fetch && git rev-list HEAD..origin/main --count";
-                countProcess.StartInfo.WorkingDirectory = dir;
-                countProcess.StartInfo.UseShellExecute = false;
-                countProcess.StartInfo.RedirectStandardOutput = true;
-                countProcess.StartInfo.RedirectStandardError = true;
-                countProcess.StartInfo.CreateNoWindow = true;
-
-                countProcess.Start();
-
-                string output = await countProcess.StandardOutput.ReadToEndAsync();
-                string countError = await countProcess.StandardError.ReadToEndAsync();
-                int commit = int.Parse(output.Trim());
-
-                countProcess.WaitForExit();
-
-                progressBar.Value += percent;
-
-                if (countProcess.ExitCode != 0)
+                foreach (string dir in directories)
                 {
-                    MessageBox.Show(countError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    Application.Exit();
-                }
+                    result[dir] = false;
 
-                if (commit > 0) result[dir] = true;
+                    Process countProcess = new Process();
+                    countProcess.StartInfo.FileName = "cmd.exe";
+                    countProcess.StartInfo.Arguments = "/c git fetch && git rev-list HEAD..origin/main --count";
+                    countProcess.StartInfo.WorkingDirectory = dir;
+                    countProcess.StartInfo.UseShellExecute = false;
+                    countProcess.StartInfo.RedirectStandardOutput = true;
+                    countProcess.StartInfo.RedirectStandardError = true;
+                    countProcess.StartInfo.CreateNoWindow = true;
+
+                    countProcess.Start();
+
+                    string output = await countProcess.StandardOutput.ReadToEndAsync();
+                    string countError = await countProcess.StandardError.ReadToEndAsync();
+                    int commit = int.Parse(output.Trim());
+
+                    countProcess.WaitForExit();
+
+                    progressBar.Value += percent;
+
+                    if (countProcess.ExitCode != 0)
+                    {
+                        MessageBox.Show(countError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        Application.Exit();
+                    }
+
+                    if (commit > 0) result[dir] = true;
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                File.Delete($@"{userProfile}\gitDirsPath.txt");
+                Application.Exit();
+            }
+            
 
             return result;
         }
