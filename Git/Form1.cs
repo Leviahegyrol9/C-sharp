@@ -10,13 +10,14 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TreeView;
 
 namespace Git
 {
     public partial class Form1 : Form
     {
-        List<string> directories = GetDirectory();
+        List<string> directories;
         Dictionary<string, bool>.KeyCollection commits;
         public Form1()
         {
@@ -24,29 +25,43 @@ namespace Git
         }
         private async void Form1_Load(object sender, EventArgs e)
         {
-            TurnButton(false);
+            TurnButtons(false);
 
-            Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
-            commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
-
-
-            if (commits.Count != 0)
+            if (File.Exists($@"%userprofile%\gitDirs.txt") && File.ReadAllLines($@"%userprofile%\gitDirs.txt").Length != 0)
             {
-                commitLabel.ForeColor = Color.Red;
-                commitLabel.Text = "Van új file!";
-                PullBtn.Enabled = true;
+                GetPath.Enabled = false;
+
+                directories = File.ReadAllLines($@"%userprofile%\gitDirs.txt").ToList();
             }
             else
             {
-                commitLabel.ForeColor = Color.Green;
-                commitLabel.Text = "Nincs új file.";
-                TurnButton(true);
+                infoLabel.ForeColor = Color.Red;
+                infoLabel.Text = "Válasszd ki az elérési útvonalat!";
+            }
+
+            if (!GetPath.Enabled)
+            {
+                Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
+                commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
+
+                if (commits.Count != 0)
+                {
+                    infoLabel.ForeColor = Color.Red;
+                    infoLabel.Text = "Van új file!";
+                    PullBtn.Enabled = true;
+                }
+                else
+                {
+                    infoLabel.ForeColor = Color.Green;
+                    infoLabel.Text = "Nincs új file.";
+                    TurnButtons(true);
+                }
             }
         }
 
         private async void PullBtn_Click(object sender, EventArgs e)
         {
-            TurnButton(false);
+            TurnButtons(false);
 
             Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
             commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
@@ -56,14 +71,14 @@ namespace Git
                 await RunGitPull(commit);
             }
 
-            commitLabel.Text = string.Empty;
+            infoLabel.Text = string.Empty;
 
-            TurnButton(true);
+            TurnButtons(true);
         }
 
         private async void PushBtn_Click(object sender, EventArgs e)
         {
-            TurnButton(false);
+            TurnButtons(false);
 
             DateTime dateTime = DateTime.Now;
             string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");       
@@ -73,7 +88,7 @@ namespace Git
                 await RunGitPush($"git add * && git commit -m \"{commitMessage}\" && git push", directory);
             }
 
-            TurnButton(true);
+            TurnButtons(true);
         }
 
         private async Task<Dictionary<string, bool>> GetCommits(List<string> directories)
@@ -174,30 +189,35 @@ namespace Git
                 }               
             });
         }
-        private void TurnButton(bool trueOrFalse)
+        private void TurnButtons(bool trueOrFalse)
         {
             foreach (Button button in this.Controls.OfType<Button>()) button.Enabled = trueOrFalse;
         }
-        private static List<string> GetDirectory()
+        private void GetPath_Click(object sender, EventArgs e)
         {
-            List<string> directories = new List<string>
+            try
             {
-                @"C:\Saját\Projects\C-sharp",
-                @"C:\Saját\Projects\JS",
-                @"C:\Saját\Projects\PHP"
-            };
+                using (OpenFileDialog openFileDialog = new OpenFileDialog())
+                {
+                    openFileDialog.Title = "Válaszd ki az eléri útvonalakat tartalmazó szöveges file-t!";
+                    openFileDialog.Filter = "Text File|*.txt";
+                    openFileDialog.RestoreDirectory = true;
 
-            List<string> directories2 = new List<string>
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        string[] lines = File.ReadAllLines(openFileDialog.FileName);
+
+                        File.WriteAllLines($@"{Directory}\gitDirs.txt",lines);
+
+                        GetPath.Enabled = false;
+                    }
+                }
+
+            }
+            catch (Exception ex)
             {
-                @"J:\C-sharp",
-                @"J:\JS",
-                @"J:\PHP"
-            };
-
-            bool dir1Missing = directories.Any(d => !Directory.Exists(d));
-            bool dir2Missing = directories2.Any(d => !Directory.Exists(d));
-
-            return (!dir1Missing) ? directories : directories2;
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

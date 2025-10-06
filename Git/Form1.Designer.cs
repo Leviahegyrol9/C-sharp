@@ -30,14 +30,18 @@
         {
             this.PullBtn = new System.Windows.Forms.Button();
             this.PushBtn = new System.Windows.Forms.Button();
-            this.commitLabel = new System.Windows.Forms.Label();
+            this.infoLabel = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.GetPath = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // PullBtn
             // 
-            this.PullBtn.Location = new System.Drawing.Point(449, 181);
+            this.PullBtn.Location = new System.Drawing.Point(337, 147);
+            this.PullBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PullBtn.Name = "PullBtn";
-            this.PullBtn.Size = new System.Drawing.Size(120, 40);
+            this.PullBtn.Size = new System.Drawing.Size(90, 32);
             this.PullBtn.TabIndex = 0;
             this.PullBtn.TabStop = false;
             this.PullBtn.Text = "Pull";
@@ -46,37 +50,61 @@
             // 
             // PushBtn
             // 
-            this.PushBtn.Location = new System.Drawing.Point(210, 181);
+            this.PushBtn.Location = new System.Drawing.Point(158, 147);
+            this.PushBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.PushBtn.Name = "PushBtn";
-            this.PushBtn.Size = new System.Drawing.Size(120, 40);
+            this.PushBtn.Size = new System.Drawing.Size(90, 32);
             this.PushBtn.TabIndex = 1;
             this.PushBtn.TabStop = false;
             this.PushBtn.Text = "Push";
             this.PushBtn.UseVisualStyleBackColor = true;
             this.PushBtn.Click += new System.EventHandler(this.PushBtn_Click);
             // 
-            // commitLabel
+            // infoLabel
             // 
-            this.commitLabel.AutoSize = true;
-            this.commitLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.commitLabel.Location = new System.Drawing.Point(12, 9);
-            this.commitLabel.Name = "commitLabel";
-            this.commitLabel.Size = new System.Drawing.Size(0, 20);
-            this.commitLabel.TabIndex = 2;
+            this.infoLabel.AutoSize = true;
+            this.infoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.infoLabel.Location = new System.Drawing.Point(9, 26);
+            this.infoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.infoLabel.Name = "infoLabel";
+            this.infoLabel.Size = new System.Drawing.Size(0, 17);
+            this.infoLabel.TabIndex = 2;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.GetPath});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(600, 24);
+            this.menuStrip1.TabIndex = 3;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // GetPath
+            // 
+            this.GetPath.Name = "GetPath";
+            this.GetPath.Size = new System.Drawing.Size(117, 20);
+            this.GetPath.Text = "Útvonal megadása";
+            this.GetPath.Click += new System.EventHandler(this.GetPath_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.commitLabel);
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.infoLabel);
             this.Controls.Add(this.PushBtn);
             this.Controls.Add(this.PullBtn);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Git";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,7 +114,9 @@
 
         private System.Windows.Forms.Button PullBtn;
         private System.Windows.Forms.Button PushBtn;
-        private System.Windows.Forms.Label commitLabel;
+        private System.Windows.Forms.Label infoLabel;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem GetPath;
     }
 }
 
