@@ -19,6 +19,7 @@ namespace Git
     {
         List<string> directories;
         Dictionary<string, bool>.KeyCollection commits;
+        string userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
         public Form1()
         {
             InitializeComponent();
@@ -27,11 +28,13 @@ namespace Git
         {
             TurnButtons(false);
 
-            if (File.Exists($@"%userprofile%\gitDirs.txt") && File.ReadAllLines($@"%userprofile%\gitDirs.txt").Length != 0)
+            if (File.Exists($@"{userProfile}\gitDirsPath.txt") && File.ReadAllLines($@"{userProfile}\gitDirsPath.txt").Length == 1)
             {
                 GetPath.Enabled = false;
 
-                directories = File.ReadAllLines($@"%userprofile%\gitDirs.txt").ToList();
+                string path = File.ReadAllText($@"{userProfile}\gitDirsPath.txt");
+
+                directories = File.ReadAllLines(path).ToList(); 
             }
             else
             {
@@ -205,11 +208,11 @@ namespace Git
 
                     if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
-                        string[] lines = File.ReadAllLines(openFileDialog.FileName);
-
-                        File.WriteAllLines($@"{Directory}\gitDirs.txt",lines);
+                        File.WriteAllText($@"{userProfile}\gitDirsPath.txt", openFileDialog.FileName);
 
                         GetPath.Enabled = false;
+
+                        infoLabel.Text = string.Empty;
                     }
                 }
 
