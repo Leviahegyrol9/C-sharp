@@ -87,18 +87,20 @@ namespace Git
             Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
             commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
 
-            if (commits.Count == 0)
+            if (commits.Count != 0)
+            {
+                foreach (string commit in commits)
+                {
+                    await RunGitPull(commit);
+                }
+
+                FixProgressBar();
+            }
+            else
             {
                 infoLabel.ForeColor = Color.Green;
                 infoLabel.Text = "Nincs új file.";
-            }
-
-            foreach (string commit in commits)
-            {
-                await RunGitPull(commit);
-            }
-
-            FixProgressBar();
+            }        
 
             TurnButtons(true);
         }
