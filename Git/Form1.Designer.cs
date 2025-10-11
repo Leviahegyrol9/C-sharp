@@ -77,7 +77,7 @@
             this.GetPath});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -91,7 +91,7 @@
             // progressBar
             // 
             this.progressBar.Location = new System.Drawing.Point(162, 1);
-            this.progressBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.progressBar.Margin = new System.Windows.Forms.Padding(4);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(133, 28);
             this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
@@ -113,6 +113,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Git";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ProgramExit);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

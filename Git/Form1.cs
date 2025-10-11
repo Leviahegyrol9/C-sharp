@@ -67,14 +67,20 @@ namespace Git
         {
             TurnButtons(false);
 
+            progressBar.Value = 0;
+            infoLabel.Text = string.Empty;
+
             DateTime dateTime = DateTime.Now;
             string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
+            int percent = 100 / directories.Count;
 
             foreach (string directory in directories)
             {
                 await RunGitPush($"git add * && git commit -m \"{commitMessage}\" && git push", directory);
+                progressBar.Value += percent;
             }
 
+            FixProgressBar();
             TurnButtons(true);
         }
         private async void PullBtn_Click(object sender, EventArgs e)
@@ -88,13 +94,17 @@ namespace Git
             {
                 Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
                 commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
+                FixProgressBar();
             }
 
             if (commits.Count != 0)
             {
+                int percent = 100 / commits.Count;
+
                 foreach (string commit in commits)
                 {
                     await RunGitPull(commit);
+                    progressBar.Value += percent;
                 }
 
                 FixProgressBar();
@@ -103,7 +113,7 @@ namespace Git
             {
                 infoLabel.ForeColor = Color.Green;
                 infoLabel.Text = "Nincs új file.";
-            }        
+            }
 
             TurnButtons(true);
         }
@@ -116,13 +126,11 @@ namespace Git
                 process.StartInfo.Arguments = "/c " + arguments;
                 process.StartInfo.WorkingDirectory = dir;
                 process.StartInfo.UseShellExecute = false;
-                process.StartInfo.RedirectStandardOutput = true;
                 process.StartInfo.RedirectStandardError = true;
                 process.StartInfo.CreateNoWindow = true;
 
                 process.Start();
 
-                string output = process.StandardOutput.ReadToEnd();
                 string error = process.StandardError.ReadToEnd();
 
                 process.WaitForExit();
@@ -131,40 +139,29 @@ namespace Git
                 {
                     MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
-                else
-                {
-                    MessageBox.Show(output, dir, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
             });
         }
         private Task RunGitPull(string dir)
         {
             return Task.Run(() =>
             {
-                Process pullProcess = new Process();
-                pullProcess.StartInfo.FileName = "cmd.exe";
-                pullProcess.StartInfo.Arguments = "/c git pull";
-                pullProcess.StartInfo.WorkingDirectory = dir;
-                pullProcess.StartInfo.UseShellExecute = false;
-                pullProcess.StartInfo.RedirectStandardOutput = true;
-                pullProcess.StartInfo.RedirectStandardError = true;
-                pullProcess.StartInfo.CreateNoWindow = true;
+                Process process = new Process();
+                process.StartInfo.FileName = "cmd.exe";
+                process.StartInfo.Arguments = "/c git pull";
+                process.StartInfo.WorkingDirectory = dir;
+                process.StartInfo.UseShellExecute = false;
+                process.StartInfo.RedirectStandardError = true;
+                process.StartInfo.CreateNoWindow = true;
 
-                pullProcess.Start();
+                process.Start();
 
-                string pullOutput = pullProcess.StandardOutput.ReadToEnd();
-                string pullError = pullProcess.StandardError.ReadToEnd();
+                string error = process.StandardError.ReadToEnd();
 
-                pullProcess.WaitForExit();
+                process.WaitForExit();
 
-                if (pullProcess.ExitCode != 0)
+                if (process.ExitCode != 0)
                 {
-                    MessageBox.Show(pullError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MessageBox.Show(pullOutput, dir, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             });
         }
@@ -179,29 +176,29 @@ namespace Git
                 {
                     result[dir] = false;
 
-                    Process countProcess = new Process();
-                    countProcess.StartInfo.FileName = "cmd.exe";
-                    countProcess.StartInfo.Arguments = "/c git fetch && git rev-list HEAD..origin/main --count";
-                    countProcess.StartInfo.WorkingDirectory = dir;
-                    countProcess.StartInfo.UseShellExecute = false;
-                    countProcess.StartInfo.RedirectStandardOutput = true;
-                    countProcess.StartInfo.RedirectStandardError = true;
-                    countProcess.StartInfo.CreateNoWindow = true;
+                    Process process = new Process();
+                    process.StartInfo.FileName = "cmd.exe";
+                    process.StartInfo.Arguments = "/c git fetch && git rev-list HEAD..origin/main --count";
+                    process.StartInfo.WorkingDirectory = dir;
+                    process.StartInfo.UseShellExecute = false;
+                    process.StartInfo.RedirectStandardOutput = true;
+                    process.StartInfo.RedirectStandardError = true;
+                    process.StartInfo.CreateNoWindow = true;
 
-                    countProcess.Start();
+                    process.Start();
 
-                    string output = await countProcess.StandardOutput.ReadToEndAsync();
-                    string countError = await countProcess.StandardError.ReadToEndAsync();
+                    string output = await process.StandardOutput.ReadToEndAsync();
+                    string error = await process.StandardError.ReadToEndAsync();
                     int commit = int.Parse(output.Trim());
 
-                    countProcess.WaitForExit();
+                    process.WaitForExit();
 
                     progressBar.Value += percent;
 
-                    if (countProcess.ExitCode != 0)
+                    if (process.ExitCode != 0)
                     {
-                        MessageBox.Show(countError, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        Application.Exit();
+                        MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.Dispose();
                     }
 
                     if (commit > 0) result[dir] = true;
@@ -211,8 +208,8 @@ namespace Git
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 File.Delete($@"{userProfile}\gitDirsPath.txt");
-                Application.Exit();
-            }    
+                this.Dispose();
+            }
 
             return result;
         }
@@ -245,6 +242,53 @@ namespace Git
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        private async Task<bool> IsAnyLocalCommit(List<string> directories)
+        {
+            DateTime dateTime = DateTime.Now;
+            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
+
+            int percent = 100 / directories.Count;
+
+            try
+            {
+                foreach (string dir in directories)
+                {
+                    Process process = new Process();
+                    process.StartInfo.FileName = "cmd.exe";
+                    process.StartInfo.Arguments = $"/c git add * && git commit -m \"{commitMessage}\" && git rev-list HEAD...origin/main --count";
+                    process.StartInfo.WorkingDirectory = dir;
+                    process.StartInfo.UseShellExecute = false;
+                    process.StartInfo.RedirectStandardOutput = true;
+                    process.StartInfo.RedirectStandardError = true;
+                    process.StartInfo.CreateNoWindow = true;
+
+                    process.Start();
+
+                    string output = await process.StandardOutput.ReadToEndAsync();
+                    string error = await process.StandardError.ReadToEndAsync();
+                    int commit = int.Parse(output.Trim());
+
+                    process.WaitForExit();
+
+                    progressBar.Value += percent;
+
+                    if (process.ExitCode != 0)
+                    {
+                        MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.Dispose();
+                    }
+
+                    if (commit > 0) return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Dispose();
+            }
+
+            return false;
+        }
         private void TurnButtons(bool trueOrFalse)
         {
             foreach (Button button in this.Controls.OfType<Button>()) button.Enabled = trueOrFalse;
@@ -252,7 +296,16 @@ namespace Git
 
         private void FixProgressBar()
         {
-            if (progressBar.Value < 100) progressBar.Value += 100 - progressBar.Value;          
+            if (progressBar.Value < 100) progressBar.Value += 100 - progressBar.Value;
+        }
+        private async void ProgramExit(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+
+            bool isAnyCommit = await IsAnyLocalCommit(directories);
+
+            if (isAnyCommit) PushBtn_Click(sender, e);
+            else this.Dispose();
         }
     }
 }
