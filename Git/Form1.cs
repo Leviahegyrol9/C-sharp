@@ -266,7 +266,8 @@ namespace Git
 
                     string output = await process.StandardOutput.ReadToEndAsync();
                     string error = await process.StandardError.ReadToEndAsync();
-                    int commit = int.Parse(output.Trim());
+
+                    bool isNum = int.TryParse(output.Trim(), out int commit);
 
                     process.WaitForExit();
 
@@ -278,7 +279,7 @@ namespace Git
                         this.Dispose();
                     }
 
-                    if (commit > 0) return true;
+                    if (isNum && commit > 0) return true;
                 }
             }
             catch (Exception ex)
@@ -302,10 +303,17 @@ namespace Git
         {
             e.Cancel = true;
 
-            bool isAnyCommit = await IsAnyLocalCommit(directories);
+            if (!this.Controls.OfType<Button>().Any(b => !b.Enabled))
+            {
+                progressBar.Value = 0;
+                infoLabel.Text = string.Empty;
 
-            if (isAnyCommit) PushBtn_Click(sender, e);
-            else this.Dispose();
+                bool isAnyCommit = await IsAnyLocalCommit(directories);
+                FixProgressBar();
+
+                if (isAnyCommit) PushBtn_Click(sender, e);
+                else this.Dispose();
+            }        
         }
     }
 }
