@@ -213,7 +213,50 @@ namespace Git
 
             return result;
         }
+        private async Task<bool> IsAnyLocalCommit(List<string> directories)
+        {
+            DateTime dateTime = DateTime.Now;
+            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
 
+            try
+            {
+                foreach (string dir in directories)
+                {
+                    Process process = new Process();
+                    process.StartInfo.FileName = "cmd.exe";
+                    process.StartInfo.Arguments = $"/c git add * && git commit -m \"{commitMessage}\" && git rev-list HEAD...origin/main --count";
+                    process.StartInfo.WorkingDirectory = dir;
+                    process.StartInfo.UseShellExecute = false;
+                    process.StartInfo.RedirectStandardOutput = true;
+                    process.StartInfo.RedirectStandardError = true;
+                    process.StartInfo.CreateNoWindow = true;
+
+                    process.Start();
+
+                    string output = await process.StandardOutput.ReadToEndAsync();
+                    string error = await process.StandardError.ReadToEndAsync();
+
+                    bool isNum = int.TryParse(output.Trim(), out int commit);
+
+                    process.WaitForExit();
+
+                    if (process.ExitCode > 1)
+                    {
+                        MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        this.Dispose();
+                    }
+
+                    if (isNum && commit > 0) return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Dispose();
+            }
+
+            return false;
+        }
         private void GetPath_Click(object sender, EventArgs e)
         {
             try
@@ -242,54 +285,6 @@ namespace Git
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private async Task<bool> IsAnyLocalCommit(List<string> directories)
-        {
-            DateTime dateTime = DateTime.Now;
-            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
-
-            int percent = 100 / directories.Count;
-
-            try
-            {
-                foreach (string dir in directories)
-                {
-                    Process process = new Process();
-                    process.StartInfo.FileName = "cmd.exe";
-                    process.StartInfo.Arguments = $"/c git add * && git commit -m \"{commitMessage}\" && git rev-list HEAD...origin/main --count";
-                    process.StartInfo.WorkingDirectory = dir;
-                    process.StartInfo.UseShellExecute = false;
-                    process.StartInfo.RedirectStandardOutput = true;
-                    process.StartInfo.RedirectStandardError = true;
-                    process.StartInfo.CreateNoWindow = true;
-
-                    process.Start();
-
-                    string output = await process.StandardOutput.ReadToEndAsync();
-                    string error = await process.StandardError.ReadToEndAsync();
-
-                    bool isNum = int.TryParse(output.Trim(), out int commit);
-
-                    process.WaitForExit();
-
-                    progressBar.Value += percent;
-
-                    if (process.ExitCode > 1)
-                    {
-                        MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        this.Dispose();
-                    }
-
-                    if (isNum && commit > 0) return true;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Dispose();
-            }
-
-            return false;
-        }
         private void TurnButtons(bool trueOrFalse)
         {
             foreach (Button button in this.Controls.OfType<Button>()) button.Enabled = trueOrFalse;
@@ -305,11 +300,7 @@ namespace Git
 
             if (!this.Controls.OfType<Button>().Any(b => !b.Enabled))
             {
-                progressBar.Value = 0;
-                infoLabel.Text = string.Empty;
-
                 bool isAnyCommit = await IsAnyLocalCommit(directories);
-                FixProgressBar();
 
                 if (isAnyCommit) PushBtn_Click(sender, e);
                 else this.Dispose();
