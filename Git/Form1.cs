@@ -84,8 +84,11 @@ namespace Git
             progressBar.Value = 0;
             infoLabel.Text = string.Empty;
 
-            Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
-            commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
+            if (commits.Count == 0)
+            {
+                Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
+                commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
+            }
 
             if (commits.Count != 0)
             {
@@ -209,8 +212,7 @@ namespace Git
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 File.Delete($@"{userProfile}\gitDirsPath.txt");
                 Application.Exit();
-            }
-            
+            }    
 
             return result;
         }
@@ -250,12 +252,7 @@ namespace Git
 
         private void FixProgressBar()
         {
-            if (progressBar.Value < 100)
-            {
-                int left = 100 - progressBar.Value;
-
-                progressBar.Value += left;
-            }
+            if (progressBar.Value < 100) progressBar.Value += 100 - progressBar.Value;          
         }
     }
 }
