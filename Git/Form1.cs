@@ -273,7 +273,7 @@ namespace Git
 
                     progressBar.Value += percent;
 
-                    if (process.ExitCode != 0)
+                    if (process.ExitCode > 0)
                     {
                         MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         this.Dispose();
