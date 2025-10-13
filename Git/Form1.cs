@@ -213,50 +213,6 @@ namespace Git
 
             return result;
         }
-        private async Task<bool> IsAnyLocalCommit(List<string> directories)
-        {
-            DateTime dateTime = DateTime.Now;
-            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
-
-            try
-            {
-                foreach (string dir in directories)
-                {
-                    Process process = new Process();
-                    process.StartInfo.FileName = "cmd.exe";
-                    process.StartInfo.Arguments = $"/c git add * && git commit -m \"{commitMessage}\" && git rev-list HEAD...origin/main --count";
-                    process.StartInfo.WorkingDirectory = dir;
-                    process.StartInfo.UseShellExecute = false;
-                    process.StartInfo.RedirectStandardOutput = true;
-                    process.StartInfo.RedirectStandardError = true;
-                    process.StartInfo.CreateNoWindow = true;
-
-                    process.Start();
-
-                    string output = await process.StandardOutput.ReadToEndAsync();
-                    string error = await process.StandardError.ReadToEndAsync();
-
-                    bool isNum = int.TryParse(output.Trim(), out int commit);
-
-                    process.WaitForExit();
-
-                    if (process.ExitCode > 1)
-                    {
-                        MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        this.Dispose();
-                    }
-
-                    if (isNum && commit > 0) return true;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Dispose();
-            }
-
-            return false;
-        }
         private void GetPath_Click(object sender, EventArgs e)
         {
             try
@@ -300,10 +256,9 @@ namespace Git
 
             if (!this.Controls.OfType<Button>().Any(b => !b.Enabled))
             {
-                bool isAnyCommit = await IsAnyLocalCommit(directories);
 
-                if (isAnyCommit) PushBtn_Click(sender, e);
-                else this.Dispose();
+                PushBtn_Click(sender, e);
+                this.Dispose();
             }        
         }
     }
