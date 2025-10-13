@@ -65,23 +65,7 @@ namespace Git
         }
         private async void PushBtn_Click(object sender, EventArgs e)
         {
-            TurnButtons(false);
-
-            progressBar.Value = 0;
-            infoLabel.Text = string.Empty;
-
-            DateTime dateTime = DateTime.Now;
-            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
-            int percent = 100 / directories.Count;
-
-            foreach (string directory in directories)
-            {
-                await RunGitPush($"git add * && git commit -m \"{commitMessage}\" && git push", directory);
-                progressBar.Value += percent;
-            }
-
-            FixProgressBar();
-            TurnButtons(true);
+            await PushAsync();
         }
         private async void PullBtn_Click(object sender, EventArgs e)
         {
@@ -140,6 +124,26 @@ namespace Git
                     MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             });
+        }
+        private async Task PushAsync()
+        {
+            TurnButtons(false);
+
+            progressBar.Value = 0;
+            infoLabel.Text = string.Empty;
+
+            DateTime dateTime = DateTime.Now;
+            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
+            int percent = 100 / directories.Count;
+
+            foreach (string directory in directories)
+            {
+                await RunGitPush($"git add * && git commit -m \"{commitMessage}\" && git push", directory);
+                progressBar.Value += percent;
+            }
+
+            FixProgressBar();
+            TurnButtons(true);
         }
         private Task RunGitPull(string dir)
         {
@@ -256,10 +260,9 @@ namespace Git
 
             if (!this.Controls.OfType<Button>().Any(b => !b.Enabled))
             {
-
-                PushBtn_Click(sender, e);
+                await PushAsync();
                 this.Dispose();
-            }        
+            }
         }
     }
 }
