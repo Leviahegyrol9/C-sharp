@@ -101,6 +101,26 @@ namespace Git
 
             TurnButtons(true);
         }
+        private async Task PushAsync()
+        {
+            TurnButtons(false);
+
+            progressBar.Value = 0;
+            infoLabel.Text = string.Empty;
+
+            DateTime dateTime = DateTime.Now;
+            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
+            int percent = 100 / directories.Count;
+
+            foreach (string directory in directories)
+            {
+                await RunGitPush($"git add * && git commit -m \"{commitMessage}\" && git push", directory);
+                progressBar.Value += percent;
+            }
+
+            FixProgressBar();
+            TurnButtons(true);
+        }
         private Task RunGitPush(string arguments, string dir)
         {
             return Task.Run(() =>
@@ -124,26 +144,6 @@ namespace Git
                     MessageBox.Show(error, dir, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             });
-        }
-        private async Task PushAsync()
-        {
-            TurnButtons(false);
-
-            progressBar.Value = 0;
-            infoLabel.Text = string.Empty;
-
-            DateTime dateTime = DateTime.Now;
-            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
-            int percent = 100 / directories.Count;
-
-            foreach (string directory in directories)
-            {
-                await RunGitPush($"git add * && git commit -m \"{commitMessage}\" && git push", directory);
-                progressBar.Value += percent;
-            }
-
-            FixProgressBar();
-            TurnButtons(true);
         }
         private Task RunGitPull(string dir)
         {
@@ -256,13 +256,16 @@ namespace Git
         }
         private async void ProgramExit(object sender, FormClosingEventArgs e)
         {
-            e.Cancel = true;
-
-            if (!this.Controls.OfType<Button>().Any(b => !b.Enabled))
+            if (!GetPath.Enabled)
             {
-                await PushAsync();
-                this.Dispose();
-            }
+                e.Cancel = true;
+
+                if (!this.Controls.OfType<Button>().Any(b => !b.Enabled))
+                {
+                    await PushAsync();
+                    this.Dispose();
+                }
+            }            
         }
     }
 }
