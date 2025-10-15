@@ -1,0 +1,7 @@
+J:\C-sharp\Öröklődés\bin\Debug\Öröklődés.exe.config
+J:\C-sharp\Öröklődés\bin\Debug\Öröklődés.exe
+J:\C-sharp\Öröklődés\bin\Debug\Öröklődés.pdb
+J:\C-sharp\Öröklődés\obj\Debug\Öröklődés.csproj.AssemblyReference.cache
+J:\C-sharp\Öröklődés\obj\Debug\Öröklődés.csproj.CoreCompileInputs.cache
+J:\C-sharp\Öröklődés\obj\Debug\Öröklődés.exe
+J:\C-sharp\Öröklődés\obj\Debug\Öröklődés.pdb
