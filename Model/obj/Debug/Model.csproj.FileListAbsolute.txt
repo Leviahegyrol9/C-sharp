@@ -1,0 +1,8 @@
+J:\C-sharp\Model\bin\Debug\Model.exe.config
+J:\C-sharp\Model\bin\Debug\Model.exe
+J:\C-sharp\Model\bin\Debug\Model.pdb
+J:\C-sharp\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+J:\C-sharp\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+J:\C-sharp\Model\obj\Debug\Model.exe
+J:\C-sharp\Model\obj\Debug\Model.pdb
+J:\C-sharp\Model\obj\Debug\Model.exe.config
