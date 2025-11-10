@@ -12,9 +12,9 @@ namespace Git
 {
     public partial class Form1 : Form
     {
+        List<string> directories;
         Dictionary<string, bool>.KeyCollection commits;
-        public static string userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-        public static List<string> directories;
+        string userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
         public Form1()
         {
             InitializeComponent();
@@ -33,32 +33,35 @@ namespace Git
                 bool originalFileExist = File.Exists(path);
                 bool originalNotEmpty = File.ReadAllLines(path).Length != 0;
 
+                GetPath.Enabled = false;
+
                 directories = File.ReadAllLines(path).ToList();
 
-                Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
-                commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
-                FixProgressBar();
-
-                if (commits.Count != 0)
+                if (!GetPath.Enabled)
                 {
-                    infoLabel.ForeColor = Color.Red;
-                    infoLabel.Text = "Van új file!";
-                    PullBtn.Enabled = true;
-                }
-                else
-                {
-                    infoLabel.ForeColor = Color.Green;
-                    infoLabel.Text = "Nincs új file.";
-                    TurnButtons(true);
-                }
+                    Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
+                    commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
+                    FixProgressBar();
 
+                    if (commits.Count != 0)
+                    {
+                        infoLabel.ForeColor = Color.Red;
+                        infoLabel.Text = "Van új file!";
+                        PullBtn.Enabled = true;
+                    }
+                    else
+                    {
+                        infoLabel.ForeColor = Color.Green;
+                        infoLabel.Text = "Nincs új file.";
+                        TurnButtons(true);
+                    }
+                }
             }
             catch (FileNotFoundException)
             {
-                this.Hide();
-
-                new Form2().Show();
-            }          
+                infoLabel.ForeColor = Color.Red;
+                infoLabel.Text = "Válasszd ki az elérési útvonalat!";
+            }
         }
         private async void PushBtn_Click(object sender, EventArgs e)
         {
@@ -213,6 +216,34 @@ namespace Git
             }
 
             return result;
+        }
+        private void GetPath_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (OpenFileDialog openFileDialog = new OpenFileDialog())
+                {
+                    openFileDialog.Title = "Válaszd ki az eléri útvonalakat tartalmazó szöveges file-t!";
+                    openFileDialog.Filter = "Text File|*.txt";
+                    openFileDialog.RestoreDirectory = true;
+
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        File.WriteAllText($@"{userProfile}\gitDirsPath.txt", openFileDialog.FileName);
+
+                        GetPath.Enabled = false;
+
+                        infoLabel.Text = string.Empty;
+
+                        Form1_Load(sender, e);
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         private void TurnButtons(bool trueOrFalse)
         {
