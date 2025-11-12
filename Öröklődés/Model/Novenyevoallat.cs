@@ -23,7 +23,7 @@ namespace Öröklődés.Model
         public override void KiirInformacio()
         {
             base.KiirInformacio();
-            Console.WriteLine(KedvencNoveny);
+            Kiir();
         }
     }
 }

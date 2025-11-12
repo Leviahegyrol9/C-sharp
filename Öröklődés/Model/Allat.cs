@@ -21,7 +21,7 @@ namespace Öröklődés.Model
 
         public virtual void KiirInformacio()
         {
-            Console.WriteLine($"{Nev};{Faj};{Kor}");
+            Console.WriteLine($"Név: {Nev}\nFaj: {Faj}\nKor: {Kor}");
         }
     }
 }

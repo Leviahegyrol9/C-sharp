@@ -13,7 +13,8 @@ namespace Öröklődés
         {
             List<Allat> lista = new List<Allat>
             {
-                new HusevoAllat("steak", "triceratopsz", "dino", 30)
+                new HusevoAllat("steak", "triceratopsz", "dino", 30),
+                new HusevoAllat("lúdhúr", "vili", "csirke", 3)
             };
 
             foreach (var item in lista)
