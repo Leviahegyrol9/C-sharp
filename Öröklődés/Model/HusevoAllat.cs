@@ -17,13 +17,13 @@ namespace Öröklődés.Model
 
         public void Eszik()
         {
-            Console.WriteLine($"{Nev} kedvenc eledele a(z) {KedvencHus}.”");
+            Console.WriteLine($"{Nev} kedvenc eledele a(z) {KedvencHus}.");
         }
 
         public override void KiirInformacio()
         {
             base.KiirInformacio();
-            Eszik();
+            Console.WriteLine($"Kedvenc hús: {KedvencHus}");
         }
     }
 }

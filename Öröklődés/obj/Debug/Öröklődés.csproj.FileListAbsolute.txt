@@ -5,3 +5,11 @@ J:\C-sharp\Öröklődés\obj\Debug\Öröklődés.csproj.AssemblyReference.cache
 J:\C-sharp\Öröklődés\obj\Debug\Öröklődés.csproj.CoreCompileInputs.cache
 J:\C-sharp\Öröklődés\obj\Debug\Öröklődés.exe
 J:\C-sharp\Öröklődés\obj\Debug\Öröklődés.pdb
+C:\Saját\Projects\C-sharp\Öröklődés\bin\Debug\Öröklődés.exe.config
+C:\Saját\Projects\C-sharp\Öröklődés\bin\Debug\Öröklődés.exe
+C:\Saját\Projects\C-sharp\Öröklődés\bin\Debug\Öröklődés.pdb
+C:\Saját\Projects\C-sharp\Öröklődés\obj\Debug\Öröklődés.csproj.AssemblyReference.cache
+C:\Saját\Projects\C-sharp\Öröklődés\obj\Debug\Öröklődés.exe.config
+C:\Saját\Projects\C-sharp\Öröklődés\obj\Debug\Öröklődés.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\Öröklődés\obj\Debug\Öröklődés.exe
+C:\Saját\Projects\C-sharp\Öröklődés\obj\Debug\Öröklődés.pdb

@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\\u00F6r\u00F6kl\u0151d\u00E9s\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\model\\allat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\model\\novenyevoallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|solutionrelative:model\\novenyevoallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\model\\allat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|solutionrelative:model\\allat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\model\\husevoallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\model\\husevoallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|solutionrelative:model\\husevoallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|j:\\c-sharp\\\u00F6r\u00F6kl\u0151d\u00E9s\\model\\novenyevoallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C32E7715-A3D2-49A9-97E6-0AEE5E9ADE62}|\u00D6r\u00F6kl\u0151d\u00E9s.csproj|solutionrelative:model\\novenyevoallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,39 +30,39 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Novenyevoallat.cs",
-              "DocumentMoniker": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\Novenyevoallat.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\Novenyevoallat.cs",
               "RelativeDocumentMoniker": "Model\\Novenyevoallat.cs",
-              "ToolTip": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\Novenyevoallat.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\Novenyevoallat.cs",
               "RelativeToolTip": "Model\\Novenyevoallat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:44:24.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HusevoAllat.cs",
-              "DocumentMoniker": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\HusevoAllat.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\HusevoAllat.cs",
               "RelativeDocumentMoniker": "Model\\HusevoAllat.cs",
-              "ToolTip": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\HusevoAllat.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\HusevoAllat.cs",
               "RelativeToolTip": "Model\\HusevoAllat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:44:12.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Allat.cs",
-              "DocumentMoniker": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\Allat.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\Allat.cs",
               "RelativeDocumentMoniker": "Model\\Allat.cs",
-              "ToolTip": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\Allat.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Model\\Allat.cs",
               "RelativeToolTip": "Model\\Allat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:39:25.146Z",
               "EditorCaption": ""
@@ -71,11 +71,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Program.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\\u00D6r\u00F6kl\u0151d\u00E9s\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T12:38:24.144Z",
               "EditorCaption": ""

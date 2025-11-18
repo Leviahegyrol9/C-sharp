@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\sebestyenk\\desktop\\consoleapp1\\consoleapp1\\model\\fizikaidolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\model\\fizikaidolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\model2\\consoleapp1\\model\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\model\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\sebestyenk\\desktop\\consoleapp1\\consoleapp1\\model\\irodaidolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\consoleapp1\\model\\irodaidolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\model\\irodaidolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\consoleapp1\\model\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\model\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\consoleapp1\\model\\fizikaidolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA5A467-8B02-4CF3-83C5-3F1752266B91}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\model\\fizikaidolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,39 +30,37 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FizikaiDolgozo.cs",
-              "DocumentMoniker": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\ConsoleApp1\\Model\\FizikaiDolgozo.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\ConsoleApp1\\Model\\FizikaiDolgozo.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Model\\FizikaiDolgozo.cs",
-              "ToolTip": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\ConsoleApp1\\Model\\FizikaiDolgozo.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\ConsoleApp1\\Model\\FizikaiDolgozo.cs",
               "RelativeToolTip": "ConsoleApp1\\Model\\FizikaiDolgozo.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwBgAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T08:21:35.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T08:21:35.033Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IrodaiDolgozo.cs",
-              "DocumentMoniker": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\ConsoleApp1\\Model\\IrodaiDolgozo.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\ConsoleApp1\\Model\\IrodaiDolgozo.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Model\\IrodaiDolgozo.cs",
-              "ToolTip": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\ConsoleApp1\\Model\\IrodaiDolgozo.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\ConsoleApp1\\Model\\IrodaiDolgozo.cs",
               "RelativeToolTip": "ConsoleApp1\\Model\\IrodaiDolgozo.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:35:03.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T08:35:03.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Dolgozo.cs",
-              "DocumentMoniker": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\ConsoleApp1\\Model\\Dolgozo.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\ConsoleApp1\\Model\\Dolgozo.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Model\\Dolgozo.cs",
-              "ToolTip": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\ConsoleApp1\\Model\\Dolgozo.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\ConsoleApp1\\Model\\Dolgozo.cs",
               "RelativeToolTip": "ConsoleApp1\\Model\\Dolgozo.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAASwBYAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAASwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T08:30:37.414Z",
               "EditorCaption": ""
@@ -71,11 +69,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\sebestyenk\\Desktop\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model2\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T08:29:54.256Z",
               "EditorCaption": ""

@@ -17,13 +17,13 @@ namespace Öröklődés.Model
 
         public void Kiir()
         {
-            Console.WriteLine($"Neve: {Nev}; Kedvenc kaja: {KedvencNoveny}");
+            Console.WriteLine($"Neve: {Nev}; Kedvenc ennivalója: {KedvencNoveny}");
         }
 
         public override void KiirInformacio()
         {
             base.KiirInformacio();
-            Kiir();
+            Console.WriteLine($"Kedvenc novény: {KedvencNoveny}");
         }
     }
 }
