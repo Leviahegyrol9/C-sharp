@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Model\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|j:\\c-sharp\\model\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\model\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|j:\\c-sharp\\model\\model\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\model\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|solutionrelative:model\\human.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\model\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|solutionrelative:model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\model\\model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AB025A0-75B2-46AF-84FE-9F95232C35CA}|Model.csproj|solutionrelative:model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Model\\Student.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\Model\\Student.cs",
+              "RelativeToolTip": "Model\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T17:44:28.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\Model\\Teacher.cs",
+              "RelativeDocumentMoniker": "Model\\Teacher.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\Model\\Teacher.cs",
+              "RelativeToolTip": "Model\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T17:44:29.376Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Human.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Model\\Model\\Human.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\Model\\Human.cs",
               "RelativeDocumentMoniker": "Model\\Human.cs",
-              "ToolTip": "J:\\C-sharp\\Model\\Model\\Human.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\Model\\Human.cs",
               "RelativeToolTip": "Model\\Human.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T09:08:44.739Z",
               "EditorCaption": ""
@@ -37,11 +71,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Model\\Program.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "J:\\C-sharp\\Model\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Model\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T09:08:21.133Z",
               "EditorCaption": ""
