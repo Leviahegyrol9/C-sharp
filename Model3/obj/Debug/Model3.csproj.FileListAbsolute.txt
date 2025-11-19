@@ -1,0 +1,2 @@
+J:\C-sharp\Model3\obj\Debug\Model3.csproj.AssemblyReference.cache
+J:\C-sharp\Model3\obj\Debug\Model3.csproj.CoreCompileInputs.cache
