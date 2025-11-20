@@ -1,0 +1,8 @@
+J:\C-sharp\Model4\bin\Debug\Model4.exe.config
+J:\C-sharp\Model4\bin\Debug\Model4.exe
+J:\C-sharp\Model4\bin\Debug\Model4.pdb
+J:\C-sharp\Model4\obj\Debug\Model4.csproj.AssemblyReference.cache
+J:\C-sharp\Model4\obj\Debug\Model4.csproj.CoreCompileInputs.cache
+J:\C-sharp\Model4\obj\Debug\Model4.exe
+J:\C-sharp\Model4\obj\Debug\Model4.pdb
+J:\C-sharp\Model4\obj\Debug\Model4.exe.config
