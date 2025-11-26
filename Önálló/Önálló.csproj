@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarIO.cs" />
+    <Compile Include="Model\Car.cs" />
+    <Compile Include="Model\Owner.cs" />
+    <Compile Include="OwnerIO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
