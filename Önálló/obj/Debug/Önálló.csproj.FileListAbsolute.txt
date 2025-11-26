@@ -1,0 +1,7 @@
+J:\C-sharp\Önálló\bin\Debug\Önálló.exe.config
+J:\C-sharp\Önálló\bin\Debug\Önálló.exe
+J:\C-sharp\Önálló\bin\Debug\Önálló.pdb
+J:\C-sharp\Önálló\obj\Debug\Önálló.csproj.AssemblyReference.cache
+J:\C-sharp\Önálló\obj\Debug\Önálló.csproj.CoreCompileInputs.cache
+J:\C-sharp\Önálló\obj\Debug\Önálló.exe
+J:\C-sharp\Önálló\obj\Debug\Önálló.pdb
