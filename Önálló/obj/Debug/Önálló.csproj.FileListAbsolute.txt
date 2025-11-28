@@ -13,3 +13,4 @@ C:\Saját\Projects\C-sharp\Önálló\obj\Debug\Önálló.exe.config
 C:\Saját\Projects\C-sharp\Önálló\obj\Debug\Önálló.csproj.CoreCompileInputs.cache
 C:\Saját\Projects\C-sharp\Önálló\obj\Debug\Önálló.exe
 C:\Saját\Projects\C-sharp\Önálló\obj\Debug\Önálló.pdb
+J:\C-sharp\Önálló\obj\Debug\Önálló.exe.config

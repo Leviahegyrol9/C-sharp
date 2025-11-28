@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CarIO.cs" />
+    <Compile Include="Model\IAge.cs" />
     <Compile Include="Model\Car.cs" />
     <Compile Include="Model\Owner.cs" />
     <Compile Include="OwnerIO.cs" />

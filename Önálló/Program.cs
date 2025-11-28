@@ -65,7 +65,15 @@ namespace Önálló
 
             bool success = WriteOwnerAndCar(cars, owners, "ownerAndCar.txt");
 
-            Console.WriteLine($"\n{(success ? "Sikeres": "Sikertelen")} fájlbaírás");
+            Console.WriteLine($"\n{(success ? "Sikeres": "Sikertelen")} fájlbaírás\n");
+
+            Owner owner = owners[rnd.Next(0, owners.Count + 1)];
+
+            IAge iAge = owner;
+
+            int age = iAge.GetAge();
+
+            Console.WriteLine($"{owner.OwnerName} életkora: {age}");            
         }
         private static bool WriteOwnerAndCar(List<Car> cars, List<Owner> owners, string fileName)
         {

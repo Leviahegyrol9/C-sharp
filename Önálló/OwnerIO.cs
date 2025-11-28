@@ -22,13 +22,13 @@ namespace Önálló
                     string[] datas = line.Split(';');
 
                     owner = new Owner
-                    {
-                        Id = int.Parse(datas[0]),
-                        OwnerName = datas[1],
-                        BirthDate = DateTime.Parse(datas[2]),
-                        Residence = datas[3],
-                        HighestEducation = datas[4]
-                    };
+                    (
+                        int.Parse(datas[0]),
+                        datas[1],
+                        DateTime.Parse(datas[2]),
+                        datas[3],
+                        datas[4]
+                    );
 
                     owners.Add(owner);
                 }
