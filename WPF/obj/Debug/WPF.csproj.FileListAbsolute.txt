@@ -1,0 +1,15 @@
+J:\C-sharp\WPF\bin\Debug\WPF.exe.config
+J:\C-sharp\WPF\bin\Debug\WPF.exe
+J:\C-sharp\WPF\bin\Debug\WPF.pdb
+J:\C-sharp\WPF\obj\Debug\WPF.csproj.AssemblyReference.cache
+J:\C-sharp\WPF\obj\Debug\MainWindow.g.cs
+J:\C-sharp\WPF\obj\Debug\App.g.cs
+J:\C-sharp\WPF\obj\Debug\WPF_MarkupCompile.cache
+J:\C-sharp\WPF\obj\Debug\WPF_MarkupCompile.lref
+J:\C-sharp\WPF\obj\Debug\MainWindow.baml
+J:\C-sharp\WPF\obj\Debug\WPF.g.resources
+J:\C-sharp\WPF\obj\Debug\WPF.Properties.Resources.resources
+J:\C-sharp\WPF\obj\Debug\WPF.csproj.GenerateResource.cache
+J:\C-sharp\WPF\obj\Debug\WPF.csproj.CoreCompileInputs.cache
+J:\C-sharp\WPF\obj\Debug\WPF.exe
+J:\C-sharp\WPF\obj\Debug\WPF.pdb
