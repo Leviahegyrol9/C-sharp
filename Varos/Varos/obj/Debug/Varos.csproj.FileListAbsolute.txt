@@ -1,0 +1,16 @@
+J:\C-sharp\Varos\Varos\bin\Debug\Varos.exe.config
+J:\C-sharp\Varos\Varos\bin\Debug\Varos.exe
+J:\C-sharp\Varos\Varos\bin\Debug\Varos.pdb
+J:\C-sharp\Varos\Varos\obj\Debug\Varos.csproj.AssemblyReference.cache
+J:\C-sharp\Varos\Varos\obj\Debug\MainWindow.g.cs
+J:\C-sharp\Varos\Varos\obj\Debug\App.g.cs
+J:\C-sharp\Varos\Varos\obj\Debug\Varos_MarkupCompile.cache
+J:\C-sharp\Varos\Varos\obj\Debug\Varos_MarkupCompile.lref
+J:\C-sharp\Varos\Varos\obj\Debug\MainWindow.baml
+J:\C-sharp\Varos\Varos\obj\Debug\Varos.g.resources
+J:\C-sharp\Varos\Varos\obj\Debug\Varos.Properties.Resources.resources
+J:\C-sharp\Varos\Varos\obj\Debug\Varos.csproj.GenerateResource.cache
+J:\C-sharp\Varos\Varos\obj\Debug\Varos.csproj.CoreCompileInputs.cache
+J:\C-sharp\Varos\Varos\obj\Debug\Varos.exe
+J:\C-sharp\Varos\Varos\obj\Debug\Varos.pdb
+J:\C-sharp\Varos\Varos\obj\Debug\Varos.exe.config
