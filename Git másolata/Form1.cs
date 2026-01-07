@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -39,21 +40,29 @@ namespace Git
 
                 if (!GetPath.Enabled)
                 {
-                    Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
-                    commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
-                    FixProgressBar();
-
-                    if (commits.Count != 0)
+                    if (!CheckInternet())
                     {
-                        infoLabel.ForeColor = Color.Red;
-                        infoLabel.Text = "Van új file!";
-                        PullBtn.Enabled = true;
+                        MessageBox.Show("Állítsd helyre az internet kapcsolatot!", "Internet hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        Form1_Load(sender, e);
                     }
                     else
                     {
-                        infoLabel.ForeColor = Color.Green;
-                        infoLabel.Text = "Nincs új file.";
-                        TurnButtons(true);
+                        Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
+                        commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
+                        FixProgressBar();
+
+                        if (commits.Count != 0)
+                        {
+                            infoLabel.ForeColor = Color.Red;
+                            infoLabel.Text = "Van új file!";
+                            PullBtn.Enabled = true;
+                        }
+                        else
+                        {
+                            infoLabel.ForeColor = Color.Green;
+                            infoLabel.Text = "Nincs új file.";
+                            TurnButtons(true);
+                        }
                     }
                 }
             }
@@ -65,41 +74,54 @@ namespace Git
         }
         private async void PushBtn_Click(object sender, EventArgs e)
         {
-            await PushAsync();
+            if (!CheckInternet())
+            {
+                MessageBox.Show("Állítsd helyre az internet kapcsolatot!", "Internet hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                PushBtn_Click(sender, e);
+            }
+            else await PushAsync();
         }
         private async void PullBtn_Click(object sender, EventArgs e)
         {
-            TurnButtons(false);
-
-            progressBar.Value = 0;
-            infoLabel.Text = string.Empty;
-
-            if (commits.Count == 0)
+            if (!CheckInternet())
             {
-                Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
-                commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
-                FixProgressBar();
-            }
-
-            if (commits.Count != 0)
-            {
-                int percent = 100 / commits.Count;
-
-                foreach (string commit in commits)
-                {
-                    await RunGitPull(commit);
-                    progressBar.Value += percent;
-                }
-
-                FixProgressBar();
+                MessageBox.Show("Állítsd helyre az internet kapcsolatot!", "Internet hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                PullBtn_Click(sender, e);
             }
             else
             {
-                infoLabel.ForeColor = Color.Green;
-                infoLabel.Text = "Nincs új file.";
-            }
+                TurnButtons(false);
 
-            TurnButtons(true);
+                progressBar.Value = 0;
+                infoLabel.Text = string.Empty;
+
+                if (commits.Count == 0)
+                {
+                    Dictionary<string, bool> directoriesWithCommit = await GetCommits(directories);
+                    commits = directoriesWithCommit.Where(c => c.Value).ToDictionary(k => k.Key, v => v.Value).Keys;
+                    FixProgressBar();
+                }
+
+                if (commits.Count != 0)
+                {
+                    int percent = 100 / commits.Count;
+
+                    foreach (string commit in commits)
+                    {
+                        await RunGitPull(commit);
+                        progressBar.Value += percent;
+                    }
+
+                    FixProgressBar();
+                }
+                else
+                {
+                    infoLabel.ForeColor = Color.Green;
+                    infoLabel.Text = "Nincs új file.";
+                }
+
+                TurnButtons(true);
+            }               
         }
         private async Task PushAsync()
         {
@@ -253,6 +275,19 @@ namespace Git
         private void FixProgressBar()
         {
             if (progressBar.Value < 100) progressBar.Value += 100 - progressBar.Value;
+        }
+        private bool CheckInternet()
+        {
+            try
+            {
+                using (WebClient client = new WebClient())
+                using (client.OpenRead("https://www.google.com"))
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
         private async void ProgramExit(object sender, FormClosingEventArgs e)
         {
