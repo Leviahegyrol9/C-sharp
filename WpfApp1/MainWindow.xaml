@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="25">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
+            <Slider Width="500" Minimum="0" Maximum="100" TickPlacement="TopLeft" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="SliderChange"></Slider>
+            <TextBlock Text="Slider value:" Name="slider1" HorizontalAlignment="Center"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <Slider HorizontalAlignment="Center" Orientation="Vertical" Height="350" Minimum="0" Maximum="100" TickPlacement="TopLeft" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="SliderChange2"></Slider>
+            <TextBlock Text="Slider value:" Name="slider2"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
