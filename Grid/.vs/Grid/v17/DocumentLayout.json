@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F9BE157C-30B5-447D-9379-5747BF4EEA70}|Grid.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9BE157C-30B5-447D-9379-5747BF4EEA70}|Grid.csproj|j:\\c-sharp\\grid\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F9BE157C-30B5-447D-9379-5747BF4EEA70}|Grid.csproj|J:\\C-sharp\\Grid\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F9BE157C-30B5-447D-9379-5747BF4EEA70}|Grid.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -42,8 +42,7 @@
               "ToolTip": "J:\\C-sharp\\Grid\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-10T09:07:49.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T09:07:49.764Z"
             }
           ]
         }

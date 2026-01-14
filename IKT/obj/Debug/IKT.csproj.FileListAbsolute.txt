@@ -1,0 +1,16 @@
+J:\C-sharp\IKT\obj\Debug\IKT.csproj.AssemblyReference.cache
+J:\C-sharp\IKT\obj\Debug\MainWindow.g.cs
+J:\C-sharp\IKT\obj\Debug\App.g.cs
+J:\C-sharp\IKT\obj\Debug\IKT_MarkupCompile.cache
+J:\C-sharp\IKT\obj\Debug\IKT_MarkupCompile.lref
+J:\C-sharp\IKT\bin\Debug\IKT.exe.config
+J:\C-sharp\IKT\bin\Debug\IKT.exe
+J:\C-sharp\IKT\bin\Debug\IKT.pdb
+J:\C-sharp\IKT\obj\Debug\MainWindow.baml
+J:\C-sharp\IKT\obj\Debug\IKT.g.resources
+J:\C-sharp\IKT\obj\Debug\IKT.Properties.Resources.resources
+J:\C-sharp\IKT\obj\Debug\IKT.csproj.GenerateResource.cache
+J:\C-sharp\IKT\obj\Debug\IKT.csproj.CoreCompileInputs.cache
+J:\C-sharp\IKT\obj\Debug\IKT.exe
+J:\C-sharp\IKT\obj\Debug\IKT.pdb
+J:\C-sharp\IKT\obj\Debug\IKT.exe.config
