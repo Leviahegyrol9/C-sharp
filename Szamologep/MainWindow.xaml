@@ -1,0 +1,35 @@
+﻿<Window x:Class="Szamologep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Szamologep"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Content="Számológép" FontSize="26" HorizontalAlignment="Center" FontWeight="Bold"></Label>
+        <Label Grid.Row="1" Grid.ColumnSpan="2" Content="Első szám:" FontSize="20"></Label>
+        <Label Grid.Row="2" Grid.ColumnSpan="2" Content="Második szám:" FontSize="20"></Label>
+        <Label Grid.Row="3" Grid.ColumnSpan="2" Content="Eredmény:" FontSize="20"></Label>
+        <TextBox Grid.Row="1" Grid.Column="1" Height="30" Width="200" Name="first"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" Height="30" Width="200" Name="second"></TextBox>
+        <TextBox Grid.Row="3" Grid.Column="1" Height="30" Width="200" Name="result" IsReadOnly="True"></TextBox>
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="+" Width="40" Height="40" Margin="20" Click="Button_Click"></Button>
+            <Button Content="-" Width="40" Height="40" Margin="20" Click="Button_Click"></Button>
+            <Button Content="*" Width="40" Height="40" Margin="20" Click="Button_Click"></Button>
+            <Button Content="/" Width="40" Height="40" Margin="20" Click="Button_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
