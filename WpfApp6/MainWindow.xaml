@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0">
+            <Label Content="Programlehetőségek árral:" FontWeight="Bold"></Label>
+            <ListBox Name="lista1" Width="200" Height="200" HorizontalAlignment="Left"></ListBox>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Label Content="Kiválasztott programok árral:" FontWeight="Bold"></Label>
+            <ListBox Name="lista2" Width="200" Height="200" HorizontalAlignment="Left"></ListBox>
+        </StackPanel>
+        <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Content="Utazási létszám:"></Label>
+        <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Content="Végösszeg:"></Label>
+        <TextBox Grid.Row="1" Grid.Column="1" Width="250" Height="30" Name="letszam"></TextBox>
+        <TextBlock Grid.Row="2" Grid.Column="1" Width="250" Height="30" Name="vegosszeg"></TextBlock>
+        <Button Grid.Row="3" Grid.Column="0" Width="150" Height="30" Content="Hozzáadás" Click="hozzaad_Click"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Width="150" Height="30" Content="Számolás" Click="szamol_Click"></Button>
+    </Grid>
+</Window>

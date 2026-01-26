@@ -1,0 +1,13 @@
+program neve;ára
+Balatonalmádi kirándulás;12000
+Keszthely - kastélylátogatás;15000
+Szeged - sárkányhajózás;8000
+Makó - strandprogram;5000
+Pécs - mecsetlátogatás;16000
+Balatonkeresztúr - túra;28000
+Sopron - kalandpark;22000
+Budapest - szabadulószoba;4000
+Villány - borvidék bejárás;27000
+Gyula - várlátogatás;2500
+Pannonhalma - apátság;16000
+Tokaj - borkóstoló;6800

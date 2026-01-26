@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfApp8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="1030">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="345"></ColumnDefinition>
+            <ColumnDefinition Width="345"></ColumnDefinition>
+            <ColumnDefinition Width="345"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="250"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="250"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Menu Background="Beige" FontSize="20">
+                <MenuItem Header="Beolvasás" Name="beolvas" Click="beolvas_Click" Margin="10"></MenuItem>
+                <MenuItem Header="Beolvasás" Name="rendez" Click="rendez_Click" Margin="10"></MenuItem>
+                <MenuItem Header="Beolvasás" Name="legjobb" Click="legjobb_Click" Margin="10"></MenuItem>
+                <MenuItem Header="Beolvasás" Name="legrosszabb" Click="legrosszabb_Click" Margin="10"></MenuItem>
+                <MenuItem Header="Beolvasás" Name="kilep" Click="kilep_Click" Margin="10"></MenuItem>
+            </Menu>
+        </StackPanel>
+        <Label Grid.Row="1" Grid.Column="0" FontWeight="Bold" Content="9.a osztályos diákok" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="1" Grid.Column="1" FontWeight="Bold" Content="9.b osztályos diákok" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="1" Grid.Column="2" FontWeight="Bold" Content="9.c osztályos diákok" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="3" Grid.Column="0" FontWeight="Bold" Content="Rendezés" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="3" Grid.Column="1" FontWeight="Bold" Content="Legjobbak" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="3" Grid.Column="2" FontWeight="Bold" Content="Legrosszabbak" HorizontalAlignment="Center" FontSize="20"></Label>
+
+        <ListBox Grid.Row="2" Grid.Column="0" Width="250" Name="kilenc_a"></ListBox>
+        <ListBox Grid.Row="2" Grid.Column="1" Width="250" Name="kilenc_b"></ListBox>
+        <ListBox Grid.Row="2" Grid.Column="3" Width="250" Name="kilenc_c"></ListBox>
+        <ListBox Grid.Row="4" Grid.Column="1" Width="250" Name="legjobbak"></ListBox>
+        <ListBox Grid.Row="4" Grid.Column="2" Width="250" Name="legrosszabbak"></ListBox>
+        <StackPanel Grid.Row="4" Grid.Column="0">
+            <RadioButton Name="nevnovekvo" Content="Név alapján növekvő sorrend" FontSize="20" Margin="10" IsChecked="True" GroupName="rendezes"></RadioButton>
+            <RadioButton Name="pontnovekvo" Content="Pontszám alapján növekvő sorrend" FontSize="20" Margin="10" GroupName="rendezes"></RadioButton>
+        </StackPanel>
+    </Grid>
+</Window>
