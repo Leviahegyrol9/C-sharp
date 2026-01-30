@@ -25,15 +25,15 @@
         <Label Grid.Row="1" Grid.Column="0" Content="Kezelt állatok száma:" FontSize="20" Margin="5"></Label>
         <Label Grid.Row="2" Grid.Column="0" Content="Átlagos testsúly:" FontSize="20" Margin="5"></Label>
         <Label Grid.Row="3" Grid.Column="0" Content="Átlagos életkor:" FontSize="20" Margin="5"></Label>
-        <StackPanel Grid.Row="0" Grid.Column="1">
+        <StackPanel Grid.Row="0" Grid.Column="1" Name="tb">
             <Label Content="Név: " FontSize="20" FontWeight="Bold"></Label>
-            <TextBlock x:Name="ujnev" Width="250" Height="30" HorizontalAlignment="Left"></TextBlock>
+            <TextBox x:Name="ujnev" Width="250" Height="30" HorizontalAlignment="Left"></TextBox>
             <Label Content="Súly (kg): " FontSize="20" FontWeight="Bold"></Label>
-            <TextBlock x:Name="ujsuly" Width="250" Height="30" HorizontalAlignment="Left"></TextBlock>
+            <TextBox x:Name="ujsuly" Width="250" Height="30" HorizontalAlignment="Left"></TextBox>
             <Label Content="Életkor (év): " FontSize="20" FontWeight="Bold"></Label>
-            <TextBlock x:Name="ujev" Width="250" Height="30" HorizontalAlignment="Left"></TextBlock>
+            <TextBox x:Name="ujev" Width="250" Height="30" HorizontalAlignment="Left"></TextBox>
             <Label Content="Fajta: " FontSize="20" FontWeight="Bold"></Label>
-            <TextBlock x:Name="ujfajta" Width="250" Height="30" HorizontalAlignment="Left"></TextBlock>
+            <TextBox x:Name="ujfajta" Width="250" Height="30" HorizontalAlignment="Left"></TextBox>
         </StackPanel>
         <TextBlock Grid.Row="1" Grid.Column="1" Name="letszam"></TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="1" Name="atlagsuly"></TextBlock>
