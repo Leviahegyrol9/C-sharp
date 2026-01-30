@@ -22,10 +22,10 @@
         <StackPanel Grid.Row="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center">
             <Menu Background="Beige" FontSize="20">
                 <MenuItem Header="Beolvasás" Name="beolvas" Click="beolvas_Click" Margin="10"></MenuItem>
-                <MenuItem Header="Beolvasás" Name="rendez" Click="rendez_Click" Margin="10"></MenuItem>
-                <MenuItem Header="Beolvasás" Name="legjobb" Click="legjobb_Click" Margin="10"></MenuItem>
-                <MenuItem Header="Beolvasás" Name="legrosszabb" Click="legrosszabb_Click" Margin="10"></MenuItem>
-                <MenuItem Header="Beolvasás" Name="kilep" Click="kilep_Click" Margin="10"></MenuItem>
+                <MenuItem Header="Rendez" Name="rendez" Click="rendez_Click" Margin="10"></MenuItem>
+                <MenuItem Header="Legjobb" Name="legjobb" Click="legjobb_Click" Margin="10"></MenuItem>
+                <MenuItem Header="Legrosszabb" Name="legrosszabb" Click="legrosszabb_Click" Margin="10"></MenuItem>
+                <MenuItem Header="Kilépés" Name="kilep" Click="kilep_Click" Margin="10"></MenuItem>
             </Menu>
         </StackPanel>
         <Label Grid.Row="1" Grid.Column="0" FontWeight="Bold" Content="9.a osztályos diákok" HorizontalAlignment="Center" FontSize="20"></Label>

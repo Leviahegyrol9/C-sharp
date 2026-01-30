@@ -13,3 +13,4 @@ J:\C-sharp\WpfApp8\obj\Debug\WpfApp8.csproj.GenerateResource.cache
 J:\C-sharp\WpfApp8\obj\Debug\WpfApp8.csproj.CoreCompileInputs.cache
 J:\C-sharp\WpfApp8\obj\Debug\WpfApp8.exe
 J:\C-sharp\WpfApp8\obj\Debug\WpfApp8.pdb
+J:\C-sharp\WpfApp8\obj\Debug\WpfApp8.exe.config
