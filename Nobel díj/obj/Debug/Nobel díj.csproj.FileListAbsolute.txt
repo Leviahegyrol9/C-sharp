@@ -1,0 +1,16 @@
+J:\C-sharp\Nobel díj\bin\Debug\Nobel díj.exe.config
+J:\C-sharp\Nobel díj\bin\Debug\Nobel díj.exe
+J:\C-sharp\Nobel díj\bin\Debug\Nobel díj.pdb
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj.csproj.AssemblyReference.cache
+J:\C-sharp\Nobel díj\obj\Debug\MainWindow.g.cs
+J:\C-sharp\Nobel díj\obj\Debug\App.g.cs
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj_MarkupCompile.cache
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj_MarkupCompile.lref
+J:\C-sharp\Nobel díj\obj\Debug\MainWindow.baml
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj.g.resources
+J:\C-sharp\Nobel díj\obj\Debug\Nobel_díj.Properties.Resources.resources
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj.csproj.GenerateResource.cache
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj.csproj.CoreCompileInputs.cache
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj.exe
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj.pdb
+J:\C-sharp\Nobel díj\obj\Debug\Nobel díj.exe.config
