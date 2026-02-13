@@ -64,17 +64,34 @@ namespace orai
         {
             list.Items.Clear();
 
-            Dictionary<string, int> dict = walls;
+            Dictionary<string, int> dict = walls.GroupBy(x =>x.Type).ToDictionary(x => x.Key, x => x.Count());
+
+            foreach (var item in dict)
+            {
+                list.Items.Add($"{item.Key}\t{item.Value} db");
+            }
         }
 
         private void Colors(object sender, RoutedEventArgs e)
         {
+            list.Items.Clear();
 
+            HashSet<string> colors = walls.Select(w => w.Color).ToHashSet();
+
+            foreach (string color in colors)
+            {
+                list.Items.Add(color);
+            }
+
+            list.Items.Add(colors.Count);
         }
 
         private void BiggestRoom(object sender, RoutedEventArgs e)
         {
+            list.Items.Clear();
 
+            list.Items.Add(walls.Single(x => x.BaseT == walls.Max(y => y.BaseT)));
+            
         }
 
         private void Calculate(object sender, RoutedEventArgs e)
