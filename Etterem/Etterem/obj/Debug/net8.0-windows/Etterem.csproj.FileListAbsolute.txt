@@ -1,0 +1,29 @@
+J:\C-sharp\Etterem\Etterem\bin\Debug\net8.0-windows\Etterem.exe
+J:\C-sharp\Etterem\Etterem\bin\Debug\net8.0-windows\Etterem.deps.json
+J:\C-sharp\Etterem\Etterem\bin\Debug\net8.0-windows\Etterem.runtimeconfig.json
+J:\C-sharp\Etterem\Etterem\bin\Debug\net8.0-windows\Etterem.dll
+J:\C-sharp\Etterem\Etterem\bin\Debug\net8.0-windows\Etterem.pdb
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\MainWindow.g.cs
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\UserControls\etel stisztika.g.cs
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\UserControls\Fooldal.g.cs
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\UserControls\Statisztika.g.cs
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\UserControls\ujvendeg.g.cs
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\App.g.cs
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem_MarkupCompile.cache
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem_MarkupCompile.lref
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\MainWindow.baml
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\UserControls\etel stisztika.baml
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\UserControls\Fooldal.baml
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\UserControls\Statisztika.baml
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\UserControls\ujvendeg.baml
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.g.resources
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.AssemblyInfoInputs.cache
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.AssemblyInfo.cs
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.csproj.CoreCompileInputs.cache
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.sourcelink.json
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.dll
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\refint\Etterem.dll
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.pdb
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\Etterem.genruntimeconfig.cache
+J:\C-sharp\Etterem\Etterem\obj\Debug\net8.0-windows\ref\Etterem.dll

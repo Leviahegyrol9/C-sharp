@@ -1,0 +1,23 @@
+﻿<Window x:Class="Etterem.UserControls.ujvendeg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Etterem.UserControls"
+        mc:Ignorable="d"
+        Title="ujvendeg" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10" HorizontalAlignment="Center">
+            <TextBlock Text="Új vendeg adatai:" FontSize="25"></TextBlock>
+            <TextBlock Text="Név:" Margin="10"></TextBlock>
+            <TextBox Width="200" Margin="10" Name="a"></TextBox>
+            <TextBlock Text="Vendeg típus:" Margin="10"></TextBlock>
+            <TextBox Width="200" Margin="10" Name="b"></TextBox>
+            <TextBlock Text="Fogyasztott ételfajta:" Margin="10"></TextBlock>
+            <TextBox Width="200" Margin="10" Name="c"></TextBox>
+            <TextBlock Text="Elköltött összeg:" Margin="10"></TextBlock>
+            <TextBox Width="200" Margin="10" Name="d"></TextBox>
+            <Button Margin="8 25 8 0" Height="30" Width="150" Content="Mentes" Click="Save"></Button>
+        </StackPanel>
+    </Grid>
+</Window>

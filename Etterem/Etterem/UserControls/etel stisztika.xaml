@@ -1,0 +1,17 @@
+﻿<Window x:Class="Etterem.UserControls.etel_stisztika"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Etterem.UserControls"
+        mc:Ignorable="d"
+        Title="etel_stisztika" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Ételfajta statisztika" FontSize="25" Margin="10"></TextBlock>
+            <ListBox Name="lista2" Width="100" Height="150"></ListBox>
+            <TextBlock Text="Étterem bevitele" FontSize="25" Margin="10"></TextBlock>
+            <TextBlock Name="vegosszeg" FontWeight="Bold" FontSize="25" HorizontalAlignment="Center"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
