@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Nobel d\u00EDj\\",
+  "WorkspaceRootPath": "L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|j:\\c-sharp\\nobel d\u00EDj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|l:\\2022b\\b2paplev\\c-sharp\\nobel d\u00EDj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|j:\\c-sharp\\nobel d\u00EDj\\nobel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\nobel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|solutionrelative:nobel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|j:\\c-sharp\\nobel d\u00EDj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{23B1CDC5-4735-4309-9064-3C0FBE582DC0}|Nobel d\u00EDj.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -22,30 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Nobel.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Nobel d\u00EDj\\Nobel.cs",
+              "DocumentMoniker": "L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\Nobel.cs",
               "RelativeDocumentMoniker": "Nobel.cs",
-              "ToolTip": "J:\\C-sharp\\Nobel d\u00EDj\\Nobel.cs",
+              "ToolTip": "L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\Nobel.cs",
               "RelativeToolTip": "Nobel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T07:27:42.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T07:27:42.199Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Nobel d\u00EDj\\MainWindow.xaml.cs",
+              "DocumentMoniker": "L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "J:\\C-sharp\\Nobel d\u00EDj\\MainWindow.xaml.cs",
+              "ToolTip": "L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAA1wKAAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwKAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T07:11:20.433Z",
               "EditorCaption": ""
@@ -54,13 +57,12 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "J:\\C-sharp\\Nobel d\u00EDj\\MainWindow.xaml",
+              "DocumentMoniker": "L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "J:\\C-sharp\\Nobel d\u00EDj\\MainWindow.xaml",
+              "ToolTip": "L:\\2022b\\b2paplev\\C-sharp\\Nobel d\u00EDj\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-09T07:11:22.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T07:11:22.288Z"
             }
           ]
         }

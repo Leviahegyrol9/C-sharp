@@ -5,23 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="25">
+        Title="MainWindow" Height="450" Width="600">
+    <Grid Margin="10">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="350"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="130"></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center">
-            <Slider Width="500" Minimum="0" Maximum="100" TickPlacement="TopLeft" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="SliderChange"></Slider>
-            <TextBlock Text="Slider value:" Name="slider1" HorizontalAlignment="Center"></TextBlock>
-        </StackPanel>
-        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-            <Slider HorizontalAlignment="Center" Orientation="Vertical" Height="350" Minimum="0" Maximum="100" TickPlacement="TopLeft" TickFrequency="5" IsSnapToTickEnabled="True" ValueChanged="SliderChange2"></Slider>
-            <TextBlock Text="Slider value:" Name="slider2"></TextBlock>
+        <Label Grid.Row="0" Grid.ColumnSpan="2" Content="Könyvek adatai" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+        <ListBox Name="lista" Grid.Row="1" Grid.Column="0" Width="320" Height="300"></ListBox>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+            <Button Content="Adatok betoltese" Width="150" Height="30" Margin="10" Name="betoltes" Click="betoltes_Click"></Button>
+            <Button Content="Legtobb honorarium" Width="150" Height="30" Margin="10" Name="maxhon" Click="maxhon_Click"></Button>
+            <Button Content="Adatok betoltese" Width="150" Height="30" Margin="10" Name="konyvstat" Click="konyvstat_Click"></Button>
+            <Button Content="Adatok betoltese" Width="150" Height="30" Margin="10" Name="osszeg" Click="osszeg_Click"></Button>
+            <Button Content="Adatok betoltese" Width="150" Height="30" Margin="10" Name="legdragabb" Click="legdragabb_Click"></Button>
+            <Button Content="Termeszettud konyvek" Width="150" Height="30" Margin="10" Name="termtud" Click="termtud_Click"></Button>
+
         </StackPanel>
     </Grid>
 </Window>
