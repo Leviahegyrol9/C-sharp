@@ -1,0 +1,21 @@
+﻿<Window x:Class="IKT2.Marks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IKT2"
+        mc:Ignorable="d"
+        Title="Jegyek hozzáadása" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Főoldal" Click="MenuItem_Click"></MenuItem>
+        </Menu>
+
+        <Label Content="Jegyek hozzáadása" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Grid.Row="1"></Label>
+    </Grid>
+</Window>
