@@ -19,6 +19,7 @@ namespace IKT2
     /// </summary>
     public partial class Marks : Window
     {
+        public static Dictionary<string, List<int>> subjectAndMarks = new Dictionary<string, List<int>>();
         public Marks()
         {
             InitializeComponent();
@@ -29,6 +30,32 @@ namespace IKT2
             new MainWindow().Show();
 
             this.Close();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                List<int> marks = new List<int>();
+
+                if (marksTb.Text.Contains(','))
+                {
+                    string[] temp = marksTb.Text.Split(',');
+
+                    foreach (string item in temp)
+                    {
+                        int number = int.Parse(item);
+
+                        if (number > 0 && number < 6) marks.Add(number);
+                    }
+
+                    subjectAndMarks[subjectTb.Text] = marks;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Hiba", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

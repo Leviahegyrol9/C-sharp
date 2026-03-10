@@ -7,14 +7,21 @@
         mc:Ignorable="d"
         Title="Főablak" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
         <Menu>
-            <MenuItem Header="Adatok">
+            <MenuItem Header="Adatok" FontSize="15">
                 <MenuItem Header="Felvitel" Click="AddMark"/>
                 <MenuItem Header="Statisztika"/>
                 <MenuItem Header="Kilépés" Click="Quit"/>
             </MenuItem>
 
-            <MenuItem Header="Névjegy" Click="ShowCreator"></MenuItem>
+            <MenuItem Header="Névjegy" Click="ShowCreator" FontSize="15"></MenuItem>
         </Menu>
+        <Label Content="Üdvözöllek a jegykezelő alkalmazásban!" Grid.Row="1" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"></Label>
+        <Image Source="icon.jpg" Grid.Row="2"/>
     </Grid>
 </Window>

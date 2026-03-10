@@ -7,15 +7,28 @@
         mc:Ignorable="d"
         Title="Jegyek hozzáadása" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Menu>
-            <MenuItem Header="Főoldal" Click="MenuItem_Click"></MenuItem>
+        <Menu Grid.ColumnSpan="2">
+            <MenuItem Header="Főoldal" Click="MenuItem_Click" FontSize="15"></MenuItem>
         </Menu>
 
-        <Label Content="Jegyek hozzáadása" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Grid.Row="1"></Label>
+        <Label Content="Jegyek hozzáadása" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="2"></Label>
+        <StackPanel Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Tantárgy neve:" FontSize="18" Padding="0 0 0 20"></Label>
+            <TextBox Width="150" Height="25" HorizontalAlignment="Left" Name="subjectTb"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Jegyek (vesszővel elválasztva):" FontSize="18" Padding="0 0 0 20"></Label>
+            <TextBox Width="240" Height="25" HorizontalAlignment="Left" Name="marksTb"></TextBox>
+        </StackPanel>
+        <Button Content="Hozzáadás" Grid.Row="2" Grid.ColumnSpan="2" Width="100" Height="30" HorizontalAlignment="Center" Margin="0 250 0 0" Click="Button_Click"></Button>
     </Grid>
 </Window>
