@@ -51,6 +51,10 @@ namespace IKT2
 
                     subjectAndMarks[subjectTb.Text] = marks;
                 }
+
+                foreach (TextBox tB in mainGrid.Children.OfType<TextBox>()) tB.Text = string.Empty;
+
+                MessageBox.Show("Jegy(ek) hozzáadva!", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {

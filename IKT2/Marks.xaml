@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:IKT2"
         mc:Ignorable="d"
         Title="Jegyek hozzáadása" Height="450" Width="800">
-    <Grid>
+    <Grid Name="mainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>

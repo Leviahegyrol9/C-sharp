@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\",
+  "WorkspaceRootPath": "J:\\C-sharp\\IKT2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\marks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|j:\\c-sharp\\ikt2\\marks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|solutionrelative:marks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\ikt2\\marks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|J:\\C-sharp\\IKT2\\marks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|solutionrelative:marks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|J:\\C-sharp\\IKT2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|J:\\C-sharp\\IKT2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{139C28A2-3292-44B4-90DE-F59AD53ED555}|IKT2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Marks.xaml",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\Marks.xaml",
+              "DocumentMoniker": "J:\\C-sharp\\IKT2\\Marks.xaml",
               "RelativeDocumentMoniker": "Marks.xaml",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\Marks.xaml",
+              "ToolTip": "J:\\C-sharp\\IKT2\\Marks.xaml",
               "RelativeToolTip": "Marks.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-09T17:55:25.613Z",
@@ -44,11 +44,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Marks.xaml.cs",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\Marks.xaml.cs",
+              "DocumentMoniker": "J:\\C-sharp\\IKT2\\Marks.xaml.cs",
               "RelativeDocumentMoniker": "Marks.xaml.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\Marks.xaml.cs",
+              "ToolTip": "J:\\C-sharp\\IKT2\\Marks.xaml.cs",
               "RelativeToolTip": "Marks.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDMAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wDYAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T17:59:25.781Z",
               "EditorCaption": ""
@@ -57,9 +57,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\MainWindow.xaml",
+              "DocumentMoniker": "J:\\C-sharp\\IKT2\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\MainWindow.xaml",
+              "ToolTip": "J:\\C-sharp\\IKT2\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-09T17:42:10.232Z",
@@ -69,9 +69,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\MainWindow.xaml.cs",
+              "DocumentMoniker": "J:\\C-sharp\\IKT2\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT2\\MainWindow.xaml.cs",
+              "ToolTip": "J:\\C-sharp\\IKT2\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
