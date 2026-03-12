@@ -1,0 +1,28 @@
+﻿<Window x:Class="IKT2.Search"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IKT2"
+        mc:Ignorable="d"
+        Title="Keresés" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Főoldal" Click="MenuItem_Click" FontSize="15"></MenuItem>
+        </Menu>
+
+        <Label Content="Tantárgy keresése" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" Grid.Row="1"></Label>
+        
+        <Label FontSize="18" Content="Keresendő tantárgy:" Grid.Row="2"></Label>
+        <TextBox Width="150" Height="25" Grid.Row="2" Margin="0 0 280 0" Name="searchSubject" KeyDown="SearchSubject_KeyDown"></TextBox>
+        <Button Grid.Row="2" Width="100" Height="25" Content="Keresés" Name="searchBtn" Click="searchBtn_Click"></Button>
+
+        <ListBox Grid.Row="3" Width="500" Height="100" Name="list"></ListBox>
+    </Grid>
+</Window>

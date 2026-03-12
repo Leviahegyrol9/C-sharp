@@ -19,7 +19,7 @@ namespace IKT2
     /// </summary>
     public partial class Marks : Window
     {
-        public static Dictionary<string, List<int>> subjectAndMarks = new Dictionary<string, List<int>>();
+        public static List<Mark> subjectAndMarks = new List<Mark>();
         public Marks()
         {
             InitializeComponent();
@@ -36,11 +36,12 @@ namespace IKT2
         {
             try
             {
+                Mark mark = null;
                 List<int> marks = new List<int>();
 
                 if (marksTb.Text.Contains(','))
                 {
-                    string[] temp = marksTb.Text.Split(',');
+                    string[] temp = marksTb.Text.Replace(" ", "").Split(',');
 
                     foreach (string item in temp)
                     {
@@ -49,10 +50,27 @@ namespace IKT2
                         if (number > 0 && number < 6) marks.Add(number);
                     }
 
-                    subjectAndMarks[subjectTb.Text] = marks;
+                    mark = new Mark
+                    {
+                        Subject = subjectTb.Text.ToLower(),
+                        Marks = marks
+                    };
+
+                    subjectAndMarks.Add(mark);
+                }
+                else
+                {
+                    mark = new Mark
+                    {
+                        Subject = subjectTb.Text.ToLower(),
+                        Marks = new List<int> {int.Parse(marksTb.Text)}
+                    };
+
+                    subjectAndMarks.Add(mark);
                 }
 
-                foreach (TextBox tB in mainGrid.Children.OfType<TextBox>()) tB.Text = string.Empty;
+                subjectTb.Clear();
+                marksTb.Clear();
 
                 MessageBox.Show("Jegy(ek) hozzáadva!", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
             }

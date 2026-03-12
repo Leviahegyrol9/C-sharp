@@ -40,5 +40,23 @@ namespace IKT2
 
             this.Close();
         }
+
+        private void ShowStatistic(object sender, RoutedEventArgs e)
+        {
+            new Statistic().Show();
+
+            this.Close();
+        }
+
+        private void SearchSubject(object sender, RoutedEventArgs e)
+        {
+            new Search().Show();
+
+            this.Close();
+        }
+        public static string CapitalizeFirstLetter(string text)
+        {
+            return char.ToUpper(text[0]) + text.Substring(1);
+        }
     }
 }

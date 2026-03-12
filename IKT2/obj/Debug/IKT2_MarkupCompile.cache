@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-J:\C-sharp\IKT2\obj\Debug\
+C:\Saját\Projects\C-sharp\IKT2\obj\Debug\
 IKT2
 none
 false
 DEBUG;TRACE
-J:\C-sharp\IKT2\App.xaml
-21652684293
+C:\Saját\Projects\C-sharp\IKT2\App.xaml
+4-1304468561
 
-6-1623979743
+9793898382
 13-38814620
-MainWindow.xaml;Marks.xaml;
+MainWindow.xaml;Marks.xaml;Search.xaml;Statistic.xaml;
 
 False
 

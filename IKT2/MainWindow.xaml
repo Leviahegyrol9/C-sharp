@@ -15,8 +15,8 @@
         <Menu>
             <MenuItem Header="Adatok" FontSize="15">
                 <MenuItem Header="Felvitel" Click="AddMark"/>
-                <MenuItem Header="Statisztika"/>
-                <MenuItem Header="Jegy keresése"/>
+                <MenuItem Header="Statisztika" Click="ShowStatistic"/>
+                <MenuItem Header="Tantárgy keresése" Click="SearchSubject"/>
             </MenuItem>
 
             <MenuItem Header="Névjegy" Click="ShowCreator" FontSize="15"></MenuItem>

@@ -34,3 +34,7 @@ J:\C-sharp\IKT2\obj\Debug\IKT2.csproj.GenerateResource.cache
 J:\C-sharp\IKT2\obj\Debug\IKT2.csproj.CoreCompileInputs.cache
 J:\C-sharp\IKT2\obj\Debug\IKT2.exe
 J:\C-sharp\IKT2\obj\Debug\IKT2.pdb
+C:\Saját\Projects\C-sharp\IKT2\obj\Debug\Statistic.g.cs
+C:\Saját\Projects\C-sharp\IKT2\obj\Debug\Statistic.baml
+C:\Saját\Projects\C-sharp\IKT2\obj\Debug\Search.g.cs
+C:\Saját\Projects\C-sharp\IKT2\obj\Debug\Search.baml
