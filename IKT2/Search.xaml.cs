@@ -58,7 +58,7 @@ namespace IKT2
                 list.Items.Clear();
                 var mark = Statistic.sorted.Single(s => s.Key == searchSubject.Text.ToLower());
 
-                list.Items.Add(mark);
+                list.Items.Add($"{MainWindow.CapitalizeFirstLetter(mark.Key)}: {string.Join(", ", mark.Value)}");
             }
             catch (Exception ex)
             {

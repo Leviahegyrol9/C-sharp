@@ -38,3 +38,7 @@ C:\Saját\Projects\C-sharp\IKT2\obj\Debug\Statistic.g.cs
 C:\Saját\Projects\C-sharp\IKT2\obj\Debug\Statistic.baml
 C:\Saját\Projects\C-sharp\IKT2\obj\Debug\Search.g.cs
 C:\Saját\Projects\C-sharp\IKT2\obj\Debug\Search.baml
+J:\C-sharp\IKT2\obj\Debug\Search.g.cs
+J:\C-sharp\IKT2\obj\Debug\Statistic.g.cs
+J:\C-sharp\IKT2\obj\Debug\Search.baml
+J:\C-sharp\IKT2\obj\Debug\Statistic.baml
