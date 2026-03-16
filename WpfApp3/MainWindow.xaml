@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <Grid>
+        <TextBox Height="20" Margin="20" Name="kivalasztott" VerticalAlignment="Top" Text="{Binding ElementName=lista, Path=SelectedItem.Content}"></TextBox>
+        <ListBox Margin="15 55 10 10" Name="lista">
+            <ListBoxItem Content="Péter"></ListBoxItem>
+            <ListBoxItem Content="Tamás"></ListBoxItem>
+            <ListBoxItem Content="Imre"></ListBoxItem>
+            <ListBoxItem Content="József"></ListBoxItem>
+            <ListBoxItem Content="András"></ListBoxItem>
+            <ListBoxItem Content="Gábor"></ListBoxItem>
+        </ListBox>
+        <Button Width="200" Height="30" VerticalAlignment="Bottom" Margin="20" Name="modosit" Click="modosit_Click" Content="Módosít"></Button>
+        
+    </Grid>
+</Window>
