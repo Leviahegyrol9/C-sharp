@@ -1,0 +1,16 @@
+J:\C-sharp\Orai\bin\Debug\Orai.exe.config
+J:\C-sharp\Orai\bin\Debug\Orai.exe
+J:\C-sharp\Orai\bin\Debug\Orai.pdb
+J:\C-sharp\Orai\obj\Debug\Orai.csproj.AssemblyReference.cache
+J:\C-sharp\Orai\obj\Debug\MainWindow.g.cs
+J:\C-sharp\Orai\obj\Debug\App.g.cs
+J:\C-sharp\Orai\obj\Debug\Orai_MarkupCompile.cache
+J:\C-sharp\Orai\obj\Debug\Orai_MarkupCompile.lref
+J:\C-sharp\Orai\obj\Debug\MainWindow.baml
+J:\C-sharp\Orai\obj\Debug\Orai.g.resources
+J:\C-sharp\Orai\obj\Debug\Orai.Properties.Resources.resources
+J:\C-sharp\Orai\obj\Debug\Orai.csproj.GenerateResource.cache
+J:\C-sharp\Orai\obj\Debug\Orai.csproj.CoreCompileInputs.cache
+J:\C-sharp\Orai\obj\Debug\Orai.exe
+J:\C-sharp\Orai\obj\Debug\Orai.pdb
+J:\C-sharp\Orai\obj\Debug\Orai.exe.config
