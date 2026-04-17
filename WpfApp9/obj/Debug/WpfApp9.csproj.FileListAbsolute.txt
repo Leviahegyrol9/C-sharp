@@ -1,0 +1,16 @@
+J:\C-sharp\WpfApp9\bin\Debug\WpfApp9.exe.config
+J:\C-sharp\WpfApp9\bin\Debug\WpfApp9.exe
+J:\C-sharp\WpfApp9\bin\Debug\WpfApp9.pdb
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9.csproj.AssemblyReference.cache
+J:\C-sharp\WpfApp9\obj\Debug\MainWindow.g.cs
+J:\C-sharp\WpfApp9\obj\Debug\App.g.cs
+J:\C-sharp\WpfApp9\obj\Debug\GeneratedInternalTypeHelper.g.cs
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9_MarkupCompile.cache
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9_MarkupCompile.lref
+J:\C-sharp\WpfApp9\obj\Debug\MainWindow.baml
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9.g.resources
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9.Properties.Resources.resources
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9.csproj.GenerateResource.cache
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9.csproj.CoreCompileInputs.cache
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9.exe
+J:\C-sharp\WpfApp9\obj\Debug\WpfApp9.pdb
