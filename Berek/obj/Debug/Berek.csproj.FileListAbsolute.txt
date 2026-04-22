@@ -1,0 +1,17 @@
+J:\C-sharp\Berek\bin\Debug\Berek.exe.config
+J:\C-sharp\Berek\bin\Debug\Berek.exe
+J:\C-sharp\Berek\bin\Debug\Berek.pdb
+J:\C-sharp\Berek\obj\Debug\Berek.csproj.AssemblyReference.cache
+J:\C-sharp\Berek\obj\Debug\MainWindow.g.cs
+J:\C-sharp\Berek\obj\Debug\App.g.cs
+J:\C-sharp\Berek\obj\Debug\GeneratedInternalTypeHelper.g.cs
+J:\C-sharp\Berek\obj\Debug\Berek_MarkupCompile.cache
+J:\C-sharp\Berek\obj\Debug\Berek_MarkupCompile.lref
+J:\C-sharp\Berek\obj\Debug\MainWindow.baml
+J:\C-sharp\Berek\obj\Debug\Berek.g.resources
+J:\C-sharp\Berek\obj\Debug\Berek.Properties.Resources.resources
+J:\C-sharp\Berek\obj\Debug\Berek.csproj.GenerateResource.cache
+J:\C-sharp\Berek\obj\Debug\Berek.csproj.CoreCompileInputs.cache
+J:\C-sharp\Berek\obj\Debug\Berek.exe
+J:\C-sharp\Berek\obj\Debug\Berek.pdb
+J:\C-sharp\Berek\obj\Debug\Berek.exe.config
