@@ -20,17 +20,38 @@ namespace IKT3
         public double Distance
         {
             get {  return distance; }
-            set { distance = value; OnPropertyChanged("Cost", "Type"); ShowIssue(distance); }
+            set 
+            {
+                if (IsNumber(value))
+                {
+                    distance = value;
+                    OnPropertyChanged("Cost", "Type");
+                }          
+            }
         }
         public double Consumption
         {
             get {  return consumption; }
-            set { consumption = value; OnPropertyChanged("Cost", "Type"); ShowIssue(consumption); }
+            set
+            {
+                if (IsNumber(value))
+                {
+                    consumption = value;
+                    OnPropertyChanged("Cost", "Type");
+                }
+            }
         }
         public double Price
         {
             get {  return price; }
-            set { price = value; OnPropertyChanged("Cost", "Type"); ShowIssue(price); }
+            set
+            {
+                if (IsNumber(value))
+                {
+                    price = value;
+                    OnPropertyChanged("Cost", "Type");
+                }
+            }
         }
         public double Cost
         {
@@ -59,9 +80,15 @@ namespace IKT3
             }
         }
 
-        private void ShowIssue(double field)
+        private bool IsNumber(double field)
         {
-            if (!double.TryParse(field.ToString(), out _)) MessageBox.Show("Nem számot adott meg!");
+            if (!double.TryParse(field.ToString(), out _))
+            {
+                MessageBox.Show("Nem számot adott meg!");
+                return false;
+            }
+
+            return true;
         }
     }
 }
