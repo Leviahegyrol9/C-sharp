@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,6 +24,15 @@ namespace IKT3
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void OnlyNumber(object sender, TextCompositionEventArgs e)
+        {
+            if (!double.TryParse(e.Text, out _))
+            {
+                MessageBox.Show("Csak számot adhatsz meg!");
+                e.Handled = true;
+            }
         }
     }
 }

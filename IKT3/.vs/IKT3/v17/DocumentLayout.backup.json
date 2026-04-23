@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\IKT3\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|j:\\c-sharp\\ikt3\\fuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|solutionrelative:fuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|J:\\C-sharp\\IKT3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|J:\\C-sharp\\IKT3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\ikt3\\fuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4945016-893D-4ADA-BB0A-F5574529FE30}|IKT3.csproj|solutionrelative:fuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Fuel.cs",
-              "DocumentMoniker": "J:\\C-sharp\\IKT3\\Fuel.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\Fuel.cs",
               "RelativeDocumentMoniker": "Fuel.cs",
-              "ToolTip": "J:\\C-sharp\\IKT3\\Fuel.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\Fuel.cs",
               "RelativeToolTip": "Fuel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwCIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwC8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T06:26:16.656Z",
               "EditorCaption": ""
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "J:\\C-sharp\\IKT3\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "J:\\C-sharp\\IKT3\\MainWindow.xaml",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-23T06:12:07.359Z",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "J:\\C-sharp\\IKT3\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "J:\\C-sharp\\IKT3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\IKT3\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T06:12:05.995Z",
               "EditorCaption": ""
