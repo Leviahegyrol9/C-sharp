@@ -26,11 +26,11 @@ namespace IKT3
             InitializeComponent();
         }
 
-        private void OnlyNumber(object sender, TextCompositionEventArgs e)
+        private void IsNumber(object sender, TextCompositionEventArgs e)
         {
             if (!double.TryParse(e.Text, out _))
             {
-                MessageBox.Show("Csak számot adhatsz meg!");
+                MessageBox.Show("Csak számot adhatsz meg!", "Hiba", MessageBoxButton.OK, MessageBoxImage.Error);
                 e.Handled = true;
             }
         }

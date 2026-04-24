@@ -27,9 +27,9 @@
         <Label FontSize="25" Grid.Row="3" Content="Teljes költség" Margin="5"></Label>
         <Label FontSize="25" Grid.Row="4" Content="Utazás típusa" Margin="5"></Label>
 
-        <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Width="250" Height="30" PreviewTextInput="OnlyNumber" Text="{Binding Distance, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
-        <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Width="250" Height="30" PreviewTextInput="OnlyNumber" Text="{Binding Consumption, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
-        <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Width="250" Height="30" PreviewTextInput="OnlyNumber" Text="{Binding Price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Width="250" Height="30" PreviewTextInput="IsNumber" Text="{Binding Distance, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="5" Width="250" Height="30" PreviewTextInput="IsNumber" Text="{Binding Consumption, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="5" Width="250" Height="30" PreviewTextInput="IsNumber" Text="{Binding Price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
         <TextBox Grid.Row="3" Grid.Column="1" Margin="5" Width="250" Height="30" IsReadOnly="True" Text="{Binding Cost, Mode=OneWay}"></TextBox>
         <TextBox Grid.Row="4" Grid.Column="1" Margin="5" Width="250" Height="30" IsReadOnly="True" Text="{Binding Type, Mode=OneWay}"></TextBox>
     </Grid>
