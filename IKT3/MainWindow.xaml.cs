@@ -28,7 +28,7 @@ namespace IKT3
 
         private void IsNumber(object sender, TextCompositionEventArgs e)
         {
-            if (!double.TryParse(e.Text, out _))
+            if (!char.IsNumber(e.Text[0]))
             {
                 MessageBox.Show("Csak számot adhatsz meg!", "Hiba", MessageBoxButton.OK, MessageBoxImage.Error);
                 e.Handled = true;

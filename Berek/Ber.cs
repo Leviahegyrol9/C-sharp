@@ -40,14 +40,14 @@ namespace Berek
         {
             get
             {
-                return Brutto - Osszeg;
+                return brutto - Osszeg;
             }
         }
         public double Osszeg
         {
             get
             {
-                return Brutto * (Levonasok / 100);
+                return brutto * (levonasok / 100);
             }
         }
 
