@@ -1,0 +1,36 @@
+﻿<Window x:Class="Virag.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Virag"
+        xmlns:viewmodel="clr-namespace:Virag.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="280" Width="400">
+    <Window.DataContext>
+        <viewmodel:FlowerViewModel/>
+    </Window.DataContext>
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" FontSize="20" Margin="10" Text="Tulipán (300 Ft/szál):"></TextBlock>
+        <TextBlock Grid.Row="1" FontSize="20" Margin="10" Text="Rózsa (500 Ft/szál):"></TextBlock>
+        <TextBlock Grid.Row="2" FontSize="20" Margin="10" Text="Nárcisz (400 Ft/szál):"></TextBlock>
+        <TextBlock Grid.Row="3" FontSize="20" Margin="10" Text="Fizetendő összeg:"></TextBlock>
+        <TextBox Grid.Row="0" Grid.Column="1" Width="160" Height="35" Text="{Binding Tulipan, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="1" Grid.Column="1" Width="160" Height="35" Text="{Binding Rozsa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" Width="160" Height="35" Text="{Binding Narcisz, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="3" Grid.Column="1" Width="160" Height="35" Text="{Binding Fizetendo, Mode=OneWay}" IsReadOnly="True"></TextBox>
+        <Button Grid.Row="4" Grid.ColumnSpan="2" Width="200" Height="35" Content="Számolás" Command="{Binding CalculateCommand}"></Button>
+    </Grid>
+</Window>

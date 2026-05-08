@@ -1,0 +1,17 @@
+J:\C-sharp\Virag\bin\Debug\Virag.exe.config
+J:\C-sharp\Virag\bin\Debug\Virag.exe
+J:\C-sharp\Virag\bin\Debug\Virag.pdb
+J:\C-sharp\Virag\obj\Debug\Virag.csproj.AssemblyReference.cache
+J:\C-sharp\Virag\obj\Debug\MainWindow.g.cs
+J:\C-sharp\Virag\obj\Debug\App.g.cs
+J:\C-sharp\Virag\obj\Debug\GeneratedInternalTypeHelper.g.cs
+J:\C-sharp\Virag\obj\Debug\Virag_MarkupCompile.cache
+J:\C-sharp\Virag\obj\Debug\Virag_MarkupCompile.lref
+J:\C-sharp\Virag\obj\Debug\MainWindow.baml
+J:\C-sharp\Virag\obj\Debug\Virag.g.resources
+J:\C-sharp\Virag\obj\Debug\Virag.Properties.Resources.resources
+J:\C-sharp\Virag\obj\Debug\Virag.csproj.GenerateResource.cache
+J:\C-sharp\Virag\obj\Debug\Virag.csproj.CoreCompileInputs.cache
+J:\C-sharp\Virag\obj\Debug\Virag.exe
+J:\C-sharp\Virag\obj\Debug\Virag.pdb
+J:\C-sharp\Virag\obj\Debug\Virag.exe.config
