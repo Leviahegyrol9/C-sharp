@@ -1,0 +1,69 @@
+﻿<Window x:Class="Git.FileChoose"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Git"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen"
+        Background="#f05133"
+        Title="Git Hub Manager"
+        Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Válassza ki a fájlt!" HorizontalAlignment="Center" FontSize="35" FontWeight="Bold" VerticalAlignment="Center"></Label>
+
+        <Button Grid.Row="1"
+        Width="200"
+        Height="35"
+        Content="Fájl kiválasztása"
+        FontSize="20"
+        VerticalAlignment="Top"
+        Click="SelectFile">
+
+            <Button.Style>
+                <Style TargetType="Button">
+
+                    <!-- Alap állapot -->
+                    <Setter Property="Background" Value="#f05133"/>
+                    <Setter Property="Foreground" Value="Black"/>
+
+                    <Setter Property="BorderThickness" Value="2"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+
+                                <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="10">
+
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                                </Border>
+
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+
+                    <!-- Hover -->
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Opacity" Value="0.85"/>
+                            <Setter Property="Background" Value="Black"/>
+                            <Setter Property="Foreground" Value="#f05133"/>
+                        </Trigger>
+                    </Style.Triggers>
+
+                </Style>
+            </Button.Style>
+        </Button>
+    </Grid>
+</Window>

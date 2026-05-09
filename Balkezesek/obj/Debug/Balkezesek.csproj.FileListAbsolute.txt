@@ -1,7 +1,0 @@
-J:\C-sharp\Balkezesek\bin\Debug\Balkezesek.exe.config
-J:\C-sharp\Balkezesek\bin\Debug\Balkezesek.exe
-J:\C-sharp\Balkezesek\bin\Debug\Balkezesek.pdb
-J:\C-sharp\Balkezesek\obj\Debug\Balkezesek.csproj.AssemblyReference.cache
-J:\C-sharp\Balkezesek\obj\Debug\Balkezesek.csproj.CoreCompileInputs.cache
-J:\C-sharp\Balkezesek\obj\Debug\Balkezesek.exe
-J:\C-sharp\Balkezesek\obj\Debug\Balkezesek.pdb

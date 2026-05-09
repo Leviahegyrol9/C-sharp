@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\C-sharp\\Git\\",
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB3E5D6F-6CAB-4195-A93A-5AE99374A8ED}|Git.csproj|j:\\c-sharp\\git\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB3E5D6F-6CAB-4195-A93A-5AE99374A8ED}|Git.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\git\\windows\\manage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|solutionrelative:windows\\manage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB3E5D6F-6CAB-4195-A93A-5AE99374A8ED}|Git.csproj|J:\\C-sharp\\Git\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB3E5D6F-6CAB-4195-A93A-5AE99374A8ED}|Git.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB3E5D6F-6CAB-4195-A93A-5AE99374A8ED}|Git.csproj|J:\\C-sharp\\Git\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB3E5D6F-6CAB-4195-A93A-5AE99374A8ED}|Git.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB3E5D6F-6CAB-4195-A93A-5AE99374A8ED}|Git.csproj|J:\\C-sharp\\Git\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DB3E5D6F-6CAB-4195-A93A-5AE99374A8ED}|Git.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\git\\windows\\manage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|solutionrelative:windows\\manage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Git\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "J:\\C-sharp\\Git\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAywBEAAAAWAAAAAAAAAA==",
+              "Title": "Windows\\Manage.xaml.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\Windows\\Manage.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\Manage.xaml.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\Windows\\Manage.xaml.cs",
+              "RelativeToolTip": "Windows\\Manage.xaml.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAmwMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T17:05:44.262Z",
+              "WhenOpened": "2026-05-09T16:44:32.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "J:\\C-sharp\\Git\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "J:\\C-sharp\\Git\\Form2.cs",
-              "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvxQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T10:47:47.615Z",
+              "Title": "Manage.xaml",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\Windows\\Manage.xaml",
+              "RelativeDocumentMoniker": "Windows\\Manage.xaml",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\Windows\\Manage.xaml",
+              "RelativeToolTip": "Windows\\Manage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-09T16:26:39.567Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "J:\\C-sharp\\Git\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "J:\\C-sharp\\Git\\Form2.cs [Design]",
-              "RelativeToolTip": "Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T10:47:43.312Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "J:\\C-sharp\\Git\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "J:\\C-sharp\\Git\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T17:03:14.892Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

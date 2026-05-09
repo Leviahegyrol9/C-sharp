@@ -1,8 +1,0 @@
-J:\C-sharp\Nobel\bin\Debug\Nobel.exe.config
-J:\C-sharp\Nobel\bin\Debug\Nobel.exe
-J:\C-sharp\Nobel\bin\Debug\Nobel.pdb
-J:\C-sharp\Nobel\obj\Debug\Nobel.csproj.AssemblyReference.cache
-J:\C-sharp\Nobel\obj\Debug\Nobel.csproj.CoreCompileInputs.cache
-J:\C-sharp\Nobel\obj\Debug\Nobel.exe
-J:\C-sharp\Nobel\obj\Debug\Nobel.pdb
-J:\C-sharp\Nobel\obj\Debug\Nobel.exe.config

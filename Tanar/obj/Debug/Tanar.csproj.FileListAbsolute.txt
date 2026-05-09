@@ -1,8 +1,0 @@
-J:\C-sharp\Tanar\bin\Debug\Tanar.exe.config
-J:\C-sharp\Tanar\bin\Debug\Tanar.exe
-J:\C-sharp\Tanar\bin\Debug\Tanar.pdb
-J:\C-sharp\Tanar\obj\Debug\Tanar.csproj.AssemblyReference.cache
-J:\C-sharp\Tanar\obj\Debug\Tanar.csproj.CoreCompileInputs.cache
-J:\C-sharp\Tanar\obj\Debug\Tanar.exe
-J:\C-sharp\Tanar\obj\Debug\Tanar.pdb
-J:\C-sharp\Tanar\obj\Debug\Tanar.exe.config

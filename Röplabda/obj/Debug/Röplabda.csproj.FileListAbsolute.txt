@@ -1,7 +1,0 @@
-J:\C-sharp\Röplabda\bin\Debug\Röplabda.exe.config
-J:\C-sharp\Röplabda\bin\Debug\Röplabda.exe
-J:\C-sharp\Röplabda\bin\Debug\Röplabda.pdb
-J:\C-sharp\Röplabda\obj\Debug\Röplabda.csproj.AssemblyReference.cache
-J:\C-sharp\Röplabda\obj\Debug\Röplabda.csproj.CoreCompileInputs.cache
-J:\C-sharp\Röplabda\obj\Debug\Röplabda.exe
-J:\C-sharp\Röplabda\obj\Debug\Röplabda.pdb

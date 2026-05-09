@@ -1,7 +1,0 @@
-J:\C-sharp\Telekocsi\bin\Debug\Telekocsi.exe.config
-J:\C-sharp\Telekocsi\bin\Debug\Telekocsi.exe
-J:\C-sharp\Telekocsi\bin\Debug\Telekocsi.pdb
-J:\C-sharp\Telekocsi\obj\Debug\Telekocsi.csproj.AssemblyReference.cache
-J:\C-sharp\Telekocsi\obj\Debug\Telekocsi.csproj.CoreCompileInputs.cache
-J:\C-sharp\Telekocsi\obj\Debug\Telekocsi.exe
-J:\C-sharp\Telekocsi\obj\Debug\Telekocsi.pdb

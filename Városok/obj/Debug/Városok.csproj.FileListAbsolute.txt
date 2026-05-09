@@ -1,7 +1,0 @@
-J:\C-sharp\Városok\bin\Debug\Városok.exe.config
-J:\C-sharp\Városok\bin\Debug\Városok.exe
-J:\C-sharp\Városok\bin\Debug\Városok.pdb
-J:\C-sharp\Városok\obj\Debug\Városok.csproj.AssemblyReference.cache
-J:\C-sharp\Városok\obj\Debug\Városok.csproj.CoreCompileInputs.cache
-J:\C-sharp\Városok\obj\Debug\Városok.exe
-J:\C-sharp\Városok\obj\Debug\Városok.pdb

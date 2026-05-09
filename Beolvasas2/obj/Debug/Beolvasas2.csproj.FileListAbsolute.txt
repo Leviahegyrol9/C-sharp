@@ -1,7 +1,0 @@
-C:\Saját\Projects\C-sarp\Beolvasas2\bin\Debug\Beolvasas2.exe.config
-C:\Saját\Projects\C-sarp\Beolvasas2\bin\Debug\Beolvasas2.exe
-C:\Saját\Projects\C-sarp\Beolvasas2\bin\Debug\Beolvasas2.pdb
-C:\Saját\Projects\C-sarp\Beolvasas2\obj\Debug\Beolvasas2.csproj.AssemblyReference.cache
-C:\Saját\Projects\C-sarp\Beolvasas2\obj\Debug\Beolvasas2.csproj.CoreCompileInputs.cache
-C:\Saját\Projects\C-sarp\Beolvasas2\obj\Debug\Beolvasas2.exe
-C:\Saját\Projects\C-sarp\Beolvasas2\obj\Debug\Beolvasas2.pdb
