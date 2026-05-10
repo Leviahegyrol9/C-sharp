@@ -83,7 +83,7 @@ namespace Git.Windows
         private async void Pull(object sender, RoutedEventArgs e)
         {
             TurnButtons(false);
-            commits = await GetCommits(directories);
+            commits = await GetCommits(directories, sender, e);
             TurnButtons(true);
             await FixProgressBar();
 
@@ -131,7 +131,7 @@ namespace Git.Windows
             });
         }
 
-        private async Task<Dictionary<string, bool>> GetCommits(List<string> directories)
+        private async Task<Dictionary<string, bool>> GetCommits(List<string> directories, object sender, RoutedEventArgs e)
         {
             await AnimateProgress(0);
 
@@ -165,7 +165,7 @@ namespace Git.Windows
                     if (process.ExitCode != 0)
                     {
                         MessageBox.Show(error, dir, MessageBoxButton.OK, MessageBoxImage.Error);
-                        this.Close();
+                        Application.Current.Shutdown();
                     }
 
                     if (commit > 0) result[dir] = true;
@@ -174,7 +174,7 @@ namespace Git.Windows
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                this.Close();
+                NewFile(sender, e);
             }
 
             return result;
