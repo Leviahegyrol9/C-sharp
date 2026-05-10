@@ -2,9 +2,11 @@
 using Git.Windows;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -15,7 +17,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.ComponentModel;
 
 namespace Git.Windows
 {
@@ -28,7 +29,7 @@ namespace Git.Windows
         public Manage()
         {
             InitializeComponent();
-            percent = 100 / directories.Count;
+            percent = 100 / directories.Count;         
         }
         private void Manage_Loaded(object sender, RoutedEventArgs e)
         {
@@ -36,6 +37,11 @@ namespace Git.Windows
         }
         private async void Push(object sender, RoutedEventArgs e)
         {
+            while (!await HasInternet())
+            {
+                MessageBox.Show("Nincs internet!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
             await PushAsync();
         }
         private async Task PushAsync()
@@ -82,6 +88,11 @@ namespace Git.Windows
         }
         private async void Pull(object sender, RoutedEventArgs e)
         {
+            while (!await HasInternet())
+            {
+                MessageBox.Show("Nincs internet!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+
             TurnButtons(false);
             commits = await GetCommits(directories, sender, e);
             TurnButtons(true);
@@ -179,7 +190,24 @@ namespace Git.Windows
 
             return result;
         }
+        private async Task<bool> HasInternet()
+        {
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    client.Timeout = TimeSpan.FromSeconds(3);
 
+                    await client.GetAsync("https://www.google.com");
+
+                    return true;
+                }              
+            }
+            catch
+            {
+                return false;
+            }
+        }
         private void NewFile(object sender, RoutedEventArgs e)
         {
             File.Delete(PathService.configPath);

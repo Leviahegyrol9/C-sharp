@@ -60,41 +60,34 @@
 
         <Button Grid.Row="1"
             Width="100"
-            Height="35"
             Content="Push"
-            FontSize="20"
             VerticalAlignment="Top"
-            Margin="100,0,0,0"
+            Margin="150,0,0,0"
             Click="Push">
         </Button>
 
         <Button Grid.Row="1" Grid.Column="1"
             Width="100"
-            Height="35"
             Content="Pull"
-            FontSize="20"
             VerticalAlignment="Top"
-            Margin="0,0,100,0"
+            Margin="0,0,150,0"
             Click="Pull">
         </Button>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Button
-                Margin="0,0,50,0"
-                Width="200"
-                Height="35"
+                Margin="0,0,20,0"
+                Width="180"
                 Content="Új fájl kiválasztása"
-                FontSize="20"
                 Click="NewFile">
             </Button>
 
             <ProgressBar
                 Name="progressBar"
-                Width="250"
-                Height="18"
+                Width="180"
+                Height="20"
                 Minimum="0"
                 Maximum="100"
-                Value="0"
                 Foreground="#17252a"
                 Background="#def2f1"
                 BorderThickness="0"
@@ -110,7 +103,7 @@
                             <!-- háttér -->
                             <Border
                                 Background="{TemplateBinding Background}"
-                                CornerRadius="9"/>
+                                CornerRadius="8"/>
 
                             <!-- track -->
                             <Rectangle x:Name="PART_Track"/>
@@ -122,14 +115,14 @@
 
                                 <Rectangle
                                     Fill="{TemplateBinding Foreground}"
-                                    RadiusX="9"
-                                    RadiusY="9"/>
+                                    RadiusX="8"
+                                    RadiusY="8"/>
 
                                 <!-- indeterminate animációhoz -->
                                 <Rectangle x:Name="Animation"
                                    Fill="{TemplateBinding Foreground}"
-                                   RadiusX="9"
-                                   RadiusY="9"
+                                   RadiusX="8"
+                                   RadiusY="8"
                                    RenderTransformOrigin="0.5,0.5">
 
                                     <Rectangle.RenderTransform>

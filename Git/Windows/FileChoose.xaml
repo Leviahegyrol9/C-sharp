@@ -20,7 +20,7 @@
         <Label Content="Válassza ki a fájlt!" HorizontalAlignment="Center" FontSize="35" FontWeight="Bold" VerticalAlignment="Center"></Label>
 
         <Button Grid.Row="1"
-        Width="200"
+        Width="180"
         Height="35"
         Content="Fájl kiválasztása"
         FontSize="20"
