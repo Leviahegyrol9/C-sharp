@@ -15,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.ComponentModel;
 
 namespace Git.Windows
 {
@@ -88,7 +89,7 @@ namespace Git.Windows
 
             if (commits.Any(c => c.Value))
             {
-                progressBar.Foreground = new BrushConverter().ConvertFrom("#D10000") as SolidColorBrush;
+                progressBar.Foreground = new BrushConverter().ConvertFrom("#3aafa9") as SolidColorBrush;
                 TurnButtons(false);
                 await AnimateProgress(0);
 
@@ -99,10 +100,11 @@ namespace Git.Windows
                     await RunGitPull(commit);
                     await AnimateProgress(progressBar.Value + percent);
                 }
-            }
 
-            progressBar.Foreground = new BrushConverter().ConvertFrom("#4CAF50") as SolidColorBrush;
-            await FixProgressBar();
+                progressBar.Foreground = new BrushConverter().ConvertFrom("#17252a") as SolidColorBrush;
+                TurnButtons(true);
+                await FixProgressBar();
+            }
         }
         private Task RunGitPull(string dir)
         {
@@ -131,6 +133,8 @@ namespace Git.Windows
 
         private async Task<Dictionary<string, bool>> GetCommits(List<string> directories)
         {
+            await AnimateProgress(0);
+
             Dictionary<string, bool> result = new Dictionary<string, bool>();
 
             try
@@ -180,7 +184,7 @@ namespace Git.Windows
         {
             File.Delete(PathService.configPath);
             new FileChoose().Show();
-            this.Close();
+            this.Hide();
         }
         private async Task FixProgressBar()
         {
@@ -201,6 +205,18 @@ namespace Git.Windows
         {
             foreach (Button btn in mainGrid.Children.OfType<Button>()) btn.IsEnabled = value;
             mainGrid.Children.OfType<StackPanel>().First().IsEnabled = value;
+        }
+        private async void Manage_Closing(object sender, CancelEventArgs e)
+        {       
+            e.Cancel = true;
+
+            if (!mainGrid.Children.OfType<Button>().Any(btn => !btn.IsEnabled) &&
+                mainGrid.Children.OfType<StackPanel>().First().IsEnabled &&
+                progressBar.Value == 100)
+            {
+                await PushAsync();
+                Application.Current.Shutdown();
+            }        
         }
     }
 }

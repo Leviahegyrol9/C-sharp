@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         ResizeMode="CanMinimize"
         WindowStartupLocation="CenterScreen"
-        Background="#f05133"
+        Background="#2b7a78"
+        Closing="FileChoose_Closing"
         Title="Git Hub Manager"
         Height="450" Width="800">
     <Grid>
@@ -30,11 +31,11 @@
                 <Style TargetType="Button">
 
                     <!-- Alap állapot -->
-                    <Setter Property="Background" Value="#f05133"/>
-                    <Setter Property="Foreground" Value="Black"/>
+                    <Setter Property="Background" Value="#def2f1"/>
+                    <Setter Property="Foreground" Value="#17252a"/>
 
                     <Setter Property="BorderThickness" Value="2"/>
-                    <Setter Property="BorderBrush" Value="Black"/>
+                    <Setter Property="BorderBrush" Value="#17252a"/>
 
                     <Setter Property="Template">
                         <Setter.Value>
@@ -57,8 +58,8 @@
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Opacity" Value="0.85"/>
-                            <Setter Property="Background" Value="Black"/>
-                            <Setter Property="Foreground" Value="#f05133"/>
+                            <Setter Property="Background" Value="#17252a"/>
+                            <Setter Property="Foreground" Value="#def2f1"/>
                         </Trigger>
                     </Style.Triggers>
 

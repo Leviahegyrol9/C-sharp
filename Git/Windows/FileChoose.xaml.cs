@@ -1,6 +1,9 @@
-﻿using Microsoft.Win32;
+﻿using Git.Service;
+using Git.Windows;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -13,8 +16,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using Git.Service;
-using Git.Windows;
 
 namespace Git
 {
@@ -49,6 +50,12 @@ namespace Git
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+        private void FileChoose_Closing(object sender, CancelEventArgs e)
+        {
+            e.Cancel = true;
+
+            Application.Current.Shutdown();           
         }
     }
 }
