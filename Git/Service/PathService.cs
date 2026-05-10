@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Git.Service
 {
-    public static class SettingsService
+    public static class PathService
     {
         public static string userProfile = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 

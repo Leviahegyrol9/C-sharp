@@ -20,19 +20,18 @@ namespace Git.Windows
 {
     public partial class Manage : Window
     {
-        List<string> directories = SettingsService.GetPaths();
+        List<string> directories = PathService.GetPaths();
+        int percent;
         Dictionary<string, bool> commits;
 
         public Manage()
         {
-            InitializeComponent();            
+            InitializeComponent();
+            percent = 100 / directories.Count;
         }
-        private async void Manage_Loaded(object sender, RoutedEventArgs e)
+        private void Manage_Loaded(object sender, RoutedEventArgs e)
         {
-            TurnButtons(false);
-            commits = await GetCommits(directories);
-            TurnButtons(true);
-            FixProgressBar();
+            Pull(sender, e);
         }
         private async void Push(object sender, RoutedEventArgs e)
         {
@@ -42,19 +41,18 @@ namespace Git.Windows
         {
             TurnButtons(false);
 
-            progressBar.Value = 0;
+            await AnimateProgress(0);
 
             DateTime dateTime = DateTime.Now;
-            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");
-            int percent = 100 / directories.Count;
+            string commitMessage = dateTime.ToString("yyyy.MM.dd - HH:mm");          
 
             foreach (string directory in directories)
             {
                 await RunGitPush($"git add * && git commit -m \"{commitMessage}\" && git push", directory);
-                progressBar.Value += percent;
+                await AnimateProgress(progressBar.Value + percent);
             }
 
-            FixProgressBar();
+            await FixProgressBar();
             TurnButtons(true);
         }
         private Task RunGitPush(string arguments, string dir)
@@ -84,23 +82,27 @@ namespace Git.Windows
         private async void Pull(object sender, RoutedEventArgs e)
         {
             TurnButtons(false);
-
-            progressBar.Value = 0;
+            commits = await GetCommits(directories);
+            TurnButtons(true);
+            await FixProgressBar();
 
             if (commits.Any(c => c.Value))
             {
+                progressBar.Foreground = new BrushConverter().ConvertFrom("#D10000") as SolidColorBrush;
+                TurnButtons(false);
+                await AnimateProgress(0);
+
                 int percent = 100 / commits.Count(c => c.Value);
 
                 foreach (string commit in commits.Where(c => c.Value).Select(c => c.Key))
                 {
                     await RunGitPull(commit);
-                    progressBar.Value += percent;
+                    await AnimateProgress(progressBar.Value + percent);
                 }
-
-                FixProgressBar();
             }
 
-            TurnButtons(true);
+            progressBar.Foreground = new BrushConverter().ConvertFrom("#4CAF50") as SolidColorBrush;
+            await FixProgressBar();
         }
         private Task RunGitPull(string dir)
         {
@@ -129,7 +131,6 @@ namespace Git.Windows
 
         private async Task<Dictionary<string, bool>> GetCommits(List<string> directories)
         {
-            int percent = 100 / directories.Count;
             Dictionary<string, bool> result = new Dictionary<string, bool>();
 
             try
@@ -155,7 +156,7 @@ namespace Git.Windows
 
                     process.WaitForExit();
 
-                    progressBar.Value += percent;
+                    await AnimateProgress(progressBar.Value + percent);
 
                     if (process.ExitCode != 0)
                     {
@@ -177,13 +178,24 @@ namespace Git.Windows
 
         private void NewFile(object sender, RoutedEventArgs e)
         {
-            File.Delete(SettingsService.configPath);
+            File.Delete(PathService.configPath);
             new FileChoose().Show();
             this.Close();
         }
-        private void FixProgressBar()
+        private async Task FixProgressBar()
         {
-            if (progressBar.Value < 100) progressBar.Value += 100 - progressBar.Value;
+            await AnimateProgress(100);
+        }
+        private async Task AnimateProgress(double target)
+        {
+            while (progressBar.Value < target)
+            {
+                progressBar.Value += 1;
+
+                await Task.Delay(10);
+            }
+
+            progressBar.Value = target;
         }
         private void TurnButtons(bool value)
         {

@@ -69,7 +69,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Service\SettingsService.cs" />
+    <Compile Include="Service\PathService.cs" />
     <Compile Include="Windows\FileChoose.xaml.cs">
       <DependentUpon>FileChoose.xaml</DependentUpon>
       <SubType>Code</SubType>

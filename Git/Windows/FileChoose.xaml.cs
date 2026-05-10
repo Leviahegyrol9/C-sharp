@@ -39,7 +39,7 @@ namespace Git
                 if (dlg.ShowDialog() == true)
                 {
 
-                    SettingsService.SavePath(dlg.FileName);
+                    PathService.SavePath(dlg.FileName);
 
                     new Manage().Show();
                     this.Close();

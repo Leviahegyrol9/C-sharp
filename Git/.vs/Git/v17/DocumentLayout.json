@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\git\\windows\\manage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\windows\\manage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|solutionrelative:windows\\manage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,12 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Windows\\Manage.xaml.cs",
+              "Title": "Manage.xaml.cs",
               "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\Windows\\Manage.xaml.cs",
               "RelativeDocumentMoniker": "Windows\\Manage.xaml.cs",
               "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\Git\\Windows\\Manage.xaml.cs",
               "RelativeToolTip": "Windows\\Manage.xaml.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAmwMIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAQwGoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T16:44:32.73Z",
               "EditorCaption": ""

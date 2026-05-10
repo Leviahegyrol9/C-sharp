@@ -10,7 +10,7 @@ namespace Git
         {
             base.OnStartup(e);
 
-            if (SettingsService.HasValidConfig())
+            if (PathService.HasValidConfig())
             {
                 new Manage().Show();
             }

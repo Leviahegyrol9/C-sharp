@@ -77,7 +77,7 @@
             Click="Pull">
         </Button>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Name="panel">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
             <Button
                 Margin="0,0,50,0"
                 Width="200"
@@ -88,42 +88,66 @@
             </Button>
 
             <ProgressBar
-             Name="progressBar"
-             Height="18"
-             Width="250"
-             BorderThickness="0">
+                Name="progressBar"
+                Width="250"
+                Height="18"
+                Minimum="0"
+                Maximum="100"
+                Value="0"
+                Foreground="#4CAF50"
+                Background="Black"
+                BorderThickness="0"
+                SnapsToDevicePixels="True"
+                UseLayoutRounding="True">
 
                 <ProgressBar.Template>
+
                     <ControlTemplate TargetType="ProgressBar">
 
                         <Grid ClipToBounds="True">
 
                             <!-- háttér -->
-                            <Border Background="Black"
-                        CornerRadius="9"/>
+                            <Border
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="9"/>
+
+                            <!-- track -->
+                            <Rectangle x:Name="PART_Track"/>
 
                             <!-- kitöltés -->
-                            <Border x:Name="PART_Indicator"
-                        Background="#4CAF50"
-                        HorizontalAlignment="Left"
-                        CornerRadius="9"
-                        Width="0"/>
+                            <Grid x:Name="PART_Indicator"
+                                ClipToBounds="True"
+                                HorizontalAlignment="Left">
+
+                                <Rectangle
+                                    Fill="{TemplateBinding Foreground}"
+                                    RadiusX="9"
+                                    RadiusY="9"/>
+
+                                <!-- indeterminate animációhoz -->
+                                <Rectangle x:Name="Animation"
+                                   Fill="{TemplateBinding Foreground}"
+                                   RadiusX="9"
+                                   RadiusY="9"
+                                   RenderTransformOrigin="0.5,0.5">
+
+                                    <Rectangle.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform/>
+                                            <SkewTransform/>
+                                            <RotateTransform/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </Rectangle.RenderTransform>
+
+                                </Rectangle>
+
+                            </Grid>
 
                         </Grid>
 
-                        <ControlTemplate.Triggers>
-
-                            <!-- VALUE → WIDTH -->
-                            <Trigger Property="IsIndeterminate" Value="False">
-                                <Setter TargetName="PART_Indicator"
-                            Property="Width"
-                            Value="{Binding Value,
-                            RelativeSource={RelativeSource TemplatedParent}}"/>
-                            </Trigger>
-
-                        </ControlTemplate.Triggers>
-
                     </ControlTemplate>
+
                 </ProgressBar.Template>
 
             </ProgressBar>
