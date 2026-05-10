@@ -43,7 +43,7 @@ namespace Git
                     PathService.SavePath(dlg.FileName);
 
                     new Manage().Show();
-                    this.Close();
+                    this.Hide();
                 }
             }
             catch (Exception ex)
