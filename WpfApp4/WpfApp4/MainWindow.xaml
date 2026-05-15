@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        xmlns:viewmodel="clr-namespace:WpfApp4.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Window.DataContext>
+        <viewmodel:TeglalapViewModel></viewmodel:TeglalapViewModel>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" FontSize="30" Text="Teglalap kalkulator" FontWeight="Bold" HorizontalAlignment="Center" ></TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Egyik oldalhossz:" Margin="10"></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Masik oldalhossz:" Margin="10"></TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Terulet:" Margin="10"></TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Kerulet:" Margin="10"></TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Atlo hossza:" Margin="10"></TextBlock>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="10" Width="250" Height="30" Text="{Binding AOldal,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" Margin="10" Width="250" Height="30" Text="{Binding BOldal,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBlock Grid.Row="3" Grid.Column="1" Margin="10" Width="250" Height="30" Text="{Binding Terulet,Mode=OneWay}"></TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="1" Margin="10" Width="250" Height="30" Text="{Binding Kerulet,Mode=OneWay}"></TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="1" Margin="10" Width="250" Height="30" Text="{Binding Atlo,Mode=OneWay}"></TextBlock>
+        <StackPanel Orientation="Horizontal" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center"> 
+            <Button Width="150" Height="30" Content="Szamol" Command="{Binding CalculateCommand}" Margin="10"></Button>
+            <Button Width="150" Height="30" Content="Kilep" Command="{Binding CloseCommand}"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
