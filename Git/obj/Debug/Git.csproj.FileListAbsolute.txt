@@ -11,7 +11,6 @@ C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.csproj.GenerateResource.cache
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.csproj.CoreCompileInputs.cache
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.exe
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.pdb
-C:\Saját\Projects\C-sharp\Git\obj\Debug\Git.exe.config
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Windows\FileChoose.g.cs
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Windows\FileChoose.baml
 C:\Saját\Projects\C-sharp\Git\obj\Debug\Windows\Manage.g.cs

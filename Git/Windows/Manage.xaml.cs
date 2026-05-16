@@ -29,10 +29,11 @@ namespace Git.Windows
         public Manage()
         {
             InitializeComponent();
-            percent = 100 / directories.Count;         
         }
         private void Manage_Loaded(object sender, RoutedEventArgs e)
         {
+            try {percent = 100 / directories.Count;}
+            catch {NewFile(sender, e);}
             Pull(sender, e);
         }
         private async void Push(object sender, RoutedEventArgs e)
