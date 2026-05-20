@@ -17,7 +17,7 @@ namespace Vérnyomás.ViewModel
         public NyomasViewModel()
         {
             n = new Nyomas();
-            CalculateCommand = new RelayCommand(execute => Calculate());           
+            CalculateCommand = new RelayCommand(execute => Calculate()); 
         }
 
         public void Calculate()
