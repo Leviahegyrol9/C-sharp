@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VlktgL0ahTU=",
+  "success": true,
+  "projectFilePath": "J:\\C-sharp\\VVM\\VVM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\b2paplev\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.2\\communitytoolkit.mvvm.8.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

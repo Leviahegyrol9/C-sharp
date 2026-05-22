@@ -1,0 +1,1 @@
+System.Configuration.ConfigurationErrorsException: 'Hiba történt a „system.net/defaultProxy” konfigurációs szakaszban megadott webproxy létrehozásakor.'
