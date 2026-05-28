@@ -192,26 +192,26 @@ namespace Git.Windows
             return result;
         }
         private async Task<bool> HasInternet()
-{
-    try
-    {
-        var handler = new HttpClientHandler()
         {
-            UseProxy = false
-        };
+            try
+            {
+                var handler = new HttpClientHandler()
+                {
+                    UseProxy = false
+                };
 
-        using (HttpClient client = new HttpClient(handler))
-        {
-            client.Timeout = TimeSpan.FromSeconds(3);
-            await client.GetAsync("https://www.google.com");
-            return true;
-        }              
-    }
-    catch
-    {
-        return false;
-    }
-}
+                using (HttpClient client = new HttpClient(handler))
+                {
+                    client.Timeout = TimeSpan.FromSeconds(3);
+                    await client.GetAsync("https://www.google.com");
+                    return true;
+                }              
+            }
+            catch
+            {
+                return false;
+            }
+        }
         private void NewFile(object sender, RoutedEventArgs e)
         {
             File.Delete(PathService.configPath);

@@ -1,0 +1,46 @@
+﻿<Window x:Class="IKT4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IKT4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:RezsiViewModel/>
+    </Window.DataContext>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.ColumnSpan="2" Content="Rezsi kalkulátor" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontWeight="Bold"></Label>
+        <Label Grid.Row="1" Content="Havi villanyköltség (Ft):" VerticalAlignment="Center" FontSize="25"></Label>
+        <Label Grid.Row="2" Content="Havi víz költség (Ft):" VerticalAlignment="Center" FontSize="25"></Label>
+        <Label Grid.Row="3" Content="Havi gáz költség (Ft):" VerticalAlignment="Center" FontSize="25"></Label>
+        <Label Grid.Row="5" Content="Összes havi rezsi:" VerticalAlignment="Center" FontSize="25"></Label>
+        <Label Grid.Row="6" Content="Éves költség:" VerticalAlignment="Center" FontSize="25"></Label>
+
+        <TextBox Grid.Row="1" Grid.Column="1" Width="250" Height="35" FontSize="18" PreviewTextInput="IsNumber" Text="{Binding Villany, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="2" Grid.Column="1" Width="250" Height="35" FontSize="18" PreviewTextInput="IsNumber" Text="{Binding Viz, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Grid.Row="3" Grid.Column="1" Width="250" Height="35" FontSize="18" PreviewTextInput="IsNumber" Text="{Binding Gaz, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        
+        <TextBlock Grid.Row="5" Grid.Column="1" Width="250" Height="35" FontSize="18" Text="{Binding Havi}"></TextBlock>
+        <TextBlock Grid.Row="6" Grid.Column="1" Width="250" Height="35" FontSize="18" Text="{Binding Eves}"></TextBlock>
+
+        <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Width="200" Height="35" FontSize="18" Content="Számítás" Margin="10" Command="{Binding CalculateCommand}" Background="LightGray" BorderThickness="0"/>
+            <Button Width="200" Height="35" FontSize="18" Content="Törlés" Margin="10" Command="{Binding ClearCommand}" Background="IndianRed" BorderThickness="0"/>
+        </StackPanel>
+    </Grid>
+</Window>
