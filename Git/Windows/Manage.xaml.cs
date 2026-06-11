@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,6 +42,7 @@ namespace Git.Windows
             while (!await HasInternet())
             {
                 MessageBox.Show("Nincs internet!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
 
             await PushAsync();
@@ -92,6 +94,7 @@ namespace Git.Windows
             while (!await HasInternet())
             {
                 MessageBox.Show("Nincs internet!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
 
             TurnButtons(false);
@@ -195,17 +198,8 @@ namespace Git.Windows
         {
             try
             {
-                var handler = new HttpClientHandler()
-                {
-                    UseProxy = false
-                };
-
-                using (HttpClient client = new HttpClient(handler))
-                {
-                    client.Timeout = TimeSpan.FromSeconds(3);
-                    await client.GetAsync("https://www.google.com");
-                    return true;
-                }              
+                await Dns.GetHostEntryAsync("github.com");
+                return true;
             }
             catch
             {
@@ -239,8 +233,10 @@ namespace Git.Windows
             mainGrid.Children.OfType<StackPanel>().First().IsEnabled = value;
         }
         private async void Manage_Closing(object sender, CancelEventArgs e)
-        {       
+        {
             e.Cancel = true;
+
+            if (!await HasInternet()) Application.Current.Shutdown();
 
             if (!mainGrid.Children.OfType<Button>().Any(btn => !btn.IsEnabled) &&
                 mainGrid.Children.OfType<StackPanel>().First().IsEnabled &&
@@ -248,7 +244,7 @@ namespace Git.Windows
             {
                 await PushAsync();
                 Application.Current.Shutdown();
-            }        
+            }
         }
     }
 }

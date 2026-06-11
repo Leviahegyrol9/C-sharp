@@ -27,8 +27,7 @@ namespace Git.Service
         }
         private static bool IsValidDirectory(string dir)
         {
-            if (string.IsNullOrWhiteSpace(dir))
-                return false;
+            if (string.IsNullOrWhiteSpace(dir)) return false;
 
             try
             {
