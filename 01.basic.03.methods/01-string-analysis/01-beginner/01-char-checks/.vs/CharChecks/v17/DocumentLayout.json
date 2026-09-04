@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\01-char-checks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A950709-6E88-466D-908B-3EDE35CD4CC3}|CharChecks.Console\\CharChecks.Console.csproj|j:\\c-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\01-char-checks\\charchecks.console\\karaktervizsgalat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A950709-6E88-466D-908B-3EDE35CD4CC3}|CharChecks.Console\\CharChecks.Console.csproj|solutionrelative:charchecks.console\\karaktervizsgalat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KarakterVizsgalat.cs",
+              "DocumentMoniker": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\01-char-checks\\CharChecks.Console\\KarakterVizsgalat.cs",
+              "RelativeDocumentMoniker": "CharChecks.Console\\KarakterVizsgalat.cs",
+              "ToolTip": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\01-char-checks\\CharChecks.Console\\KarakterVizsgalat.cs",
+              "RelativeToolTip": "CharChecks.Console\\KarakterVizsgalat.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAA4wEwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T10:02:05.001Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
