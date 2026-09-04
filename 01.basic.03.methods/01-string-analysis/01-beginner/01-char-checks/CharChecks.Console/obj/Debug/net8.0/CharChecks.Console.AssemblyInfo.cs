@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CharChecks.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b54bb686b72eb3839b4da6a6e518b0b4fb65cced")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2cd949aacf82b3f75536509c018d7345b6310d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CharChecks.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CharChecks.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

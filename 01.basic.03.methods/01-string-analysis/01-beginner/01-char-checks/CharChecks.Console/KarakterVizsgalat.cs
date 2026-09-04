@@ -80,7 +80,7 @@ public static class KarakterVizsgalat
     /// <returns>Igaz, ha a karakter pont, vessző, felkiáltójel, kérdőjel, kettőspont vagy pontosvessző.</returns>
     public static bool IrasjelE(char c)
     {
-        return char.IsWhiteSpace(c) && c != ' ';
+        return char.IsPunctuation(c);
     }
 
     /// <summary>

@@ -1,0 +1,15 @@
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\bin\Debug\net8.0\CharChecks.Console.exe
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\bin\Debug\net8.0\CharChecks.Console.deps.json
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\bin\Debug\net8.0\CharChecks.Console.runtimeconfig.json
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\bin\Debug\net8.0\CharChecks.Console.dll
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\bin\Debug\net8.0\CharChecks.Console.pdb
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\CharChecks.Console.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\CharChecks.Console.AssemblyInfoInputs.cache
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\CharChecks.Console.AssemblyInfo.cs
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\CharChecks.Console.csproj.CoreCompileInputs.cache
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\CharChecks.Console.sourcelink.json
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\CharChecks.Console.dll
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\refint\CharChecks.Console.dll
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\CharChecks.Console.pdb
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\CharChecks.Console.genruntimeconfig.cache
+J:\C-sharp\01.basic.03.methods\01-string-analysis\01-beginner\01-char-checks\CharChecks.Console\obj\Debug\net8.0\ref\CharChecks.Console.dll
