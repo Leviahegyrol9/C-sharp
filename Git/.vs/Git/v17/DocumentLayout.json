@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "J:\\C-sharp\\Git\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|j:\\c-sharp\\git\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|j:\\c-sharp\\git\\windows\\filechoose.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|solutionrelative:windows\\filechoose.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|j:\\c-sharp\\git\\windows\\filechoose.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|solutionrelative:windows\\filechoose.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|j:\\c-sharp\\git\\windows\\manage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{294B9F40-B471-4A15-83CE-06D0AEBF094C}|Git.csproj|solutionrelative:windows\\manage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,28 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Git\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "J:\\C-sharp\\Git\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T10:27:33.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Windows\\FileChoose.xaml.cs",
+              "DocumentMoniker": "J:\\C-sharp\\Git\\Windows\\FileChoose.xaml.cs",
+              "RelativeDocumentMoniker": "Windows\\FileChoose.xaml.cs",
+              "ToolTip": "J:\\C-sharp\\Git\\Windows\\FileChoose.xaml.cs",
+              "RelativeToolTip": "Windows\\FileChoose.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-04T10:27:26.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileChoose.xaml",
+              "DocumentMoniker": "J:\\C-sharp\\Git\\Windows\\FileChoose.xaml",
+              "RelativeDocumentMoniker": "Windows\\FileChoose.xaml",
+              "ToolTip": "J:\\C-sharp\\Git\\Windows\\FileChoose.xaml",
+              "RelativeToolTip": "Windows\\FileChoose.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-04T10:27:19.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Manage.xaml",
               "DocumentMoniker": "J:\\C-sharp\\Git\\Windows\\Manage.xaml",
               "RelativeDocumentMoniker": "Windows\\Manage.xaml",
               "ToolTip": "J:\\C-sharp\\Git\\Windows\\Manage.xaml",
               "RelativeToolTip": "Windows\\Manage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-09T16:26:39.567Z"
+              "WhenOpened": "2026-05-09T16:26:39.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Manage.xaml.cs",
               "DocumentMoniker": "J:\\C-sharp\\Git\\Windows\\Manage.xaml.cs",
               "RelativeDocumentMoniker": "Windows\\Manage.xaml.cs",
               "ToolTip": "J:\\C-sharp\\Git\\Windows\\Manage.xaml.cs",
               "RelativeToolTip": "Windows\\Manage.xaml.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAD4v8sAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAAPUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T16:44:32.73Z",
               "EditorCaption": ""

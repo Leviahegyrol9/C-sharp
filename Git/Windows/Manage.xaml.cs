@@ -39,11 +39,11 @@ namespace Git.Windows
         }
         private async void Push(object sender, RoutedEventArgs e)
         {
-            while (!await HasInternet())
-            {
-                MessageBox.Show("Nincs internet!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
-            }
+            //while (!await HasInternet())
+            //{
+            //    MessageBox.Show("Nincs internet!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    return;
+            //}
 
             await PushAsync();
         }
@@ -91,11 +91,11 @@ namespace Git.Windows
         }
         private async void Pull(object sender, RoutedEventArgs e)
         {
-            while (!await HasInternet())
-            {
-                MessageBox.Show("Nincs internet!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
-            }
+            //while (!await HasInternet())
+            //{
+            //    MessageBox.Show("Nincs internet!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    return;
+            //}
 
             TurnButtons(false);
             commits = await GetCommits(directories, sender, e);
@@ -236,7 +236,7 @@ namespace Git.Windows
         {
             e.Cancel = true;
 
-            if (!await HasInternet()) Application.Current.Shutdown();
+            //if (!await HasInternet()) Application.Current.Shutdown();
 
             if (!mainGrid.Children.OfType<Button>().Any(btn => !btn.IsEnabled) &&
                 mainGrid.Children.OfType<StackPanel>().First().IsEnabled &&

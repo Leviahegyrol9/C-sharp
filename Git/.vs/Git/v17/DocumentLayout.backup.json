@@ -29,7 +29,8 @@
               "ToolTip": "J:\\C-sharp\\Git\\Windows\\Manage.xaml",
               "RelativeToolTip": "Windows\\Manage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-09T16:26:39.567Z"
+              "WhenOpened": "2026-05-09T16:26:39.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -39,7 +40,7 @@
               "RelativeDocumentMoniker": "Windows\\Manage.xaml.cs",
               "ToolTip": "J:\\C-sharp\\Git\\Windows\\Manage.xaml.cs",
               "RelativeToolTip": "Windows\\Manage.xaml.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAADwv8MAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAAPUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T16:44:32.73Z",
               "EditorCaption": ""
