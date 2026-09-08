@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\02-medium\\01-user-input-validation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AEF8A39-1FD8-4901-B3E9-849D1AAA6470}|UserInputValidation.Console\\UserInputValidation.Console.csproj|j:\\c-sharp\\01.basic.03.methods\\01-string-analysis\\02-medium\\01-user-input-validation\\userinputvalidation.console\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AEF8A39-1FD8-4901-B3E9-849D1AAA6470}|UserInputValidation.Console\\UserInputValidation.Console.csproj|solutionrelative:userinputvalidation.console\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InputValidator.cs",
+              "DocumentMoniker": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\02-medium\\01-user-input-validation\\UserInputValidation.Console\\InputValidator.cs",
+              "RelativeDocumentMoniker": "UserInputValidation.Console\\InputValidator.cs",
+              "ToolTip": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\02-medium\\01-user-input-validation\\UserInputValidation.Console\\InputValidator.cs",
+              "RelativeToolTip": "UserInputValidation.Console\\InputValidator.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwDkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T09:50:09.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

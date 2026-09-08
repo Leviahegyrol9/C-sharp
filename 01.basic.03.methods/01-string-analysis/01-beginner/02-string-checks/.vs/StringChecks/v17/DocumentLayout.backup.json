@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\02-string-checks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8115DBE-DF21-47E3-8B94-70FB05DEF788}|StringChecks.Console\\StringChecks.Console.csproj|j:\\c-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\02-string-checks\\stringchecks.console\\szovegvizsgalat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8115DBE-DF21-47E3-8B94-70FB05DEF788}|StringChecks.Console\\StringChecks.Console.csproj|solutionrelative:stringchecks.console\\szovegvizsgalat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8115DBE-DF21-47E3-8B94-70FB05DEF788}|StringChecks.Console\\StringChecks.Console.csproj|j:\\c-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\02-string-checks\\stringchecks.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8115DBE-DF21-47E3-8B94-70FB05DEF788}|StringChecks.Console\\StringChecks.Console.csproj|solutionrelative:stringchecks.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\02-string-checks\\StringChecks.Console\\Program.cs",
+              "RelativeDocumentMoniker": "StringChecks.Console\\Program.cs",
+              "ToolTip": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\02-string-checks\\StringChecks.Console\\Program.cs",
+              "RelativeToolTip": "StringChecks.Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T09:28:57.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SzovegVizsgalat.cs",
+              "DocumentMoniker": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\02-string-checks\\StringChecks.Console\\SzovegVizsgalat.cs",
+              "RelativeDocumentMoniker": "StringChecks.Console\\SzovegVizsgalat.cs",
+              "ToolTip": "J:\\C-sharp\\01.basic.03.methods\\01-string-analysis\\01-beginner\\02-string-checks\\StringChecks.Console\\SzovegVizsgalat.cs",
+              "RelativeToolTip": "StringChecks.Console\\SzovegVizsgalat.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwGIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T09:04:31.529Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

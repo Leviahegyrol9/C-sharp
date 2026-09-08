@@ -1,0 +1,15 @@
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\bin\Debug\net8.0\UserInputValidation.Console.exe
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\bin\Debug\net8.0\UserInputValidation.Console.deps.json
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\bin\Debug\net8.0\UserInputValidation.Console.runtimeconfig.json
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\bin\Debug\net8.0\UserInputValidation.Console.dll
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\bin\Debug\net8.0\UserInputValidation.Console.pdb
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\UserInputValidation.Console.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\UserInputValidation.Console.AssemblyInfoInputs.cache
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\UserInputValidation.Console.AssemblyInfo.cs
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\UserInputValidation.Console.csproj.CoreCompileInputs.cache
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\UserInputValidation.Console.sourcelink.json
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\UserInputValidation.Console.dll
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\refint\UserInputValidation.Console.dll
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\UserInputValidation.Console.pdb
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\UserInputValidation.Console.genruntimeconfig.cache
+J:\C-sharp\01.basic.03.methods\01-string-analysis\02-medium\01-user-input-validation\UserInputValidation.Console\obj\Debug\net8.0\ref\UserInputValidation.Console.dll

@@ -9,6 +9,13 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha van benne legalább egy magánhangzó, különben hamis.</returns>
     public static bool TartalmazMaganhangzot(string szoveg)
     {
+        string mgh = "aeioöuüáéíóőúű";
+
+        foreach (char letter in mgh)
+        {
+            if (szoveg.Contains(char.ToLower(letter))) return true;
+        }
+        
         return false;
     }
 
@@ -19,7 +26,7 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha a szöveg nem üres és minden karaktere betű.</returns>
     public static bool CsakBetuketTartalmaz(string szoveg)
     {
-        return false;
+        return szoveg.All(char.IsLetter);
     }
 
     /// <summary>
@@ -29,7 +36,7 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha a szöveg nem üres és minden karaktere számjegy.</returns>
     public static bool CsakSzamjegyeketTartalmaz(string szoveg)
     {
-        return false;
+        return szoveg.All(char.IsDigit);
     }
 
     /// <summary>
@@ -39,7 +46,7 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha van benne legalább egy számjegy.</returns>
     public static bool TartalmazSzamjegyet(string szoveg)
     {
-        return false;
+        return szoveg.Any(char.IsDigit);
     }
 
     /// <summary>
@@ -49,7 +56,7 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha van benne legalább egy nagybetű.</returns>
     public static bool TartalmazNagybetut(string szoveg)
     {
-        return false;
+        return szoveg.Any(char.IsUpper);
     }
 
     /// <summary>
@@ -59,7 +66,7 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha van benne legalább egy kisbetű.</returns>
     public static bool TartalmazKisbetut(string szoveg)
     {
-        return false;
+        return szoveg.Any(char.IsLower);
     }
 
     /// <summary>
@@ -69,7 +76,7 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha van benne legalább egy szóköz karakter.</returns>
     public static bool TartalmazSzokozt(string szoveg)
     {
-        return false;
+        return szoveg.Any(char.IsWhiteSpace);
     }
 
     /// <summary>
@@ -79,7 +86,7 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha van benne pont, vessző, felkiáltójel, kérdőjel, kettőspont vagy pontosvessző.</returns>
     public static bool TartalmazIrasjelet(string szoveg)
     {
-        return false;
+        return szoveg.Any(char.IsPunctuation);
     }
 
     /// <summary>
@@ -89,6 +96,6 @@ public static class SzovegVizsgalat
     /// <returns>Igaz, ha van benne olyan karakter, amely nem betű, nem számjegy, nem szóköz és nem írásjel.</returns>
     public static bool TartalmazSpecialisKaraktert(string szoveg)
     {
-        return false;
+        return szoveg.Any(x => char.IsSymbol(x) || x == '@');
     }
 }
