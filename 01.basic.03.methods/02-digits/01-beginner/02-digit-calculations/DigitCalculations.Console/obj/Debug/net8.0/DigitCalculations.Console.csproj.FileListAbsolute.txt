@@ -1,0 +1,15 @@
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\bin\Debug\net8.0\DigitCalculations.Console.exe
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\bin\Debug\net8.0\DigitCalculations.Console.deps.json
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\bin\Debug\net8.0\DigitCalculations.Console.runtimeconfig.json
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\bin\Debug\net8.0\DigitCalculations.Console.dll
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\bin\Debug\net8.0\DigitCalculations.Console.pdb
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\DigitCalculations.Console.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\DigitCalculations.Console.AssemblyInfoInputs.cache
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\DigitCalculations.Console.AssemblyInfo.cs
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\DigitCalculations.Console.csproj.CoreCompileInputs.cache
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\DigitCalculations.Console.sourcelink.json
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\DigitCalculations.Console.dll
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\refint\DigitCalculations.Console.dll
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\DigitCalculations.Console.pdb
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\DigitCalculations.Console.genruntimeconfig.cache
+J:\C-sharp\01.basic.03.methods\02-digits\01-beginner\02-digit-calculations\DigitCalculations.Console\obj\Debug\net8.0\ref\DigitCalculations.Console.dll

@@ -9,7 +9,32 @@ public static class SzamjegyMintak
     /// <returns>Igaz, ha a szám legalább kétjegyű, és balról-jobbról olvasva ugyanaz.</returns>
     public static bool PalindromE(int szam)
     {
-        return false;
+        string b = szam.ToString();
+
+        if (b.Length < 2) return false;
+
+        string j = string.Empty;
+
+        List<int> szamok = new List<int>();
+
+        foreach (char c in szam.ToString())
+        {
+            if (c == '-')
+            {
+                j = "-";
+                continue;
+            }
+            szamok.Add(int.Parse(c.ToString()));
+        }
+
+        szamok.Reverse();
+
+        foreach (int num in szamok)
+        {
+            j += num.ToString();
+        }
+
+        return j == b;
     }
 
     /// <summary>
@@ -19,7 +44,15 @@ public static class SzamjegyMintak
     /// <returns>Igaz, ha minden számjegy nagyobb az előtte állónál.</returns>
     public static bool NovekvoSzamjegyuE(int szam)
     {
-        return false;
+        int temp = 0;
+
+        foreach (char c in szam.ToString())
+        {
+            if (int.Parse(c.ToString()) > temp) temp = int.Parse(c.ToString());
+            else return false;
+        }
+
+        return true;
     }
 
     /// <summary>
@@ -29,7 +62,15 @@ public static class SzamjegyMintak
     /// <returns>Igaz, ha minden számjegy kisebb az előtte állónál.</returns>
     public static bool CsokkenoSzamjegyuE(int szam)
     {
-        return false;
+        int temp = int.MaxValue;
+
+        foreach (char c in szam.ToString())
+        {
+            if (int.Parse(c.ToString()) < temp) temp = int.Parse(c.ToString());
+            else return false;
+        }
+
+        return true;
     }
 
     /// <summary>
@@ -39,7 +80,11 @@ public static class SzamjegyMintak
     /// <returns>Igaz, ha a szám legalább kétjegyű, és minden számjegye ugyanaz.</returns>
     public static bool MindenSzamjegyAzonosE(int szam)
     {
-        return false;
+        if (szam.ToString().Length < 2) return false;
+
+        char first = szam.ToString().First();
+
+        return !szam.ToString().Any(x => x != first);
     }
 
     /// <summary>
@@ -50,7 +95,7 @@ public static class SzamjegyMintak
     /// <returns>Igaz, ha a szám tartalmazza a megadott számjegyet.</returns>
     public static bool TartalmazSzamjegyet(int szam, int szamjegy)
     {
-        return false;
+        return szam.ToString().Contains(szamjegy.ToString());
     }
 
     /// <summary>

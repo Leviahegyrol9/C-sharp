@@ -1,0 +1,15 @@
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\bin\Debug\net8.0\NumberPatterns.Console.exe
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\bin\Debug\net8.0\NumberPatterns.Console.deps.json
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\bin\Debug\net8.0\NumberPatterns.Console.runtimeconfig.json
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\bin\Debug\net8.0\NumberPatterns.Console.dll
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\bin\Debug\net8.0\NumberPatterns.Console.pdb
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\NumberPatterns.Console.GeneratedMSBuildEditorConfig.editorconfig
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\NumberPatterns.Console.AssemblyInfoInputs.cache
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\NumberPatterns.Console.AssemblyInfo.cs
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\NumberPatterns.Console.csproj.CoreCompileInputs.cache
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\NumberPatterns.Console.sourcelink.json
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\NumberPatterns.Console.dll
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\refint\NumberPatterns.Console.dll
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\NumberPatterns.Console.pdb
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\NumberPatterns.Console.genruntimeconfig.cache
+J:\C-sharp\01.basic.03.methods\02-digits\02-medium\01-number-patterns\NumberPatterns.Console\obj\Debug\net8.0\ref\NumberPatterns.Console.dll

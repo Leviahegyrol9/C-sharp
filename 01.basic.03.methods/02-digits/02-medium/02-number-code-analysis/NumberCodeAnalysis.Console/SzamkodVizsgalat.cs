@@ -9,7 +9,7 @@ public static class SzamkodVizsgalat
     /// <returns>Igaz, ha a kód nem üres, és minden karaktere számjegy.</returns>
     public static bool CsakSzamjegyekbolAllE(string kod)
     {
-        return false;
+        return kod.All(char.IsDigit);
     }
 
     /// <summary>
@@ -20,7 +20,7 @@ public static class SzamkodVizsgalat
     /// <returns>Igaz, ha a kód hossza pontosan megegyezik az elvárt hosszal.</returns>
     public static bool MegfeleloHosszusaguKodE(string kod, int hossz)
     {
-        return false;
+        return kod.Length == hossz;
     }
 
     /// <summary>
@@ -30,7 +30,11 @@ public static class SzamkodVizsgalat
     /// <returns>Igaz, ha a kód legalább két karakter hosszú, csak számjegyekből áll, és minden számjegye ugyanaz.</returns>
     public static bool AzonosSzamjegyekbolAllE(string kod)
     {
-        return false;
+        if (kod.Length < 2 || !kod.All(char.IsDigit)) return false;
+
+        char first = kod.First();
+
+        return !kod.Any(x => x != first);
     }
 
     /// <summary>
@@ -40,7 +44,17 @@ public static class SzamkodVizsgalat
     /// <returns>Igaz, ha a kód csak számjegyekből áll, és minden számjegy nagyobb az előzőnél.</returns>
     public static bool NovekvoSzamkodE(string kod)
     {
-        return false;
+        if (!kod.All(char.IsDigit)) return false;
+
+        int temp = 0;
+
+        foreach (char c in kod)
+        {
+            if (int.Parse(c.ToString()) > temp) temp = int.Parse(c.ToString());
+            else return false;
+        }
+
+        return true;
     }
 
     /// <summary>
@@ -50,7 +64,17 @@ public static class SzamkodVizsgalat
     /// <returns>Igaz, ha a kód csak számjegyekből áll, és minden számjegy kisebb az előzőnél.</returns>
     public static bool CsokkenoSzamkodE(string kod)
     {
-        return false;
+        if (!kod.All(char.IsDigit)) return false;
+
+        int temp = int.MaxValue;
+
+        foreach (char c in kod)
+        {
+            if (int.Parse(c.ToString()) < temp) temp = int.Parse(c.ToString());
+            else return false;
+        }
+
+        return true;
     }
 
     /// <summary>
@@ -60,7 +84,7 @@ public static class SzamkodVizsgalat
     /// <returns>Igaz, ha a kód azonos számjegyekből áll, növekvő számsor vagy csökkenő számsor.</returns>
     public static bool GyengeSzamkodE(string kod)
     {
-        return false;
+        return CsakSzamjegyekbolAllE(kod);
     }
 }
 

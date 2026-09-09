@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NumberPatterns.Console/1.0.0": {
+        "runtime": {
+          "NumberPatterns.Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NumberPatterns.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
