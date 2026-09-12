@@ -1,0 +1,15 @@
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\bin\Debug\net8.0\GcdLcm.Console.exe
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\bin\Debug\net8.0\GcdLcm.Console.deps.json
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\bin\Debug\net8.0\GcdLcm.Console.runtimeconfig.json
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\bin\Debug\net8.0\GcdLcm.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\bin\Debug\net8.0\GcdLcm.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\GcdLcm.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\GcdLcm.Console.AssemblyInfoInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\GcdLcm.Console.AssemblyInfo.cs
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\GcdLcm.Console.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\GcdLcm.Console.sourcelink.json
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\GcdLcm.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\refint\GcdLcm.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\GcdLcm.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\GcdLcm.Console.genruntimeconfig.cache
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\01-gcd-lcm\GcdLcm.Console\obj\Debug\net8.0\ref\GcdLcm.Console.dll

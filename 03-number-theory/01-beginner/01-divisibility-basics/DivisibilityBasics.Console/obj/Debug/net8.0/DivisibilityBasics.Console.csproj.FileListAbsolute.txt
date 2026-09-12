@@ -1,0 +1,15 @@
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\bin\Debug\net8.0\DivisibilityBasics.Console.exe
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\bin\Debug\net8.0\DivisibilityBasics.Console.deps.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\bin\Debug\net8.0\DivisibilityBasics.Console.runtimeconfig.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\bin\Debug\net8.0\DivisibilityBasics.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\bin\Debug\net8.0\DivisibilityBasics.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\DivisibilityBasics.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\DivisibilityBasics.Console.AssemblyInfoInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\DivisibilityBasics.Console.AssemblyInfo.cs
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\DivisibilityBasics.Console.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\DivisibilityBasics.Console.sourcelink.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\DivisibilityBasics.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\refint\DivisibilityBasics.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\DivisibilityBasics.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\DivisibilityBasics.Console.genruntimeconfig.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\01-divisibility-basics\DivisibilityBasics.Console\obj\Debug\net8.0\ref\DivisibilityBasics.Console.dll

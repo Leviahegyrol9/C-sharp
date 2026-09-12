@@ -1,0 +1,15 @@
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\bin\Debug\net8.0\DivisorLists.Console.exe
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\bin\Debug\net8.0\DivisorLists.Console.deps.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\bin\Debug\net8.0\DivisorLists.Console.runtimeconfig.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\bin\Debug\net8.0\DivisorLists.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\bin\Debug\net8.0\DivisorLists.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\DivisorLists.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\DivisorLists.Console.AssemblyInfoInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\DivisorLists.Console.AssemblyInfo.cs
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\DivisorLists.Console.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\DivisorLists.Console.sourcelink.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\DivisorLists.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\refint\DivisorLists.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\DivisorLists.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\DivisorLists.Console.genruntimeconfig.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\02-divisor-lists\DivisorLists.Console\obj\Debug\net8.0\ref\DivisorLists.Console.dll

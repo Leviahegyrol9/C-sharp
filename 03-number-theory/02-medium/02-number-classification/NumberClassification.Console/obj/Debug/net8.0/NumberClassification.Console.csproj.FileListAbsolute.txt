@@ -1,0 +1,15 @@
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\bin\Debug\net8.0\NumberClassification.Console.exe
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\bin\Debug\net8.0\NumberClassification.Console.deps.json
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\bin\Debug\net8.0\NumberClassification.Console.runtimeconfig.json
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\bin\Debug\net8.0\NumberClassification.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\bin\Debug\net8.0\NumberClassification.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\NumberClassification.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\NumberClassification.Console.AssemblyInfoInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\NumberClassification.Console.AssemblyInfo.cs
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\NumberClassification.Console.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\NumberClassification.Console.sourcelink.json
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\NumberClassification.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\refint\NumberClassification.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\NumberClassification.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\NumberClassification.Console.genruntimeconfig.cache
+C:\Saját\Projects\C-sharp\03-number-theory\02-medium\02-number-classification\NumberClassification.Console\obj\Debug\net8.0\ref\NumberClassification.Console.dll

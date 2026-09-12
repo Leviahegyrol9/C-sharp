@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BIVxQM4oySk=",
+  "success": true,
+  "projectFilePath": "C:\\Saját\\Projects\\C-sharp\\03-number-theory\\01-beginner\\01-divisibility-basics\\DivisibilityBasics.Console\\DivisibilityBasics.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Levi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\Levi\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\Levi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
+    "C:\\Users\\Levi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\bin\Debug\net8.0\PrimeBasics.Console.exe
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\bin\Debug\net8.0\PrimeBasics.Console.deps.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\bin\Debug\net8.0\PrimeBasics.Console.runtimeconfig.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\bin\Debug\net8.0\PrimeBasics.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\bin\Debug\net8.0\PrimeBasics.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\PrimeBasics.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\PrimeBasics.Console.AssemblyInfoInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\PrimeBasics.Console.AssemblyInfo.cs
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\PrimeBasics.Console.csproj.CoreCompileInputs.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\PrimeBasics.Console.sourcelink.json
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\PrimeBasics.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\refint\PrimeBasics.Console.dll
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\PrimeBasics.Console.pdb
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\PrimeBasics.Console.genruntimeconfig.cache
+C:\Saját\Projects\C-sharp\03-number-theory\01-beginner\03-prime-basics\PrimeBasics.Console\obj\Debug\net8.0\ref\PrimeBasics.Console.dll

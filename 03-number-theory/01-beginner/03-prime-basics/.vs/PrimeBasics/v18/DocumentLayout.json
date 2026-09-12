@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Saj\u00E1t\\Projects\\C-sharp\\03-number-theory\\01-beginner\\03-prime-basics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31706988-08DA-453A-ACA3-635F066B5C40}|PrimeBasics.Console\\PrimeBasics.Console.csproj|c:\\saj\u00E1t\\projects\\c-sharp\\03-number-theory\\01-beginner\\03-prime-basics\\primebasics.console\\primalapok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31706988-08DA-453A-ACA3-635F066B5C40}|PrimeBasics.Console\\PrimeBasics.Console.csproj|solutionrelative:primebasics.console\\primalapok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrimAlapok.cs",
+              "DocumentMoniker": "C:\\Saj\u00E1t\\Projects\\C-sharp\\03-number-theory\\01-beginner\\03-prime-basics\\PrimeBasics.Console\\PrimAlapok.cs",
+              "RelativeDocumentMoniker": "PrimeBasics.Console\\PrimAlapok.cs",
+              "ToolTip": "C:\\Saj\u00E1t\\Projects\\C-sharp\\03-number-theory\\01-beginner\\03-prime-basics\\PrimeBasics.Console\\PrimAlapok.cs",
+              "RelativeToolTip": "PrimeBasics.Console\\PrimAlapok.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T14:55:04.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
