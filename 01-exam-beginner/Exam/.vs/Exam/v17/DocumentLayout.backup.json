@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b2paplev\\Desktop\\01-exam-beginner\\Exam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24368069-70D2-4222-B101-C087650A2693}|App\\App.csproj|c:\\users\\b2paplev\\desktop\\01-exam-beginner\\exam\\app\\studentqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24368069-70D2-4222-B101-C087650A2693}|App\\App.csproj|solutionrelative:app\\studentqueryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24368069-70D2-4222-B101-C087650A2693}|App\\App.csproj|c:\\users\\b2paplev\\desktop\\01-exam-beginner\\exam\\app\\newfolder1\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24368069-70D2-4222-B101-C087650A2693}|App\\App.csproj|solutionrelative:app\\newfolder1\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24368069-70D2-4222-B101-C087650A2693}|App\\App.csproj|c:\\users\\b2paplev\\desktop\\01-exam-beginner\\exam\\app\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24368069-70D2-4222-B101-C087650A2693}|App\\App.csproj|solutionrelative:app\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\b2paplev\\Desktop\\01-exam-beginner\\Exam\\App\\NewFolder1\\ValuesController.cs",
+              "RelativeDocumentMoniker": "App\\NewFolder1\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\b2paplev\\Desktop\\01-exam-beginner\\Exam\\App\\NewFolder1\\ValuesController.cs",
+              "RelativeToolTip": "App\\NewFolder1\\ValuesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T09:29:43.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Domain.cs",
+              "DocumentMoniker": "C:\\Users\\b2paplev\\Desktop\\01-exam-beginner\\Exam\\App\\Domain.cs",
+              "RelativeDocumentMoniker": "App\\Domain.cs",
+              "ToolTip": "C:\\Users\\b2paplev\\Desktop\\01-exam-beginner\\Exam\\App\\Domain.cs",
+              "RelativeToolTip": "App\\Domain.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T09:20:01.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentQueryService.cs",
+              "DocumentMoniker": "C:\\Users\\b2paplev\\Desktop\\01-exam-beginner\\Exam\\App\\StudentQueryService.cs",
+              "RelativeDocumentMoniker": "App\\StudentQueryService.cs",
+              "ToolTip": "C:\\Users\\b2paplev\\Desktop\\01-exam-beginner\\Exam\\App\\StudentQueryService.cs",
+              "RelativeToolTip": "App\\StudentQueryService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T09:16:27.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
