@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.1.0",
+  "educationId": "12345678901",
+  "studentName": "Minta Elek",
+  "className": "13.a",
+  "assignmentId": "array-methods-practice-01-01",
+  "assignmentVersion": "1.0.0",
+  "securityMode": "Basic",
+  "testPackage": {
+    "testPackageId": "CSharpGyakorloFeladatsor.Tests",
+    "byteSize": 39936,
+    "sha256": null
+  },
+  "totalTestCases": 9,
+  "passedCount": 9,
+  "failedCount": 0,
+  "finalScoreForAssignment": 100.0,
+  "maxScoreForAssignment": 100,
+  "submittedAt": "2026-09-25T10:20:27.265663+00:00",
+  "auditInfo": {
+    "localIpAddress": null,
+    "machineName": "SZT9-26",
+    "operatingSystemUserName": "b2paplev",
+    "registeredDeviceId": null,
+    "submitterVersion": "1.1.2.0"
+  },
+  "results": [
+    {
+      "taskId": "array-methods.01.uppercase-count",
+      "name": "Feladatok",
+      "title": "Nagybetuk szama",
+      "points": 10,
+      "maxPoints": 10,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static int NagybetukSzama(string szoveg) metodus.",
+        "OK: A NagybetukSzama helyes eredmenyt ad kulonbozo szovegekre. (1. eset)",
+        "OK: A NagybetukSzama helyes eredmenyt ad kulonbozo szovegekre. (2. eset)",
+        "OK: A NagybetukSzama helyes eredmenyt ad kulonbozo szovegekre. (3. eset)",
+        "OK: A NagybetukSzama helyes eredmenyt ad kulonbozo szovegekre. (4. eset)",
+        "OK: A NagybetukSzama helyes eredmenyt ad kulonbozo szovegekre. (5. eset)"
+      ]
+    },
+    {
+      "taskId": "array-methods.02.digit-sum",
+      "name": "Feladatok",
+      "title": "Szamjegyek osszege",
+      "points": 10,
+      "maxPoints": 10,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static int SzamjegyekOsszege(int szam) metodus.",
+        "OK: A SzamjegyekOsszege helyes eredmenyt ad szelso es atlagos esetekre. (1. eset)",
+        "OK: A SzamjegyekOsszege helyes eredmenyt ad szelso es atlagos esetekre. (2. eset)",
+        "OK: A SzamjegyekOsszege helyes eredmenyt ad szelso es atlagos esetekre. (3. eset)",
+        "OK: A SzamjegyekOsszege helyes eredmenyt ad szelso es atlagos esetekre. (4. eset)",
+        "OK: A SzamjegyekOsszege helyes eredmenyt ad szelso es atlagos esetekre. (5. eset)"
+      ]
+    },
+    {
+      "taskId": "array-methods.03.count-above-limit",
+      "name": "Feladatok",
+      "title": "Hatar feletti darab",
+      "points": 10,
+      "maxPoints": 10,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static int HatarFelettiDarab(int[] szamok, int hatar) metodus.",
+        "OK: A HatarFelettiDarab helyesen megszamolja a hatar feletti elemeket. (1. eset)",
+        "OK: A HatarFelettiDarab helyesen megszamolja a hatar feletti elemeket. (2. eset)",
+        "OK: A HatarFelettiDarab helyesen megszamolja a hatar feletti elemeket. (3. eset)",
+        "OK: A HatarFelettiDarab helyesen megszamolja a hatar feletti elemeket. (4. eset)",
+        "OK: A HatarFelettiDarab helyesen megszamolja a hatar feletti elemeket. (5. eset)"
+      ]
+    },
+    {
+      "taskId": "array-methods.04.first-even-index",
+      "name": "Feladatok",
+      "title": "Elso paros indexe",
+      "points": 10,
+      "maxPoints": 10,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static int ElsoParosIndexe(int[] szamok) metodus.",
+        "OK: Az ElsoParosIndexe helyesen keresi az elso paros elem indexet. (1. eset)",
+        "OK: Az ElsoParosIndexe helyesen keresi az elso paros elem indexet. (2. eset)",
+        "OK: Az ElsoParosIndexe helyesen keresi az elso paros elem indexet. (3. eset)",
+        "OK: Az ElsoParosIndexe helyesen keresi az elso paros elem indexet. (4. eset)",
+        "OK: Az ElsoParosIndexe helyesen keresi az elso paros elem indexet. (5. eset)"
+      ]
+    },
+    {
+      "taskId": "array-methods.05.product-code",
+      "name": "Feladatok",
+      "title": "Ervenyes termekkod",
+      "points": 12,
+      "maxPoints": 12,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static bool ErvenyesTermekkod(string kod) metodus.",
+        "OK: Az ErvenyesTermekkod csak akkor kap pontot, ha minden ervenyes es ervenytelen kodot helyesen ellenoriz."
+      ]
+    },
+    {
+      "taskId": "array-methods.06.best-student",
+      "name": "Feladatok",
+      "title": "Legjobb tanulo",
+      "points": 12,
+      "maxPoints": 12,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static string LegjobbTanulo(string[] nevek, int[] pontok) metodus.",
+        "OK: A LegjobbTanulo helyesen valasztja ki a legnagyobb pontszamu tanulot. (1. eset)",
+        "OK: A LegjobbTanulo helyesen valasztja ki a legnagyobb pontszamu tanulot. (2. eset)",
+        "OK: A LegjobbTanulo helyesen valasztja ki a legnagyobb pontszamu tanulot. (3. eset)",
+        "OK: A LegjobbTanulo helyesen valasztja ki a legnagyobb pontszamu tanulot. (4. eset)"
+      ]
+    },
+    {
+      "taskId": "array-methods.07.grade-histogram",
+      "name": "Feladatok",
+      "title": "Jegyhisztogram",
+      "points": 12.0,
+      "maxPoints": 12,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static int[] JegyHisztogram(int[] jegyek) metodus.",
+        "OK: A JegyHisztogram helyes gyakorisagi tombot keszit. (1. eset)",
+        "OK: A JegyHisztogram helyes gyakorisagi tombot keszit. (2. eset)",
+        "OK: A JegyHisztogram helyes gyakorisagi tombot keszit. (3. eset)",
+        "OK: A JegyHisztogram helyes gyakorisagi tombot keszit. (4. eset)",
+        "OK: A JegyHisztogram helyes gyakorisagi tombot keszit. (5. eset)"
+      ]
+    },
+    {
+      "taskId": "array-methods.08.max-row-sum",
+      "name": "Feladatok",
+      "title": "Legnagyobb osszegu sor",
+      "points": 12.0,
+      "maxPoints": 12,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static int LegnagyobbOsszeguSor(int[,] matrix) metodus.",
+        "OK: A LegnagyobbOsszeguSor helyesen keresi a legnagyobb sorosszeget. (1. eset)",
+        "OK: A LegnagyobbOsszeguSor helyesen keresi a legnagyobb sorosszeget. (2. eset)",
+        "OK: A LegnagyobbOsszeguSor helyesen keresi a legnagyobb sorosszeget. (3. eset)",
+        "OK: A LegnagyobbOsszeguSor helyesen keresi a legnagyobb sorosszeget. (4. eset)",
+        "OK: A LegnagyobbOsszeguSor helyesen keresi a legnagyobb sorosszeget. (5. eset)"
+      ]
+    },
+    {
+      "taskId": "array-methods.09.longest-increasing-run",
+      "name": "Feladatok",
+      "title": "Leghosszabb novekvo szakasz",
+      "points": 12,
+      "maxPoints": 12,
+      "messages": [
+        "OK: A Feladatok osztaly public static class.",
+        "OK: Megvan a public static int LeghosszabbNovekvoSzakasz(int[] szamok) metodus.",
+        "OK: A LeghosszabbNovekvoSzakasz helyesen meri a leghosszabb szigoru novekvo szakaszt. (1. eset)",
+        "OK: A LeghosszabbNovekvoSzakasz helyesen meri a leghosszabb szigoru novekvo szakaszt. (2. eset)",
+        "OK: A LeghosszabbNovekvoSzakasz helyesen meri a leghosszabb szigoru novekvo szakaszt. (3. eset)",
+        "OK: A LeghosszabbNovekvoSzakasz helyesen meri a leghosszabb szigoru novekvo szakaszt. (4. eset)",
+        "OK: A LeghosszabbNovekvoSzakasz helyesen meri a leghosszabb szigoru novekvo szakaszt. (5. eset)",
+        "OK: A LeghosszabbNovekvoSzakasz helyesen meri a leghosszabb szigoru novekvo szakaszt. (6. eset)"
+      ]
+    }
+  ],
+  "diagnostics": null
+}

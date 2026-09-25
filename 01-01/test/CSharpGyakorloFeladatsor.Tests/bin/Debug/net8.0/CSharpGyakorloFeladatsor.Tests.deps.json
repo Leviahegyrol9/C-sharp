@@ -1,0 +1,90 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CSharpGyakorloFeladatsor.Tests/1.0.0": {
+        "dependencies": {
+          "CSharpGyakorloFeladatsor": "1.0.0",
+          "TaskChecker.Grading": "1.1.4",
+          "TaskChecker.Submitter": "1.1.2"
+        },
+        "runtime": {
+          "CSharpGyakorloFeladatsor.Tests.dll": {}
+        }
+      },
+      "TaskChecker.Contracts/1.1.2": {
+        "runtime": {
+          "lib/net8.0/TaskChecker.Contracts.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "TaskChecker.Grading/1.1.4": {
+        "runtime": {
+          "lib/net8.0/TaskChecker.Grading.dll": {
+            "assemblyVersion": "1.1.4.0",
+            "fileVersion": "1.1.4.0"
+          }
+        }
+      },
+      "TaskChecker.Submitter/1.1.2": {
+        "dependencies": {
+          "TaskChecker.Contracts": "1.1.2",
+          "TaskChecker.Grading": "1.1.4"
+        },
+        "runtime": {
+          "lib/net8.0/TaskChecker.Submitter.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        }
+      },
+      "CSharpGyakorloFeladatsor/1.0.0": {
+        "runtime": {
+          "CSharpGyakorloFeladatsor.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpGyakorloFeladatsor.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskChecker.Contracts/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wHqoKsyLvxwA2vxD4j+mnP1l/vnyeH1HTN+3yOdnsW8aHSRbLO+v3MO9YRWojY2FN4r/dERhw+uAOKtnrsJ/AQ==",
+      "path": "taskchecker.contracts/1.1.2",
+      "hashPath": "taskchecker.contracts.1.1.2.nupkg.sha512"
+    },
+    "TaskChecker.Grading/1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v6pzzjISiSkHqPvLfGNfU4CK+M26EpAtC8anfY/Ov0OKlmRpPjygRjnU0trTkCaP6MdQ8sGdSIiqvr8k2ReVtg==",
+      "path": "taskchecker.grading/1.1.4",
+      "hashPath": "taskchecker.grading.1.1.4.nupkg.sha512"
+    },
+    "TaskChecker.Submitter/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6PrUjEy1lRzhje3Q8EmvefhW4xToQypsuRl2HEnZbTXkyP7H6MpJY5i/4jMK2dTkk4lYz5Y+EyQF/sbSfqNUpg==",
+      "path": "taskchecker.submitter/1.1.2",
+      "hashPath": "taskchecker.submitter.1.1.2.nupkg.sha512"
+    },
+    "CSharpGyakorloFeladatsor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
