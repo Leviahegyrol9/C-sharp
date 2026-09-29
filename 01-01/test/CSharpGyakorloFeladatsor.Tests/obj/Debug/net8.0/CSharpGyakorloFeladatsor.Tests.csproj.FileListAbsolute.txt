@@ -1,9 +1,7 @@
 C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\CSharpGyakorloFeladatsor.deps.json
 C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\CSharpGyakorloFeladatsor.runtimeconfig.json
 C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\CSharpGyakorloFeladatsor.exe
-C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\.taskchecker.assignment.json
-C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\.taskchecker.example.json
-C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\.taskchecker.json
+C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\.feladatbeallitas.json
 C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\CSharpGyakorloFeladatsor.Tests.exe
 C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\CSharpGyakorloFeladatsor.Tests.deps.json
 C:\Users\b2paplev\Desktop\01-01\test\CSharpGyakorloFeladatsor.Tests\bin\Debug\net8.0\CSharpGyakorloFeladatsor.Tests.runtimeconfig.json

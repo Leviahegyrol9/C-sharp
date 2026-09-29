@@ -25,19 +25,7 @@ public static class Feladatok
     /// Példa: 472 -> 13.
     /// Gondolj a 0-ra, a sokjegyű számokra és a nullát tartalmazó számokra is.
     /// </summary>
-    public static int SzamjegyekOsszege(int szam)
-    {
-        szam = Math.Abs(szam);
-
-        int sum = 0;
-
-        foreach (char c in szam.ToString())
-        {
-            sum += int.Parse(c.ToString());
-        }
-
-        return sum;
-    }
+    public static int SzamjegyekOsszege(int szam) => szam.ToString().Sum(x => int.Parse(x.ToString()));
 
     /// <summary>
     /// 3. feladat – Határérték feletti elemek
@@ -53,15 +41,7 @@ public static class Feladatok
     /// Példa: [5, 9, 8, 2] -> 2.
     /// Gondolj az üres tömbre, az első helyen álló páros számra és a páros nélküli tömbre is.
     /// </summary>
-    public static int ElsoParosIndexe(int[] szamok)
-    {
-        foreach (int szam in szamok)
-        {
-            if (szam % 2 == 0) return szamok.ToList().IndexOf(szam);
-        }
-
-        return -1;
-    }
+    public static int ElsoParosIndexe(int[] szamok) => Array.FindIndex(szamok, x => x % 2 == 0);
 
     // =========================
     // KÖZEPES FELADATOK
@@ -77,10 +57,11 @@ public static class Feladatok
     /// </summary>
     public static bool ErvenyesTermekkod(string kod)
     {
-        if (kod.Length == 7 && char.IsUpper(kod[0]) && char.IsUpper(kod[1]) && kod[2] == '-' && char.IsDigit(kod[4]) && char.IsDigit(kod[5]) && char.IsDigit(kod[6]))
-        {
-            return true;
-        }
+        if (kod.Length == 7 && char.IsUpper(kod[0]) 
+            && char.IsUpper(kod[1]) && kod[2] == '-' 
+            && char.IsDigit(kod[3]) && char.IsDigit(kod[4]) 
+            && char.IsDigit(kod[5]) && char.IsDigit(kod[6])) return true;
+
         return false;
     }
 
@@ -91,7 +72,7 @@ public static class Feladatok
     /// Pontegyenlőség esetén az első ilyen tanuló nevét add vissza!
     /// Gondolj az egyetlen tanulóra és a legnagyobb pontszámnál előforduló pontegyenlőségre is.
     /// </summary>
-    public static string LegjobbTanulo(string[] nevek, int[] pontok) => nevek[Array.FindIndex(pontok, x => x == pontok.Max())];
+    public static string LegjobbTanulo(string[] nevek, int[] pontok) => nevek[Array.FindIndex(pontok, p => p == pontok.Max())];
 
     /// <summary>
     /// 7. feladat – Jegyhisztogram
@@ -104,12 +85,10 @@ public static class Feladatok
     public static int[] JegyHisztogram(int[] jegyek)
     {
         List<int> list = new List<int>();
-
         for (int i = 1; i < 6; i++)
         {
             list.Add(jegyek.Count(x => x == i));
         }
-       
         return list.ToArray();
     }
 
@@ -125,14 +104,17 @@ public static class Feladatok
     /// </summary>
     public static int LegnagyobbOsszeguSor(int[,] matrix)
     {
+        int sorokSzama = matrix.GetLength(0);
+        int oszlopokSzama = matrix.GetLength(1);
+
         int maxIndex = 0;
         int maxOsszeg = int.MinValue;
 
-        for (int i = 0; i < matrix.GetLength(0); i++)
+        for (int i = 0; i < sorokSzama; i++)
         {
             int aktualisOsszeg = 0;
 
-            for (int j = 0; j < matrix.GetLength(1); j++)
+            for (int j = 0; j < oszlopokSzama; j++)
             {
                 aktualisOsszeg += matrix[i, j];
             }
@@ -156,26 +138,30 @@ public static class Feladatok
     /// </summary>
     public static int LeghosszabbNovekvoSzakasz(int[] szamok)
     {
-        int numberTemp = szamok[0];
-        int rowtemp = 1;
-        int rowpeak = 1;
-        foreach (int i in szamok)
+        if (szamok == null || szamok.Length == 0)
         {
-            if (numberTemp < i)
+            return 0;
+        }
+
+        int maxHossz = 1;
+        int aktualisHossz = 1;
+
+        for (int i = 1; i < szamok.Length; i++)
+        {
+            if (szamok[i] > szamok[i - 1])
             {
-                numberTemp = i;
-                rowtemp++;
-                if (rowtemp > rowpeak)
+                aktualisHossz++;
+                if (aktualisHossz > maxHossz)
                 {
-                    rowpeak = rowtemp;
+                    maxHossz = aktualisHossz;
                 }
             }
             else
             {
-                numberTemp = i;
-                rowtemp = 1;
+                aktualisHossz = 1;
             }
         }
-        return rowpeak;
+
+        return maxHossz;
     }
 }

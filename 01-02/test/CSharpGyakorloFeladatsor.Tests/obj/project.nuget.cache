@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7twWbe3rq1M=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\b2paplev\\Desktop\\01-02\\test\\CSharpGyakorloFeladatsor.Tests\\CSharpGyakorloFeladatsor.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\b2paplev\\.nuget\\packages\\taskchecker.contracts\\1.1.2\\taskchecker.contracts.1.1.2.nupkg.sha512",
+    "C:\\Users\\b2paplev\\.nuget\\packages\\taskchecker.grading\\1.1.5\\taskchecker.grading.1.1.5.nupkg.sha512",
+    "C:\\Users\\b2paplev\\.nuget\\packages\\taskchecker.submitter\\1.1.2\\taskchecker.submitter.1.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

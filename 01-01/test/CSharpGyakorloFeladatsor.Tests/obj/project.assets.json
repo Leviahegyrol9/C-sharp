@@ -11,7 +11,7 @@
           "lib/net8.0/TaskChecker.Contracts.dll": {}
         }
       },
-      "TaskChecker.Grading/1.1.4": {
+      "TaskChecker.Grading/1.1.5": {
         "type": "package",
         "compile": {
           "lib/net8.0/TaskChecker.Grading.dll": {}
@@ -58,15 +58,15 @@
         "taskchecker.contracts.nuspec"
       ]
     },
-    "TaskChecker.Grading/1.1.4": {
-      "sha512": "v6pzzjISiSkHqPvLfGNfU4CK+M26EpAtC8anfY/Ov0OKlmRpPjygRjnU0trTkCaP6MdQ8sGdSIiqvr8k2ReVtg==",
+    "TaskChecker.Grading/1.1.5": {
+      "sha512": "trZdQDGs30chA3Oz/S28Vq4Zen5EADxRt0d22+Fvgm7Xedd2VsnJuf8b40TvN6IV9VGH/UiJq1psDE98wNurzg==",
       "type": "package",
-      "path": "taskchecker.grading/1.1.4",
+      "path": "taskchecker.grading/1.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net8.0/TaskChecker.Grading.dll",
-        "taskchecker.grading.1.1.4.nupkg.sha512",
+        "taskchecker.grading.1.1.5.nupkg.sha512",
         "taskchecker.grading.nuspec"
       ]
     },
@@ -91,7 +91,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "CSharpGyakorloFeladatsor >= 1.0.0",
-      "TaskChecker.Grading >= 1.1.4",
+      "TaskChecker.Grading >= 1.1.5",
       "TaskChecker.Submitter >= 1.1.2"
     ]
   },
@@ -152,7 +152,7 @@
         "dependencies": {
           "TaskChecker.Grading": {
             "target": "Package",
-            "version": "[1.1.4, )"
+            "version": "[1.1.5, )"
           },
           "TaskChecker.Submitter": {
             "target": "Package",
@@ -175,7 +175,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(, 4.7.32767]",
           "Microsoft.VisualBasic": "(, 10.3.32767]",
