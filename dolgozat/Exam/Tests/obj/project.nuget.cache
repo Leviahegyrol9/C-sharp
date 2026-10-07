@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DilLZh+bIy0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vizsga88\\Desktop\\06-exam\\Exam\\Tests\\Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vizsga88\\.nuget\\packages\\taskchecker.contracts\\1.1.2\\taskchecker.contracts.1.1.2.nupkg.sha512",
+    "C:\\Users\\vizsga88\\.nuget\\packages\\taskchecker.grading\\1.1.7\\taskchecker.grading.1.1.7.nupkg.sha512",
+    "C:\\Users\\vizsga88\\.nuget\\packages\\taskchecker.submitter\\1.1.3\\taskchecker.submitter.1.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}

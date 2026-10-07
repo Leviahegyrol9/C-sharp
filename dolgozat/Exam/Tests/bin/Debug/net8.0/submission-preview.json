@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.1.0",
+  "educationId": "b2paplev",
+  "studentName": "Papluk\u00E1cs Levente",
+  "className": "13.B",
+  "assignmentId": "linq-summary-exam",
+  "assignmentVersion": "1.0.0",
+  "securityMode": "Basic",
+  "testPackage": {
+    "testPackageId": "Tests",
+    "byteSize": 31744,
+    "sha256": null
+  },
+  "totalTestCases": 8,
+  "passedCount": 8,
+  "failedCount": 0,
+  "finalScoreForAssignment": 40.0,
+  "maxScoreForAssignment": 40,
+  "submittedAt": "2026-10-07T08:24:51.2910373+00:00",
+  "auditInfo": {
+    "localIpAddress": null,
+    "machineName": "SZT9-25",
+    "operatingSystemUserName": "vizsga88",
+    "registeredDeviceId": null,
+    "submitterVersion": "1.1.3.0"
+  },
+  "results": [
+    {
+      "taskId": "linq-summary-exam.good-student-names",
+      "name": "Jo tanulok",
+      "title": "Jo tanulok",
+      "points": 3.0,
+      "maxPoints": 3,
+      "messages": [
+        "OK: Csak a legalabb 4.0 atlagu tanulokat valasztja ki.",
+        "OK: Csak a neveket adja vissza, az eredeti sorrendben."
+      ]
+    },
+    {
+      "taskId": "linq-summary-exam.count-products-in-stock",
+      "name": "Keszleten levo termekek",
+      "title": "Keszleten levo termekek",
+      "points": 3.0,
+      "maxPoints": 3,
+      "messages": [
+        "OK: A Stock \u003E= 1 feltetelt hasznalja.",
+        "OK: A megfelelo termekek darabszamat adja vissza."
+      ]
+    },
+    {
+      "taskId": "linq-summary-exam.popular-book-titles",
+      "name": "Nepszeru konyvek",
+      "title": "Nepszeru konyvek",
+      "points": 4,
+      "maxPoints": 4,
+      "messages": [
+        "OK: Csak a legalabb 10 alkalommal kolcsonzott konyveket valasztja ki.",
+        "OK: Csak a konyvcimeket adja vissza.",
+        "OK: A konyveket kolcsonzesszam szerint csokkeno sorrendben adja vissza."
+      ]
+    },
+    {
+      "taskId": "linq-summary-exam.successful-exam-average",
+      "name": "Sikeres dolgozatok atlaga",
+      "title": "Sikeres dolgozatok atlaga",
+      "points": 4,
+      "maxPoints": 4,
+      "messages": [
+        "OK: Csak a legalabb 50 pontos dolgozatokat veszi figyelembe.",
+        "OK: A sikeres dolgozatok atlagpontszamat szamolja.",
+        "OK: Ha nincs sikeres dolgozat, 0 erteket ad vissza."
+      ]
+    },
+    {
+      "taskId": "linq-summary-exam.affordable-product-names",
+      "name": "Megfizetheto termekek",
+      "title": "Megfizetheto termekek",
+      "points": 5,
+      "maxPoints": 5,
+      "messages": [
+        "OK: Csak a parameterben kapott kategoriaba tartozo termekeket veszi figyelembe.",
+        "OK: Csak az 50000 Ft-nal olcsobb termekeket adja vissza.",
+        "OK: A megfelelo termekeket ar szerint novekvo sorrendben adja vissza.",
+        "OK: Csak a termekneveket adja vissza."
+      ]
+    },
+    {
+      "taskId": "linq-summary-exam.best-scorer-name",
+      "name": "Legjobb gollo",
+      "title": "Legjobb gollo",
+      "points": 6,
+      "maxPoints": 6,
+      "messages": [
+        "OK: Csak a legalabb 5 meccsen jatszo jatekosokat veszi figyelembe.",
+        "OK: A szurt jatekosok kozul a legtobb golt szerzot valasztja.",
+        "OK: A jatekos nevet adja vissza.",
+        "OK: Ha nincs legalabb 5 meccses jatekos, null erteket ad vissza."
+      ]
+    },
+    {
+      "taskId": "linq-summary-exam.valuable-stock-total",
+      "name": "Ertekes raktarkeszlet",
+      "title": "Ertekes raktarkeszlet",
+      "points": 7,
+      "maxPoints": 7,
+      "messages": [
+        "OK: Csak a legalabb 5 darabos tetelek szamitanak.",
+        "OK: Csak a legalabb 1000 Ft egysegaru tetelek szamitanak.",
+        "OK: Tetelenkent UnitPrice * Quantity erteket szamol.",
+        "OK: A megfelelo tetelek keszleterteket osszeadja, talalat nelkul 0-t ad."
+      ]
+    },
+    {
+      "taskId": "linq-summary-exam.important-project-names",
+      "name": "Fontos projektek",
+      "title": "Fontos projektek",
+      "points": 8,
+      "maxPoints": 8,
+      "messages": [
+        "OK: Csak a legalabb 3 feladatos projekteket veszi figyelembe.",
+        "OK: Csak azokat a projekteket veszi figyelembe, ahol van befejezetlen feladat.",
+        "OK: Csak a legalabb 20 osszes becsult oraju projekteket veszi figyelembe.",
+        "OK: A fontos projekteket osszes becsult munkaido szerint csokkeno sorrendben adja vissza.",
+        "OK: Csak a projektneveket adja vissza.",
+        "OK: Ha nincs fontos projekt, ures listat ad vissza."
+      ]
+    }
+  ],
+  "diagnostics": null
+}
